@@ -41,3 +41,9 @@ jobs:
           git add lib/movies.ts scripts/added-movies.json
           git diff --staged --quiet || git commit -m "🎬 auto: add 50 movies [$(date +'%Y-%m-%d')]"
           git push
+
+      - name: Deploy to Vercel
+        run: npx vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
