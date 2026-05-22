@@ -10,6 +10,8 @@ import Footer from '@/components/Footer'
 import RatingCircle from '@/components/RatingCircle'
 import MovieCard from '@/components/MovieCard'
 import ReviewSection from '@/components/ReviewSection'
+import WatchlistButton from '@/components/WatchlistButton'
+import AdUnit from '@/components/AdUnit'
 
 interface Props { params: Promise<{ locale: string; slug: string }> }
 
@@ -45,6 +47,34 @@ function RatingBar({ label, value }: { label: string; value: number }) {
   )
 }
 
+function MovieJsonLd({ movie, locale }: { movie: ReturnType<typeof getMovieBySlug>; locale: string }) {
+  if (!movie) return null
+  const title = locale === 'ar' ? movie.title_ar : movie.title
+  const description = getMovieDescription(movie, locale).slice(0, 300)
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Movie',
+    name: title,
+    alternateName: movie.title,
+    description,
+    dateCreated: String(movie.year),
+    director: { '@type': 'Person', name: movie.director },
+    actor: movie.cast.map((name) => ({ '@type': 'Person', name })),
+    image: movie.poster_url,
+    genre: movie.genres,
+    duration: `PT${movie.duration}M`,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: movie.rating_overall,
+      bestRating: 10,
+      worstRating: 0,
+      ratingCount: 1,
+    },
+    ...(movie.trailer_url ? { trailer: { '@type': 'VideoObject', name: `${title} Trailer`, embedUrl: movie.trailer_url } } : {}),
+  }
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+}
+
 export default async function MoviePage({ params }: Props) {
   const { locale, slug } = await params
   const movie = getMovieBySlug(slug)
@@ -76,6 +106,7 @@ export default async function MoviePage({ params }: Props) {
 
   return (
     <>
+      <MovieJsonLd movie={movie} locale={locale} />
       <Header locale={locale} />
       <main>
         {/* ── BACKDROP HERO ── */}
@@ -185,6 +216,9 @@ export default async function MoviePage({ params }: Props) {
                   ▶ {t('watchTrailer')}
                 </a>
               )}
+
+              {/* Watchlist */}
+              <WatchlistButton slug={movie.slug} title={movie.title} />
             </div>
 
             {/* ── RIGHT: Main Content ── */}
@@ -214,6 +248,9 @@ export default async function MoviePage({ params }: Props) {
                 <h2 className="font-bold text-white mb-3">{t('overview')}</h2>
                 <p className="text-gray-400 leading-relaxed">{description}</p>
               </div>
+
+              {/* Ad — between description and rating breakdown */}
+              <AdUnit slot="1234567890" format="horizontal" className="rounded-xl overflow-hidden" />
 
               {/* Rating Breakdown Bars */}
               <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6">

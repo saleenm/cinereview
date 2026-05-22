@@ -5,6 +5,7 @@ import MovieCard from '@/components/MovieCard'
 import Link from 'next/link'
 import { getMovies } from '@/lib/movies'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
+import AdUnit from '@/components/AdUnit'
 
 interface Props { params: Promise<{ locale: string }>; searchParams: Promise<{ genre?: string; sort?: string; decade?: string }> }
 
@@ -140,6 +141,7 @@ export default async function MoviesPage({ params, searchParams }: Props) {
             <p>{t('noFilms')}</p>
           </div>
         )}
+        <AdUnit slot="0987654321" format="horizontal" className="mt-8" />
       </main>
       <Footer locale={locale} />
     </>

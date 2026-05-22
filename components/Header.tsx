@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl'
 import { usePathname, useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { LOCALE_NAMES } from '@/lib/types'
+import SearchBar from './SearchBar'
 
 interface Props {
   locale: string
@@ -32,6 +33,7 @@ export default function Header({ locale }: Props) {
     { href: `/${locale}/top-rated`, label: t('topRated') },
     { href: `/${locale}/genre/all`, label: t('genres') },
     { href: `/${locale}/blog`, label: t('blog') },
+    { href: `/${locale}/watchlist`, label: t('watchlist') },
   ]
 
   return (
@@ -55,6 +57,9 @@ export default function Header({ locale }: Props) {
             </Link>
           ))}
         </nav>
+
+        {/* Search Bar */}
+        <SearchBar locale={locale} />
 
         <div className="flex items-center gap-2">
           {/* Language Switcher */}

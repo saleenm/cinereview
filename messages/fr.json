@@ -10,9 +10,11 @@
     "topRated": "Mieux Notés",
     "genres": "Genres",
     "compare": "Comparer",
+    "noResults": "Aucun résultat",
     "search": "Rechercher un film...",
     "language": "Langue",
-    "blog": "Blog"
+    "blog": "Blog",
+    "watchlist": "★ Ma liste"
   },
   "home": {
     "heroTitle": "Découvrez le Monde du Cinéma",

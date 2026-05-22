@@ -10,9 +10,11 @@
     "topRated": "En İyi Puanlananlar",
     "genres": "Türler",
     "compare": "Karşılaştır",
+    "noResults": "Sonuç yok",
     "search": "Film ara...",
     "language": "Dil",
-    "blog": "Blog"
+    "blog": "Blog",
+    "watchlist": "★ Listem"
   },
   "home": {
     "heroTitle": "Sinema Dünyasını Keşfet",

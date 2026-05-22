@@ -10,9 +10,11 @@
     "topRated": "高評価",
     "genres": "ジャンル",
     "compare": "比較",
+    "noResults": "結果なし",
     "search": "映画を検索...",
     "language": "言語",
-    "blog": "ブログ"
+    "blog": "ブログ",
+    "watchlist": "★ リスト"
   },
   "home": {
     "heroTitle": "映画の世界を発見する",
