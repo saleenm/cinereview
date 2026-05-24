@@ -11,7 +11,7 @@ export const MOVIES: Movie[] = [
     director_ar: 'فرانسيس فورد كوبولا',
     cast: ['Marlon Brando', 'Al Pacino', 'James Caan', 'Robert Duvall', 'Diane Keaton'],
     genres: ['crime', 'drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLlegkAozFVw.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/tmU7GeKVybMWFButWEGl2M4GeiP.jpg',
     trailer_url: 'https://www.youtube.com/watch?v=sY1S34973zA',
     description_ar: 'ملحمة عائلية تروي قصة عائلة كورليوني المافيوية، حيث يضطر الابن الأصغر مايكل إلى خلافة والده في قيادة الإمبراطورية الجريمة بعد محاولة اغتياله. يُعدّ هذا الفيلم من أعظم الأعمال السينمائية في التاريخ لعمقه الدرامي وأدائه الاستثنائي.',
@@ -242,8 +242,8 @@ export const MOVIES: Movie[] = [
     director_ar: 'مصطفى العقاد',
     cast: ['Anthony Quinn', 'Irene Papas', 'Michael Ansara', 'Johnny Sekka'],
     genres: ['history', 'drama', 'arabic'],
-    poster_url: 'https://upload.wikimedia.org/wikipedia/en/0/04/The_message_%281976%29.jpg',
-    backdrop_url: 'https://upload.wikimedia.org/wikipedia/en/0/04/The_message_%281976%29.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/qVCBMg4ZuLPnWhIWJHD9IP4nIuY.jpg',
+    backdrop_url: 'https://image.tmdb.org/t/p/original/fPML0cN0GdKhiZCWyqn5MHMkFOI.jpg',
     description_ar: 'ملحمة سينمائية تروي قصة الإسلام وظهور النبي محمد ﷺ وانتشار الدعوة الإسلامية. أحد أهم وأكبر الإنتاجات السينمائية العربية في التاريخ بميزانية ضخمة وطاقم عالمي.',
     description_en: 'An epic film depicting the rise of Islam and the spread of the Islamic faith. One of the most important and largest Arab cinematic productions in history with an international cast.',
     description_fr: 'Un film épique dépeignant l\'essor de l\'Islam et la propagation de la foi islamique. L\'une des plus grandes productions cinématographiques arabes de l\'histoire.',
@@ -472,7 +472,7 @@ export const MOVIES: Movie[] = [
     director_ar: 'ديفيد لين',
     cast: ['Peter O\'Toole', 'Alec Guinness', 'Anthony Quinn', 'Jack Hawkins', 'Omar Sharif'],
     genres: ['history', 'adventure', 'drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/AiAm0EtBvzDpEHiiR7lH5MXMVhQ.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/xMY9QSVLFSPBVxq0BJNO0oK29KR.jpg',
     description_ar: 'قصة الضابط البريطاني ت.إي. لورانس وتجربته في قيادة الثورة العربية ضد الأتراك العثمانيين خلال الحرب العالمية الأولى. ملحمة بصرية ضخمة تُعدّ من أعظم الأفلام في التاريخ.',
     description_en: 'The story of British officer T.E. Lawrence and his experience leading the Arab Revolt against Ottoman Turks during WWI. A visual epic considered one of the greatest films ever made.',
@@ -927,7 +927,7 @@ export const MOVIES: Movie[] = [
     director_ar: 'نادين لبكي',
     cast: ['Zain Al Rafeea', 'Yordanos Shiferaw', 'Boluwatife Treasure Bankole'],
     genres: ['drama', 'arabic'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/b1NN9nrLvV5bpCqzJV7Nd8V2h4e.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/mFnfTVADj8yOxwzprYOmTPselk8.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/xBkq1F0q53S2hpGkMqLhcVpHq5n.jpg',
     description_ar: 'طفل لبناني يقاضي والديه لأنهم أنجبوه في فقر ومعاناة. فيلم إنساني مؤلم يصوّر هشاشة الطفولة في ظل النزاعات والفقر المدقع.',
     description_en: 'A Lebanese child sues his parents for bringing him into a world of poverty and suffering. A painful humanistic film depicting the fragility of childhood in conflict and poverty.',
@@ -970,7 +970,7 @@ export const MOVIES: Movie[] = [
     director_ar: 'جويل وإيثان كوين',
     cast: ['Tommy Lee Jones', 'Javier Bardem', 'Josh Brolin', 'Kelly Macdonald'],
     genres: ['thriller', 'crime', 'drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/4MHKoRmz1JnPd5y6rKmE0CuO5fJ.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/bptSdcXzVhm4qB9BM6k6dI26aEU.jpg',
     description_ar: 'صياد يعثر على ملايين الدولارات في صحراء تكساس ويجد نفسه مطارداً من قاتل لا يرحم. دراسة فلسفية قاتمة عن الشر والقدر والفناء.',
     description_en: 'A hunter finds millions of dollars in the Texas desert and is pursued by a merciless killer. A dark philosophical study on evil, fate, and mortality.',
@@ -1102,8 +1102,8 @@ export const MOVIES: Movie[] = [
     director_ar: 'مروان حامد',
     cast: ['Adel Imam', 'Nour El-Sherif', 'Hend Sabri', 'Khaled El Sawy', 'Youssra'],
     genres: ['drama', 'arabic'],
-    poster_url: 'https://upload.wikimedia.org/wikipedia/en/5/57/Yacoubian_Building_Poster.jpg',
-    backdrop_url: 'https://upload.wikimedia.org/wikipedia/en/5/57/Yacoubian_Building_Poster.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/iA0XY4w6Nn7mDVfal7tAgKHqfTu.jpg',
+    backdrop_url: 'https://image.tmdb.org/t/p/original/4U1STNMg5G6kAFcMp2wG0EfUiTk.jpg',
     description_ar: 'فيلم مصري استثنائي يتناول قصص سكان عمارة في وسط القاهرة يمثلون طبقات المجتمع المصري. نقد اجتماعي لاذع وجريء لم تشهد السينما العربية مثيله.',
     description_en: 'An exceptional Egyptian film following the stories of residents of a downtown Cairo building representing all Egyptian social classes. Bold social critique unprecedented in Arabic cinema.',
     description_fr: 'Film égyptien exceptionnel suivant les histoires des résidents d\'un immeuble au Caire. Critique sociale audacieuse.',
@@ -1279,7 +1279,7 @@ export const MOVIES: Movie[] = [
     director: 'Sidney Lumet', director_ar: 'سيدني لوميت',
     cast: ['Henry Fonda', 'Lee J. Cobb', 'Martin Balsam'],
     genres: ['drama', 'thriller'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/ppd84D2i9W8jXmsyInGyIiIh5IA.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/qqHQsStV6exghCM7zbObuYBiYxw.jpg',
     description_ar: 'اثنا عشر محلفاً عليهم البت في قضية مراهق متهم بقتل والده. درس في العدالة والتحيز والشجاعة يجري داخل غرفة واحدة.',
     description_en: 'Twelve jurors must decide the fate of a teenager accused of murdering his father. A masterclass in tension, justice, and human psychology set entirely in one room.',
@@ -1383,7 +1383,7 @@ export const MOVIES: Movie[] = [
     director: 'Martin Scorsese', director_ar: 'مارتن سكورسيزي',
     cast: ['Leonardo DiCaprio', 'Matt Damon', 'Jack Nicholson', 'Mark Wahlberg'],
     genres: ['crime', 'thriller', 'drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq2n7haGjFBG.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/pA3Ej4VXKB8o0MZg2GOwh7Q3iW5.jpg',
     description_ar: 'ضابط شرطة متسلّل في العصابة وعنصر مافيا متسلّل في الشرطة، كلاهما يبحث عن الآخر. سكورسيزي في قمة إبداعه.',
     description_en: 'An undercover cop and a mob mole attempt to identify each other. Scorsese at his finest.',
@@ -1409,7 +1409,7 @@ export const MOVIES: Movie[] = [
     director: 'David Fincher', director_ar: 'ديفيد فينشر',
     cast: ['Brad Pitt', 'Morgan Freeman', 'Kevin Spacey', 'Gwyneth Paltrow'],
     genres: ['thriller', 'crime'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/69Sns8WoET6CfaYlIkHbla4l7Kq.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/won8kF5G3cHloVHjEdpvgZBFVnN.jpg',
     description_ar: 'محققان يلاحقان قاتلاً متسلسلاً يستلهم جرائمه من الخطايا السبع المميتة. فينشر يصنع مناخاً كابوسياً.',
     description_en: 'Two detectives hunt a serial killer who uses the seven deadly sins as his motives. Fincher creates an unforgettable nightmare.',
@@ -1457,7 +1457,7 @@ export const MOVIES: Movie[] = [
     director: 'Roberto Benigni', director_ar: 'روبرتو بنيني',
     cast: ['Roberto Benigni', 'Nicoletta Braschi', 'Giorgio Cantarini'],
     genres: ['drama', 'comedy'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/74hLDKjAleqpCcsQlFH4UFbGBkV.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/6tEJnof1DKWPnl5lzkjf0FVv7oB.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/gKPxBX6Dnf4MaeSHU5GVsO4aDdb.jpg',
     description_ar: 'أب يهودي إيطالي يحمي ابنه من رعب المعتقلات النازية عبر تحويل الحياة إلى لعبة خيالية.',
     description_en: 'An Italian Jewish man uses humor and imagination to protect his son from the horrors of a Nazi concentration camp.',
@@ -1587,7 +1587,7 @@ export const MOVIES: Movie[] = [
     director: 'Andrew Stanton', director_ar: 'أندرو ستانتون',
     cast: ['Ben Burtt', 'Elissa Knight', 'Jeff Garlin'],
     genres: ['animation', 'scifi', 'romance'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/hbhFnRzzImg6cdBWWqLBirDN3sW.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/qdIMHd4sEfJSckfVJfKQvisL02a.jpg',
     description_ar: 'روبوت تنظيف وحيد على أرض مهجورة يقع في الحب. بكسار تقدم درساً بيئياً وإنسانياً في قالب سحري.',
     description_en: 'A lonely waste-collecting robot falls in love on an abandoned Earth. Pixar delivers an environmental and humanist lesson in magical form.',
@@ -1613,7 +1613,7 @@ export const MOVIES: Movie[] = [
     director: 'Milos Forman', director_ar: 'ميلوش فورمان',
     cast: ['F. Murray Abraham', 'Tom Hulce', 'Elizabeth Berridge'],
     genres: ['drama', 'history'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/qFMnKBe3sMBkD6QoGHQgLJ6Exhb.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/gQRfiyfGvr1az0quaYyMram3Aqt.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/rGsXb3sgxNEoLeWCJqYTbNSu0bC.jpg',
     description_ar: 'قصة موتزارت من منظور منافسه سالييري الغيور. دراسة عميقة في الحسد والعبقرية والإبداع.',
     description_en: 'Mozart\'s story through the jealous eyes of rival Salieri. A deep study of envy, genius and creativity.',
@@ -1668,7 +1668,7 @@ export const MOVIES: Movie[] = [
     director: 'David Fincher', director_ar: 'ديفيد فينشر',
     cast: ['Jesse Eisenberg', 'Andrew Garfield', 'Justin Timberlake', 'Rooney Mara'],
     genres: ['drama', 'thriller'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHso.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/8k4oMDRJLrEJRZjm7VdXBz0dRNH.jpg',
     description_ar: 'كيف أسّس مارك زوكربيرج فيسبوك وكيف خسر صديقه الوحيد. سيناريو آرون سوركين بسرعة الرصاصة.',
     description_en: 'How Mark Zuckerberg founded Facebook and lost his only friend. Aaron Sorkin\'s script moves like a bullet.',
@@ -1721,7 +1721,7 @@ export const MOVIES: Movie[] = [
     director: 'Jordan Peele', director_ar: 'جوردان بيل',
     cast: ['Daniel Kaluuya', 'Allison Williams', 'Bradley Whitford'],
     genres: ['horror', 'thriller'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/tFXcEccSjH17bFbFt7Gbp4yHDO.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/mE24wUCfjK8AoBBjaMjho7Rczr7.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/f1gQAVqlyGfMDGxNwaxBqF9ZDJP.jpg',
     description_ar: 'شاب أسود يزور عائلة حبيبته البيضاء ليكتشف سراً مرعباً. فيلم رعب اجتماعي ثوري.',
     description_en: 'A young Black man visits his white girlfriend\'s family and uncovers a chilling secret. A revolutionary social horror film.',
@@ -1773,7 +1773,7 @@ export const MOVIES: Movie[] = [
     director: 'Barry Jenkins', director_ar: 'باري جنكينز',
     cast: ['Mahershala Ali', 'Naomie Harris', 'Trevante Rhodes'],
     genres: ['drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/4911T5FbJ9eAlnKQUIFK95hLDVL.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/qLnfEmPrDjJfPyyddLJPkXmshkp.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/oqCCR2tdYGoq6kJGU9aFqUv7Rkz.jpg',
     description_ar: 'ثلاثة فصول من حياة شيرون في ميامي: طفولته وشبابه ونضجه. رحلة عن الهوية والحب بتصوير شاعري.',
     description_en: 'Three chapters of Chiron\'s life in Miami: childhood, adolescence and adulthood. A journey about identity and love filmed like poetry.',
@@ -1826,7 +1826,7 @@ export const MOVIES: Movie[] = [
     director: 'Frank Darabont', director_ar: 'فرانك دارابونت',
     cast: ['Tom Hanks', 'Michael Clarke Duncan', 'David Morse'],
     genres: ['drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmU1jmb.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg',
     description_ar: 'حارس سجن يكتشف أن محكوماً بالإعدام يمتلك قدرة خارقة على الشفاء. ستيفن كينج وفرانك دارابونت في قمتهما.',
     description_en: 'A prison guard discovers a death row inmate has miraculous healing powers. Stephen King and Frank Darabont at their most profound.',
@@ -1851,7 +1851,7 @@ export const MOVIES: Movie[] = [
     director: 'Darren Aronofsky', director_ar: 'دارين أرونوفسكي',
     cast: ['Natalie Portman', 'Mila Kunis', 'Vincent Cassel'],
     genres: ['thriller', 'drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/4tDFSAkOu9nxiEWU0bpuCCDIKTb.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/viWheBd44bouiLCHgNMvahLThqx.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/4yrIXuBVMqp0yVJnunVBEFiJrNV.jpg',
     description_ar: 'راقصة باليه تنهار نفسياً بحثاً عن الكمال. أرونوفسكي يصنع كابوساً فنياً.',
     description_en: 'A ballet dancer\'s psychological collapse in pursuit of perfection. Aronofsky creates an artistic nightmare.',
@@ -1878,7 +1878,7 @@ export const MOVIES: Movie[] = [
     director: 'Jean-Pierre Jeunet', director_ar: 'جان-بيير جونيه',
     cast: ['Audrey Tautou', 'Mathieu Kassovitz'],
     genres: ['romance', 'comedy'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/2goKoeFJoOwTr6J0LqmY1DQbGHf.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/nSxDa3M9aMvGVLoItzWTepQ5h5d.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/woZJ52CY4n1pE1SXB1oYmS96oBB.jpg',
     description_ar: 'فتاة خيالية في باريس تقرر إسعاد من حولها بطرق بريئة بينما تخشى البحث عن سعادتها. حلم بصري.',
     description_en: 'A quirky Parisian girl decides to make those around her happy in whimsical ways while fearing her own happiness. A visual dream.',
@@ -1903,7 +1903,7 @@ export const MOVIES: Movie[] = [
     director: 'Giuseppe Tornatore', director_ar: 'جوزيبي تورناتوري',
     cast: ['Philippe Noiret', 'Salvatore Cascio', 'Jacques Perrin'],
     genres: ['drama', 'romance'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/gCI2AeMV4IHSewhfvHMkgOzq4kc.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/gCI2AeMV4IHSewhJkzsur5MEp6R.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/aXKkADCRaVMblDFy9VT9KFAJ0T6.jpg',
     description_ar: 'صبي إيطالي يتعلق بمسقّط أفلام قريته ويصبح مخرجاً مشهوراً. رسالة حب خالدة لفن السينما.',
     description_en: 'An Italian boy bonds with his village projectionist and grows up to be a celebrated director. An eternal love letter to cinema.',
@@ -1955,7 +1955,7 @@ export const MOVIES: Movie[] = [
     director: 'Ron Howard', director_ar: 'رون هاوارد',
     cast: ['Russell Crowe', 'Ed Harris', 'Jennifer Connelly', 'Paul Bettany'],
     genres: ['drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/beauq59i9jCbUf9k5e8J7ZXQMMU.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/rEIg5yJdNOt9fmX4P8gU9LeNoTQ.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/yCb2kV4qxHXmSCgIkGBbGf94OYp.jpg',
     description_ar: 'قصة عالم الرياضيات جون ناش الحائز نوبل الذي عاش صراعاً مع الفصام طوال حياته.',
     description_en: 'The story of Nobel Prize-winning mathematician John Nash, who struggled with schizophrenia throughout his life.',
@@ -2007,7 +2007,7 @@ export const MOVIES: Movie[] = [
     director: 'Rian Johnson', director_ar: 'ريان جونسون',
     cast: ['Daniel Craig', 'Ana de Armas', 'Chris Evans', 'Jamie Lee Curtis'],
     genres: ['thriller', 'comedy', 'drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/pThyQovXQrqVQM9bHgRnfoDCZIH.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/2DPLIGbQ9YcIv3kMGEuBLjhCDVw.jpg',
     description_ar: 'محقق خاص يحقق في موت كاتب غامض ثري في قصر عائلته. معادلة الـ whodunit مُعاد اختراعها بذكاء.',
     description_en: 'A private detective investigates the mysterious death of a wealthy crime novelist in his family mansion. The whodunit formula reinvented brilliantly.',
@@ -2033,7 +2033,7 @@ export const MOVIES: Movie[] = [
     director: 'Park Chan-wook', director_ar: 'بارك تشان-ووك',
     cast: ['Choi Min-sik', 'Yoo Ji-tae', 'Gang Hye-jung'],
     genres: ['thriller', 'drama', 'action'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBmHx9AFYP.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/iVtq3f6T3Hbq3i9s5L7tcqBFGPT.jpg',
     description_ar: 'رجل محتجز بلا سبب لخمسة عشر عاماً، حين يُطلق سراحه يبدأ رحلة انتقام. أحد أقوى وأغرب أفلام الإثارة الكورية.',
     description_en: 'A man imprisoned without reason for 15 years seeks revenge after his release. One of Korean cinema\'s most intense and disturbing thrillers.',
@@ -2059,7 +2059,7 @@ export const MOVIES: Movie[] = [
     director: 'Martin Scorsese', director_ar: 'مارتن سكورسيزي',
     cast: ['Leonardo DiCaprio', 'Lily Gladstone', 'Robert De Niro', 'Jesse Plemons'],
     genres: ['history', 'drama', 'crime'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/dB6jeFHwdDAokXQmvkM3UgaeT78.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/1X7vow16X7CnCoexXh4H4F2yDJv.jpg',
     description_ar: 'في عشرينيات القرن الماضي، يُقتل أبناء قبيلة أوساج الأثرياء في أوكلاهوما واحداً تلو الآخر. سكورسيزي يوثق جريمة نسيتها أمريكا.',
     description_en: 'In 1920s Oklahoma, wealthy Osage tribe members are systematically murdered. Scorsese documents a crime America forgot.',
@@ -2085,7 +2085,7 @@ export const MOVIES: Movie[] = [
     director: 'Celine Song', director_ar: 'سيلين سونغ',
     cast: ['Greta Lee', 'Teo Yoo', 'John Magaro'],
     genres: ['romance', 'drama'],
-    poster_url: 'https://image.tmdb.org/t/p/w500/k3waqVXSnQKMgLcJEMtbHkIXgzN.jpg',
+    poster_url: 'https://image.tmdb.org/t/p/w500/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg',
     backdrop_url: 'https://image.tmdb.org/t/p/original/i7MjHQ9HGMqQMv0o5bkrBuDtyop.jpg',
     description_ar: 'امرأة كورية هاجرت إلى نيويورك تلتقي بحبها الأول الكوري بعد عقدين. قصيدة عن الاختيار وما يُترك خلفنا.',
     description_en: 'A Korean woman who emigrated to New York reunites with her childhood love after two decades. A poem about choice and what we leave behind.',
@@ -3708,6 +3708,19 @@ export const MOVIES: Movie[] = [
 
 ]
 
+// Maps language filter keys to the various values used in movie data
+const LANG_PATTERNS: Record<string, string[]> = {
+  en: ['EN', 'English'],
+  ja: ['JA', 'Japanese'],
+  ko: ['KO', 'Korean'],
+  ar: ['AR', 'Arabic'],
+  fr: ['FR', 'French'],
+  it: ['IT', 'Italian'],
+  tr: ['TR', 'Turkish'],
+  hi: ['HI', 'Hindi'],
+  ru: ['RU', 'Russian'],
+}
+
 export function getMovies(opts?: {
   genre?: string
   featured?: boolean
@@ -3715,6 +3728,8 @@ export function getMovies(opts?: {
   limit?: number
   sort?: 'rating' | 'year' | 'recent'
   decade?: string
+  minRating?: number
+  language?: string
 }): Movie[] {
   let movies = [...MOVIES]
 
@@ -3727,6 +3742,13 @@ export function getMovies(opts?: {
   if (opts?.decade && opts.decade !== 'all') {
     const start = parseInt(opts.decade)
     movies = movies.filter((m) => m.year >= start && m.year < start + 10)
+  }
+  if (opts?.minRating) {
+    movies = movies.filter((m) => m.rating_overall >= opts.minRating!)
+  }
+  if (opts?.language && opts.language !== 'all') {
+    const patterns = LANG_PATTERNS[opts.language] ?? [opts.language]
+    movies = movies.filter((m) => patterns.some((p) => m.language.startsWith(p)))
   }
   if (opts?.search) {
     const q = opts.search.toLowerCase()
