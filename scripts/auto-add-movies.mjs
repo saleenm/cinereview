@@ -354,8 +354,12 @@ function generateMovieTS(id, movie, credits, videos, ai) {
 function appendMovies(moviesTS) {
   let content = fs.readFileSync(MOVIES_FILE, 'utf8')
 
-  // Find the last }] before export functions
-  const insertPoint = content.lastIndexOf('\n]\n\nexport function')
+  // Find the closing ] of the MOVIES array — search for last ']' on its own line
+  // followed by a blank line (supports cases where comments/constants follow the array)
+  let insertPoint = content.lastIndexOf('\n]\n\nexport function')
+  if (insertPoint === -1) insertPoint = content.lastIndexOf('\n]\n\n// ')
+  if (insertPoint === -1) insertPoint = content.lastIndexOf('\n]\n\nconst ')
+  if (insertPoint === -1) insertPoint = content.lastIndexOf('\n]\n')
   if (insertPoint === -1) throw new Error('لم أجد نقطة الإدراج في movies.ts')
 
   const newMovies = '\n' + moviesTS.join('\n') + '\n'
