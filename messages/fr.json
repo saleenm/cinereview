@@ -14,7 +14,8 @@
     "search": "Rechercher un film...",
     "language": "Langue",
     "blog": "Blog",
-    "watchlist": "★ Ma liste"
+    "watchlist": "★ Ma liste",
+    "directors": "Réalisateurs"
   },
   "home": {
     "heroTitle": "Découvrez le Monde du Cinéma",
@@ -117,5 +118,21 @@
     "relatedFilm": "Film Associé",
     "categories": "Catégories",
     "share": "Partager"
+  },
+  "directorPage": {
+    "films": "films",
+    "allFilms": "Tous les films",
+    "directedBy": "Réalisateur",
+    "noFilms": "Aucun film trouvé pour ce réalisateur",
+    "allDirectors": "Tous les réalisateurs",
+    "directorsTitle": "Réalisateurs",
+    "directorsSubtitle": "Parcourir les films par réalisateur"
+  },
+  "bestOf": {
+    "title": "Meilleurs films de",
+    "subtitle": "Films les mieux notés",
+    "noFilms": "Aucun film trouvé pour cette année",
+    "backToYears": "Toutes les années",
+    "yearsTitle": "Films par année"
   }
 }

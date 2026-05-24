@@ -14,7 +14,8 @@
     "search": "Film ara...",
     "language": "Dil",
     "blog": "Blog",
-    "watchlist": "★ Listem"
+    "watchlist": "★ Listem",
+    "directors": "Yönetmenler"
   },
   "home": {
     "heroTitle": "Sinema Dünyasını Keşfet",
@@ -117,5 +118,21 @@
     "relatedFilm": "İlgili Film",
     "categories": "Kategoriler",
     "share": "Paylaş"
+  },
+  "directorPage": {
+    "films": "film",
+    "allFilms": "Tüm filmler",
+    "directedBy": "Yönetmen",
+    "noFilms": "Bu yönetmen için film bulunamadı",
+    "allDirectors": "Tüm yönetmenler",
+    "directorsTitle": "Yönetmenler",
+    "directorsSubtitle": "Filmlere yönetmene göre göz atın"
+  },
+  "bestOf": {
+    "title": "En iyi filmler",
+    "subtitle": "Puana göre sıralanmış filmler",
+    "noFilms": "Bu yıl için film bulunamadı",
+    "backToYears": "Tüm yıllar",
+    "yearsTitle": "Yıla göre filmler"
   }
 }

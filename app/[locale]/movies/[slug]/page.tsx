@@ -12,6 +12,7 @@ import MovieCard from '@/components/MovieCard'
 import ReviewSection from '@/components/ReviewSection'
 import WatchlistButton from '@/components/WatchlistButton'
 import AdUnit from '@/components/AdUnit'
+import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 
 interface Props { params: Promise<{ locale: string; slug: string }> }
 
@@ -107,6 +108,11 @@ export default async function MoviePage({ params }: Props) {
   return (
     <>
       <MovieJsonLd movie={movie} locale={locale} />
+      <BreadcrumbJsonLd crumbs={[
+        { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: `https://cinereview-mu.vercel.app/${locale}` },
+        { name: locale === 'ar' ? 'الأفلام' : 'Movies', url: `https://cinereview-mu.vercel.app/${locale}/movies` },
+        { name: title, url: `https://cinereview-mu.vercel.app/${locale}/movies/${movie.slug}` },
+      ]} />
       <Header locale={locale} />
       <main>
         {/* ── BACKDROP HERO ── */}

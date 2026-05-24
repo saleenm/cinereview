@@ -14,7 +14,8 @@
     "search": "映画を検索...",
     "language": "言語",
     "blog": "ブログ",
-    "watchlist": "★ リスト"
+    "watchlist": "★ リスト",
+    "directors": "監督"
   },
   "home": {
     "heroTitle": "映画の世界を発見する",
@@ -117,5 +118,21 @@
     "relatedFilm": "関連映画",
     "categories": "カテゴリー",
     "share": "共有"
+  },
+  "directorPage": {
+    "films": "本",
+    "allFilms": "すべての映画",
+    "directedBy": "監督",
+    "noFilms": "この監督の映画が見つかりません",
+    "allDirectors": "すべての監督",
+    "directorsTitle": "監督",
+    "directorsSubtitle": "監督別に映画を閲覧"
+  },
+  "bestOf": {
+    "title": "ベスト映画",
+    "subtitle": "評価順に並べた映画",
+    "noFilms": "この年の映画が見つかりません",
+    "backToYears": "すべての年",
+    "yearsTitle": "年別映画"
   }
 }

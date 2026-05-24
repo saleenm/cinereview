@@ -33,6 +33,7 @@ export default function Header({ locale }: Props) {
     { href: `/${locale}/top-rated`, label: t('topRated') },
     { href: `/${locale}/genre/all`, label: t('genres') },
     { href: `/${locale}/blog`, label: t('blog') },
+    { href: `/${locale}/directors`, label: t('directors') },
     { href: `/${locale}/watchlist`, label: t('watchlist') },
   ]
 

@@ -14,7 +14,8 @@
     "search": "Search for a movie...",
     "language": "Language",
     "blog": "Blog",
-    "watchlist": "★ Watchlist"
+    "watchlist": "★ Watchlist",
+    "directors": "Directors"
   },
   "home": {
     "heroTitle": "Discover the World of Cinema",
@@ -117,5 +118,21 @@
   "footer": {
     "rights": "All rights reserved",
     "disclaimer": "Ratings are based on deep professional analysis"
+  },
+  "directorPage": {
+    "films": "films",
+    "allFilms": "All Films",
+    "directedBy": "Director",
+    "noFilms": "No films found for this director",
+    "allDirectors": "All Directors",
+    "directorsTitle": "Directors",
+    "directorsSubtitle": "Browse films by director"
+  },
+  "bestOf": {
+    "title": "Best Films of",
+    "subtitle": "Top-rated films sorted by score",
+    "noFilms": "No films found for this year",
+    "backToYears": "All Years",
+    "yearsTitle": "Films by Year"
   }
 }

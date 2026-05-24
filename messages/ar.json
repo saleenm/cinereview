@@ -14,7 +14,8 @@
     "search": "بحث عن فيلم...",
     "language": "اللغة",
     "blog": "المدونة",
-    "watchlist": "★ قائمتي"
+    "watchlist": "★ قائمتي",
+    "directors": "المخرجون"
   },
   "home": {
     "heroTitle": "اكتشف عوالم السينما",
@@ -117,5 +118,21 @@
   "footer": {
     "rights": "جميع الحقوق محفوظة",
     "disclaimer": "التقييمات مبنية على تحليل احترافي معمّق"
+  },
+  "directorPage": {
+    "films": "فيلم",
+    "allFilms": "جميع الأفلام",
+    "directedBy": "مخرج",
+    "noFilms": "لا توجد أفلام لهذا المخرج",
+    "allDirectors": "جميع المخرجين",
+    "directorsTitle": "المخرجون",
+    "directorsSubtitle": "تصفح الأفلام حسب المخرج"
+  },
+  "bestOf": {
+    "title": "أفضل أفلام",
+    "subtitle": "أفضل الأفلام مرتبة بالتقييم",
+    "noFilms": "لا توجد أفلام لهذه السنة",
+    "backToYears": "جميع السنوات",
+    "yearsTitle": "الأفلام حسب السنة"
   }
 }

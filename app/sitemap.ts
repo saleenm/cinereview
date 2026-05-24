@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { getAllSlugs } from '@/lib/movies'
+import { getAllSlugs, getAllDirectors, getAvailableYears } from '@/lib/movies'
 import { BLOG_POSTS } from '@/lib/blog'
 import { GENRE_KEYS, LOCALES } from '@/lib/types'
 
@@ -32,5 +32,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...localizedUrls('/blog', 0.8, 'daily'),
     // Blog posts
     ...BLOG_POSTS.flatMap((p) => localizedUrls(`/blog/${p.slug}`, 0.7, 'weekly')),
+    // Directors list
+    ...localizedUrls('/directors', 0.8, 'weekly'),
+    // Individual director pages
+    ...getAllDirectors().flatMap((d) => localizedUrls(`/director/${d.slug}`, 0.7, 'monthly')),
+    // Best-of years index
+    ...localizedUrls('/best-of', 0.8, 'monthly'),
+    // Best-of year pages
+    ...getAvailableYears().flatMap((y) => localizedUrls(`/best-of/${y}`, 0.7, 'monthly')),
   ]
 }

@@ -3770,6 +3770,38 @@ export function getMovieOfTheDay(): Movie {
   return MOVIES[index]
 }
 
+export interface Director {
+  slug: string
+  name: string
+  name_ar: string
+  movies: Movie[]
+}
+
+export function getAllDirectors(): Director[] {
+  const map = new Map<string, Director>()
+  for (const movie of MOVIES) {
+    const slug = movie.director.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+    if (!map.has(slug)) {
+      map.set(slug, { slug, name: movie.director, name_ar: movie.director_ar, movies: [] })
+    }
+    map.get(slug)!.movies.push(movie)
+  }
+  return Array.from(map.values()).sort((a, b) => b.movies.length - a.movies.length)
+}
+
+export function getDirectorBySlug(slug: string): Director | undefined {
+  return getAllDirectors().find((d) => d.slug === slug)
+}
+
+export function getMoviesByYear(year: number): Movie[] {
+  return MOVIES.filter((m) => m.year === year).sort((a, b) => b.rating_overall - a.rating_overall)
+}
+
+export function getAvailableYears(): number[] {
+  const years = [...new Set(MOVIES.map((m) => m.year))].sort((a, b) => b - a)
+  return years
+}
+
 export function getMovieDescription(movie: Movie, locale: string): string {
   const map: Record<string, keyof Movie> = {
     ar: 'description_ar',
