@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { LOCALE_NAMES } from '@/lib/types'
 import SearchBar from './SearchBar'
 import ThemeToggle from './ThemeToggle'
+import UserMenu from './UserMenu'
 
 interface Props {
   locale: string
@@ -91,6 +92,9 @@ export default function Header({ locale }: Props) {
               </div>
             )}
           </div>
+
+          {/* User Menu */}
+          <UserMenu locale={locale} />
 
           {/* Theme Toggle */}
           <ThemeToggle />
