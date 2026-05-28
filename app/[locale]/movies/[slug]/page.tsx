@@ -166,7 +166,7 @@ export default async function MoviePage({ params }: Props) {
           <div className="grid lg:grid-cols-3 gap-8">
 
             {/* ── LEFT: Poster + Quick Info ── */}
-            <div className="lg:col-span-1 space-y-4">
+            <div className="lg:col-span-1 space-y-4 lg:sticky lg:top-20 lg:self-start">
               {/* Poster */}
               <div className="relative w-48 mx-auto lg:mx-0 rounded-2xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
@@ -244,6 +244,9 @@ export default async function MoviePage({ params }: Props) {
 
               {/* Where to watch */}
               <WhereToWatch title={movie.title} year={movie.year} locale={locale} />
+
+              {/* Sidebar Ad */}
+              <AdUnit slot="3456789012" format="rectangle" className="rounded-xl overflow-hidden" />
             </div>
 
             {/* ── RIGHT: Main Content ── */}

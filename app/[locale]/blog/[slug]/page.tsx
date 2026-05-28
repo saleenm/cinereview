@@ -76,7 +76,22 @@ export default async function BlogPostPage({ params }: Props) {
   // Other posts for "more articles"
   const morePosts = getAllBlogPosts().filter((p) => p.slug !== slug).slice(0, 3)
 
-  const htmlContent = renderMarkdown(d.content)
+  // Inject in-article ads every 3 paragraphs
+  function injectAds(html: string): string {
+    const AD_HTML = `<div class="my-6 text-center overflow-hidden rounded-xl"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4272698055490735" data-ad-slot="7890123456" data-ad-format="fluid" data-ad-layout="in-article" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>`
+    const parts = html.split(/(?<=<\/p>\n)/)
+    const result: string[] = []
+    let pCount = 0
+    for (const part of parts) {
+      result.push(part)
+      if (part.includes('<p ') || part.startsWith('<p>')) {
+        pCount++
+        if (pCount % 3 === 0) result.push(AD_HTML)
+      }
+    }
+    return result.join('')
+  }
+  const htmlContent = injectAds(renderMarkdown(d.content))
 
   return (
     <>
@@ -157,7 +172,10 @@ export default async function BlogPostPage({ params }: Props) {
             </article>
 
             {/* ── SIDEBAR ── */}
-            <aside className="space-y-5">
+            <aside className="space-y-5 lg:sticky lg:top-20 lg:self-start">
+
+              {/* Sidebar Ad */}
+              <AdUnit slot="1234567890" format="rectangle" className="rounded-xl overflow-hidden" />
 
               {/* Related Movie */}
               {relatedMovie && (
