@@ -39,6 +39,8 @@ export default function Header({ locale }: Props) {
     { href: `/${locale}/actors`, label: t('actors') },
     { href: `/${locale}/watchlist`, label: t('watchlist') },
     { href: `/${locale}/movie-of-day`, label: t('movieOfDay') },
+    { href: `/${locale}/compare`, label: t('compare') },
+    { href: `/${locale}/list/create`, label: t('myList') },
   ]
 
   return (

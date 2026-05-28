@@ -58,3 +58,37 @@ export async function getMovieAvgRating(slug: string): Promise<{ avg: number; co
   const avg = data.reduce((s, r) => s + r.rating, 0) / data.length
   return { avg: Math.round(avg * 10) / 10, count: data.length }
 }
+
+export interface MovieList {
+  id: string
+  name: string
+  description: string
+  slugs: string[]
+  locale: string
+  created_at: string
+}
+
+export async function createMovieList(list: {
+  name: string
+  description: string
+  slugs: string[]
+  locale: string
+}): Promise<{ id: string | null; error?: string }> {
+  const { data, error } = await supabase
+    .from('movie_lists')
+    .insert({ ...list, slugs: list.slugs })
+    .select('id')
+    .single()
+  if (error) return { id: null, error: error.message }
+  return { id: data.id }
+}
+
+export async function getMovieList(id: string): Promise<MovieList | null> {
+  const { data, error } = await supabase
+    .from('movie_lists')
+    .select('*')
+    .eq('id', id)
+    .single()
+  if (error || !data) return null
+  return data as MovieList
+}

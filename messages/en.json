@@ -17,7 +17,8 @@
     "watchlist": "★ Watchlist",
     "directors": "Directors",
     "movieOfDay": "🎬 Daily",
-    "actors": "Actors"
+    "actors": "Actors",
+    "compare": "⚖️ Compare", "myList": "📋 My List"
   },
   "home": {
     "heroTitle": "Discover the World of Cinema",
