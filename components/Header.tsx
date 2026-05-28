@@ -41,6 +41,7 @@ export default function Header({ locale }: Props) {
     { href: `/${locale}/movie-of-day`, label: t('movieOfDay') },
     { href: `/${locale}/compare`, label: t('compare') },
     { href: `/${locale}/list/create`, label: t('myList') },
+    { href: `/${locale}/map`, label: t('worldMap') },
   ]
 
   return (

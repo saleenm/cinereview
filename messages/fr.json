@@ -18,7 +18,8 @@
     "directors": "Réalisateurs",
     "movieOfDay": "🎬 Quotidien",
     "actors": "Acteurs",
-    "compare": "⚖️ Comparer", "myList": "📋 Ma Liste"
+    "compare": "⚖️ Comparer", "myList": "📋 Ma Liste",
+    "worldMap": "🗺️ Carte Mondiale"
   },
   "home": {
     "heroTitle": "Découvrez le Monde du Cinéma",

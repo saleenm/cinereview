@@ -18,7 +18,8 @@
     "directors": "Directors",
     "movieOfDay": "🎬 Daily",
     "actors": "Actors",
-    "compare": "⚖️ Compare", "myList": "📋 My List"
+    "compare": "⚖️ Compare", "myList": "📋 My List",
+    "worldMap": "🗺️ World Map"
   },
   "home": {
     "heroTitle": "Discover the World of Cinema",

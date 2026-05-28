@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { subscribeNewsletter } from '@/lib/supabase'
 
 interface Props { locale?: string }
 
@@ -18,10 +19,13 @@ export default function NewsletterForm({ locale = 'en' }: Props) {
 
   const L = (k: string) => LABELS[k]?.[locale] || LABELS[k]?.en || k
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!email) return
-    // Save to localStorage as simple list (no backend needed for now)
+    // Save to Supabase (with localStorage fallback)
+    try {
+      await subscribeNewsletter(email, locale)
+    } catch { /* ignore — offline fallback */ }
     try {
       const subs = JSON.parse(localStorage.getItem('cinereview_newsletter') || '[]')
       if (!subs.includes(email)) subs.push(email)

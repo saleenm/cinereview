@@ -68,6 +68,14 @@ export interface MovieList {
   created_at: string
 }
 
+export async function subscribeNewsletter(email: string, locale: string): Promise<{ success: boolean; error?: string }> {
+  const { error } = await supabase
+    .from('newsletter_subscribers')
+    .upsert({ email: email.toLowerCase().trim(), locale, subscribed_at: new Date().toISOString() }, { onConflict: 'email' })
+  if (error) return { success: false, error: error.message }
+  return { success: true }
+}
+
 export async function createMovieList(list: {
   name: string
   description: string

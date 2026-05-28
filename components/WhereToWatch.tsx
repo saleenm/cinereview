@@ -4,46 +4,54 @@ interface Props {
   locale?: string
 }
 
+// UTM source for affiliate tracking
+const UTM = 'utm_source=cinereview&utm_medium=affiliate&utm_campaign=where-to-watch'
+
 const PLATFORMS = [
   {
     name: 'JustWatch',
     icon: '🔍',
     color: 'bg-yellow-500/10 border-yellow-500/30 hover:border-yellow-500/60 text-yellow-400',
+    // JustWatch affiliate tag can be added via their partner program
     getUrl: (title: string) =>
-      `https://www.justwatch.com/us/search?q=${encodeURIComponent(title)}`,
-    label: 'Find where to watch',
+      `https://www.justwatch.com/us/search?q=${encodeURIComponent(title)}&${UTM}`,
   },
   {
     name: 'Netflix',
     icon: '🔴',
     color: 'bg-red-500/10 border-red-500/30 hover:border-red-500/60 text-red-400',
     getUrl: (title: string) =>
-      `https://www.netflix.com/search?q=${encodeURIComponent(title)}`,
-    label: 'Search Netflix',
+      `https://www.netflix.com/search?q=${encodeURIComponent(title)}&${UTM}`,
   },
   {
     name: 'Prime Video',
     icon: '🔵',
     color: 'bg-blue-500/10 border-blue-500/30 hover:border-blue-500/60 text-blue-400',
+    // Amazon Associates tag: cinereview-20
     getUrl: (title: string) =>
-      `https://www.amazon.com/s?k=${encodeURIComponent(title)}&i=instant-video`,
-    label: 'Search Prime',
+      `https://www.amazon.com/s?k=${encodeURIComponent(title)}+film&i=instant-video&tag=cinereview-20&${UTM}`,
   },
   {
     name: 'Apple TV+',
     icon: '⬜',
     color: 'bg-gray-500/10 border-gray-500/30 hover:border-gray-400/60 text-gray-300',
     getUrl: (title: string) =>
-      `https://tv.apple.com/search/${encodeURIComponent(title)}`,
-    label: 'Search Apple TV',
+      `https://tv.apple.com/search/${encodeURIComponent(title)}?${UTM}`,
   },
   {
     name: 'Disney+',
     icon: '🔷',
     color: 'bg-indigo-500/10 border-indigo-500/30 hover:border-indigo-500/60 text-indigo-400',
     getUrl: (title: string) =>
-      `https://www.disneyplus.com/search/${encodeURIComponent(title)}`,
-    label: 'Search Disney+',
+      `https://www.disneyplus.com/search/${encodeURIComponent(title)}?${UTM}`,
+  },
+  {
+    name: 'MUBI',
+    icon: '🎞️',
+    color: 'bg-purple-500/10 border-purple-500/30 hover:border-purple-500/60 text-purple-400',
+    // MUBI affiliate via Impact Radius
+    getUrl: (title: string) =>
+      `https://mubi.com/films?q=${encodeURIComponent(title)}&${UTM}`,
   },
 ]
 

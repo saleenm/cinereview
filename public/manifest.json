@@ -1,0 +1,27 @@
+{
+  "name": "CineReview — World Cinema Reviews",
+  "short_name": "CineReview",
+  "description": "In-depth reviews of the greatest films ever made",
+  "start_url": "/en",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#f59e0b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logos/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logos/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["entertainment", "movies"],
+  "lang": "en",
+  "screenshots": []
+}
