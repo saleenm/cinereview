@@ -1,3 +1,5 @@
+import { MOVIES } from './movies'
+
 export type Locale = 'ar' | 'en' | 'fr' | 'es' | 'tr' | 'de' | 'ja' | 'pt'
 
 export interface BlogPost {
@@ -116,7 +118,7 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
     slug: 'top-5-arabic-films-history',
     date: '2026-05-19',
     readTime: 5,
-    image: 'https://upload.wikimedia.org/wikipedia/en/0/04/The_message_%281976%29.jpg',
+    image: 'https://image.tmdb.org/t/p/original/rqODzehgQ8Hl0tcUd7qIcy8Pc9Z.jpg',
     movieSlug: 'the-message',
     i18n: {
       ar: {
@@ -207,7 +209,7 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
     slug: 'cinema-psychology-joker',
     date: '2026-05-17',
     readTime: 8,
-    image: 'https://image.tmdb.org/t/p/original/n6bUvigpRFqSwmPp1ZIzSFpEaJN.jpg',
+    image: 'https://image.tmdb.org/t/p/original/hO7KbdvGOtDdeg0W4Y5nKEHeDDh.jpg',
     movieSlug: 'joker-2019',
     i18n: {
       ar: {
@@ -315,7 +317,200 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       pt: { title: 'Nossas Previsões Oscar Melhor Filme 2027', description: 'Análise precoce dos candidatos mais fortes ao Oscar 2027.', category: 'Oscar', content: `## Corrida Oscar 2027 — Análise Precoce\n\nOs indicadores são claros: dramas humanos dominam os prêmios principais.` }
     }
   },
+  {
+    slug: 'spirited-away-standout-2000s-cinema',
+    date: '2026-05-27',
+    readTime: 6,
+    image: 'https://image.tmdb.org/t/p/original/bSXfU4dwZyBA1vMmXvejdRXBvuF.jpg',
+    movieSlug: 'spirited-away',
+    i18n: {
+      ar: {
+        title: 'سبيريتد أواي: لماذا ارتفعت فوق أفلام الألفية الأولى',
+        description: 'تحليل مقارنة لفيلم سبيريتد أواي مع روائع عصره وكيف تفوق على الأفلام المعاصرة.',
+        category: 'تحليل سينمائي',
+        content: `## مقدمة\n**سبيريتد أواي** (2001) للمخرج هاياؤ ميازاكي ليس مجرد فيلم أنيميه، بل هو تجربة سحرية تجاوزت حدود الزمن والثقافة. في هذا المقال نستعرض كيف تفوق الفيلم على أعمال معاصرة مثل *Amélie*، *Moulin Rouge!* و*The Lord of the Rings*.\n\n## الابتكار البصري والرسومي\n> "التفاصيل الصغيرة تصنع عالمًا كاملًا" – هاروكي موراكامي\n\n- رسومات يدوية غنية بالألوان؛ كل إطار يشبه لوحة فنية.\n- دمج عناصر الفولكلور الياباني مع خيال علمي يخلق مساحة فريدة لا توجد في أي إنتاج غربي.\n- استخدام الضوء والظل لإبراز الحالة النفسية للبطلة تشييه، شيء لم تجده معظم الأفلام الأمريكية في ذلك الوقت.\n\n## السرد العاطفي المتعدد الطبقات\n- القصة تدور حول نمو شخصية شابة في عالم غريب، لكنها تحمل رسائل حول الاستهلاك، الهوية والبيئة.\n- بالمقارنة، *Amélian* ركز على رومانسية باريسية خفيفة، و*Moulin Rouge!* على البذخ الموسيقي، بينما *Spirited Away* يجمع خيالًا عميقًا مع نقد اجتماعي.\n\n## الشخصيات وتطورها\n- كل كائن في الحمام الروحي يمثل صفة إنسانية أو سلبية، ما يجعل المشاهد يتفاعل مع كل شخصية كأنها مرآة للذات.\n- في كثير من أفلام الخيال المعاصر، الشخصيات ثانوية؛ هنا، حتى الكائنات البسيطة تحظى بأحاديث ومهام تجسد صراعات داخلية.\n\n## الموسيقى والجو\n- موسيقى جوهوزو كايكووا (Joe Hisaishi) تضيف نغمة سحلية لا تشبه أي سكور في أفلام الخيال الغربي.\n- القطع الموسيقية تتماشى مع تغيرات المشهد، من الهدوء الروحي إلى الفوضى المرعبة، وهو ما يجعل الجمهور يشعر بالتماسك العاطفي.\n\n## نجاح عالمي وإرث دائم\n- فاز بجائزة الأوسكار لأفضل فيلم أجنبي، وهو إنجاز نادر لأفلام الأنيميه.\n- أثرت تقنيات الرسم والتصميم على جيل كامل من صانعي الرسوم المتحركة في كوريًا وسوريا وخارجها.\n\n## الخلاصة\n*Spirited Away* ارتقى فوق معاصريه بفضل **الرؤية الفنية الفريدة**، **السرد العميق** و**الاهتمام بالتفاصيل** التي تجعل كل مرة مشاهدة اكتشافًا جديدًا. إنه ليس مجرد فيلم، بل مرآة ثقافية تدفع المشاهد لإعادة التفكير في ذاته والعالم من حوله.\n\n> "إنه ليس مجرد قصة عن فتاة تائهة، بل رحلة داخلية لكل من يجرؤ على الحلم" – نقد سينمائي عالمي`,
+      },
+      en: {
+        title: 'Spirited Away: Why It Soared Above Its Early‑2000s Peers',
+        description: 'A comparative analysis of Spirited Away with its era’s greats and why it outshone contemporary cinema.',
+        category: 'Film Analysis',
+        content: `## Introduction\nHayao Miyazaki’s *Spirented Away* (2001) is more than a landmark animated feature; it is a cultural phenomenon that still feels fresh after two decades. While the early‑2000s welcomed eclectic hits like *Amélie*, *Moulin Rouge!*, and *The Lord of the Rings* trilogy, Miyazaki’s masterpiece managed to eclipse them in both critical acclaim and lasting influence. This article dissects the key factors that set the film apart.\n\n## Visual Innovation\n- **Hand‑drawn artistry**: Every frame is a painstaking watercolor‑like painting, a contrast to the CGI‑heavy aesthetic dominating Hollywood at the time.\n- **Folklore meets fantasy**: The film weaves Shinto‑inspired spirits, Japanese bath‑house tradition, and universal mythic motifs into a seamless world no Western blockbuster attempted.\n- **Light and shadow choreography**: Miyazaki manipulates illumination to mirror Chihiro’s emotional state, creating a visual language that feels more literary than cinematic.\n\n## Narrative Depth\n> “A story is a vessel for our deepest anxieties.” – Film scholar Susan Napier\n\nUnlike the breezy romanticism of *Amélie* or the opulent musical pastiche of *Moulin Rouge!*, *Spirited Away* balances childlike wonder with a sophisticated critique of consumerism, identity loss, and environmental neglect. The plot’s surface—a girl trapped in a spirit bathhouse—unfolds into a multilayered allegory that rewards repeat viewings.\n\n## Character Architecture\n- **Dynamic supporting cast**: Even minor spirits (the Radish‑Man, No‑Face) embody distinct human flaws, turning every encounter into a moral vignette.\n- **Growth through adversity**: Chihiro evolves from a sullen, whiny child into a courageous, self‑reliant heroine, a trajectory rarer in contemporaneous fantasy where protagonists often remain static.\n\n## Score and Atmosphere\nJoe Hisaishi’s hauntingly melodic score acts as an emotional spine. Themes shift fluidly from serene piano motifs during the river‑scene to discordant brass during the witch’s showdown, mirroring the narrative’s tonal swings. No other early‑2000s film matched this seamless integration of music and story.\n\n## Global Reception & Legacy\n- Won the Academy Award for Best Animated Feature—the first non‑English animated film to claim the prize.\n- Inspired a generation of animators worldwide, from Studio Ghibli’s own successors to European studios exploring hand‑drawn techniques again.\n- Continues to appear in “Greatest Films of All Time” lists, often outranking its contemporaries.\n\n## Conclusion\n*Spirited Away* rose above its peers because of an **uncompromising artistic vision**, **rich narrative ecology**, and **meticulous craftsmanship** that made every frame feel alive. It is not merely a film; it is a mirror that reflects our collective hopes and fears, inviting each viewer to step beyond the mundane into a world where every spirit has a story.\n\n> “It isn’t just a tale of a lost girl—it’s a map of the human soul.” – International film critic`,
+      },
+      fr: {
+        title: 'Spirited Away : pourquoi le film a surpassé ses pairs',
+        description: 'Analyse comparative du chef‑d’œuvre de Miyazaki avec les grands films du début des années 2000.',
+        category: 'Analyse cinématographique',
+        content: `## Introduction\nSpirited Away de Hayao Miyazaki (2001) a marqué la fin de siècle en offrant une expérience visuelle et narrative hors du commun. Comparé à *Amélie*, *Moulin Rouge!* ou la trilogie *Le Seigneur des Anneaux*, le film se distingue par son esthétique dessinée à la main, son ancrage dans le folklore japonais et une profondeur thématique rare à l’époque.\n\n## Innovation visuelle\n- Dessin à la main, chaque plan ressemble à une aquarelle.\n- Fusion du Shinto, des bains publics et du fantastique.\n- Jeu subtil de lumière qui suit l’évolution intérieure de Chihiro.\n\n## Narration et personnages\nLe récit va bien au‑delà d’une simple aventure d’enfants : il critique la surconsommation, explore l’identité et l’écologie. Les créatures secondaires, de No‑Face au Radish‑Man, incarnent des travers humains et donnent à chaque rencontre une dimension morale.\n\n## Musique et atmosphère\nLa partition de Joe Hisaishi mêle mélodies douces et sons discordants, suivant le rythme du film. Aucun film occidental de la même période n’a intégré la musique à ce point.\n\n## Héritage\nPremier film d’animation non anglophone à remporter l’Oscar du meilleur film d’animation, il a influencé toute une génération d’animateurs, en Occident comme en Asie.\n\n## Conclusion\nSpirited Away s’élève grâce à une vision artistique cohérente, un univers riche et une exécution impeccable. Il continue d’inspirer et de fasciner, prouvant que le cinéma d’animation peut être aussi profond que n’importe quel film live‑action.`,
+      },
+      es: {
+        title: 'Spirited Away: cómo superó a sus contemporáneos',
+        description: 'Comparación de Spirited Away con grandes filmes de principios de los 2000 y su sobresaliente dominio.',
+        category: 'Análisis cinematográfico',
+        content: `## Introducción\n*Spirited Away* de Hayao Miyazaki llegó en 2001 y rápidamente se posicionó por encima de éxitos como *Amélie*, *Moulin Rouge!* y la trilogía de *El Señor de los Anillos*.\n\n## Innovación visual\n- Animación dibujada a mano con una paleta de colores que parece una pintura tradicional.\n- Incorporación de mitología shintoísta y el concepto del baño público como metáfora social.\n- Uso de luz y sombra para reflejar el crecimiento interno de Chihiro.\n\n## Narrativa y personajes\nEl film combina una aventura infantil con críticas al consumismo y la pérdida de identidad. Personajes secundarios como No‑Face representan obsesiones modernas.\n\n## Banda sonora\nJoe Hisaishi crea una partitura que acompaña cada escena, variando entre pasajes melódicos y tensos.\n\n## Legado\nGanó el Óscar a Mejor Película de Animación y sigue influyendo a creadores de todo el mundo, demostrando que la animación puede ser profunda y universal.\n\n## Conclusión\nSu visión artística, su profundidad temática y su ejecución impecable hacen que *Spirited Away* se mantenga como referencia de los años 2000.`,
+      },
+      tr: {
+        title: 'Spirited Away: 2000\'lerin En İyi Filmleriyle Karşılaştırma',
+        description: 'Spirited Away\'nin aynı dönemdeki diğer büyük filmlerle karşılaştırması ve üstünlüğü.',
+        category: 'Film Analizi',
+        content: `## Giriş\nHayao Miyazaki'nin 2001 yapımı *Spirited Away* filmini *Amélie*, *Moulin Rouge!* ve *Yüzüklerin Efendisi* üçlemesiyle yan yana koyduğumuzda, görsel anlatım, kültürel zenginlik ve tematik derinlik bakımından ayrı bir konuma çıktığını görüyoruz.\n\n## Görsel Yenilik\n- Elle çizilmiş animasyon, her kareyi bir sanat eseri gibi gösteriyor.\n- Japon folkloru ve Shinto öğeleri modern fantastik ögelerle birleşiyor.\n- Işık-gölge oyunları, Chihiro'nun iç dünyasını yansıtıyor.\n\n## Hikâye ve Karakterler\nFilm, çıplak bir macera olmaktan öte, tüketim eleştirisi ve kimlik arayışı sunuyor. Yan karakterler (No‑Face, Radish‑Man) insan zaaflarını temsil ediyor.\n\n## Müzik\nJoe Hisaishi'nin bestesi sahne geçişlerine uyumlu, duygusal bir çerçeve sağlıyor.\n\n## Miras\nOscar ödülü kazandı ve dünya çapında animatörleri etkiledi; animasyonun yalnızca çocuklar için olmadığını gösterdi.\n\n## Sonuç\nSanatsal vizyon, zengin anlatı ve teknik mükemmeliyet, *Spirited Away*'yi döneminin diğer filmlerinin üzerine taşıdı.`,
+      },
+      de: {
+        title: 'Spirited Away: Warum es den Filmen seiner Zeit voraus war',
+        description: 'Vergleich von Spirited Away mit den großen Filmen der frühen 2000er und Analyse seiner Überlegenheit.',
+        category: 'Filmanalyse',
+        content: `## Einführung\nHayao Miyazakis *Spirited Away* (2001) ist ein animierter Film, der in den frühen 2000ern mit Werken wie *Amélie*, *Moulin Rouge!* und der *Herr der Ringe*-Trilogie konkurrierte – und sich deutlich hervortat.\n\n## Visuelle Innovation\n- Handgezeichnete Animation, jedes Bild wirkt wie ein Gemälde.\n- Kombination japanischer Folklore und moderner Fantasie, etwas, das westliche Produktionen selten leisten.\n- Licht‑ und Schattenarbeit, die Chihiros innere Entwicklung visualisiert.\n\n## Erzählerische Tiefe\nDas Werk verbindet ein Kindheitsabenteuer mit einer Kritik an Konsumkultur, Identitätsverlust und Umweltzerstörung. Nebenfiguren wie No‑Face reflektieren menschliche Schwächen.\n\n## Musik\nJoe Hisasakis Partitur begleitet jede Szene mit Melodien, die zwischen Ruhe und Spannungsaufbau wechseln.\n\n## Wirkung & Erbe\nErster nicht‑englischer Oscar‑Gewinner für den besten animierten Spielfilm, er beeinflusste Animatoren weltweit und bleibt ein Meilenstein der Filmgeschichte.\n\n## Fazit\nDurch seine unverwechselbare künstlerische Vision, tiefgründige Symbolik und technische Präzision sticht *Spirited Away* deutlich über seine Zeitgenossen hinaus.`,
+      },
+      ja: {
+        title: '千と千尋の神隠し：同世代作品と比較した優位性',
+        description: '2000年代初頭の名作と比較し、なぜ『千と千尋の神隠し』が際立ったかを分析。',
+        category: '映画分析',
+        content: `## はじめに\n宮崎駿監督の『千と千尋の神隠し』（2001年）は、同時代の『アメリ』や『ムーラン・ルージュ！』、『ロード・オブ・ザ・リング』と比べても、そのビジュアルとテーマの深さで抜きんでている。\n\n## ビジュアルの革新\n- 手描きアニメーションは、1フレームずつが絵画のように緻密。\n- 神道や日本の温泉文化をファンタジーと融合させた世界観は、欧米作品に見られない独自性。\n- 光と陰の使い分けで、千尋の心理状態を映し出す表現が秀逸。\n\n## 物語とキャラクター\n- 消費主義や環境問題への批評が子ども向け冒険に絡み合う。\n- ノーフェイスや油屋の従業員など、脇役でも人間の欲望や孤独を象徴。\n\n## 音楽と雰囲気\n久石譲の音楽は、静かなピアノから緊迫した管楽器まで、シーンとシンクロし、感情の揺れを増幅させる。\n\n## 受賞と影響\nアカデミー賞長編アニメ賞受賞は、英語圏以外の作品としては初。以降、世界中のアニメーターに手描きの価値を再認識させた。\n\n## 結論\n独自の芸術ビジョンと緻密な作り込み、普遍的なテーマが『千と千尋の神隠し』を同世代作品の上に立たせている。`,
+      },
+      pt: {
+        title: 'Spirited Away: Por que o filme brilhou acima dos contemporâneos',
+        description: 'Comparação de Spirited Away com grandes filmes dos anos 2000 e análise de seu destaque.',
+        category: 'Análise de Filme',
+        content: `## Introdução\nLançado em 2001, *Spirited Away* de Hayao Miyazaki rapidamente se destacou frente a obras como *Amélie*, *Moulin Rouge!* e a trilogia *O Senhor dos Anéis*.\n\n## Inovação visual\n- Animação desenhada à mão, quase como aquarelas em movimento.\n- Mistura de folclore shintoísta com fantasia universal, algo raro em produções ocidentais.\n- Luz e sombra são usados para refletir o crescimento interno de Chihiro.\n\n## Narrativa e personagens\nO filme combina aventura infantil com crítica ao consumismo, à perda de identidade e à degradação ambiental. Personagens secundários (No‑Face, o Homem‑Rabanete) representam falhas humanas, adicionando camadas morais.\n\n## Trilha sonora\nJoe Hisaishi compõe uma partitura que acompanha cada cena, alternando entre melodias suaves e acordes tensos.\n\n## Legado\nPrimeiro filme de animação não‑inglês a ganhar o Oscar de Melhor Animação, influenciando animadores ao redor do mundo e provando que animação pode ser tão profunda quanto cinema live‑action.\n\n## Conclusão\nCom visão artística consistente, universo rico e execução impecável, *Spirited Away* permanece como referência dos anos 2000, superando seus pares em originalidade e impacto duradouro.`,
+      }
+    }
+  },
 ]
+
+// ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
+
+const GENRE_NAMES: Record<string, Record<Locale, string>> = {
+  drama:       { ar: 'الدراما', en: 'Drama', fr: 'Drame', es: 'Drama', tr: 'Dram', de: 'Drama', ja: 'ドラマ', pt: 'Drama' },
+  action:      { ar: 'الأكشن', en: 'Action', fr: 'Action', es: 'Acción', tr: 'Aksiyon', de: 'Action', ja: 'アクション', pt: 'Ação' },
+  thriller:    { ar: 'الإثارة', en: 'Thriller', fr: 'Thriller', es: 'Thriller', tr: 'Gerilim', de: 'Thriller', ja: 'スリラー', pt: 'Thriller' },
+  comedy:      { ar: 'الكوميديا', en: 'Comedy', fr: 'Comédie', es: 'Comedia', tr: 'Komedi', de: 'Komödie', ja: 'コメディ', pt: 'Comédia' },
+  horror:      { ar: 'الرعب', en: 'Horror', fr: 'Horreur', es: 'Terror', tr: 'Korku', de: 'Horror', ja: 'ホラー', pt: 'Terror' },
+  scifi:       { ar: 'الخيال العلمي', en: 'Sci-Fi', fr: 'Science-fiction', es: 'Ciencia ficción', tr: 'Bilim kurgu', de: 'Science-Fiction', ja: 'SF', pt: 'Ficção científica' },
+  animation:   { ar: 'الرسوم المتحركة', en: 'Animation', fr: 'Animation', es: 'Animación', tr: 'Animasyon', de: 'Animation', ja: 'アニメ', pt: 'Animação' },
+  crime:       { ar: 'الجريمة', en: 'Crime', fr: 'Crime', es: 'Crimen', tr: 'Suç', de: 'Krimi', ja: 'クライム', pt: 'Crime' },
+  history:     { ar: 'التاريخي', en: 'Historical', fr: 'Historique', es: 'Histórico', tr: 'Tarihi', de: 'Historisch', ja: '歴史', pt: 'Histórico' },
+  adventure:   { ar: 'المغامرة', en: 'Adventure', fr: 'Aventure', es: 'Aventura', tr: 'Macera', de: 'Abenteuer', ja: '冒険', pt: 'Aventura' },
+  romance:     { ar: 'الرومانسية', en: 'Romance', fr: 'Romance', es: 'Romance', tr: 'Romantik', de: 'Romanze', ja: 'ロマンス', pt: 'Romance' },
+  documentary: { ar: 'الوثائقي', en: 'Documentary', fr: 'Documentaire', es: 'Documental', tr: 'Belgesel', de: 'Dokumentarfilm', ja: 'ドキュメンタリー', pt: 'Documentário' },
+  arabic:      { ar: 'العربية', en: 'Arabic', fr: 'Arabe', es: 'Árabe', tr: 'Arapça', de: 'Arabisch', ja: 'アラビア語', pt: 'Árabe' },
+}
+
+const BEST_OF_LABEL: Record<Locale, string> = {
+  ar: 'أفضل أفلام', en: 'Best', fr: 'Meilleurs films', es: 'Mejores', tr: 'En iyi',
+  de: 'Beste', ja: 'ベスト', pt: 'Melhores'
+}
+const RANKED_BY_SCORE: Record<Locale, string> = {
+  ar: 'مرتبة حسب التقييم', en: 'Ranked by score', fr: 'classés par note',
+  es: 'clasificadas por puntuación', tr: 'puana göre sıralanmış',
+  de: 'nach Punktzahl sortiert', ja: '評価順ランキング', pt: 'classificados por pontuação'
+}
+const FILMS_LABEL: Record<Locale, string> = {
+  ar: 'فيلم', en: 'films', fr: 'films', es: 'películas', tr: 'film', de: 'Filme', ja: '映画', pt: 'filmes'
+}
+const DIRECTOR_LABEL: Record<Locale, string> = {
+  ar: 'المخرج', en: 'Director', fr: 'Réalisateur', es: 'Director', tr: 'Yönetmen',
+  de: 'Regisseur', ja: '監督', pt: 'Diretor'
+}
+const ALL_FILMS_LABEL: Record<Locale, string> = {
+  ar: 'جميع الأفلام', en: 'All Films', fr: 'Tous les films', es: 'Todas las películas',
+  tr: 'Tüm Filmler', de: 'Alle Filme', ja: '全作品', pt: 'Todos os filmes'
+}
+const SPOTLIGHT_LABEL: Record<Locale, string> = {
+  ar: 'مسيرة', en: 'Complete Filmography', fr: 'Filmographie complète',
+  es: 'Filmografía completa', tr: 'Tam Filmografi', de: 'Vollständige Filmografie',
+  ja: '完全フィルモグラフィー', pt: 'Filmografia completa'
+}
+const FILMS_CAT: Record<Locale, string> = {
+  ar: 'مخرجون', en: 'Directors', fr: 'Réalisateurs', es: 'Directores',
+  tr: 'Yönetmenler', de: 'Regisseure', ja: '監督', pt: 'Diretores'
+}
+
+function generateGenrePosts(): BlogPost[] {
+  const genres = Object.keys(GENRE_NAMES)
+  const posts: BlogPost[] = []
+
+  for (const genre of genres) {
+    const genreMovies = MOVIES.filter((m) => m.genres.includes(genre as any))
+      .sort((a, b) => b.rating_overall - a.rating_overall)
+      .slice(0, 10)
+    if (genreMovies.length < 3) continue
+
+    const slug = `best-${genre}-films`
+    const date = '2026-05-14'
+    const image = genreMovies[0].backdrop_url || genreMovies[0].poster_url
+
+    const i18n = {} as BlogPost['i18n']
+    const LOCALES: Locale[] = ['ar', 'en', 'fr', 'es', 'tr', 'de', 'ja', 'pt']
+
+    for (const locale of LOCALES) {
+      const gName = GENRE_NAMES[genre][locale]
+      const title = `${BEST_OF_LABEL[locale]} ${gName}`
+      const description = `${genreMovies.length} ${FILMS_LABEL[locale]} · ${RANKED_BY_SCORE[locale]}`
+      const filmList = genreMovies.map((m, i) => {
+        const mTitle = locale === 'ar' ? m.title_ar : m.title
+        const dirName = locale === 'ar' ? m.director_ar : m.director
+        return `${i + 1}. **${mTitle}** (${m.year}) — ${m.rating_overall}/10 | ${DIRECTOR_LABEL[locale]}: ${dirName}`
+      }).join('\n')
+
+      const content = `## ${title}\n\n${filmList}`
+      i18n[locale] = { title, description, category: gName, content }
+    }
+
+    posts.push({ slug, date, readTime: 4, image, i18n })
+  }
+
+  return posts
+}
+
+function generateDirectorPosts(): BlogPost[] {
+  // Group movies by director
+  const directorMap = new Map<string, typeof MOVIES>()
+  for (const movie of MOVIES) {
+    const key = movie.director
+    if (!directorMap.has(key)) directorMap.set(key, [])
+    directorMap.get(key)!.push(movie)
+  }
+
+  const posts: BlogPost[] = []
+  const LOCALES: Locale[] = ['ar', 'en', 'fr', 'es', 'tr', 'de', 'ja', 'pt']
+
+  for (const [director, films] of directorMap) {
+    if (films.length < 3) continue
+    const sorted = [...films].sort((a, b) => b.rating_overall - a.rating_overall)
+    const slug = `director-${director.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`
+    const date = '2026-05-13'
+    const image = sorted[0].backdrop_url || sorted[0].poster_url
+
+    const i18n = {} as BlogPost['i18n']
+    for (const locale of LOCALES) {
+      const dirName = locale === 'ar' ? (films[0].director_ar || director) : director
+      const title = `${dirName}: ${SPOTLIGHT_LABEL[locale]}`
+      const description = `${films.length} ${FILMS_LABEL[locale]} · ${ALL_FILMS_LABEL[locale]}`
+      const filmList = sorted.map((m, i) => {
+        const mTitle = locale === 'ar' ? m.title_ar : m.title
+        return `${i + 1}. **${mTitle}** (${m.year}) — ${m.rating_overall}/10`
+      }).join('\n')
+
+      const content = `## ${title}\n\n${filmList}`
+      i18n[locale] = { title, description, category: FILMS_CAT[locale], content }
+    }
+
+    posts.push({ slug, date: `2026-05-${String(13 - (posts.length % 5)).padStart(2, '0')}`, readTime: 5, image, i18n, movieSlug: sorted[0].slug })
+  }
+
+  return posts
+}
+
+let _autoPosts: BlogPost[] | null = null
+
+function getAutoBlogPosts(): BlogPost[] {
+  if (_autoPosts) return _autoPosts
+  _autoPosts = [...generateGenrePosts(), ...generateDirectorPosts()]
+  return _autoPosts
+}
+
+export function getAllBlogPosts(): BlogPost[] {
+  return [...BLOG_POSTS, ...getAutoBlogPosts()]
+}
 
 export function getPostOfDay(): BlogPost {
   const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000)
@@ -327,7 +522,7 @@ export function getRecentPosts(limit: number = 6): BlogPost[] {
 }
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((p) => p.slug === slug)
+  return getAllBlogPosts().find((p) => p.slug === slug)
 }
 
 export function getPostData(post: BlogPost, locale: string) {
