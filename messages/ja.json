@@ -15,7 +15,9 @@
     "language": "言語",
     "blog": "ブログ",
     "watchlist": "★ リスト",
-    "directors": "監督"
+    "directors": "監督",
+    "movieOfDay": "🎬 毎日",
+    "actors": "俳優"
   },
   "home": {
     "heroTitle": "映画の世界を発見する",
@@ -134,5 +136,28 @@
     "noFilms": "この年の映画が見つかりません",
     "backToYears": "すべての年",
     "yearsTitle": "年別映画"
+  },
+  "movieOfDay": {
+    "title": "今日の映画",
+    "subtitle": "毎日あなたのために選ばれた新しい映画",
+    "whyToday": "なぜ今日この映画？",
+    "readFullReview": "完全なレビューを読む",
+    "previousFilms": "過去の映画"
+  },
+  "genreTop": {
+    "titlePrefix": "最高の",
+    "subtitle": "評価順に並べた映画",
+    "topLabel": "高評価"
+  },
+  "filter": {
+    "minRating": "評価",
+    "language": "言語",
+    "en": "英語",
+    "ko": "韓国語",
+    "ja": "日本語",
+    "ar": "アラビア語",
+    "fr": "フランス語",
+    "it": "イタリア語",
+    "tr": "トルコ語"
   }
 }

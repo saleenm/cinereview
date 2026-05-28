@@ -10370,6 +10370,7 @@ export const MOVIES: Movie[] = [
     cons_en: ['Slow pacing in some scenes', 'Requires close attention'],
   },
 
+
 ]
 
 // Maps language filter keys to the various values used in movie data
@@ -10501,4 +10502,31 @@ export function getMovieDescription(movie: Movie, locale: string): string {
   }
   const key = map[locale] || 'description_en'
   return (movie[key] as string) || movie.description_en
+}
+
+export interface Actor {
+  slug: string
+  name: string
+  movies: Movie[]
+}
+
+export function getAllActors(): Actor[] {
+  const map = new Map<string, Actor>()
+  for (const movie of MOVIES) {
+    for (const name of movie.cast) {
+      if (!name) continue
+      const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+      if (!map.has(slug)) {
+        map.set(slug, { slug, name, movies: [] })
+      }
+      map.get(slug)!.movies.push(movie)
+    }
+  }
+  return Array.from(map.values())
+    .filter((a) => a.movies.length >= 2)
+    .sort((a, b) => b.movies.length - a.movies.length)
+}
+
+export function getActorBySlug(slug: string): Actor | undefined {
+  return getAllActors().find((a) => a.slug === slug)
 }

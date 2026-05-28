@@ -15,7 +15,9 @@
     "language": "Dil",
     "blog": "Blog",
     "watchlist": "★ Listem",
-    "directors": "Yönetmenler"
+    "directors": "Yönetmenler",
+    "movieOfDay": "🎬 Günlük",
+    "actors": "Oyuncular"
   },
   "home": {
     "heroTitle": "Sinema Dünyasını Keşfet",
@@ -134,5 +136,28 @@
     "noFilms": "Bu yıl için film bulunamadı",
     "backToYears": "Tüm yıllar",
     "yearsTitle": "Yıla göre filmler"
+  },
+  "movieOfDay": {
+    "title": "Günün Filmi",
+    "subtitle": "Her gün sizin için seçilen yeni bir film",
+    "whyToday": "Neden bugün bu film?",
+    "readFullReview": "Tam incelemeyi oku",
+    "previousFilms": "Önceki günlerin filmleri"
+  },
+  "genreTop": {
+    "titlePrefix": "En İyi",
+    "subtitle": "Puana göre sıralanmış filmler",
+    "topLabel": "En Yüksek Puanlı"
+  },
+  "filter": {
+    "minRating": "Puan",
+    "language": "Dil",
+    "en": "İngilizce",
+    "ko": "Korece",
+    "ja": "Japonca",
+    "ar": "Arapça",
+    "fr": "Fransızca",
+    "it": "İtalyanca",
+    "tr": "Türkçe"
   }
 }

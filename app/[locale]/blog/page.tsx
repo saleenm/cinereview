@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { BLOG_POSTS, getPostOfDay, getPostData } from '@/lib/blog'
+import { getAllBlogPosts, getPostOfDay, getPostData } from '@/lib/blog'
 import { LOCALES } from '@/lib/types'
 
 interface Props { params: Promise<{ locale: string }> }
@@ -35,11 +35,12 @@ export default async function BlogPage({ params }: Props) {
   const postOfDay = getPostOfDay()
   const postOfDayData = getPostData(postOfDay, locale)
 
+  const allPosts = getAllBlogPosts()
   // All posts except post of day
-  const otherPosts = BLOG_POSTS.filter((p) => p.slug !== postOfDay.slug)
+  const otherPosts = allPosts.filter((p) => p.slug !== postOfDay.slug)
 
   // Unique categories
-  const categories = [...new Set(BLOG_POSTS.map((p) => getPostData(p, locale).category))]
+  const categories = [...new Set(allPosts.map((p) => getPostData(p, locale).category))]
 
   return (
     <>
@@ -148,7 +149,7 @@ export default async function BlogPage({ params }: Props) {
                 </h3>
                 <div className="space-y-2">
                   {categories.map((cat) => {
-                    const count = BLOG_POSTS.filter((p) => getPostData(p, locale).category === cat).length
+                    const count = allPosts.filter((p) => getPostData(p, locale).category === cat).length
                     return (
                       <div key={cat} className="flex items-center justify-between py-2 border-b border-gray-800 last:border-0">
                         <span className="text-gray-300 text-sm">{cat}</span>
@@ -165,7 +166,7 @@ export default async function BlogPage({ params }: Props) {
                   📋 {isRTL ? 'كل المقالات' : 'All Posts'}
                 </h3>
                 <div className="space-y-3">
-                  {BLOG_POSTS.map((post) => {
+                  {allPosts.map((post) => {
                     const d = getPostData(post, locale)
                     return (
                       <Link key={post.slug} href={`/${locale}/blog/${post.slug}`}

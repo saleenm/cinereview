@@ -11,6 +11,8 @@ import RatingCircle from '@/components/RatingCircle'
 import MovieCard from '@/components/MovieCard'
 import ReviewSection from '@/components/ReviewSection'
 import WatchlistButton from '@/components/WatchlistButton'
+import ShareButton from '@/components/ShareButton'
+import WhereToWatch from '@/components/WhereToWatch'
 import AdUnit from '@/components/AdUnit'
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 
@@ -30,7 +32,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description: desc,
-    openGraph: { title, description: desc, type: 'article' },
+    openGraph: {
+      title,
+      description: desc,
+      type: 'article',
+      images: [{ url: movie.poster_url, width: 500, height: 750, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: desc,
+      images: [movie.backdrop_url || movie.poster_url],
+    },
   }
 }
 
@@ -225,6 +238,12 @@ export default async function MoviePage({ params }: Props) {
 
               {/* Watchlist */}
               <WatchlistButton slug={movie.slug} title={movie.title} />
+
+              {/* Share */}
+              <ShareButton title={isRTL ? movie.title_ar : movie.title} />
+
+              {/* Where to watch */}
+              <WhereToWatch title={movie.title} year={movie.year} locale={locale} />
             </div>
 
             {/* ── RIGHT: Main Content ── */}

@@ -7,24 +7,45 @@ import { getMovies } from '@/lib/movies'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
 import AdUnit from '@/components/AdUnit'
 
-interface Props { params: Promise<{ locale: string }>; searchParams: Promise<{ genre?: string; sort?: string; decade?: string }> }
+interface Props { params: Promise<{ locale: string }>; searchParams: Promise<{ genre?: string; sort?: string; decade?: string; rating?: string; lang?: string }> }
 
 const DECADES = ['1940', '1950', '1960', '1970', '1980', '1990', '2000', '2010', '2020']
 
+const RATING_OPTIONS = [
+  { value: '7', label: '7+' },
+  { value: '8', label: '8+' },
+  { value: '9', label: '9+' },
+]
+
+const LANG_OPTIONS = [
+  { value: 'en', flag: '🇺🇸' },
+  { value: 'ko', flag: '🇰🇷' },
+  { value: 'ja', flag: '🇯🇵' },
+  { value: 'ar', flag: '🇸🇦' },
+  { value: 'fr', flag: '🇫🇷' },
+  { value: 'it', flag: '🇮🇹' },
+  { value: 'tr', flag: '🇹🇷' },
+]
+
 export default async function MoviesPage({ params, searchParams }: Props) {
   const { locale } = await params
-  const { genre: qGenre, sort: qSort, decade: qDecade } = await searchParams
+  const { genre: qGenre, sort: qSort, decade: qDecade, rating: qRating, lang: qLang } = await searchParams
   const t = await getTranslations('home')
   const tg = await getTranslations('genres')
+  const tf = await getTranslations('filter')
 
   const activeGenre = qGenre || 'all'
   const activeSort = (qSort as any) || 'rating'
   const activeDecade = qDecade || 'all'
+  const activeRating = qRating || 'all'
+  const activeLang = qLang || 'all'
 
   const movies = getMovies({
     genre: activeGenre === 'all' ? undefined : activeGenre,
     sort: activeSort,
     decade: activeDecade === 'all' ? undefined : activeDecade,
+    minRating: activeRating !== 'all' ? parseFloat(activeRating) : undefined,
+    language: activeLang === 'all' ? undefined : activeLang,
   })
 
   const sortOptions = [
@@ -37,6 +58,8 @@ export default async function MoviesPage({ params, searchParams }: Props) {
       ...(activeGenre !== 'all' ? { genre: activeGenre } : {}),
       ...(activeSort !== 'rating' ? { sort: activeSort } : {}),
       ...(activeDecade !== 'all' ? { decade: activeDecade } : {}),
+      ...(activeRating !== 'all' ? { rating: activeRating } : {}),
+      ...(activeLang !== 'all' ? { lang: activeLang } : {}),
       ...params,
     }
     const qs = Object.entries(merged).filter(([, v]) => v && v !== 'all').map(([k, v]) => `${k}=${v}`).join('&')
@@ -106,6 +129,62 @@ export default async function MoviesPage({ params, searchParams }: Props) {
               }`}
             >
               {d}s
+            </Link>
+          ))}
+        </div>
+
+        {/* Rating Filter */}
+        <div className="flex flex-wrap gap-2 mb-4">
+          <span className="text-gray-500 text-sm self-center">{tf('minRating')}:</span>
+          <Link
+            href={buildUrl({ rating: 'all' })}
+            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors border ${
+              activeRating === 'all'
+                ? 'bg-amber-500/20 text-amber-400 border-amber-500/50'
+                : 'bg-gray-800 text-gray-400 border-gray-700 hover:text-white'
+            }`}
+          >
+            {tg('all')}
+          </Link>
+          {RATING_OPTIONS.map((r) => (
+            <Link
+              key={r.value}
+              href={buildUrl({ rating: r.value })}
+              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors border ${
+                activeRating === r.value
+                  ? 'bg-amber-500/20 text-amber-400 border-amber-500/50'
+                  : 'bg-gray-800 text-gray-400 border-gray-700 hover:text-white'
+              }`}
+            >
+              ⭐ {r.label}
+            </Link>
+          ))}
+        </div>
+
+        {/* Language Filter */}
+        <div className="flex flex-wrap gap-2 mb-4">
+          <span className="text-gray-500 text-sm self-center">{tf('language')}:</span>
+          <Link
+            href={buildUrl({ lang: 'all' })}
+            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors border ${
+              activeLang === 'all'
+                ? 'bg-blue-500/20 text-blue-400 border-blue-500/50'
+                : 'bg-gray-800 text-gray-400 border-gray-700 hover:text-white'
+            }`}
+          >
+            {tg('all')}
+          </Link>
+          {LANG_OPTIONS.map((l) => (
+            <Link
+              key={l.value}
+              href={buildUrl({ lang: l.value })}
+              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors border ${
+                activeLang === l.value
+                  ? 'bg-blue-500/20 text-blue-400 border-blue-500/50'
+                  : 'bg-gray-800 text-gray-400 border-gray-700 hover:text-white'
+              }`}
+            >
+              {l.flag} {tf(l.value)}
             </Link>
           ))}
         </div>

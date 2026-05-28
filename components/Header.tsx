@@ -6,6 +6,7 @@ import { usePathname, useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { LOCALE_NAMES } from '@/lib/types'
 import SearchBar from './SearchBar'
+import ThemeToggle from './ThemeToggle'
 
 interface Props {
   locale: string
@@ -34,7 +35,9 @@ export default function Header({ locale }: Props) {
     { href: `/${locale}/genre/all`, label: t('genres') },
     { href: `/${locale}/blog`, label: t('blog') },
     { href: `/${locale}/directors`, label: t('directors') },
+    { href: `/${locale}/actors`, label: t('actors') },
     { href: `/${locale}/watchlist`, label: t('watchlist') },
+    { href: `/${locale}/movie-of-day`, label: t('movieOfDay') },
   ]
 
   return (
@@ -88,6 +91,9 @@ export default function Header({ locale }: Props) {
               </div>
             )}
           </div>
+
+          {/* Theme Toggle */}
+          <ThemeToggle />
 
           {/* Mobile Menu Button */}
           <button

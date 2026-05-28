@@ -7,6 +7,7 @@ import { LOCALES } from '@/lib/types'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import MovieCard from '@/components/MovieCard'
+import AdUnit from '@/components/AdUnit'
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 
 interface Props { params: Promise<{ locale: string; slug: string }> }
@@ -102,11 +103,21 @@ export default async function DirectorPage({ params }: Props) {
           </div>
         </div>
 
+        {/* Ad */}
+        <AdUnit slot="2345678901" format="horizontal" className="rounded-xl overflow-hidden mb-8" />
+
         {/* Films Grid */}
         <h2 className="text-xl font-black text-white mb-5">{t('allFilms')}</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          {sorted.map((movie) => (
-            <MovieCard key={movie.slug} movie={movie} locale={locale} />
+          {sorted.map((movie, i) => (
+            <>
+              <MovieCard key={movie.slug} movie={movie} locale={locale} />
+              {i === 9 && (
+                <div key="ad" className="col-span-2 sm:col-span-3 md:col-span-4 lg:col-span-5">
+                  <AdUnit slot="3456789012" format="horizontal" className="rounded-xl overflow-hidden" />
+                </div>
+              )}
+            </>
           ))}
         </div>
       </main>

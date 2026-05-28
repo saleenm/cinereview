@@ -2,7 +2,41 @@
 
 :root {
   --font-cairo: 'Cairo', sans-serif;
+  --bg-page: #030712;
+  --bg-card: #111827;
+  --bg-card2: #1f2937;
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --border-color: #1f2937;
 }
+
+/* Light mode overrides */
+[data-theme="light"] {
+  --bg-page: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-card2: #f8fafc;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-color: #e2e8f0;
+}
+
+[data-theme="light"] body {
+  background-color: var(--bg-page) !important;
+  color: var(--text-primary) !important;
+}
+
+[data-theme="light"] .bg-gray-950 { background-color: var(--bg-page) !important; }
+[data-theme="light"] .bg-gray-900 { background-color: var(--bg-card) !important; }
+[data-theme="light"] .bg-gray-800 { background-color: var(--bg-card2) !important; }
+[data-theme="light"] .border-gray-800 { border-color: var(--border-color) !important; }
+[data-theme="light"] .border-gray-700 { border-color: #cbd5e1 !important; }
+[data-theme="light"] .text-gray-100 { color: var(--text-primary) !important; }
+[data-theme="light"] .text-gray-400 { color: var(--text-secondary) !important; }
+[data-theme="light"] .text-gray-500 { color: #64748b !important; }
+[data-theme="light"] .text-gray-600 { color: #475569 !important; }
+[data-theme="light"] .text-white { color: #0f172a !important; }
+[data-theme="light"] ::-webkit-scrollbar-track { background: #e2e8f0; }
+[data-theme="light"] ::-webkit-scrollbar-thumb { background: #94a3b8; }
 
 [dir="rtl"] {
   font-family: var(--font-cairo), sans-serif;

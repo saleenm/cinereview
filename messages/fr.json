@@ -15,7 +15,9 @@
     "language": "Langue",
     "blog": "Blog",
     "watchlist": "★ Ma liste",
-    "directors": "Réalisateurs"
+    "directors": "Réalisateurs",
+    "movieOfDay": "🎬 Quotidien",
+    "actors": "Acteurs"
   },
   "home": {
     "heroTitle": "Découvrez le Monde du Cinéma",
@@ -134,5 +136,28 @@
     "noFilms": "Aucun film trouvé pour cette année",
     "backToYears": "Toutes les années",
     "yearsTitle": "Films par année"
+  },
+  "movieOfDay": {
+    "title": "Film du Jour",
+    "subtitle": "Un nouveau film choisi pour vous chaque jour",
+    "whyToday": "Pourquoi ce film aujourd'hui?",
+    "readFullReview": "Lire la critique complète",
+    "previousFilms": "Films des jours précédents"
+  },
+  "genreTop": {
+    "titlePrefix": "Meilleurs",
+    "subtitle": "Films les mieux notés",
+    "topLabel": "Mieux notés"
+  },
+  "filter": {
+    "minRating": "Note",
+    "language": "Langue",
+    "en": "Anglais",
+    "ko": "Coréen",
+    "ja": "Japonais",
+    "ar": "Arabe",
+    "fr": "Français",
+    "it": "Italien",
+    "tr": "Turc"
   }
 }

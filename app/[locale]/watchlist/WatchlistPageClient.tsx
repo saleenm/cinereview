@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
+const FALLBACK_POSTER = 'https://image.tmdb.org/t/p/w500/wwemzKWzjKYJFfCeiB57q3r4Bcm.png'
+
 interface Movie {
   slug: string
   title: string
@@ -11,6 +13,21 @@ interface Movie {
   year: number
   poster_url: string
   rating_overall: number
+}
+
+function WatchlistImage({ src, alt }: { src: string; alt: string }) {
+  const [imgSrc, setImgSrc] = useState(src || FALLBACK_POSTER)
+  return (
+    <Image
+      src={imgSrc}
+      alt={alt}
+      fill
+      className="object-cover group-hover:scale-105 transition-transform duration-300"
+      sizes="(max-width:640px) 50vw, 25vw"
+      onError={() => setImgSrc(FALLBACK_POSTER)}
+      unoptimized={imgSrc.includes('wikimedia') || imgSrc.includes('imgur')}
+    />
+  )
 }
 
 export default function WatchlistPageClient({ locale }: { locale: string }) {
@@ -65,9 +82,9 @@ export default function WatchlistPageClient({ locale }: { locale: string }) {
             <div key={m.slug} className="relative group">
               <Link href={`/${locale}/movies/${m.slug}`}>
                 <div className="relative aspect-[2/3] rounded-xl overflow-hidden bg-gray-800">
-                  <Image src={m.poster_url} alt={m.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="(max-width:640px) 50vw, 25vw" />
+                  <WatchlistImage src={m.poster_url} alt={m.title} />
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-950/80 to-transparent" />
-                  <div className="absolute bottom-2 start-2 text-amber-400 font-black text-sm">{m.rating_overall}</div>
+                  <div className="absolute bottom-2 start-2 bg-amber-500 text-gray-950 font-black text-xs px-2 py-0.5 rounded-md">★ {m.rating_overall}</div>
                 </div>
                 <p className="mt-2 text-sm font-semibold text-gray-300 truncate">
                   {isRTL ? m.title_ar : m.title}

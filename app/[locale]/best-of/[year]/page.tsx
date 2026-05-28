@@ -7,6 +7,7 @@ import { LOCALES } from '@/lib/types'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import MovieCard from '@/components/MovieCard'
+import AdUnit from '@/components/AdUnit'
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 
 interface Props { params: Promise<{ locale: string; year: string }> }
@@ -20,10 +21,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, year } = await params
   const t = await getTranslations('bestOf')
   const title = `${t('title')} ${year}`
+  const movies = getMoviesByYear(parseInt(year))
+  const topPoster = movies[0]?.backdrop_url || movies[0]?.poster_url
   return {
     title,
     description: `${title} — ${t('subtitle')}`,
-    openGraph: { title, type: 'website' },
+    openGraph: {
+      title,
+      type: 'website',
+      ...(topPoster ? { images: [{ url: topPoster }] } : {}),
+    },
   }
 }
 
@@ -83,7 +90,31 @@ export default async function BestOfYearPage({ params }: Props) {
           <span className="text-white">{year}</span>
         </nav>
 
-        <div className="flex items-center justify-between mb-8">
+        {/* Stats bar */}
+        {movies.length > 0 && (() => {
+          const avg = (movies.reduce((s, m) => s + m.rating_overall, 0) / movies.length).toFixed(1)
+          const topGenres = Object.entries(
+            movies.flatMap(m => m.genres).reduce((acc: Record<string, number>, g) => { acc[g] = (acc[g] || 0) + 1; return acc }, {})
+          ).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([g]) => g)
+          return (
+            <div className="grid grid-cols-3 gap-4 mb-8">
+              <div className="bg-gray-900 border border-gray-800 rounded-2xl p-4 text-center">
+                <div className="text-2xl font-black text-amber-400">{movies.length}</div>
+                <div className="text-gray-500 text-xs mt-1">{isRTL ? 'فيلم' : 'Films'}</div>
+              </div>
+              <div className="bg-gray-900 border border-gray-800 rounded-2xl p-4 text-center">
+                <div className="text-2xl font-black text-green-400">⭐ {avg}</div>
+                <div className="text-gray-500 text-xs mt-1">{isRTL ? 'متوسط التقييم' : 'Avg Rating'}</div>
+              </div>
+              <div className="bg-gray-900 border border-gray-800 rounded-2xl p-4 text-center">
+                <div className="text-sm font-bold text-blue-400 leading-tight">{topGenres.join(' · ')}</div>
+                <div className="text-gray-500 text-xs mt-1">{isRTL ? 'أبرز الأنواع' : 'Top Genres'}</div>
+              </div>
+            </div>
+          )
+        })()}
+
+        <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="text-3xl font-black text-white mb-1">📅 {t('title')} {year}</h1>
             <p className="text-gray-500">{movies.length} {isRTL ? 'فيلم' : 'films'} · {t('subtitle')}</p>
@@ -104,6 +135,9 @@ export default async function BestOfYearPage({ params }: Props) {
             )}
           </div>
         </div>
+
+        {/* Ad */}
+        <AdUnit slot="5678901234" format="horizontal" className="rounded-xl overflow-hidden mb-8" />
 
         {movies.length === 0 ? (
           <div className="text-center py-20 text-gray-500">

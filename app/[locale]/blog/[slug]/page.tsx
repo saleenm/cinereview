@@ -3,17 +3,19 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
-import { BLOG_POSTS, getPostBySlug, getPostData } from '@/lib/blog'
+import { getAllBlogPosts, getPostBySlug, getPostData } from '@/lib/blog'
 import { getMovieBySlug } from '@/lib/movies'
 import { LOCALES } from '@/lib/types'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import AdUnit from '@/components/AdUnit'
 
 interface Props { params: Promise<{ locale: string; slug: string }> }
 
 export async function generateStaticParams() {
+  const allPosts = getAllBlogPosts()
   return LOCALES.flatMap((locale) =>
-    BLOG_POSTS.map((p) => ({ locale, slug: p.slug }))
+    allPosts.map((p) => ({ locale, slug: p.slug }))
   )
 }
 
@@ -72,7 +74,7 @@ export default async function BlogPostPage({ params }: Props) {
   const relatedMovie = post.movieSlug ? getMovieBySlug(post.movieSlug) : null
 
   // Other posts for "more articles"
-  const morePosts = BLOG_POSTS.filter((p) => p.slug !== slug).slice(0, 3)
+  const morePosts = getAllBlogPosts().filter((p) => p.slug !== slug).slice(0, 3)
 
   const htmlContent = renderMarkdown(d.content)
 
@@ -126,6 +128,9 @@ export default async function BlogPostPage({ params }: Props) {
                   <span>✍️ CineReview</span>
                 </div>
               </div>
+
+              {/* Ad — before content */}
+              <AdUnit slot="4567890123" format="horizontal" className="rounded-xl overflow-hidden mb-6" />
 
               {/* Content */}
               <div
