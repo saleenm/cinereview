@@ -7,7 +7,9 @@ import { getMovies } from '@/lib/movies'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
 import AdUnit from '@/components/AdUnit'
 
-interface Props { params: Promise<{ locale: string }>; searchParams: Promise<{ genre?: string; sort?: string; decade?: string; rating?: string; lang?: string }> }
+const PER_PAGE = 48
+
+interface Props { params: Promise<{ locale: string }>; searchParams: Promise<{ genre?: string; sort?: string; decade?: string; rating?: string; lang?: string; page?: string }> }
 
 const DECADES = ['1940', '1950', '1960', '1970', '1980', '1990', '2000', '2010', '2020']
 
@@ -29,7 +31,7 @@ const LANG_OPTIONS = [
 
 export default async function MoviesPage({ params, searchParams }: Props) {
   const { locale } = await params
-  const { genre: qGenre, sort: qSort, decade: qDecade, rating: qRating, lang: qLang } = await searchParams
+  const { genre: qGenre, sort: qSort, decade: qDecade, rating: qRating, lang: qLang, page: qPage } = await searchParams
   const t = await getTranslations('home')
   const tg = await getTranslations('genres')
   const tf = await getTranslations('filter')
@@ -39,14 +41,17 @@ export default async function MoviesPage({ params, searchParams }: Props) {
   const activeDecade = qDecade || 'all'
   const activeRating = qRating || 'all'
   const activeLang = qLang || 'all'
+  const activePage = Math.max(1, parseInt(qPage || '1'))
 
-  const movies = getMovies({
+  const allFiltered = getMovies({
     genre: activeGenre === 'all' ? undefined : activeGenre,
     sort: activeSort,
     decade: activeDecade === 'all' ? undefined : activeDecade,
     minRating: activeRating !== 'all' ? parseFloat(activeRating) : undefined,
     language: activeLang === 'all' ? undefined : activeLang,
   })
+  const totalPages = Math.ceil(allFiltered.length / PER_PAGE)
+  const movies = allFiltered.slice((activePage - 1) * PER_PAGE, activePage * PER_PAGE)
 
   const sortOptions = [
     { value: 'rating', label: t('topRatedTitle') },
@@ -62,9 +67,10 @@ export default async function MoviesPage({ params, searchParams }: Props) {
       ...(activeLang !== 'all' ? { lang: activeLang } : {}),
       ...params,
     }
-    const qs = Object.entries(merged).filter(([, v]) => v && v !== 'all').map(([k, v]) => `${k}=${v}`).join('&')
+    const qs = Object.entries(merged).filter(([, v]) => v && v !== 'all' && v !== '1').map(([k, v]) => `${k}=${v}`).join('&')
     return `/${locale}/movies${qs ? '?' + qs : ''}`
   }
+  const isRTL = locale === 'ar'
 
   return (
     <>
@@ -75,7 +81,7 @@ export default async function MoviesPage({ params, searchParams }: Props) {
           <h1 className="text-3xl font-black text-white mb-2">
             🎞️ {t('allFilms')}
           </h1>
-          <p className="text-gray-500">{movies.length} {t('filmsUnit')}</p>
+          <p className="text-gray-500">{allFiltered.length} {t('filmsUnit')}</p>
         </div>
 
         {/* Genre Filters */}
@@ -221,6 +227,34 @@ export default async function MoviesPage({ params, searchParams }: Props) {
           </div>
         )}
         <AdUnit slot="0987654321" format="horizontal" className="mt-8" />
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="flex justify-center items-center gap-2 mt-10">
+            {activePage > 1 && (
+              <Link href={buildUrl({ page: String(activePage - 1) })}
+                className="px-4 py-2 bg-gray-800 text-white rounded-xl hover:bg-gray-700 transition-colors text-sm">
+                {isRTL ? '→' : '←'}
+              </Link>
+            )}
+            {Array.from({ length: Math.min(7, totalPages) }, (_, i) => {
+              const p = activePage <= 4 ? i + 1 : activePage >= totalPages - 3 ? totalPages - 6 + i : activePage - 3 + i
+              if (p < 1 || p > totalPages) return null
+              return (
+                <Link key={p} href={buildUrl({ page: String(p) })}
+                  className={`w-9 h-9 flex items-center justify-center rounded-xl text-sm font-bold transition-colors ${activePage === p ? 'bg-amber-500 text-gray-950' : 'bg-gray-800 text-gray-400 hover:bg-gray-700'}`}>
+                  {p}
+                </Link>
+              )
+            })}
+            {activePage < totalPages && (
+              <Link href={buildUrl({ page: String(activePage + 1) })}
+                className="px-4 py-2 bg-gray-800 text-white rounded-xl hover:bg-gray-700 transition-colors text-sm">
+                {isRTL ? '←' : '→'}
+              </Link>
+            )}
+          </div>
+        )}
       </main>
       <Footer locale={locale} />
     </>
