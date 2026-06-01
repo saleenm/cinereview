@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next'
-import { getAllSlugs, getAllDirectors, getAvailableYears } from '@/lib/movies'
+import { getAllSlugs, getAllDirectors, getAvailableYears, getAllActors } from '@/lib/movies'
 import { getAllBlogPosts } from '@/lib/blog'
+import { COLLECTIONS } from '@/lib/collections'
 import { GENRE_KEYS, LOCALES } from '@/lib/types'
 
-const BASE_URL = 'https://cinereview-mu.vercel.app'
+const BASE_URL = 'https://cinereview-ar.vercel.app'
 
 function localizedUrls(path: string, priority: number, changeFreq: MetadataRoute.Sitemap[0]['changeFrequency']) {
   return LOCALES.map((locale) => ({
@@ -16,6 +17,7 @@ function localizedUrls(path: string, priority: number, changeFreq: MetadataRoute
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const slugs = getAllSlugs()
+  const actors = getAllActors()
 
   return [
     // Home pages
@@ -24,8 +26,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...localizedUrls('/movie-of-day', 0.9, 'daily'),
     // Movies index
     ...localizedUrls('/movies', 0.9, 'daily'),
+    // Search
+    ...localizedUrls('/search', 0.8, 'daily'),
     // Top rated
-    ...localizedUrls('/top-rated', 0.8, 'weekly'),
+    ...localizedUrls('/top-rated', 0.9, 'weekly'),
     // Genre pages
     ...GENRE_KEYS.flatMap((g) => localizedUrls(`/genre/${g}`, 0.7, 'weekly')),
     // Genre top pages
@@ -34,15 +38,25 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...slugs.flatMap((slug) => localizedUrls(`/movies/${slug}`, 0.9, 'weekly')),
     // Blog index
     ...localizedUrls('/blog', 0.8, 'daily'),
-    // Blog posts (manual + auto-generated)
+    // Blog posts
     ...getAllBlogPosts().flatMap((p) => localizedUrls(`/blog/${p.slug}`, 0.7, 'weekly')),
-    // Directors list
+    // Directors
     ...localizedUrls('/directors', 0.8, 'weekly'),
-    // Individual director pages
     ...getAllDirectors().flatMap((d) => localizedUrls(`/director/${d.slug}`, 0.7, 'monthly')),
-    // Best-of years index
+    // Actors
+    ...localizedUrls('/actors', 0.8, 'weekly'),
+    ...actors.flatMap((a) => localizedUrls(`/actor/${a.slug}`, 0.7, 'monthly')),
+    // Best-of years
     ...localizedUrls('/best-of', 0.8, 'monthly'),
-    // Best-of year pages
     ...getAvailableYears().flatMap((y) => localizedUrls(`/best-of/${y}`, 0.7, 'monthly')),
+    // Collections
+    ...COLLECTIONS.map((c) => localizedUrls(`/collection/${c.slug}`, 0.8, 'weekly')).flat(),
+    // Compare, lists, map, podcast
+    ...localizedUrls('/compare', 0.7, 'monthly'),
+    ...localizedUrls('/list/create', 0.6, 'monthly'),
+    ...localizedUrls('/map', 0.7, 'monthly'),
+    ...localizedUrls('/podcast', 0.7, 'weekly'),
+    ...localizedUrls('/profile', 0.5, 'monthly'),
+    ...localizedUrls('/watchlist', 0.6, 'monthly'),
   ]
 }
