@@ -30,8 +30,7 @@ const GEMINI_KEY = process.env.GEMINI_API_KEY
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY
 
 if (!GEMINI_KEY && !OPENROUTER_KEY) {
-  console.error('❌ لا يوجد مفتاح AI — أضف GEMINI_API_KEY أو OPENROUTER_API_KEY')
-  process.exit(1)
+  console.warn('⚠️ لا يوجد مفتاح AI — سيتم استخدام القالب الافتراضي')
 }
 
 // ── Post types ────────────────────────────────────────────────────────────────
@@ -150,13 +149,16 @@ async function callGemini(prompt) {
 }
 
 async function callOpenRouter(prompt) {
-  // Try free models — updated 2026-05-28
+  // Try free models — updated 2026-06-01
   const models = [
     'google/gemma-4-31b-it:free',
     'deepseek/deepseek-v4-flash:free',
     'moonshotai/kimi-k2.6:free',
     'openai/gpt-oss-120b:free',
     'qwen/qwen3-next-80b-a3b-instruct:free',
+    'meta-llama/llama-4-maverick:free',
+    'microsoft/phi-4-reasoning-plus:free',
+    'mistralai/mistral-small-3.2-24b-instruct:free',
   ]
   for (const model of models) {
     try {
@@ -262,7 +264,58 @@ Requirements:
     parsed = JSON.parse(match[0])
   }
 
-  return { parsed, today }
+  return { parsed }
+}
+
+// ── Template fallback (no AI needed) ─────────────────────────────────────────
+function generateTemplate(movie, postType, today) {
+  const slug = `${movie.slug}-${postType.replace(/_/g, '-')}-${today.slice(0, 7)}`
+  const rating = movie.rating
+  const stars = rating >= 9 ? '⭐⭐⭐⭐⭐' : rating >= 8 ? '⭐⭐⭐⭐' : '⭐⭐⭐'
+
+  const templates = {
+    ar: {
+      deep_review: {
+        title: `${movie.title_ar || movie.title}: مراجعة سينمائية معمّقة`,
+        description: `تحليل شامل لفيلم ${movie.title_ar || movie.title} (${movie.year}) — القصة، الأداء، الإخراج، والقيمة السينمائية`,
+        category: 'مراجعة سينمائية',
+        content: `## ${movie.title_ar || movie.title} — تحفة سينمائية\n\n**المخرج:** ${movie.director}\n**السنة:** ${movie.year}\n**التقييم:** ${rating}/10 ${stars}\n\n## القصة والسرد\n\nيقدم فيلم **${movie.title_ar || movie.title}** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج ${movie.director} كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع ${movie.director} أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **${movie.title_ar || movie.title}** مكانته بين أبرز أفلام **${movie.year}**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+    },
+    en: {
+      deep_review: {
+        title: `${movie.title}: A Deep Cinematic Analysis`,
+        description: `An in-depth look at ${movie.title} (${movie.year}) by ${movie.director} — story, performances, direction, and cinematic legacy`,
+        category: 'Film Analysis',
+        content: `## ${movie.title} — A Cinematic Masterpiece\n\n**Director:** ${movie.director}\n**Year:** ${movie.year}\n**Rating:** ${rating}/10 ${stars}\n\n## Story & Narrative\n\n**${movie.title}** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director ${movie.director} deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\n${movie.director} crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**${movie.title}** rightfully earns its place among the defining films of **${movie.year}**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+    },
+  }
+
+  const getContent = (lang, type) => {
+    const t = templates[lang]?.[type] || templates[lang]?.deep_review
+    if (t) return t
+    // Generic fallback for non-template languages
+    return {
+      title: templates.en[type]?.title || templates.en.deep_review.title,
+      description: templates.en[type]?.description || templates.en.deep_review.description,
+      category: { fr: 'Analyse', es: 'Análisis', tr: 'Analiz', de: 'Analyse', ja: '映画分析', pt: 'Análise' }[lang] || 'Analysis',
+      content: templates.en[type]?.content || templates.en.deep_review.content,
+    }
+  }
+
+  return {
+    slug,
+    readTime: 5,
+    ar: getContent('ar', postType),
+    en: getContent('en', postType),
+    fr: { ...getContent('en', postType), category: 'Analyse Cinématographique' },
+    es: { ...getContent('en', postType), category: 'Análisis Cinematográfico' },
+    tr: { ...getContent('en', postType), category: 'Film Analizi' },
+    de: { ...getContent('en', postType), category: 'Filmanalyse' },
+    ja: { ...getContent('en', postType), category: '映画分析' },
+    pt: { ...getContent('en', postType), category: 'Análise Cinematográfica' },
+  }
 }
 
 // ── Build TypeScript snippet for blog.ts ─────────────────────────────────────
@@ -337,15 +390,22 @@ async function main() {
   console.log(`📌 نوع المقالة: ${postType}`)
   console.log(`⭐ التقييم: ${movie.rating}`)
 
-  console.log('\n🤖 توليد المحتوى بالـ AI...')
-  let parsed, today
-  try {
-    const result = await generateBlogPost(movie, postType)
-    parsed = result.parsed
-    today = result.today
-  } catch (e) {
-    console.error(`❌ فشل توليد المحتوى: ${e.message}`)
-    process.exit(1)
+  const today = new Date().toISOString().split('T')[0]
+  let parsed
+
+  if (GEMINI_KEY || OPENROUTER_KEY) {
+    console.log('\n🤖 توليد المحتوى بالـ AI...')
+    try {
+      const result = await generateBlogPost(movie, postType)
+      parsed = result?.parsed
+    } catch (e) {
+      console.warn(`⚠️ فشل AI: ${e.message} — استخدام القالب الافتراضي`)
+    }
+  }
+
+  if (!parsed) {
+    console.log('\n📄 استخدام القالب الافتراضي (بدون AI)...')
+    parsed = generateTemplate(movie, postType, today)
   }
 
   console.log(`✅ تم التوليد: "${parsed.en?.title || parsed.slug}"`)

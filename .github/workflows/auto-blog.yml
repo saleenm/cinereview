@@ -18,17 +18,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Create .env.local
-        run: |
-          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> .env.local
-          echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" >> .env.local
-          echo "NEXT_PUBLIC_SUPABASE_URL=${{ secrets.SUPABASE_URL }}" >> .env.local
-          echo "NEXT_PUBLIC_SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }}" >> .env.local
+        run: npm ci --prefer-offline || npm install
 
       - name: Generate blog post
         run: node scripts/auto-blog.mjs
@@ -41,8 +35,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add lib/blog.ts
-          git diff --staged --quiet || git commit -m "📝 auto-blog: new post [$(date +'%Y-%m-%d')]"
-          git push
+          if git diff --staged --quiet; then
+            echo "⏭️ لا تغييرات جديدة في blog.ts"
+          else
+            git commit -m "📝 auto-blog: new post [$(date +'%Y-%m-%d')]"
+            git push
+          fi
 
       - name: Deploy to Vercel
         run: npx vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
