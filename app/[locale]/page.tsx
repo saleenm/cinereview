@@ -20,7 +20,19 @@ export default async function HomePage({ params }: Props) {
   const allMovies = getMovies()
   const featured = getMovies({ featured: true, limit: 6 })
   const topRated = getMovies({ sort: 'rating', limit: 8 })
+  const latestMovies = allMovies.slice(-24).reverse() // newest 24
   const latestPosts = getRecentPosts(3)
+
+  // Top 6 per key genre for rows
+  const genreRows = [
+    { genre: 'action', emoji: '💥' },
+    { genre: 'drama', emoji: '🎭' },
+    { genre: 'thriller', emoji: '😨' },
+    { genre: 'animation', emoji: '🎨' },
+  ].map(({ genre, emoji }) => ({
+    genre, emoji,
+    movies: getMovies({ genre: genre as any, sort: 'rating', limit: 8 }),
+  })).filter(r => r.movies.length >= 4)
 
   const movieCount = allMovies.length
   const stats = [
@@ -153,19 +165,42 @@ export default async function HomePage({ params }: Props) {
           </div>
         </section>
 
-        {/* ── ALL MOVIES GRID ── */}
+        {/* ── LATEST ADDITIONS ── */}
         <section className="max-w-7xl mx-auto px-4 py-12">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-xl font-black text-white flex items-center gap-2">
-              <span className="text-amber-400">🎞️</span> {t('allFilms')}
+              <span className="text-amber-400">🆕</span> {isRTL ? 'أحدث الإضافات' : 'Latest Additions'}
             </h2>
+            <Link href={`/${locale}/movies`} className="text-sm text-amber-400 hover:text-amber-300 transition-colors">
+              {t('allFilms')} ({movieCount}) →
+            </Link>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-            {getMovies().map((m) => (
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {latestMovies.map((m) => (
               <MovieCard key={m.slug} movie={m} locale={locale} />
             ))}
           </div>
         </section>
+
+        {/* ── GENRE ROWS ── */}
+        {genreRows.map(({ genre, emoji, movies }) => (
+          <section key={genre} className="max-w-7xl mx-auto px-4 py-8">
+            <div className="flex items-center justify-between mb-5">
+              <h2 className="text-lg font-black text-white flex items-center gap-2">
+                <span>{emoji}</span>
+                <span className="capitalize">{isRTL ? tg(genre as any) : genre.charAt(0).toUpperCase() + genre.slice(1)}</span>
+              </h2>
+              <Link href={`/${locale}/genre/${genre}`} className="text-sm text-amber-400 hover:text-amber-300 transition-colors">
+                {isRTL ? 'عرض الكل' : 'See all'} →
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-3">
+              {movies.map((m) => (
+                <MovieCard key={m.slug} movie={m} locale={locale} />
+              ))}
+            </div>
+          </section>
+        ))}
 
         {/* ── GENRES ── */}
         <section className="bg-gray-900/50 border-y border-gray-800 py-12">
