@@ -8,6 +8,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import RatingCircle from '@/components/RatingCircle'
 import WatchlistButton from '@/components/WatchlistButton'
+import PushNotificationButton from '@/components/PushNotificationButton'
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 
 interface Props { params: Promise<{ locale: string }> }
@@ -122,6 +123,7 @@ export default async function MovieOfDayPage({ params }: Props) {
 
               {/* Watchlist */}
               <WatchlistButton slug={movie.slug} title={movie.title} />
+              <PushNotificationButton locale={locale} />
 
               {/* Share */}
               <div className="bg-gray-900 border border-gray-800 rounded-2xl p-4">
