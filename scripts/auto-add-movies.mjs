@@ -21,8 +21,8 @@ const TRACKER_FILE = path.join(__dirname, 'added-movies.json')
 // ─── Load env ─────────────────────────────────────────────────────────────────
 function loadEnv() {
   const envPath = path.join(ROOT, '.env.local')
-  const lines = fs.readFileSync(envPath, 'utf8').split('\n')
-  for (const line of lines) {
+  if (!fs.existsSync(envPath)) return
+  for (const line of fs.readFileSync(envPath, 'utf8').split('\n')) {
     const m = line.match(/^([^#=]+)=(.*)$/)
     if (m) process.env[m[1].trim()] = m[2].trim()
   }
