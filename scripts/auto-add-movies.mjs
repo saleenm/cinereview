@@ -39,10 +39,9 @@ if (!TMDB_KEY) {
   process.exit(1)
 }
 
+// AI keys are optional — content is built entirely from TMDB data
 if (!GEMINI_KEY && !OPENROUTER_KEY) {
-  console.error('❌ لا يوجد مفتاح AI في .env.local')
-  console.error('   أضف GEMINI_API_KEY (مجاني من aistudio.google.com)')
-  process.exit(1)
+  console.log('ℹ️ لا يوجد مفتاح AI — المحتوى يُبنى من TMDB مباشرة (لا مشكلة)')
 }
 
 // ─── Genre mapping TMDB → CineReview ─────────────────────────────────────────
