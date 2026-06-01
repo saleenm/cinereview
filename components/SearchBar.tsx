@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 
 interface SearchResult {
@@ -17,6 +18,7 @@ interface SearchResult {
 
 export default function SearchBar({ locale }: { locale: string }) {
   const t = useTranslations('nav')
+  const router = useRouter()
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<SearchResult[]>([])
   const [open, setOpen] = useState(false)
@@ -37,9 +39,9 @@ export default function SearchBar({ locale }: { locale: string }) {
     const timer = setTimeout(async () => {
       setLoading(true)
       try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`)
+        const res = await fetch(`/api/search?q=${encodeURIComponent(query)}&limit=6`)
         const data = await res.json()
-        setResults(data)
+        setResults(data.results || data)
         setOpen(true)
       } finally {
         setLoading(false)
@@ -48,14 +50,26 @@ export default function SearchBar({ locale }: { locale: string }) {
     return () => clearTimeout(timer)
   }, [query])
 
+  const goToSearch = () => {
+    if (query.trim()) {
+      setOpen(false)
+      router.push(`/${locale}/search?q=${encodeURIComponent(query.trim())}`)
+    } else {
+      router.push(`/${locale}/search`)
+    }
+  }
+
   return (
     <div ref={ref} className="relative hidden md:block">
       <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gray-800 border border-gray-700 w-52 focus-within:border-amber-500/50 transition-colors">
-        <span className="text-gray-500 text-sm">{loading ? '⏳' : '🔍'}</span>
+        <button onClick={goToSearch} className="text-gray-500 text-sm hover:text-amber-400 transition-colors">
+          {loading ? '⏳' : '🔍'}
+        </button>
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={(e) => e.key === 'Enter' && goToSearch()}
           placeholder={t('search')}
           className="bg-transparent text-sm text-gray-300 placeholder-gray-600 outline-none w-full"
           dir={isRTL ? 'rtl' : 'ltr'}
@@ -84,6 +98,11 @@ export default function SearchBar({ locale }: { locale: string }) {
               <span className="text-amber-400 font-bold text-sm flex-shrink-0">{m.rating_overall}</span>
             </Link>
           ))}
+          {/* View all results */}
+          <button onClick={goToSearch}
+            className="w-full px-4 py-2.5 text-center text-amber-400 text-xs font-bold hover:bg-gray-800 transition-colors border-t border-gray-800">
+            {isRTL ? `عرض كل النتائج لـ "${query}"` : `See all results for "${query}"`} →
+          </button>
         </div>
       )}
 

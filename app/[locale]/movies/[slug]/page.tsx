@@ -106,7 +106,14 @@ export default async function MoviePage({ params }: Props) {
 
   const related = getMovies()
     .filter((m) => m.slug !== movie.slug && m.genres.some((g) => movie.genres.includes(g)))
-    .slice(0, 4)
+    .sort((a, b) => {
+      // Prioritize: same director > same era (±10y) > higher rating
+      const sameDir = (a.director === movie.director ? 2 : 0) - (b.director === movie.director ? 2 : 0)
+      const eraA = Math.abs(a.year - movie.year) <= 10 ? 1 : 0
+      const eraB = Math.abs(b.year - movie.year) <= 10 ? 1 : 0
+      return sameDir || (eraB - eraA) || (b.rating_overall - a.rating_overall)
+    })
+    .slice(0, 6)
 
   const ratingBreakdown = [
     { label: t('story'), value: movie.rating_story },

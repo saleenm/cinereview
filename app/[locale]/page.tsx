@@ -17,15 +17,17 @@ export default async function HomePage({ params }: Props) {
   const tb = await getTranslations('blog')
 
   const movieOfDay = getMovieOfTheDay()
+  const allMovies = getMovies()
   const featured = getMovies({ featured: true, limit: 6 })
   const topRated = getMovies({ sort: 'rating', limit: 8 })
   const latestPosts = getRecentPosts(3)
 
+  const movieCount = allMovies.length
   const stats = [
-    { num: '60+', label: t('statsMovies') },
-    { num: '50K+', label: t('statsReviews') },
-    { num: '13', label: t('statsGenres') },
+    { num: `${movieCount}+`, label: t('statsMovies') },
     { num: '8', label: t('statsLanguages') },
+    { num: '13', label: t('statsGenres') },
+    { num: '100%', label: t('statsFree') },
   ]
 
   const isRTL = locale === 'ar'
