@@ -1,9 +1,6 @@
 'use client'
 
-import Image from 'next/image'
 import { useState } from 'react'
-
-const FALLBACK = 'https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.png'
 
 interface Props {
   src: string
@@ -13,18 +10,28 @@ interface Props {
   priority?: boolean
 }
 
-export default function BlogImage({ src, alt, className, sizes, priority }: Props) {
-  const [imgSrc, setImgSrc] = useState(src || FALLBACK)
+export default function BlogImage({ src, alt, className }: Props) {
+  const [broken, setBroken] = useState(false)
+
+  if (broken || !src) {
+    return (
+      <div
+        className={`absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-900 to-gray-950 flex items-center justify-center ${className ?? ''}`}
+        aria-label={alt}
+      >
+        <span className="text-4xl opacity-30">🎬</span>
+      </div>
+    )
+  }
 
   return (
-    <Image
-      src={imgSrc}
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={src}
       alt={alt}
-      fill
-      className={className}
-      sizes={sizes}
-      priority={priority}
-      onError={() => setImgSrc(FALLBACK)}
+      className={`absolute inset-0 w-full h-full object-cover ${className ?? ''}`}
+      onError={() => setBroken(true)}
+      loading="lazy"
     />
   )
 }
