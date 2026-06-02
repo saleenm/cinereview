@@ -1,8 +1,8 @@
 import { getTranslations } from 'next-intl/server'
 import Link from 'next/link'
-import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import BlogImage from '@/components/BlogImage'
 import { getAllBlogPosts, getPostOfDay, getPostData } from '@/lib/blog'
 import { LOCALES } from '@/lib/types'
 
@@ -72,12 +72,12 @@ export default async function BlogPage({ params }: Props) {
                 <Link href={`/${locale}/blog/${postOfDay.slug}`}
                   className="group block relative overflow-hidden rounded-2xl border border-amber-500/30 hover:border-amber-500/60 transition-all bg-gray-900">
                   <div className="relative h-72 overflow-hidden">
-                    <Image
+                    <BlogImage
                       src={postOfDay.image}
                       alt={postOfDayData.title}
-                      fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 768px) 100vw, 75vw"
+                      priority
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/50 to-transparent" />
                     <div className="absolute bottom-0 left-0 right-0 p-6">
@@ -111,10 +111,9 @@ export default async function BlogPage({ params }: Props) {
                       <Link key={post.slug} href={`/${locale}/blog/${post.slug}`}
                         className="group bg-gray-900 border border-gray-800 hover:border-amber-500/40 rounded-xl overflow-hidden transition-all hover:-translate-y-0.5">
                         <div className="relative h-44 overflow-hidden">
-                          <Image
+                          <BlogImage
                             src={post.image}
                             alt={d.title}
-                            fill
                             className="object-cover group-hover:scale-105 transition-transform duration-500"
                             sizes="(max-width: 640px) 100vw, 50vw"
                           />

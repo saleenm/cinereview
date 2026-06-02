@@ -721,7 +721,7 @@ function generateGenrePosts(): BlogPost[] {
 
     const slug = `best-${genre}-films`
     const date = '2026-05-14'
-    const image = genreMovies[0].backdrop_url || genreMovies[0].poster_url
+    const image = genreMovies.map(m => m.backdrop_url || m.poster_url).find(u => u) || ''
 
     const i18n = {} as BlogPost['i18n']
     const LOCALES: Locale[] = ['ar', 'en', 'fr', 'es', 'tr', 'de', 'ja', 'pt']
@@ -763,7 +763,8 @@ function generateDirectorPosts(): BlogPost[] {
     const sorted = [...films].sort((a, b) => b.rating_overall - a.rating_overall)
     const slug = `director-${director.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`
     const date = '2026-05-13'
-    const image = sorted[0].backdrop_url || sorted[0].poster_url
+    // Try multiple movies to find a valid image (some backdrop_urls may be outdated)
+    const image = sorted.map(m => m.backdrop_url || m.poster_url).find(u => u) || ''
 
     const i18n = {} as BlogPost['i18n']
     for (const locale of LOCALES) {
