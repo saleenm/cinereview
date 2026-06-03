@@ -27,16 +27,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params
   const movie = getMovieBySlug(slug)
   if (!movie) return {}
+  const BASE = 'https://cinereview-mu.vercel.app'
   const title = `${locale === 'ar' ? movie.title_ar : movie.title} (${movie.year})`
   const desc = getMovieDescription(movie, locale).slice(0, 160)
   return {
     title,
     description: desc,
+    alternates: {
+      canonical: `${BASE}/${locale}/movies/${slug}`,
+      languages: Object.fromEntries(
+        ['ar', 'en', 'fr', 'es', 'tr', 'de', 'ja', 'pt'].map((l) => [l, `${BASE}/${l}/movies/${slug}`])
+      ),
+    },
     openGraph: {
       title,
       description: desc,
       type: 'article',
       images: [{ url: movie.poster_url, width: 500, height: 750, alt: title }],
+      siteName: 'CineReview',
     },
     twitter: {
       card: 'summary_large_image',
@@ -82,7 +90,7 @@ function MovieJsonLd({ movie, locale }: { movie: ReturnType<typeof getMovieBySlu
       ratingValue: movie.rating_overall,
       bestRating: 10,
       worstRating: 0,
-      ratingCount: 1,
+      ratingCount: movie.reviews_count || 1,
     },
     ...(movie.trailer_url ? { trailer: { '@type': 'VideoObject', name: `${title} Trailer`, embedUrl: movie.trailer_url } } : {}),
   }

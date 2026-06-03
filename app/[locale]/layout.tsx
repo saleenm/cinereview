@@ -33,6 +33,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 }
 
+const websiteJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'CineReview',
+  url: 'https://cinereview-mu.vercel.app',
+  description: 'Movie reviews, ratings, and analysis in 8 languages',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: 'https://cinereview-mu.vercel.app/en/search?q={search_term_string}' },
+    'query-input': 'required name=search_term_string',
+  },
+}
+
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params
   const messages = await getMessages()
@@ -44,6 +57,9 @@ export default async function LocaleLayout({ children, params }: Props) {
       dir={isRTL ? 'rtl' : 'ltr'}
       className={`${cairo.variable} ${notoJP.variable}`}
     >
+      <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+      </head>
       <body className="bg-gray-950 text-gray-100 antialiased min-h-screen flex flex-col font-sans">
         <NextIntlClientProvider messages={messages}>
           {children}

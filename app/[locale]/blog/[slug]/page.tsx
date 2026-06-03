@@ -9,6 +9,7 @@ import { LOCALES } from '@/lib/types'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import AdUnit from '@/components/AdUnit'
+import BlogImage from '@/components/BlogImage'
 
 interface Props { params: Promise<{ locale: string; slug: string }> }
 
@@ -24,15 +25,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug)
   if (!post) return {}
   const d = getPostData(post, locale)
+  const BASE = 'https://cinereview-mu.vercel.app'
   return {
     title: d.title,
     description: d.description,
+    alternates: { canonical: `${BASE}/${locale}/blog/${slug}` },
     openGraph: {
       title: d.title,
       description: d.description,
-      images: [post.image],
+      images: [{ url: post.image, width: 1280, height: 720, alt: d.title }],
       type: 'article',
       publishedTime: post.date,
+      siteName: 'CineReview',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: d.title,
+      description: d.description,
+      images: [post.image],
     },
   }
 }
@@ -60,6 +70,24 @@ function renderMarkdown(md: string): string {
       return `<p class="text-gray-400 leading-relaxed my-2">${processed}</p>`
     })
     .join('\n')
+}
+
+function ArticleJsonLd({ post, d, locale, slug }: { post: NonNullable<ReturnType<typeof getPostBySlug>>; d: { title: string; description: string }; locale: string; slug: string }) {
+  const BASE = 'https://cinereview-mu.vercel.app'
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: d.title,
+    description: d.description,
+    image: post.image,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: { '@type': 'Organization', name: 'CineReview', url: BASE },
+    publisher: { '@type': 'Organization', name: 'CineReview', url: BASE, logo: { '@type': 'ImageObject', url: `${BASE}/icon-192.png` } },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE}/${locale}/blog/${slug}` },
+    inLanguage: locale,
+  }
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 }
 
 export default async function BlogPostPage({ params }: Props) {
@@ -95,15 +123,15 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <>
+      <ArticleJsonLd post={post} d={d} locale={locale} slug={slug} />
       <Header locale={locale} />
       <main className="flex-1">
 
         {/* ── HERO IMAGE ── */}
-        <div className="relative h-72 md:h-96 overflow-hidden">
-          <Image
+        <div className="relative h-72 md:h-96 overflow-hidden bg-gray-900">
+          <BlogImage
             src={post.image}
             alt={d.title}
-            fill
             className="object-cover"
             priority
             sizes="100vw"
@@ -215,8 +243,8 @@ export default async function BlogPostPage({ params }: Props) {
                       <Link key={p.slug} href={`/${locale}/blog/${p.slug}`}
                         className="group block">
                         <div className="flex gap-3">
-                          <div className="relative w-14 h-14 rounded-lg overflow-hidden flex-shrink-0">
-                            <Image src={p.image} alt={pd.title} fill className="object-cover" />
+                          <div className="relative w-14 h-14 rounded-lg overflow-hidden flex-shrink-0 bg-gray-800">
+                            <BlogImage src={p.image} alt={pd.title} />
                           </div>
                           <div>
                             <p className="text-sm text-gray-300 group-hover:text-amber-400 transition-colors font-medium line-clamp-2 leading-snug">

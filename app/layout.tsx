@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cinereview-ar.vercel.app'),
+  metadataBase: new URL('https://cinereview-mu.vercel.app'),
   robots: { index: true, follow: true },
   keywords: ['movie reviews', 'film ratings', 'cinema', 'تقييمات أفلام', 'سينما', 'مراجعات'],
   openGraph: {

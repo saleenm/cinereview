@@ -29,6 +29,9 @@ export default async function Footer({ locale }: Props) {
             <Link href={`/${locale}`} className="hover:text-gray-300 transition-colors">{tn('home')}</Link>
             <Link href={`/${locale}/movies`} className="hover:text-gray-300 transition-colors">{tn('movies')}</Link>
             <Link href={`/${locale}/top-rated`} className="hover:text-gray-300 transition-colors">{tn('topRated')}</Link>
+            <Link href={`/${locale}/blog`} className="hover:text-gray-300 transition-colors">{tn('blog')}</Link>
+            <Link href={`/${locale}/about`} className="hover:text-gray-300 transition-colors">{locale === 'ar' ? 'من نحن' : 'About'}</Link>
+            <Link href={`/${locale}/privacy`} className="hover:text-gray-300 transition-colors">{locale === 'ar' ? 'الخصوصية' : 'Privacy'}</Link>
           </div>
           <div className="text-center md:text-end">
             <p className="text-xs text-gray-500">© {new Date().getFullYear()} {ts('name')} · {t('rights')}</p>

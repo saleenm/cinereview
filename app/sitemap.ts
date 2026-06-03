@@ -4,7 +4,7 @@ import { getAllBlogPosts } from '@/lib/blog'
 import { COLLECTIONS } from '@/lib/collections'
 import { GENRE_KEYS, LOCALES } from '@/lib/types'
 
-const BASE_URL = 'https://cinereview-ar.vercel.app'
+const BASE_URL = 'https://cinereview-mu.vercel.app'
 
 function localizedUrls(path: string, priority: number, changeFreq: MetadataRoute.Sitemap[0]['changeFrequency']) {
   return LOCALES.map((locale) => ({
@@ -58,5 +58,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...localizedUrls('/podcast', 0.7, 'weekly'),
     ...localizedUrls('/profile', 0.5, 'monthly'),
     ...localizedUrls('/watchlist', 0.6, 'monthly'),
+    ...localizedUrls('/about', 0.5, 'monthly'),
+    ...localizedUrls('/privacy', 0.3, 'yearly'),
   ]
 }
