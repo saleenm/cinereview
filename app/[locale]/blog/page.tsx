@@ -71,7 +71,7 @@ export default async function BlogPage({ params }: Props) {
                 </h2>
                 <Link href={`/${locale}/blog/${postOfDay.slug}`}
                   className="group block relative overflow-hidden rounded-2xl border border-amber-500/30 hover:border-amber-500/60 transition-all bg-gray-900">
-                  <div className="relative h-72 overflow-hidden">
+                  <div className="relative h-72 overflow-hidden bg-gray-900">
                     <BlogImage
                       src={postOfDay.image}
                       alt={postOfDayData.title}
@@ -110,7 +110,7 @@ export default async function BlogPage({ params }: Props) {
                     return (
                       <Link key={post.slug} href={`/${locale}/blog/${post.slug}`}
                         className="group bg-gray-900 border border-gray-800 hover:border-amber-500/40 rounded-xl overflow-hidden transition-all hover:-translate-y-0.5">
-                        <div className="relative h-44 overflow-hidden">
+                        <div className="relative h-44 overflow-hidden bg-gray-900">
                           <BlogImage
                             src={post.image}
                             alt={d.title}

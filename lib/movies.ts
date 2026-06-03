@@ -1852,7 +1852,7 @@ export const MOVIES: Movie[] = [
     cast: ['Natalie Portman', 'Mila Kunis', 'Vincent Cassel'],
     genres: ['thriller', 'drama'],
     poster_url: 'https://image.tmdb.org/t/p/w500/viWheBd44bouiLCHgNMvahLThqx.jpg',
-    backdrop_url: 'https://image.tmdb.org/t/p/original/4yrIXuBVMqp0yVJnunVBEFiJrNV.jpg',
+    backdrop_url: 'https://image.tmdb.org/t/p/original/g0geLM1zXpLb9mpqKw1ePcA5bTJ.jpg',
     description_ar: 'راقصة باليه تنهار نفسياً بحثاً عن الكمال. أرونوفسكي يصنع كابوساً فنياً.',
     description_en: 'A ballet dancer\'s psychological collapse in pursuit of perfection. Aronofsky creates an artistic nightmare.',
 
