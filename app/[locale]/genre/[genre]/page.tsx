@@ -28,6 +28,7 @@ export default async function GenrePage({ params }: Props) {
   const movies = isAll ? getMovies() : getMovies({ genre })
   const genreKey = genre as Genre
   const genreName = isAll ? tg('all') : tg(genreKey)
+  const isRTL = locale === 'ar'
 
   return (
     <>
@@ -38,60 +39,74 @@ export default async function GenrePage({ params }: Props) {
         ]} />
       )}
       <Header locale={locale} />
-      <main className="max-w-7xl mx-auto px-4 py-10">
+      <main style={{ background: '#030712' }}>
         {/* Hero */}
-        <div className="mb-8 flex items-start justify-between gap-4 flex-wrap">
-          <div>
-            {!isAll && (
-              <div className={`inline-flex items-center gap-2 px-4 py-2 rounded-full border text-lg font-bold mb-4 ${GENRE_COLORS[genreKey]}`}>
-                {GENRE_ICONS[genreKey]} {tg(genreKey)}
+        <section className="border-b border-gray-800/50"
+          style={{ background: 'radial-gradient(ellipse 100% 200% at 50% 0%, rgba(245,158,11,0.05) 0%, transparent 55%), #0a0e17' }}>
+          <div className="max-w-7xl mx-auto px-4 py-10">
+            {!isAll ? (
+              <>
+                <div className={`inline-flex items-center gap-2 px-4 py-2 rounded-full border text-sm font-bold mb-4 ${GENRE_COLORS[genreKey]}`}>
+                  {GENRE_ICONS[genreKey]} {tg(genreKey)}
+                </div>
+                <div className="flex items-start justify-between gap-4 flex-wrap">
+                  <div>
+                    <h1 className="text-3xl md:text-4xl font-black text-white mb-1">{tg(genreKey)}</h1>
+                    <p className="text-gray-500 text-sm">{movies.length} {t('filmsUnit')}</p>
+                  </div>
+                  <Link
+                    href={`/${locale}/genre/${genre}/top`}
+                    className="flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 hover:bg-amber-500/20 transition-colors text-sm font-bold"
+                  >
+                    <svg width="13" height="13" fill="#f59e0b" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    {tt('topLabel')}
+                  </Link>
+                </div>
+              </>
+            ) : (
+              <div>
+                <h1 className="text-3xl md:text-4xl font-black text-white mb-1">{t('allFilms')}</h1>
+                <p className="text-gray-500 text-sm">{movies.length} {t('filmsUnit')}</p>
               </div>
             )}
-            <h1 className="text-3xl font-black text-white">
-              {isAll ? t('allFilms') : tg(genreKey)}
-            </h1>
-            <p className="text-gray-500 mt-1">{movies.length} {t('filmsUnit')}</p>
           </div>
-          {!isAll && (
-            <Link
-              href={`/${locale}/genre/${genre}/top`}
-              className="flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 hover:bg-amber-500/20 transition-colors text-sm font-bold"
-            >
-              🏆 {tt('topLabel')}
-            </Link>
-          )}
-        </div>
+        </section>
 
-        {/* Genre tabs */}
-        <div className="flex flex-wrap gap-2 mb-8">
-          <Link href={`/${locale}/genre/all`}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium border transition-colors ${isAll ? 'bg-amber-500 text-gray-950 border-amber-500' : 'bg-gray-800 text-gray-400 border-gray-700 hover:text-white'}`}>
-            {tg('all')}
-          </Link>
-          {GENRE_KEYS.map((g) => (
-            <Link key={g} href={`/${locale}/genre/${g}`}
-              className={`px-3 py-1.5 rounded-lg text-sm font-medium border transition-colors flex items-center gap-1 ${genre === g ? `${GENRE_COLORS[g]} font-bold` : 'bg-gray-800 text-gray-400 border-gray-700 hover:text-white'}`}>
-              {GENRE_ICONS[g]} {tg(g)}
+        <div className="max-w-7xl mx-auto px-4 py-8">
+          {/* Genre tabs */}
+          <div className="flex flex-wrap gap-2 mb-8 pb-4 border-b border-gray-800/50">
+            <Link href={`/${locale}/genre/all`}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-colors ${isAll ? 'bg-amber-500 text-gray-950 border-amber-500' : 'bg-gray-900/80 text-gray-400 border-gray-800 hover:text-white hover:border-gray-700'}`}>
+              {tg('all')}
             </Link>
-          ))}
-        </div>
-
-        {/* Grid */}
-        {movies.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {movies.map((m) => (
-              <MovieCard key={m.slug} movie={m} locale={locale} />
+            {GENRE_KEYS.map((g) => (
+              <Link key={g} href={`/${locale}/genre/${g}`}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition-colors flex items-center gap-1 ${genre === g ? `${GENRE_COLORS[g]}` : 'bg-gray-900/80 text-gray-400 border-gray-800 hover:text-white hover:border-gray-700'}`}>
+                {GENRE_ICONS[g]} {tg(g)}
+              </Link>
             ))}
           </div>
-        ) : (
-          <div className="text-center py-20 text-gray-500">
-            <div className="text-5xl mb-4">{GENRE_ICONS[genreKey]}</div>
-            <p>{t('noFilmsGenre')}</p>
-            <Link href={`/${locale}/movies`} className="mt-4 inline-block text-amber-400 hover:underline text-sm">
-              {t('viewAllFilms')}
-            </Link>
-          </div>
-        )}
+
+          {/* Grid */}
+          {movies.length > 0 ? (
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+              {movies.map((m) => (
+                <MovieCard key={m.slug} movie={m} locale={locale} />
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-24 text-gray-500">
+              <div className="w-20 h-20 mx-auto mb-5 rounded-2xl flex items-center justify-center text-4xl"
+                style={{ background: 'rgba(245,158,11,0.06)', border: '1px solid rgba(245,158,11,0.15)' }}>
+                {!isAll && GENRE_ICONS[genreKey]}
+              </div>
+              <p className="text-lg font-semibold text-gray-400 mb-2">{t('noFilmsGenre')}</p>
+              <Link href={`/${locale}/movies`} className="mt-4 inline-block text-amber-400 hover:underline text-sm">
+                {t('viewAllFilms')}
+              </Link>
+            </div>
+          )}
+        </div>
       </main>
       <Footer locale={locale} />
     </>
