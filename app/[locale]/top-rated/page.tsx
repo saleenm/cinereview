@@ -5,9 +5,13 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import RatingCircle from '@/components/RatingCircle'
 import { getMovies } from '@/lib/movies'
-import { GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
+import { GENRE_ICONS, GENRE_COLORS, LOCALES } from '@/lib/types'
 
 interface Props { params: Promise<{ locale: string }> }
+
+export function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }))
+}
 
 export default async function TopRatedPage({ params }: Props) {
   const { locale } = await params
@@ -18,60 +22,119 @@ export default async function TopRatedPage({ params }: Props) {
 
   const movies = getMovies({ sort: 'rating' })
 
+  const getRankStyle = (i: number) => {
+    if (i === 0) return { bg: 'linear-gradient(135deg, #f59e0b, #d97706)', color: '#000', size: 'text-xl' }
+    if (i === 1) return { bg: 'linear-gradient(135deg, #94a3b8, #64748b)', color: '#000', size: 'text-xl' }
+    if (i === 2) return { bg: 'linear-gradient(135deg, #b45309, #92400e)', color: '#fff', size: 'text-xl' }
+    return { bg: 'rgba(31,41,55,0.8)', color: '#6b7280', size: 'text-sm' }
+  }
+
   return (
     <>
       <Header locale={locale} />
-      <main className="max-w-5xl mx-auto px-4 py-10">
-        {/* Header */}
-        <div className="text-center mb-10">
-          <div className="text-5xl mb-3">🏆</div>
-          <h1 className="text-3xl font-black text-white mb-2">{t('title')}</h1>
-          <p className="text-gray-500">{t('subtitle')}</p>
-        </div>
+      <main style={{ background: '#030712' }}>
+        {/* Hero */}
+        <section className="border-b border-gray-800/50"
+          style={{ background: 'radial-gradient(ellipse 100% 200% at 50% 0%, rgba(245,158,11,0.08) 0%, transparent 60%), #0a0e17' }}>
+          <div className="max-w-5xl mx-auto px-4 py-12">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/25 text-amber-400 text-xs font-bold mb-5">
+              <svg width="12" height="12" fill="#f59e0b" viewBox="0 0 24 24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              {t('title')}
+            </div>
+            <h1 className="text-3xl md:text-5xl font-black text-white mb-3 leading-tight">{t('title')}</h1>
+            <p className="text-gray-400 text-lg max-w-2xl">{t('subtitle')}</p>
+            <div className="flex items-center gap-2 mt-4">
+              <span className="text-2xl font-black text-amber-400">{movies.length}</span>
+              <span className="text-gray-500 text-sm">{isRTL ? 'فيلم مُصنَّف' : 'ranked films'}</span>
+            </div>
+          </div>
+        </section>
 
-        {/* List */}
-        <div className="space-y-3">
-          {movies.map((movie, i) => (
-            <Link key={movie.slug} href={`/${locale}/movies/${movie.slug}`}
-              className="group flex items-center gap-4 p-4 bg-gray-900 border border-gray-800 rounded-2xl hover:border-amber-500/40 transition-all hover:shadow-lg hover:shadow-amber-500/5">
+        <div className="max-w-5xl mx-auto px-4 py-8">
+          {/* Top 3 podium */}
+          <div className="grid grid-cols-3 gap-3 mb-10">
+            {movies.slice(0, 3).map((movie, i) => {
+              const medals = ['🥇', '🥈', '🥉']
+              const borderColor = i === 0 ? 'rgba(245,158,11,0.5)' : i === 1 ? 'rgba(148,163,184,0.4)' : 'rgba(180,83,9,0.4)'
+              return (
+                <Link key={movie.slug} href={`/${locale}/movies/${movie.slug}`}
+                  className="group relative overflow-hidden rounded-2xl border transition-all card-glow"
+                  style={{ borderColor, background: '#0d1117' }}>
+                  <div className="relative h-40 sm:h-52 overflow-hidden">
+                    <Image src={movie.poster_url} alt={movie.title} fill className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="33vw" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/40 to-transparent" />
+                    <div className="absolute top-2 start-2 text-2xl">{medals[i]}</div>
+                    <div className="absolute bottom-0 left-0 right-0 p-3">
+                      <p className="text-white font-bold text-xs leading-tight group-hover:text-amber-400 transition-colors line-clamp-2">
+                        {isRTL ? movie.title_ar : movie.title}
+                      </p>
+                      <div className="flex items-center gap-1 mt-1">
+                        <svg width="9" height="9" fill="#f59e0b" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <span className="text-amber-400 text-xs font-black">{movie.rating_overall.toFixed(1)}</span>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
 
-              {/* Rank */}
-              <div className={`w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full font-black text-lg
-                ${i === 0 ? 'bg-amber-500 text-gray-950' : i === 1 ? 'bg-gray-400 text-gray-950' : i === 2 ? 'bg-amber-700 text-white' : 'bg-gray-800 text-gray-500'}`}>
-                {i + 1}
-              </div>
+          {/* Full list */}
+          <div className="space-y-2">
+            {movies.map((movie, i) => {
+              const rankStyle = getRankStyle(i)
+              return (
+                <Link key={movie.slug} href={`/${locale}/movies/${movie.slug}`}
+                  className="group flex items-center gap-4 p-3 bg-gray-900/60 border border-gray-800/50 hover:border-amber-500/30 rounded-2xl transition-all hover:bg-gray-900/80">
 
-              {/* Poster */}
-              <div className="relative w-12 h-16 flex-shrink-0 rounded-lg overflow-hidden">
-                <Image src={movie.poster_url} alt={movie.title} fill className="object-cover" sizes="48px" />
-              </div>
+                  {/* Rank */}
+                  <div className={`w-9 h-9 flex-shrink-0 flex items-center justify-center rounded-xl font-black ${rankStyle.size}`}
+                    style={{ background: rankStyle.bg, color: rankStyle.color }}>
+                    {i + 1}
+                  </div>
 
-              {/* Info */}
-              <div className="flex-1 min-w-0">
-                <div className="flex flex-wrap items-center gap-2 mb-0.5">
-                  <h2 className="font-bold text-white group-hover:text-amber-400 transition-colors truncate">
-                    {isRTL ? movie.title_ar : movie.title}
-                  </h2>
-                  {movie.genres.slice(0, 1).map((g) => (
-                    <span key={g} className={`text-[10px] px-2 py-0.5 rounded-full border hidden sm:inline ${GENRE_COLORS[g]}`}>
-                      {GENRE_ICONS[g]} {tg(g)}
-                    </span>
-                  ))}
-                </div>
-                <p className="text-gray-500 text-xs">{isRTL ? movie.director_ar : movie.director} · {movie.year}</p>
-                <div className="flex items-center gap-3 mt-1 text-xs text-gray-500">
-                  <span>⭐ IMDb {movie.imdb_rating}</span>
-                  <span>🍅 {movie.rotten_tomatoes}%</span>
-                  {movie.awards && <span className="hidden md:inline text-amber-600 truncate">🏆 {movie.awards.split('،')[0]}</span>}
-                </div>
-              </div>
+                  {/* Poster */}
+                  <div className="relative w-10 h-[60px] flex-shrink-0 rounded-lg overflow-hidden">
+                    <Image src={movie.poster_url} alt={movie.title} fill className="object-cover" sizes="40px" />
+                  </div>
 
-              {/* Rating */}
-              <div className="flex-shrink-0">
-                <RatingCircle value={movie.rating_overall} size="md" />
-              </div>
-            </Link>
-          ))}
+                  {/* Info */}
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-center gap-2 mb-0.5">
+                      <h2 className="font-bold text-white group-hover:text-amber-400 transition-colors truncate text-sm">
+                        {isRTL ? movie.title_ar : movie.title}
+                      </h2>
+                      {movie.genres.slice(0, 1).map((g) => (
+                        <span key={g} className={`text-[10px] px-2 py-0.5 rounded-full border hidden sm:inline ${GENRE_COLORS[g]}`}>
+                          {GENRE_ICONS[g]} {tg(g)}
+                        </span>
+                      ))}
+                    </div>
+                    <p className="text-gray-500 text-xs">{isRTL ? movie.director_ar : movie.director} · {movie.year}</p>
+                    <div className="flex items-center gap-3 mt-0.5 text-xs text-gray-600">
+                      <span className="flex items-center gap-1">
+                        <svg width="9" height="9" fill="#f59e0b" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        {movie.imdb_rating}
+                      </span>
+                      <span>🍅 {movie.rotten_tomatoes}%</span>
+                      {movie.awards && (
+                        <span className="hidden md:inline text-amber-700 truncate">
+                          {movie.awards.split('،')[0].split(',')[0]}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Rating circle */}
+                  <div className="flex-shrink-0">
+                    <RatingCircle value={movie.rating_overall} size="md" />
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
         </div>
       </main>
       <Footer locale={locale} />
