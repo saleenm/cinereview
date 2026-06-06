@@ -75,8 +75,24 @@ export default async function MoviesPage({ params, searchParams }: Props) {
 
   const isRTL = locale === 'ar'
 
+  const BASE = 'https://cinereview-mu.vercel.app'
+  const moviesSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Movies',
+    url: `${BASE}/${locale}/movies`,
+    numberOfItems: allFiltered.length,
+    itemListElement: movies.slice(0, 50).map((m, i) => ({
+      '@type': 'ListItem',
+      position: (activePage - 1) * PER_PAGE + i + 1,
+      url: `${BASE}/${locale}/movies/${m.slug}`,
+      name: m.title,
+    })),
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(moviesSchema) }} />
       <Header locale={locale} />
       <main className="min-h-screen" style={{ background: '#030712' }}>
 

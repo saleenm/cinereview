@@ -1,5 +1,5 @@
-// CineReview Service Worker — offline caching
-const CACHE = 'cinereview-v1'
+// CineReview Service Worker — offline caching + push notifications
+const CACHE = 'cinereview-v2'
 const STATIC = ['/en', '/en/movies', '/en/top-rated', '/en/blog']
 
 self.addEventListener('install', (e) => {
@@ -16,6 +16,28 @@ self.addEventListener('activate', (e) => {
     )
   )
   self.clients.claim()
+})
+
+// Push notification received
+self.addEventListener('push', (e) => {
+  if (!e.data) return
+  let data = {}
+  try { data = e.data.json() } catch { data = { title: 'CineReview', body: e.data.text() } }
+  e.waitUntil(
+    self.registration.showNotification(data.title || 'CineReview 🎬', {
+      body: data.body || '',
+      icon: '/logos/icon-192.png',
+      badge: '/logos/icon-192.png',
+      data: { url: data.url || '/' },
+    })
+  )
+})
+
+// Notification click — open the URL
+self.addEventListener('notificationclick', (e) => {
+  e.notification.close()
+  const url = e.notification.data?.url || '/'
+  e.waitUntil(clients.openWindow(url))
 })
 
 self.addEventListener('fetch', (e) => {

@@ -65,8 +65,38 @@ export default async function HomePage({ params }: Props) {
 
   const isRTL = locale === 'ar'
 
+  const BASE = 'https://cinereview-mu.vercel.app'
+
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'CineReview',
+    url: BASE,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${BASE}/${locale}/search?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    },
+  }
+
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Top Rated Movies',
+    url: `${BASE}/${locale}/top-rated`,
+    numberOfItems: topRated.length,
+    itemListElement: topRated.map((m, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${BASE}/${locale}/movies/${m.slug}`,
+      name: m.title,
+    })),
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <Header locale={locale} />
       <main className="flex-1">
 

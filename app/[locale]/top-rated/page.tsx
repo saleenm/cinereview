@@ -29,8 +29,24 @@ export default async function TopRatedPage({ params }: Props) {
     return { bg: 'rgba(31,41,55,0.8)', color: '#6b7280', size: 'text-sm' }
   }
 
+  const BASE = 'https://cinereview-mu.vercel.app'
+  const topRatedSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: t('title'),
+    url: `${BASE}/${locale}/top-rated`,
+    numberOfItems: movies.length,
+    itemListElement: movies.slice(0, 100).map((m, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${BASE}/${locale}/movies/${m.slug}`,
+      name: m.title,
+    })),
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(topRatedSchema) }} />
       <Header locale={locale} />
       <main style={{ background: '#030712' }}>
         {/* Hero */}
