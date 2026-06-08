@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import RatingCircle from '@/components/RatingCircle'
 import { getMovies } from '@/lib/movies'
 import { GENRE_ICONS, GENRE_COLORS, LOCALES } from '@/lib/types'
+import AdUnit from '@/components/AdUnit'
 
 interface Props { params: Promise<{ locale: string }> }
 
@@ -150,6 +151,9 @@ export default async function TopRatedPage({ params }: Props) {
                 </Link>
               )
             })}
+          </div>
+          <div className="mt-10">
+            <AdUnit slot="5678901234" format="horizontal" className="rounded-xl overflow-hidden" />
           </div>
         </div>
       </main>

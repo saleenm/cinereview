@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server'
 import Link from 'next/link'
 import Image from 'next/image'
+import { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import MovieCard from '@/components/MovieCard'
@@ -8,8 +9,32 @@ import BlogImage from '@/components/BlogImage'
 import { getMovies, getMovieOfTheDay } from '@/lib/movies'
 import { getRecentPosts, getPostData } from '@/lib/blog'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
+import AdUnit from '@/components/AdUnit'
 
 interface Props { params: Promise<{ locale: string }> }
+
+const BASE = 'https://cinereview-mu.vercel.app'
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params
+  const isAr = locale === 'ar'
+  const topMovie = getMovies({ sort: 'rating', limit: 1 })[0]
+  const ogImage = topMovie?.backdrop_url || topMovie?.poster_url || `${BASE}/logos/icon-512.png`
+  const title = isAr ? 'سينيريفيو — اكتشف عوالم السينما' : 'CineReview — Discover the World of Cinema'
+  const description = isAr
+    ? 'تقييمات تحقيقية معمّقة لأعظم الأفلام على مر العصور — 1000+ فيلم بـ 8 لغات'
+    : 'In-depth investigative reviews of the greatest films of all time — 1000+ movies in 8 languages'
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE}/${locale}`,
+      languages: Object.fromEntries(['ar','en','fr','es','tr','de','ja','pt'].map((l) => [l, `${BASE}/${l}`])),
+    },
+    openGraph: { title, description, url: `${BASE}/${locale}`, siteName: 'CineReview', images: [{ url: ogImage, width: 1280, height: 720, alt: title }], type: 'website' },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
+  }
+}
 
 function SectionHeader({ icon, title, link, linkLabel }: { icon: React.ReactNode; title: string; link?: string; linkLabel?: string }) {
   return (
@@ -203,6 +228,11 @@ export default async function HomePage({ params }: Props) {
             </div>
           </div>
         </section>
+
+        {/* ── AD ── */}
+        <div className="max-w-4xl mx-auto px-4 pt-6">
+          <AdUnit slot="2345678901" format="horizontal" className="rounded-xl overflow-hidden" />
+        </div>
 
         {/* ── FEATURED FILMS ── */}
         <section className="max-w-7xl mx-auto px-4 py-10">

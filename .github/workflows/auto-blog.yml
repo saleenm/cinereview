@@ -2,7 +2,7 @@ name: Auto Generate Blog Post
 
 on:
   schedule:
-    - cron: '0 5 * * 0'   # كل أحد 5:00 صباحاً UTC (8 صباحاً توقيت السعودية)
+    - cron: '0 5 * * *'   # كل يوم 5:00 صباحاً UTC (8 صباحاً توقيت السعودية)
   workflow_dispatch:        # تشغيل يدوي
 
 jobs:

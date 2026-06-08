@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
+import { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import MovieCard from '@/components/MovieCard'
@@ -9,6 +10,27 @@ import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS, type Genre } from '@/lib/types'
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 
 interface Props { params: Promise<{ locale: string; genre: string }> }
+
+const BASE = 'https://cinereview-mu.vercel.app'
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale, genre } = await params
+  const isAr = locale === 'ar'
+  const movies = genre === 'all' ? getMovies({ sort: 'rating', limit: 1 }) : getMovies({ genre, sort: 'rating', limit: 1 })
+  const ogImage = movies[0]?.backdrop_url || movies[0]?.poster_url || `${BASE}/logos/icon-512.png`
+  const genreLabel = genre === 'all' ? (isAr ? 'كل الأنواع' : 'All Genres') : genre
+  const title = isAr ? `أفلام ${genreLabel} | سينيريفيو` : `${genreLabel} Movies | CineReview`
+  const description = isAr
+    ? `اكتشف أفضل أفلام ${genreLabel} مع تقييمات تفصيلية`
+    : `Discover the best ${genreLabel} movies with detailed reviews`
+  return {
+    title,
+    description,
+    alternates: { canonical: `${BASE}/${locale}/genre/${genre}` },
+    openGraph: { title, description, images: [{ url: ogImage, width: 1280, height: 720 }], siteName: 'CineReview' },
+    twitter: { card: 'summary_large_image', title, images: [ogImage] },
+  }
+}
 
 export async function generateStaticParams() {
   return ['ar','en','fr','es','tr','de','ja','pt'].flatMap((locale) =>

@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server'
+import { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import MovieCard from '@/components/MovieCard'
@@ -6,6 +7,23 @@ import Link from 'next/link'
 import { getMovies } from '@/lib/movies'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
 import AdUnit from '@/components/AdUnit'
+
+const BASE = 'https://cinereview-mu.vercel.app'
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  const isAr = locale === 'ar'
+  const top = getMovies({ sort: 'rating', limit: 1 })[0]
+  const ogImage = top?.backdrop_url || `${BASE}/logos/icon-512.png`
+  const title = isAr ? 'جميع الأفلام | سينيريفيو' : 'All Movies | CineReview'
+  const description = isAr ? 'تصفّح 1000+ فيلم مع فلاتر النوع والتقييم والعقد الزمني' : 'Browse 1000+ movies with genre, rating, and decade filters'
+  return {
+    title, description,
+    alternates: { canonical: `${BASE}/${locale}/movies` },
+    openGraph: { title, description, images: [{ url: ogImage, width: 1280, height: 720 }], siteName: 'CineReview' },
+    twitter: { card: 'summary_large_image', title, images: [ogImage] },
+  }
+}
 
 const PER_PAGE = 48
 
