@@ -27,9 +27,18 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'site' })
+  const BASE = 'https://cinereview-mu.vercel.app'
   return {
     title: { default: t('name'), template: `%s | ${t('name')}` },
     description: t('description'),
+    openGraph: {
+      siteName: 'CineReview',
+      images: [{ url: `${BASE}/${locale}/opengraph-image`, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: [`${BASE}/${locale}/opengraph-image`],
+    },
   }
 }
 
