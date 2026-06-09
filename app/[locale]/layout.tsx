@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, getTranslations } from 'next-intl/server'
 import { Cairo, Cinzel, Noto_Sans_JP } from 'next/font/google'
 import { RTL_LOCALES } from '@/lib/types'
+import PageTransition from '@/components/PageTransition'
 
 const cairo = Cairo({
   subsets: ['arabic', 'latin'],
@@ -77,7 +78,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       </head>
       <body className="bg-gray-950 text-gray-100 antialiased min-h-screen flex flex-col font-sans">
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <PageTransition>{children}</PageTransition>
         </NextIntlClientProvider>
       </body>
     </html>

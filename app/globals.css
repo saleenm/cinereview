@@ -326,3 +326,55 @@ html { scroll-behavior: smooth; }
   0%,100% { opacity: 0.3; transform: scaleY(1); }
   50%      { opacity: 1;   transform: scaleY(1.2); }
 }
+
+/* ── Smooth global link transitions ── */
+a, button {
+  transition: color 0.25s, background-color 0.25s, border-color 0.25s,
+              box-shadow 0.25s, opacity 0.25s, transform 0.25s;
+}
+
+/* ── Cinematic card hover lift ── */
+.cin-card-lift {
+  transition: transform 0.4s cubic-bezier(0.16,1,0.3,1), box-shadow 0.4s;
+}
+.cin-card-lift:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 30px rgba(212,168,82,0.1);
+}
+
+/* ── Glow ring on focus ── */
+:focus-visible {
+  outline: 2px solid rgba(212,168,82,0.6);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ── Smooth image load ── */
+img {
+  transition: opacity 0.4s;
+}
+
+/* ── Section entrance animations ── */
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-30px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(30px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ── Marquee hover pause ── */
+.cin-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ── Header backdrop blur enhancement ── */
+header {
+  backdrop-filter: blur(16px) saturate(1.4);
+  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+}
