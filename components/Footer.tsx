@@ -1,13 +1,15 @@
+'use client'
+
 import Link from 'next/link'
-import { getTranslations } from 'next-intl/server'
+import { useTranslations } from 'next-intl'
 import NewsletterForm from './NewsletterForm'
 
 interface Props { locale: string }
 
-export default async function Footer({ locale }: Props) {
-  const t = await getTranslations('footer')
-  const ts = await getTranslations('site')
-  const tn = await getTranslations('nav')
+export default function Footer({ locale }: Props) {
+  const t = useTranslations('footer')
+  const ts = useTranslations('site')
+  const tn = useTranslations('nav')
 
   return (
     <footer className="border-t border-gray-800 bg-gray-950 mt-auto">
