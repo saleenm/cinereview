@@ -9,60 +9,21 @@ export default function CinematicEffects() {
     /* ── Loader ── */
     const loaderTimer = setTimeout(() => setLoaded(true), 2000)
 
-    /* ── Custom cursor + spotlight — GPU-accelerated via transform3d ── */
-    const cursor    = document.getElementById('cin-cursor')
-    const ring      = document.getElementById('cin-cursor-ring')
+    /* ── Subtle spotlight only — no custom cursor ── */
     const spotlight = document.getElementById('cin-spotlight')
-
-    let mx = -400, my = -400
-    let rx = -400, ry = -400
-    let cx = -400, cy = -400        // smooth cursor for subtle lag
-    let cW = 12, rW = 40
-    let ringRaf = 0
-
-    const setCursor = (x: number, y: number) => {
-      cursor?.style.setProperty('transform', `translate3d(${x - cW/2}px,${y - cW/2}px,0)`)
-      spotlight?.style.setProperty('transform', `translate3d(${x - 350}px,${y - 350}px,0)`)
-    }
+    let sx = -500, sy = -500
 
     const onMouseMove = (e: MouseEvent) => {
-      mx = e.clientX; my = e.clientY
+      sx = e.clientX; sy = e.clientY
+      spotlight?.style.setProperty('transform', `translate3d(${sx - 350}px,${sy - 350}px,0)`)
     }
 
-    const animRing = () => {
-      // Cursor dot: very fast (direct snap-ish)
-      cx += (mx - cx) * 0.55
-      cy += (my - cy) * 0.55
-      setCursor(cx, cy)
-
-      // Ring: smooth lag
-      rx += (mx - rx) * 0.08
-      ry += (my - ry) * 0.08
-      ring?.style.setProperty('transform', `translate3d(${rx - rW/2}px,${ry - rW/2}px,0)`)
-      ringRaf = requestAnimationFrame(animRing)
-    }
+    let ringRaf = 0
+    const animRing = () => { ringRaf = requestAnimationFrame(animRing) }
     ringRaf = requestAnimationFrame(animRing)
     document.addEventListener('mousemove', onMouseMove)
 
-    /* cursor hover scaling */
-    const bindHover = () => {
-      document.querySelectorAll('a, button, .cin-tilt').forEach(el => {
-        el.addEventListener('mouseenter', () => {
-          cW = 18; rW = 56
-          if (cursor) { cursor.style.width='18px'; cursor.style.height='18px'; cursor.style.opacity='0.8' }
-          if (ring)   { ring.style.width='56px';   ring.style.height='56px';   ring.style.borderColor='rgba(212,168,82,0.9)' }
-        })
-        el.addEventListener('mouseleave', () => {
-          cW = 12; rW = 40
-          if (cursor) { cursor.style.width='12px'; cursor.style.height='12px'; cursor.style.opacity='1' }
-          if (ring)   { ring.style.width='40px';   ring.style.height='40px';   ring.style.borderColor='rgba(212,168,82,0.5)' }
-        })
-      })
-    }
-    // Bind now + re-bind after dynamic content loads
-    bindHover()
-    setTimeout(bindHover, 1500)
-    setTimeout(bindHover, 3000)
+    const bindHover = () => {}
 
     /* ── Scroll: progress bar + parallax sections ── */
     const progress = document.getElementById('cin-progress')
@@ -263,37 +224,15 @@ export default function CinematicEffects() {
         </div>
       </div>
 
-      {/* ── Custom cursor dot ── */}
-      <div id="cin-cursor" className="cin-cursor-el" style={{
-        position:'fixed', top:0, left:0,
-        width:12, height:12,
-        background:'radial-gradient(circle, #f5c842, #d4a852)',
-        borderRadius:'50%', pointerEvents:'none', zIndex:10000,
-        transform:'translate3d(-400px,-400px,0)',
-        transition:'width 0.2s, height 0.2s, opacity 0.2s',
-        mixBlendMode:'screen', willChange:'transform',
-        boxShadow:'0 0 8px rgba(212,168,82,0.8)',
-      }} />
-
-      {/* ── Cursor ring ── */}
-      <div id="cin-cursor-ring" className="cin-cursor-el" style={{
-        position:'fixed', top:0, left:0,
-        width:40, height:40,
-        border:'1.5px solid rgba(212,168,82,0.5)',
-        borderRadius:'50%', pointerEvents:'none', zIndex:9998,
-        transform:'translate3d(-400px,-400px,0)',
-        transition:'width 0.25s cubic-bezier(0.16,1,0.3,1), height 0.25s cubic-bezier(0.16,1,0.3,1), border-color 0.25s',
-        willChange:'transform',
-      }} />
-
-      {/* ── Spotlight glow ── */}
-      <div id="cin-spotlight" className="cin-cursor-el" style={{
+      {/* ── Subtle spotlight glow only ── */}
+      <div id="cin-spotlight" style={{
         position:'fixed', top:0, left:0,
         width:700, height:700,
         borderRadius:'50%', pointerEvents:'none', zIndex:2,
-        background:'radial-gradient(circle, rgba(212,168,82,0.05) 0%, rgba(212,168,82,0.01) 40%, transparent 65%)',
-        transform:'translate3d(-400px,-400px,0)',
+        background:'radial-gradient(circle, rgba(212,168,82,0.04) 0%, transparent 60%)',
+        transform:'translate3d(-500px,-500px,0)',
         willChange:'transform',
+        transition:'transform 0.08s linear',
       }} />
 
       {/* ── Film grain overlay ── */}

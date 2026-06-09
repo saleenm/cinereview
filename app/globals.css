@@ -203,14 +203,7 @@ html { scroll-behavior: smooth; }
   to   { transform: translateX(-50%); }
 }
 
-/* ── Custom cursor (desktop only) ── */
-@media (pointer: fine) {
-  body { cursor: none; }
-  .cin-cursor-el { display: block !important; }
-}
-@media (pointer: coarse) {
-  .cin-cursor-el { display: none !important; }
-}
+/* cursor stays native — no custom cursor override */
 
 /* ── Cinematic hero ── */
 .cin-hero-bg {

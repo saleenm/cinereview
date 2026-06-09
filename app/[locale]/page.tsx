@@ -128,36 +128,29 @@ export default async function HomePage({ params }: Props) {
 
           {/* Title with decode animation */}
           <h1 style={{
+            fontFamily:'var(--font-cinzel,Cinzel,serif)',
             fontSize:'clamp(3.5rem,10vw,9rem)', fontWeight:900,
-            lineHeight:0.9, marginBottom:30,
+            lineHeight:0.9, letterSpacing:-2, marginBottom:30,
             animation:'fadeUp 1s forwards 0.6s', opacity:0,
           }}>
             <span
-              data-decode={isRTL ? 'سينيما' : 'CINEMA'}
+              data-decode="CINEMA"
               style={{
                 display:'block',
-                fontFamily: isRTL
-                  ? 'var(--font-cairo,Cairo,sans-serif)'
-                  : 'var(--font-cinzel,Cinzel,serif)',
-                letterSpacing: isRTL ? 6 : -2,
                 background:'linear-gradient(135deg, #fff 0%, var(--cin-gold) 50%, #fff 100%)',
                 WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent',
                 backgroundSize:'200% 200%',
                 animation:'cin-shimmer 3s infinite 1.5s',
               }}
             >
-              {isRTL ? 'سينيما' : 'CINEMA'}
+              CINEMA
             </span>
             <span style={{
               display:'block', color:'transparent',
-              fontFamily: isRTL
-                ? 'var(--font-cinzel,Cinzel,serif)'
-                : 'var(--font-cairo,Cairo,sans-serif)',
               WebkitTextStroke:'1px rgba(212,168,82,0.4)',
-              fontSize:'0.48em',
-              letterSpacing: isRTL ? '0.1em' : '0.18em',
+              fontSize:'0.48em', letterSpacing:'0.18em',
             }}>
-              {isRTL ? 'WORLD' : 'عالم السينما'}
+              WORLD
             </span>
           </h1>
 
