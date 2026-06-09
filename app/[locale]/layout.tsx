@@ -1,12 +1,18 @@
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, getTranslations } from 'next-intl/server'
-import { Cairo, Noto_Sans_JP } from 'next/font/google'
+import { Cairo, Cinzel, Noto_Sans_JP } from 'next/font/google'
 import { RTL_LOCALES } from '@/lib/types'
 
 const cairo = Cairo({
   subsets: ['arabic', 'latin'],
   variable: '--font-cairo',
   weight: ['300', '400', '500', '600', '700', '800', '900'],
+})
+
+const cinzel = Cinzel({
+  subsets: ['latin'],
+  variable: '--font-cinzel',
+  weight: ['400', '700', '900'],
 })
 
 const notoJP = Noto_Sans_JP({
@@ -64,7 +70,7 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html
       lang={locale}
       dir={isRTL ? 'rtl' : 'ltr'}
-      className={`${cairo.variable} ${notoJP.variable}`}
+      className={`${cairo.variable} ${cinzel.variable} ${notoJP.variable}`}
     >
       <head>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />

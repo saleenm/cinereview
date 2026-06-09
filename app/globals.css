@@ -173,3 +173,156 @@ html { scroll-behavior: smooth; }
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 }
+
+/* ═══════════════════════════════════════════════
+   CINEMATIC DESIGN SYSTEM
+   ═══════════════════════════════════════════════ */
+
+:root {
+  --cin-gold:   #d4a852;
+  --cin-gold2:  #f5c842;
+  --cin-crimson:#8b0000;
+  --cin-void:   #08080f;
+  --cin-deep:   #050508;
+  --cin-smoke:  rgba(255,255,255,0.06);
+  --cin-text:   #e8dcc8;
+}
+
+/* Loader bar */
+@keyframes cin-loadbar { to { width: 100%; } }
+
+/* Film grain shift */
+@keyframes cin-grain {
+  0%   { transform: translate(0,0); }
+  100% { transform: translate(-3%,2%); }
+}
+
+/* Marquee scroll */
+@keyframes cin-marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* ── Custom cursor (desktop only) ── */
+@media (pointer: fine) {
+  body { cursor: none; }
+  .cin-cursor-el { display: block !important; }
+}
+@media (pointer: coarse) {
+  .cin-cursor-el { display: none !important; }
+}
+
+/* ── Cinematic hero ── */
+.cin-hero-bg {
+  background:
+    radial-gradient(ellipse 60% 80% at 50% 0%, rgba(212,168,82,0.06) 0%, transparent 60%),
+    var(--cin-void);
+}
+
+/* ── Marquee section ── */
+.cin-marquee-track {
+  display: flex;
+  gap: 60px;
+  animation: cin-marquee 22s linear infinite;
+  white-space: nowrap;
+}
+
+/* ── Stats row ── */
+.cin-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: rgba(212,168,82,0.1);
+  border-top:    1px solid rgba(212,168,82,0.15);
+  border-bottom: 1px solid rgba(212,168,82,0.15);
+}
+@media (max-width: 640px) {
+  .cin-stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── Top-rated list ── */
+.cin-rated-item {
+  display: grid;
+  grid-template-columns: 80px auto 1fr auto auto;
+  align-items: center;
+  gap: 30px;
+  padding: 28px 30px;
+  background: var(--cin-smoke);
+  border: 1px solid transparent;
+  transition: all 0.4s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.cin-rated-item::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(212,168,82,0.05) 0%, transparent 60%);
+  opacity: 0; transition: opacity 0.4s;
+}
+.cin-rated-item:hover { border-color: rgba(212,168,82,0.2); transform: translateX(-4px); }
+.cin-rated-item:hover::before { opacity: 1; }
+
+@media (max-width: 768px) {
+  .cin-rated-item { grid-template-columns: 50px auto 1fr; gap: 16px; }
+  .cin-rated-hide-mobile { display: none !important; }
+}
+
+/* ── Score bar ── */
+.cin-score-fill {
+  height: 100%; width: 0;
+  background: linear-gradient(to right, var(--cin-crimson), var(--cin-gold));
+  border-radius: 2px;
+  transition: width 1.2s ease-out;
+}
+
+/* ── Film grid responsive ── */
+@media (max-width: 900px) {
+  .cin-grid-responsive {
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: auto !important;
+    height: auto !important;
+    perspective: none !important;
+  }
+  .cin-grid-responsive a:first-child {
+    grid-row: auto !important;
+    grid-column: 1 / 3;
+    min-height: 300px;
+  }
+  .cin-grid-responsive a:not(:first-child) {
+    min-height: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .cin-grid-responsive { grid-template-columns: 1fr !important; }
+  .cin-grid-responsive a:first-child { grid-column: 1 !important; }
+}
+
+/* ── Section divider ── */
+.cin-section-line {
+  flex: 1; height: 1px;
+  background: linear-gradient(to left, transparent, var(--cin-gold), transparent);
+}
+
+/* ── Cinzel font helper ── */
+.font-cinzel {
+  font-family: var(--font-cinzel, 'Cinzel', serif);
+}
+
+/* ── Hero animations ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes cin-shimmer {
+  0%,100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+@keyframes scrollPulse {
+  0%,100% { opacity: 0.3; transform: scaleY(1); }
+  50%      { opacity: 1;   transform: scaleY(1.2); }
+}
