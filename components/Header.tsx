@@ -161,19 +161,21 @@ export default function Header({ locale }: Props) {
       </div>
 
       {/* ── Mobile Menu ── */}
-      {menuOpen && (
-        <div className="lg:hidden border-t border-gray-800/60 glass-card">
-          <div className="py-2 max-h-[70vh] overflow-y-auto">
-            {allMobileLinks.map((l) => (
-              <Link key={l.href} href={l.href} onClick={() => setMenuOpen(false)}
-                className={`flex items-center px-4 py-3 text-sm transition-colors border-b border-gray-800/30 last:border-0
-                  ${isActive(l.href) ? 'text-amber-400 bg-amber-500/5' : 'text-gray-300 hover:text-white hover:bg-gray-800/50'}`}>
-                {l.label}
-              </Link>
-            ))}
-          </div>
+      <div className={`lg:hidden border-t border-gray-800/60 glass-card overflow-hidden transition-all duration-300 ease-out ${
+        menuOpen ? 'max-h-[70vh] opacity-100' : 'max-h-0 opacity-0'
+      }`}>
+        <div className="py-2 overflow-y-auto" style={{ maxHeight: '70vh' }}>
+          {allMobileLinks.map((l, i) => (
+            <Link key={l.href} href={l.href} onClick={() => setMenuOpen(false)}
+              style={{ transitionDelay: menuOpen ? `${i * 25}ms` : '0ms' }}
+              className={`flex items-center px-4 py-3 text-sm border-b border-gray-800/30 last:border-0
+                transition-all duration-200
+                ${isActive(l.href) ? 'text-amber-400 bg-amber-500/5' : 'text-gray-300 hover:text-white hover:bg-gray-800/50'}`}>
+              {l.label}
+            </Link>
+          ))}
         </div>
-      )}
+      </div>
     </header>
   )
 }
