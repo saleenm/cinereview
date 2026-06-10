@@ -830,6 +830,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'whiplash-legacy-impact-2026-06',
+    date: '2026-06-10',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/fRGxZuo7jJUWQsVg9PREb98Aclp.jpg',
+    movieSlug: 'whiplash',
+    i18n: {
+      ar: {
+        title: 'ويبلاش: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم ويبلاش (2014) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## ويبلاش — تحفة سينمائية\n\n**المخرج:** Damien Chazelle\n**السنة:** 2014\n**التقييم:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **ويبلاش** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Damien Chazelle كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Damien Chazelle أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **ويبلاش** مكانته بين أبرز أفلام **2014**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Whiplash: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Whiplash (2014) by Damien Chazelle — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Whiplash — A Cinematic Masterpiece\n\n**Director:** Damien Chazelle\n**Year:** 2014\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Whiplash** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Damien Chazelle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDamien Chazelle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Whiplash** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Whiplash: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Whiplash (2014) by Damien Chazelle — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Whiplash — A Cinematic Masterpiece\n\n**Director:** Damien Chazelle\n**Year:** 2014\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Whiplash** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Damien Chazelle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDamien Chazelle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Whiplash** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Whiplash: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Whiplash (2014) by Damien Chazelle — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Whiplash — A Cinematic Masterpiece\n\n**Director:** Damien Chazelle\n**Year:** 2014\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Whiplash** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Damien Chazelle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDamien Chazelle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Whiplash** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Whiplash: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Whiplash (2014) by Damien Chazelle — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Whiplash — A Cinematic Masterpiece\n\n**Director:** Damien Chazelle\n**Year:** 2014\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Whiplash** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Damien Chazelle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDamien Chazelle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Whiplash** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Whiplash: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Whiplash (2014) by Damien Chazelle — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Whiplash — A Cinematic Masterpiece\n\n**Director:** Damien Chazelle\n**Year:** 2014\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Whiplash** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Damien Chazelle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDamien Chazelle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Whiplash** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Whiplash: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Whiplash (2014) by Damien Chazelle — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Whiplash — A Cinematic Masterpiece\n\n**Director:** Damien Chazelle\n**Year:** 2014\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Whiplash** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Damien Chazelle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDamien Chazelle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Whiplash** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Whiplash: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Whiplash (2014) by Damien Chazelle — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Whiplash — A Cinematic Masterpiece\n\n**Director:** Damien Chazelle\n**Year:** 2014\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Whiplash** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Damien Chazelle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDamien Chazelle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Whiplash** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
