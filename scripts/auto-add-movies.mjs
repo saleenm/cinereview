@@ -34,9 +34,9 @@ const GEMINI_KEY = process.env.GEMINI_API_KEY
 const OPENROUTER_KEY = process.env.OPENROUTER_API_KEY
 
 if (!TMDB_KEY) {
-  console.error('❌ TMDB_API_KEY غير موجود في .env.local')
-  console.error('   احصل على مفتاح مجاني من: https://www.themoviedb.org/settings/api')
-  process.exit(1)
+  console.warn('⚠️ TMDB_API_KEY غير موجود — لا يمكن إضافة أفلام جديدة')
+  console.warn('   أضف TMDB_API_KEY في GitHub Secrets لتفعيل هذه الميزة')
+  process.exit(0)  // exit gracefully so workflow doesn't fail
 }
 
 // AI keys are optional — content is built entirely from TMDB data

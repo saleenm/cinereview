@@ -53,12 +53,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...COLLECTIONS.map((c) => localizedUrls(`/collection/${c.slug}`, 0.8, 'weekly')).flat(),
     // Compare, lists, map, podcast
     ...localizedUrls('/compare', 0.7, 'monthly'),
-    ...localizedUrls('/list/create', 0.6, 'monthly'),
     ...localizedUrls('/map', 0.7, 'monthly'),
     ...localizedUrls('/podcast', 0.7, 'weekly'),
-    ...localizedUrls('/profile', 0.5, 'monthly'),
-    ...localizedUrls('/watchlist', 0.6, 'monthly'),
     ...localizedUrls('/about', 0.5, 'monthly'),
     ...localizedUrls('/privacy', 0.3, 'yearly'),
+    // Note: /profile, /watchlist, /list/create excluded (robots.txt disallow)
   ]
 }
