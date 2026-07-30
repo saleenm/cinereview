@@ -110,9 +110,12 @@ export default function CinematicEffects() {
     }, { threshold: 0.3 })
     bars.forEach(b => barObs.observe(b))
 
+    /* ── Respect reduced motion ── */
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
     /* ── Scroll reveal — staggered per batch ── */
     const revEls  = document.querySelectorAll<HTMLElement>('.cin-reveal')
-    const revBatches = new Map<Element, number>()   // parent → counter
+    const revBatches = new Map<Element, number>()
     const revObs = new IntersectionObserver((entries) => {
       entries.forEach((e) => {
         if (!e.isIntersecting) return
@@ -121,21 +124,42 @@ export default function CinematicEffects() {
         const idx    = (revBatches.get(parent) || 0)
         revBatches.set(parent, idx + 1)
 
+        const delay = prefersReducedMotion ? 0 : idx * 70
         setTimeout(() => {
           el.style.opacity   = '1'
           el.style.transform = el.classList.contains('cin-reveal-x')
             ? 'translateX(0)' : 'translateY(0) scale(1)'
-        }, idx * 70)
+        }, delay)
         revObs.unobserve(el)
       })
     }, { threshold: 0.06 })
 
     revEls.forEach(el => {
+      if (prefersReducedMotion) { el.style.opacity = '1'; return }
       el.style.opacity    = '0'
       el.style.transition = 'opacity 0.7s cubic-bezier(0.16,1,0.3,1), transform 0.7s cubic-bezier(0.16,1,0.3,1)'
       el.style.transform  = el.classList.contains('cin-reveal-x')
         ? 'translateX(28px)' : 'translateY(22px) scale(0.96)'
       revObs.observe(el)
+    })
+
+    /* ── Stagger children (.cin-stagger-child) ── */
+    const staggerParents = document.querySelectorAll<HTMLElement>('[class*="cin-grid-stagger"], .cin-stagger-parent')
+    const staggerObs = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return
+        const parent = e.target as HTMLElement
+        const children = parent.querySelectorAll<HTMLElement>('.cin-stagger-child')
+        children.forEach((child, i) => {
+          const delay = prefersReducedMotion ? 0 : i * 55
+          setTimeout(() => child.classList.add('is-visible'), delay)
+        })
+        staggerObs.unobserve(parent)
+      })
+    }, { threshold: 0.05 })
+
+    document.querySelectorAll<HTMLElement>('.cin-grid-stagger, .cin-stagger-parent').forEach(p => {
+      staggerObs.observe(p)
     })
 
     /* ── Escape closes modal ── */
@@ -156,6 +180,7 @@ export default function CinematicEffects() {
       countObs.disconnect()
       barObs.disconnect()
       revObs.disconnect()
+      staggerObs.disconnect()
     }
   }, [])
 

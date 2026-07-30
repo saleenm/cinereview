@@ -134,7 +134,8 @@ export default function MovieCard({ movie, locale, variant = 'default' }: Props)
 
   // ── Default variant ──────────────────────────────────────────
   return (
-    <Link href={href} className="group flex flex-col rounded-2xl overflow-hidden bg-gray-900/80 border border-gray-800/60 hover:border-amber-500/40 transition-all duration-300 shine-card card-glow" style={{ willChange:'transform' }}>
+    <Link href={href} aria-label={`${isRTL ? movie.title_ar : movie.title} — ${movie.year}`}
+      className="group flex flex-col rounded-2xl overflow-hidden bg-gray-900/80 border border-gray-800/60 hover:border-amber-500/40 transition-all duration-300 shine-card card-glow cin-stagger-child" style={{ willChange:'transform' }}>
       {/* Poster */}
       <div className="relative w-full bg-gray-800" style={{ aspectRatio: '2/3' }}>
         <MovieImage

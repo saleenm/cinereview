@@ -60,27 +60,53 @@ export default function SearchBar({ locale }: { locale: string }) {
   }
 
   return (
-    <div ref={ref} className="relative hidden md:block">
-      <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gray-800 border border-gray-700 w-52 focus-within:border-amber-500/50 transition-colors">
-        <button onClick={goToSearch} className="text-gray-500 text-sm hover:text-amber-400 transition-colors">
-          {loading ? '⏳' : '🔍'}
+    <div ref={ref} className="relative hidden md:block" role="search">
+      <div className="search-glow flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gray-800 border border-gray-700 w-52 focus-within:border-amber-500/50 transition-colors">
+        <button
+          onClick={goToSearch}
+          aria-label={isRTL ? 'بحث' : 'Search'}
+          className="text-gray-500 hover:text-amber-400 transition-colors flex-shrink-0 flex items-center justify-center"
+          style={{ minHeight: 'unset' }}
+        >
+          {loading ? (
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="animate-spin">
+              <path d="M21 12a9 9 0 1 1-6.219-8.56"/>
+            </svg>
+          ) : (
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+          )}
         </button>
         <input
-          type="text"
+          type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={(e) => e.key === 'Enter' && goToSearch()}
           placeholder={t('search')}
+          aria-label={t('search')}
+          aria-autocomplete="list"
+          aria-controls={open ? 'search-results' : undefined}
           className="bg-transparent text-sm text-gray-300 placeholder-gray-600 outline-none w-full"
           dir={isRTL ? 'rtl' : 'ltr'}
         />
         {query && (
-          <button onClick={() => { setQuery(''); setOpen(false) }} className="text-gray-600 hover:text-gray-400 text-xs">✕</button>
+          <button
+            onClick={() => { setQuery(''); setOpen(false) }}
+            aria-label={isRTL ? 'مسح البحث' : 'Clear search'}
+            className="text-gray-600 hover:text-gray-300 transition-colors flex-shrink-0"
+            style={{ minHeight: 'unset' }}
+          >
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <path d="M18 6L6 18M6 6l12 12"/>
+            </svg>
+          </button>
         )}
       </div>
 
       {open && results.length > 0 && (
-        <div className={`absolute top-full mt-2 ${isRTL ? 'right-0' : 'left-0'} w-80 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl z-50 overflow-hidden`}>
+        <div id="search-results" role="listbox" aria-label={isRTL ? 'نتائج البحث' : 'Search results'}
+          className={`absolute top-full mt-2 ${isRTL ? 'right-0' : 'left-0'} w-80 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl z-50 overflow-hidden`}>
           {results.map((m) => (
             <Link
               key={m.slug}

@@ -77,6 +77,10 @@ export default async function LocaleLayout({ children, params }: Props) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       </head>
       <body className="bg-gray-950 text-gray-100 antialiased min-h-screen flex flex-col font-sans">
+        {/* Skip to main content — accessibility */}
+        <a href="#main-content" className="skip-nav">
+          {isRTL ? 'انتقل إلى المحتوى الرئيسي' : 'Skip to main content'}
+        </a>
         <NextIntlClientProvider messages={messages}>
           <PageTransition>{children}</PageTransition>
         </NextIntlClientProvider>

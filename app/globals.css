@@ -397,3 +397,136 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+
+/* ═══════════════════════════════════════════════
+   ACCESSIBILITY — Priority 1 (WCAG 2.1 AA)
+   ═══════════════════════════════════════════════ */
+
+/* Skip-to-main (screen reader + keyboard nav) */
+.skip-nav {
+  position: fixed; top: -100%; left: 50%;
+  transform: translateX(-50%);
+  background: var(--cin-gold); color: #000;
+  padding: 12px 28px; border-radius: 8px;
+  font-weight: 700; font-size: 0.9rem;
+  z-index: 10000; text-decoration: none;
+  transition: top 0.2s cubic-bezier(0.16,1,0.3,1);
+  white-space: nowrap;
+}
+.skip-nav:focus { top: 12px; }
+
+/* Better focus ring — amber, high contrast */
+:focus-visible {
+  outline: 2px solid rgba(212,168,82,0.9) !important;
+  outline-offset: 3px !important;
+  border-radius: 6px !important;
+  box-shadow: 0 0 0 4px rgba(212,168,82,0.15) !important;
+}
+
+/* Minimum touch targets (44×44px per WCAG 2.5.5) */
+button, [role="button"], a {
+  min-height: 44px;
+}
+/* Exceptions for inline or icon-in-list items */
+nav a, .cin-rated-item, .card-glow a {
+  min-height: unset;
+}
+header a, header button {
+  min-height: 36px;
+}
+
+/* ═══════════════════════════════════════════════
+   REDUCED MOTION — respect user preference
+   ═══════════════════════════════════════════════ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* Keep reveal elements visible if motion is off */
+  .cin-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .cin-marquee-track { animation: none !important; }
+  .float-anim, .glow-amber { animation: none !important; }
+  .card-glow:hover { transform: none !important; }
+}
+
+/* ═══════════════════════════════════════════════
+   ARABIC TYPOGRAPHY — RTL polish
+   ═══════════════════════════════════════════════ */
+[dir="rtl"] p,
+[dir="rtl"] .leading-relaxed,
+[dir="rtl"] .text-sm,
+[dir="rtl"] .text-base {
+  line-height: 1.95;
+  word-spacing: 0.04em;
+}
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3 {
+  line-height: 1.35;
+}
+[dir="rtl"] input, [dir="rtl"] textarea {
+  font-family: var(--font-cairo, 'Cairo', sans-serif);
+}
+
+/* ═══════════════════════════════════════════════
+   STAGGER ENTRANCE — cinematic grid animations
+   ═══════════════════════════════════════════════ */
+@keyframes cardEnter {
+  from { opacity: 0; transform: translateY(24px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0)   scale(1); }
+}
+
+.cin-grid-stagger > * {
+  animation: cardEnter 0.6s cubic-bezier(0.16,1,0.3,1) both;
+}
+.cin-grid-stagger > *:nth-child(1)  { animation-delay: 0.04s; }
+.cin-grid-stagger > *:nth-child(2)  { animation-delay: 0.08s; }
+.cin-grid-stagger > *:nth-child(3)  { animation-delay: 0.12s; }
+.cin-grid-stagger > *:nth-child(4)  { animation-delay: 0.16s; }
+.cin-grid-stagger > *:nth-child(5)  { animation-delay: 0.20s; }
+.cin-grid-stagger > *:nth-child(6)  { animation-delay: 0.24s; }
+.cin-grid-stagger > *:nth-child(7)  { animation-delay: 0.28s; }
+.cin-grid-stagger > *:nth-child(8)  { animation-delay: 0.32s; }
+.cin-grid-stagger > *:nth-child(9)  { animation-delay: 0.36s; }
+.cin-grid-stagger > *:nth-child(10) { animation-delay: 0.40s; }
+.cin-grid-stagger > *:nth-child(11) { animation-delay: 0.44s; }
+.cin-grid-stagger > *:nth-child(12) { animation-delay: 0.48s; }
+.cin-grid-stagger > *:nth-child(n+13) { animation-delay: 0.52s; }
+
+/* Scroll-triggered stagger (used with IntersectionObserver in CinematicEffects) */
+.cin-stagger-child {
+  opacity: 0;
+  transform: translateY(20px) scale(0.97);
+  transition: opacity 0.55s cubic-bezier(0.16,1,0.3,1),
+              transform 0.55s cubic-bezier(0.16,1,0.3,1);
+}
+.cin-stagger-child.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* ═══════════════════════════════════════════════
+   BUTTON POLISH — hover / active states
+   ═══════════════════════════════════════════════ */
+button:active { transform: scale(0.97); }
+a:active { opacity: 0.85; }
+
+/* Genre card hover glow */
+.genre-card {
+  transition: transform 0.25s cubic-bezier(0.16,1,0.3,1),
+              box-shadow 0.25s ease,
+              border-color 0.25s ease;
+}
+.genre-card:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.4), 0 0 20px rgba(212,168,82,0.08);
+}
+
+/* Search bar focus glow */
+.search-glow:focus-within {
+  box-shadow: 0 0 0 2px rgba(212,168,82,0.3), 0 4px 20px rgba(0,0,0,0.3);
+}

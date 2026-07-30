@@ -107,7 +107,7 @@ export default async function HomePage({ params }: Props) {
 
       <Header locale={locale} />
 
-      <main className="flex-1" style={{ position:'relative', zIndex:10 }}>
+      <main id="main-content" className="flex-1" style={{ position:'relative', zIndex:10 }}>
 
         {/* ═══════════════════ HERO ═══════════════════ */}
         <section className="cin-hero-bg" style={{
@@ -381,7 +381,7 @@ export default async function HomePage({ params }: Props) {
               <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" className="group-hover:translate-x-0.5 transition-transform"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </Link>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 cin-grid-stagger">
             {latestMovies.map((m) => (
               <MovieCard key={m.slug} movie={m} locale={locale} />
             ))}
@@ -403,7 +403,7 @@ export default async function HomePage({ params }: Props) {
                 <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" className="group-hover:translate-x-0.5 transition-transform"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </Link>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-3 cin-grid-stagger">
               {movies.map((m) => (
                 <MovieCard key={m.slug} movie={m} locale={locale} />
               ))}

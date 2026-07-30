@@ -63,7 +63,7 @@ export default function Header({ locale }: Props) {
   const allMobileLinks = [...primaryNav.map(l => ({ href: l.href, label: l.label })), ...exploreLinks]
 
   return (
-    <header className="sticky top-0 z-50 glass-card border-b border-gray-800/60">
+    <header className="sticky top-0 z-50 glass-card border-b border-gray-800/60" role="banner">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
 
         {/* ── Logo ── */}
@@ -79,7 +79,7 @@ export default function Header({ locale }: Props) {
         </Link>
 
         {/* ── Desktop Primary Nav ── */}
-        <nav className="hidden lg:flex items-center gap-1">
+        <nav className="hidden lg:flex items-center gap-1" aria-label={isRTL ? 'التنقل الرئيسي' : 'Main navigation'}>
           {primaryNav.map((l) => (
             <Link key={l.href} href={l.href}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
@@ -97,6 +97,8 @@ export default function Header({ locale }: Props) {
             <button
               onClick={() => setExploreOpen(!exploreOpen)}
               onBlur={() => setTimeout(() => setExploreOpen(false), 150)}
+              aria-expanded={exploreOpen}
+              aria-haspopup="true"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-gray-800/80 transition-all"
             >
               <span className="opacity-70"><IconGrid /></span>
@@ -127,6 +129,9 @@ export default function Header({ locale }: Props) {
             <button
               onClick={() => setLangOpen(!langOpen)}
               onBlur={() => setTimeout(() => setLangOpen(false), 150)}
+              aria-expanded={langOpen}
+              aria-haspopup="listbox"
+              aria-label={isRTL ? 'تغيير اللغة' : 'Change language'}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gray-800/80 hover:bg-gray-700 text-sm text-gray-300 transition-all border border-gray-700/60"
             >
               <IconGlobe />
@@ -154,6 +159,9 @@ export default function Header({ locale }: Props) {
 
           {/* Mobile menu toggle */}
           <button onClick={() => setMenuOpen(!menuOpen)}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-menu"
+            aria-label={menuOpen ? (isRTL ? 'إغلاق القائمة' : 'Close menu') : (isRTL ? 'فتح القائمة' : 'Open menu')}
             className="lg:hidden p-2 rounded-lg bg-gray-800/80 text-gray-300 border border-gray-700/60 hover:bg-gray-700 transition-colors">
             {menuOpen ? <IconClose /> : <IconMenu />}
           </button>
@@ -161,7 +169,8 @@ export default function Header({ locale }: Props) {
       </div>
 
       {/* ── Mobile Menu ── */}
-      <div className={`lg:hidden border-t border-gray-800/60 glass-card overflow-hidden transition-all duration-300 ease-out ${
+      <div id="mobile-menu" role="navigation" aria-label={isRTL ? 'قائمة الجوال' : 'Mobile navigation'}
+        className={`lg:hidden border-t border-gray-800/60 glass-card overflow-hidden transition-all duration-300 ease-out ${
         menuOpen ? 'max-h-[70vh] opacity-100' : 'max-h-0 opacity-0'
       }`}>
         <div className="py-2 overflow-y-auto" style={{ maxHeight: '70vh' }}>
