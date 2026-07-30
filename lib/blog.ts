@@ -1457,6 +1457,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'parasite-compare-era-2026-07',
+    date: '2026-07-30',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg',
+    movieSlug: 'parasite',
+    i18n: {
+      ar: {
+        title: 'طفيلي: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم طفيلي (2019) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## طفيلي — تحفة سينمائية\n\n**المخرج:** Bong Joon-ho\n**السنة:** 2019\n**التقييم:** 9.4/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **طفيلي** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Bong Joon-ho كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Bong Joon-ho أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **طفيلي** مكانته بين أبرز أفلام **2019**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Parasite: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Parasite (2019) by Bong Joon-ho — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Parasite — A Cinematic Masterpiece\n\n**Director:** Bong Joon-ho\n**Year:** 2019\n**Rating:** 9.4/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Parasite** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Bong Joon-ho deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nBong Joon-ho crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Parasite** rightfully earns its place among the defining films of **2019**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Parasite: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Parasite (2019) by Bong Joon-ho — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Parasite — A Cinematic Masterpiece\n\n**Director:** Bong Joon-ho\n**Year:** 2019\n**Rating:** 9.4/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Parasite** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Bong Joon-ho deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nBong Joon-ho crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Parasite** rightfully earns its place among the defining films of **2019**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Parasite: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Parasite (2019) by Bong Joon-ho — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Parasite — A Cinematic Masterpiece\n\n**Director:** Bong Joon-ho\n**Year:** 2019\n**Rating:** 9.4/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Parasite** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Bong Joon-ho deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nBong Joon-ho crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Parasite** rightfully earns its place among the defining films of **2019**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Parasite: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Parasite (2019) by Bong Joon-ho — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Parasite — A Cinematic Masterpiece\n\n**Director:** Bong Joon-ho\n**Year:** 2019\n**Rating:** 9.4/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Parasite** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Bong Joon-ho deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nBong Joon-ho crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Parasite** rightfully earns its place among the defining films of **2019**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Parasite: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Parasite (2019) by Bong Joon-ho — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Parasite — A Cinematic Masterpiece\n\n**Director:** Bong Joon-ho\n**Year:** 2019\n**Rating:** 9.4/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Parasite** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Bong Joon-ho deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nBong Joon-ho crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Parasite** rightfully earns its place among the defining films of **2019**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Parasite: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Parasite (2019) by Bong Joon-ho — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Parasite — A Cinematic Masterpiece\n\n**Director:** Bong Joon-ho\n**Year:** 2019\n**Rating:** 9.4/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Parasite** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Bong Joon-ho deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nBong Joon-ho crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Parasite** rightfully earns its place among the defining films of **2019**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Parasite: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Parasite (2019) by Bong Joon-ho — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Parasite — A Cinematic Masterpiece\n\n**Director:** Bong Joon-ho\n**Year:** 2019\n**Rating:** 9.4/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Parasite** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Bong Joon-ho deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nBong Joon-ho crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Parasite** rightfully earns its place among the defining films of **2019**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
