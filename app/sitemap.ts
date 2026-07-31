@@ -28,8 +28,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...localizedUrls('/movies', 0.9, 'daily'),
     // Search
     ...localizedUrls('/search', 0.8, 'daily'),
-    // Top rated
+    // Top rated + What's New
     ...localizedUrls('/top-rated', 0.9, 'weekly'),
+    ...localizedUrls('/new', 0.9, 'daily'),
     // Genre pages
     ...GENRE_KEYS.flatMap((g) => localizedUrls(`/genre/${g}`, 0.7, 'weekly')),
     // Genre top pages

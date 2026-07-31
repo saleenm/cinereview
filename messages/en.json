@@ -9,7 +9,7 @@
     "movies": "Movies",
     "topRated": "Top Rated",
     "genres": "Genres",
-    "compare": "Compare",
+    "compare": "⚖️ Compare",
     "noResults": "No results found",
     "search": "Search for a movie...",
     "language": "Language",
@@ -18,8 +18,9 @@
     "directors": "Directors",
     "movieOfDay": "🎬 Daily",
     "actors": "Actors",
-    "compare": "⚖️ Compare", "myList": "📋 My List",
-    "worldMap": "🗺️ World Map"
+    "myList": "📋 My List",
+    "worldMap": "🗺️ World Map",
+    "newMovies": "✨ What's New"
   },
   "home": {
     "heroTitle": "Discover the World of Cinema",

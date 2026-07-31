@@ -9,7 +9,7 @@
     "movies": "Películas",
     "topRated": "Mejor Valoradas",
     "genres": "Géneros",
-    "compare": "Comparar",
+    "compare": "⚖️ Comparar",
     "noResults": "Sin resultados",
     "search": "Buscar una película...",
     "language": "Idioma",
@@ -18,8 +18,9 @@
     "directors": "Directores",
     "movieOfDay": "🎬 Diario",
     "actors": "Actores",
-    "compare": "⚖️ Comparar", "myList": "📋 Mi Lista",
-    "worldMap": "🗺️ Mapa Mundial"
+    "myList": "📋 Mi Lista",
+    "worldMap": "🗺️ Mapa Mundial",
+    "newMovies": "✨ Novedades"
   },
   "home": {
     "heroTitle": "Descubre el Mundo del Cine",

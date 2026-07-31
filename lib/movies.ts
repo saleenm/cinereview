@@ -46567,6 +46567,9 @@ export function getMovies(opts?: {
     movies.sort((a, b) => b.rating_overall - a.rating_overall)
   } else if (opts?.sort === 'year') {
     movies.sort((a, b) => b.year - a.year)
+  } else if (opts?.sort === 'recent') {
+    // Newest additions are appended at the end of MOVIES array
+    movies.reverse()
   } else {
     movies.sort((a, b) => b.rating_overall - a.rating_overall)
   }

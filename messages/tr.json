@@ -9,7 +9,7 @@
     "movies": "Filmler",
     "topRated": "En İyi Puanlananlar",
     "genres": "Türler",
-    "compare": "Karşılaştır",
+    "compare": "⚖️ Karşılaştır",
     "noResults": "Sonuç yok",
     "search": "Film ara...",
     "language": "Dil",
@@ -18,8 +18,9 @@
     "directors": "Yönetmenler",
     "movieOfDay": "🎬 Günlük",
     "actors": "Oyuncular",
-    "compare": "⚖️ Karşılaştır", "myList": "📋 Listem",
-    "worldMap": "🗺️ Dünya Haritası"
+    "myList": "📋 Listem",
+    "worldMap": "🗺️ Dünya Haritası",
+    "newMovies": "✨ Yenilikler"
   },
   "home": {
     "heroTitle": "Sinema Dünyasını Keşfet",

@@ -9,7 +9,7 @@
     "movies": "الأفلام",
     "topRated": "الأعلى تقييماً",
     "genres": "الأنواع",
-    "compare": "مقارنة",
+    "compare": "⚖️ مقارنة",
     "noResults": "لا توجد نتائج",
     "search": "بحث عن فيلم...",
     "language": "اللغة",
@@ -18,8 +18,9 @@
     "directors": "المخرجون",
     "movieOfDay": "🎬 اليومي",
     "actors": "الممثلون",
-    "compare": "⚖️ مقارنة", "myList": "📋 قائمتي",
-    "worldMap": "🗺️ خريطة العالم"
+    "myList": "📋 قائمتي",
+    "worldMap": "🗺️ خريطة العالم",
+    "newMovies": "✨ ما الجديد"
   },
   "home": {
     "heroTitle": "اكتشف عوالم السينما",
