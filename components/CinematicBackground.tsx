@@ -115,8 +115,8 @@ export default function CinematicBackground() {
 
     let mrx = 0, mry = 0, tmrx = 0, tmry = 0
     const onMove = (e: MouseEvent) => {
-      tmry = (e.clientX/window.innerWidth-0.5)*1.0
-      tmrx = (e.clientY/window.innerHeight-0.5)*0.5
+      tmry = (e.clientX/window.innerWidth-0.5)*1.6
+      tmrx = (e.clientY/window.innerHeight-0.5)*0.9
     }
     window.addEventListener('mousemove', onMove)
     gl.enable(gl.BLEND); gl.blendFunc(gl.SRC_ALPHA, gl.ONE); gl.clearColor(0,0,0,0)
@@ -124,9 +124,9 @@ export default function CinematicBackground() {
     let rafId = 0
     const render = (t: number) => {
       const time = t * 0.001
-      // Smooth mouse interpolation
-      mrx += (tmrx - mrx) * 0.04
-      mry += (tmry - mry) * 0.04
+      // Smooth mouse interpolation — more reactive
+      mrx += (tmrx - mrx) * 0.08
+      mry += (tmry - mry) * 0.08
       gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT)
       const mvp = mul(
         mul(
@@ -167,11 +167,11 @@ export default function CinematicBackground() {
     window.addEventListener('resize', resizeOrbs)
 
     const orbs = [
-      { x: window.innerWidth * 0.15, y: window.innerHeight * 0.25, r: 420, dx: 0.12, dy: 0.07,  hue: 38,  sat: 80, lit: 45, a: 0.045, px: 0.06 },
-      { x: window.innerWidth * 0.75, y: window.innerHeight * 0.65, r: 380, dx: -0.09, dy: 0.11, hue: 42,  sat: 70, lit: 40, a: 0.035, px: 0.04 },
-      { x: window.innerWidth * 0.50, y: window.innerHeight * 0.80, r: 300, dx: 0.15, dy: -0.08, hue: 0,   sat: 85, lit: 35, a: 0.025, px: 0.08 },
-      { x: window.innerWidth * 0.85, y: window.innerHeight * 0.15, r: 250, dx: -0.11, dy: 0.13, hue: 0,   sat: 70, lit: 30, a: 0.020, px: 0.03 },
-      { x: window.innerWidth * 0.30, y: window.innerHeight * 0.55, r: 200, dx: 0.08,  dy: -0.12, hue: 220, sat: 80, lit: 40, a: 0.018, px: 0.05 },
+      { x: window.innerWidth * 0.15, y: window.innerHeight * 0.25, r: 420, dx: 0.12, dy: 0.07,  hue: 38,  sat: 80, lit: 45, a: 0.055, px: 0.10 },
+      { x: window.innerWidth * 0.75, y: window.innerHeight * 0.65, r: 380, dx: -0.09, dy: 0.11, hue: 42,  sat: 70, lit: 40, a: 0.045, px: 0.07 },
+      { x: window.innerWidth * 0.50, y: window.innerHeight * 0.80, r: 300, dx: 0.15, dy: -0.08, hue: 0,   sat: 85, lit: 35, a: 0.035, px: 0.13 },
+      { x: window.innerWidth * 0.85, y: window.innerHeight * 0.15, r: 250, dx: -0.11, dy: 0.13, hue: 0,   sat: 70, lit: 30, a: 0.028, px: 0.06 },
+      { x: window.innerWidth * 0.30, y: window.innerHeight * 0.55, r: 200, dx: 0.08,  dy: -0.12, hue: 220, sat: 80, lit: 40, a: 0.025, px: 0.09 },
     ]
 
     let mx = window.innerWidth / 2
@@ -182,8 +182,8 @@ export default function CinematicBackground() {
 
     let rafId = 0
     const drawOrbs = () => {
-      mx += (tmx - mx) * 0.03
-      my += (tmy - my) * 0.03
+      mx += (tmx - mx) * 0.06
+      my += (tmy - my) * 0.06
 
       ctx.clearRect(0, 0, pc.width, pc.height)
       orbs.forEach(o => {

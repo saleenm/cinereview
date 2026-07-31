@@ -10,6 +10,7 @@ import CinematicBackground from '@/components/CinematicBackground'
 import CinematicEffects from '@/components/CinematicEffects'
 import CinematicFilmGrid from '@/components/CinematicFilmGrid'
 import AdUnit from '@/components/AdUnit'
+import GSAPAnimations from '@/components/GSAPAnimations'
 import { getMovies, getMovieOfTheDay } from '@/lib/movies'
 import { getRecentPosts, getPostData } from '@/lib/blog'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
@@ -104,6 +105,8 @@ export default async function HomePage({ params }: Props) {
 
       {/* ── Fixed UI effects (cursor, loader, progress, grain, vignette) ── */}
       <CinematicEffects />
+      {/* ── GSAP ScrollTrigger animations ── */}
+      <GSAPAnimations />
 
       <Header locale={locale} />
 
@@ -235,7 +238,7 @@ export default async function HomePage({ params }: Props) {
           {stats.map((s, i) => (
             <div key={i} style={{
               padding:'40px', textAlign:'center', position:'relative', background:'rgba(8,8,15,0.7)',
-            }} className="cin-reveal">
+            }} className="cin-reveal gsap-stat">
               {i < stats.length - 1 && (
                 <div style={{ position:'absolute', right:0, top:'20%', bottom:'20%', width:1, background:'rgba(212,168,82,0.15)' }} />
               )}
@@ -314,7 +317,7 @@ export default async function HomePage({ params }: Props) {
           <div style={{ display:'flex', flexDirection:'column', gap:2 }}>
             {topRated.slice(0, 6).map((m, i) => (
               <Link key={m.slug} href={`/${locale}/movies/${m.slug}`}
-                className="cin-rated-item cin-reveal cin-reveal-x" style={{ textDecoration:'none' }}>
+                className="cin-rated-item cin-reveal cin-reveal-x gsap-list-item" style={{ textDecoration:'none' }}>
                 <div style={{ fontFamily:'var(--font-cinzel,Cinzel,serif)', fontSize:'2rem', fontWeight:900, color:'rgba(212,168,82,0.15)', textAlign:'center' }}>
                   {String(i+1).padStart(2,'0')}
                 </div>
@@ -370,7 +373,7 @@ export default async function HomePage({ params }: Props) {
         {/* ═══════════════════ LATEST ADDITIONS ═══════════════════ */}
         <section className="max-w-7xl mx-auto px-4 py-12" style={{ position:'relative', zIndex:10 }}>
           <div className="flex items-center justify-between mb-6">
-            <h2 className="section-accent text-xl font-black text-white">
+            <h2 className="section-accent text-xl font-black text-white gsap-heading">
               <span className="flex items-center gap-2">
                 <span className="text-amber-400">🆕</span>
                 {isRTL ? 'أحدث الإضافات' : 'Latest Additions'}
@@ -381,9 +384,11 @@ export default async function HomePage({ params }: Props) {
               <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" className="group-hover:translate-x-0.5 transition-transform"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </Link>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 cin-grid-stagger">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 cin-grid-stagger gsap-grid">
             {latestMovies.map((m) => (
-              <MovieCard key={m.slug} movie={m} locale={locale} />
+              <div key={m.slug} className="gsap-card">
+                <MovieCard movie={m} locale={locale} />
+              </div>
             ))}
           </div>
         </section>
@@ -403,9 +408,11 @@ export default async function HomePage({ params }: Props) {
                 <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" className="group-hover:translate-x-0.5 transition-transform"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </Link>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-3 cin-grid-stagger">
+            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-3 cin-grid-stagger gsap-grid">
               {movies.map((m) => (
-                <MovieCard key={m.slug} movie={m} locale={locale} />
+                <div key={m.slug} className="gsap-card">
+                  <MovieCard movie={m} locale={locale} />
+                </div>
               ))}
             </div>
           </section>
@@ -419,7 +426,7 @@ export default async function HomePage({ params }: Props) {
                 <span className="flex items-center gap-2"><span className="text-amber-400">🎭</span>{t('byGenreTitle')}</span>
               </h2>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7 gap-3">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-7 gap-3 gsap-genre-grid">
               {GENRE_KEYS.map((g) => {
                 const count = getMovies({ genre: g }).length
                 return (
@@ -451,7 +458,7 @@ export default async function HomePage({ params }: Props) {
               const d = getPostData(post, locale)
               return (
                 <Link key={post.slug} href={`/${locale}/blog/${post.slug}`}
-                  className="group bg-gray-900/80 border border-gray-800/60 hover:border-amber-500/40 rounded-2xl overflow-hidden transition-all card-glow shine-card">
+                  className="group bg-gray-900/80 border border-gray-800/60 hover:border-amber-500/40 rounded-2xl overflow-hidden transition-all card-glow shine-card gsap-blog-card">
                   <div className="relative h-44 overflow-hidden bg-gray-800">
                     <BlogImage src={post.image} alt={d.title} className="object-cover group-hover:scale-105 transition-transform duration-700" />
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/20 to-transparent" />
@@ -474,7 +481,7 @@ export default async function HomePage({ params }: Props) {
 
         {/* ═══════════════════ CTA BANNER ═══════════════════ */}
         <section className="max-w-7xl mx-auto px-4 pb-16" style={{ position:'relative', zIndex:10 }}>
-          <div className="relative overflow-hidden rounded-3xl border border-amber-500/20 text-center p-12"
+          <div className="relative overflow-hidden rounded-3xl border border-amber-500/20 text-center p-12 gsap-cta-banner"
             style={{ background:'radial-gradient(ellipse 80% 100% at 50% 100%,rgba(245,158,11,0.12) 0%,rgba(249,115,22,0.05) 40%,transparent 70%),#0d1117' }}>
             <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-500/20 to-transparent" />

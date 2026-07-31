@@ -63,6 +63,9 @@ export default function CinematicEffects() {
       }, 1000)
     }
 
+    /* ── Respect reduced motion ── */
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
     /* ── Magnetic buttons ── */
     document.querySelectorAll('.cin-magnetic').forEach(el => {
       const h = el as HTMLElement
@@ -77,6 +80,67 @@ export default function CinematicEffects() {
       h.addEventListener('mousemove', onMM)
       h.addEventListener('mouseleave', onML)
     })
+
+    /* ── Global 3-D card tilt (.card-glow) ── */
+    const tiltEls: { el: HTMLElement; rafId: number; tRX: number; tRY: number; cRX: number; cRY: number; glare: HTMLDivElement }[] = []
+
+    if (!prefersReducedMotion) {
+      document.querySelectorAll<HTMLElement>('.card-glow').forEach(el => {
+        el.style.position = 'relative'
+
+        const glare = document.createElement('div')
+        glare.style.cssText = `
+          position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:2;
+          background:radial-gradient(circle at 50% 50%,rgba(255,255,255,0.10) 0%,transparent 65%);
+          opacity:0;transition:opacity 0.3s ease;
+        `
+        el.appendChild(glare)
+
+        const state = { el, rafId: 0, tRX: 0, tRY: 0, cRX: 0, cRY: 0, glare }
+
+        const loop = () => {
+          state.cRX += (state.tRX - state.cRX) * 0.11
+          state.cRY += (state.tRY - state.cRY) * 0.11
+          el.style.transform = `perspective(900px) rotateX(${state.cRX}deg) rotateY(${state.cRY}deg) scale(1.035)`
+          state.rafId = requestAnimationFrame(loop)
+        }
+
+        const onEnter = () => {
+          state.rafId = requestAnimationFrame(loop)
+          glare.style.opacity = '1'
+          el.style.zIndex = '10'
+          el.style.boxShadow = '0 24px 60px rgba(0,0,0,0.55),0 0 30px rgba(212,168,82,0.14)'
+        }
+
+        const onLeave = () => {
+          state.tRX = 0; state.tRY = 0
+          setTimeout(() => {
+            cancelAnimationFrame(state.rafId)
+            el.style.transform = 'perspective(900px) rotateX(0deg) rotateY(0deg) scale(1)'
+            el.style.zIndex = ''
+            el.style.boxShadow = ''
+          }, 400)
+          glare.style.opacity = '0'
+        }
+
+        const onMove = (e: MouseEvent) => {
+          const r  = el.getBoundingClientRect()
+          const dx = (e.clientX - r.left - r.width  / 2) / (r.width  / 2)
+          const dy = (e.clientY - r.top  - r.height / 2) / (r.height / 2)
+          state.tRY =  dx * 10
+          state.tRX = -dy * 10 * 0.65
+          const gx = ((e.clientX - r.left) / r.width)  * 100
+          const gy = ((e.clientY - r.top)  / r.height) * 100
+          glare.style.background = `radial-gradient(circle at ${gx}% ${gy}%,rgba(255,255,255,0.13) 0%,transparent 60%)`
+        }
+
+        el.addEventListener('mouseenter', onEnter)
+        el.addEventListener('mouseleave', onLeave)
+        el.addEventListener('mousemove',  onMove)
+        el.style.willChange = 'transform'
+        tiltEls.push(state)
+      })
+    }
 
     /* ── Count-up stats — Western digits for Cinzel ── */
     const counters = document.querySelectorAll<HTMLElement>('[data-cin-count]')
@@ -109,9 +173,6 @@ export default function CinematicEffects() {
       })
     }, { threshold: 0.3 })
     bars.forEach(b => barObs.observe(b))
-
-    /* ── Respect reduced motion ── */
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
     /* ── Scroll reveal — staggered per batch ── */
     const revEls  = document.querySelectorAll<HTMLElement>('.cin-reveal')
@@ -177,6 +238,7 @@ export default function CinematicEffects() {
       document.removeEventListener('mousemove', onMouseMove)
       window.removeEventListener('scroll', onScroll)
       document.removeEventListener('keydown', onKeyDown)
+      tiltEls.forEach(s => cancelAnimationFrame(s.rafId))
       countObs.disconnect()
       barObs.disconnect()
       revObs.disconnect()
