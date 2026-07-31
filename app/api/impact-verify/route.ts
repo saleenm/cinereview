@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 
 export async function GET() {
   return new NextResponse(
-    'Impact-Site-Verification: 466a603c-1806-4511-85ab-4de775dc301d',
+    'Impact-Site-Verification: bf117cf3-d394-494f-a9ab-49557453c11d',
     {
       status: 200,
       headers: {
