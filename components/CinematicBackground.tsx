@@ -41,16 +41,21 @@ export default function CinematicBackground() {
         vLayer = aLayer;
       }`
 
-    /* Fragment: soft glow disc with color tint per layer */
+    /* Fragment: 3-way color — gold → crimson → ice blue across depth layers */
     const fs = `
       precision mediump float;
       varying float vAlpha; varying float vLayer;
-      uniform vec3 uColor; uniform vec3 uColor2;
+      uniform vec3 uColor; uniform vec3 uColor2; uniform vec3 uColor3;
       void main(){
         float d = distance(gl_PointCoord, vec2(0.5));
         if(d > 0.5) discard;
         float soft = smoothstep(0.5, 0.0, d);
-        vec3 col = mix(uColor, uColor2, vLayer);
+        vec3 col;
+        if(vLayer < 0.5){
+          col = mix(uColor, uColor2, vLayer * 2.0);
+        } else {
+          col = mix(uColor2, uColor3, (vLayer - 0.5) * 2.0);
+        }
         gl_FragColor = vec4(col, soft * vAlpha);
       }`
 
@@ -96,8 +101,10 @@ export default function CinematicBackground() {
     const uTime   = gl.getUniformLocation(prog, 'uTime')!
     const uColor  = gl.getUniformLocation(prog, 'uColor')!
     const uColor2 = gl.getUniformLocation(prog, 'uColor2')!
-    gl.uniform3f(uColor,  0.83, 0.66, 0.32)   // gold
-    gl.uniform3f(uColor2, 0.55, 0.10, 0.10)   // deep crimson
+    const uColor3 = gl.getUniformLocation(prog, 'uColor3')!
+    gl.uniform3f(uColor,  0.83, 0.66, 0.32)   // gold (layer 0 — foreground)
+    gl.uniform3f(uColor2, 0.45, 0.08, 0.12)   // deep crimson (layer 1 — mid)
+    gl.uniform3f(uColor3, 0.18, 0.52, 0.88)   // ice blue (layer 2 — deep background)
 
     const persp = (f: number, a: number, n: number, fa: number) => {
       const t = 1/Math.tan(f/2), m = new Float32Array(16)
@@ -167,11 +174,15 @@ export default function CinematicBackground() {
     window.addEventListener('resize', resizeOrbs)
 
     const orbs = [
-      { x: window.innerWidth * 0.15, y: window.innerHeight * 0.25, r: 420, dx: 0.12, dy: 0.07,  hue: 38,  sat: 80, lit: 45, a: 0.055, px: 0.10 },
-      { x: window.innerWidth * 0.75, y: window.innerHeight * 0.65, r: 380, dx: -0.09, dy: 0.11, hue: 42,  sat: 70, lit: 40, a: 0.045, px: 0.07 },
-      { x: window.innerWidth * 0.50, y: window.innerHeight * 0.80, r: 300, dx: 0.15, dy: -0.08, hue: 0,   sat: 85, lit: 35, a: 0.035, px: 0.13 },
-      { x: window.innerWidth * 0.85, y: window.innerHeight * 0.15, r: 250, dx: -0.11, dy: 0.13, hue: 0,   sat: 70, lit: 30, a: 0.028, px: 0.06 },
-      { x: window.innerWidth * 0.30, y: window.innerHeight * 0.55, r: 200, dx: 0.08,  dy: -0.12, hue: 220, sat: 80, lit: 40, a: 0.025, px: 0.09 },
+      // ── Warm orbs ──
+      { x: window.innerWidth * 0.15, y: window.innerHeight * 0.25, r: 420, dx: 0.12,  dy: 0.07,  hue: 38,  sat: 80, lit: 45, a: 0.050, px: 0.10 },
+      { x: window.innerWidth * 0.75, y: window.innerHeight * 0.65, r: 340, dx: -0.09, dy: 0.11,  hue: 42,  sat: 70, lit: 40, a: 0.040, px: 0.07 },
+      { x: window.innerWidth * 0.50, y: window.innerHeight * 0.80, r: 280, dx: 0.15,  dy: -0.08, hue: 6,   sat: 85, lit: 35, a: 0.032, px: 0.13 },
+      // ── Cold orbs ──
+      { x: window.innerWidth * 0.82, y: window.innerHeight * 0.12, r: 380, dx: -0.10, dy: 0.08,  hue: 205, sat: 90, lit: 55, a: 0.042, px: 0.11 },
+      { x: window.innerWidth * 0.10, y: window.innerHeight * 0.70, r: 320, dx: 0.07,  dy: -0.10, hue: 215, sat: 85, lit: 45, a: 0.038, px: 0.09 },
+      { x: window.innerWidth * 0.60, y: window.innerHeight * 0.10, r: 260, dx: -0.13, dy: 0.12,  hue: 185, sat: 80, lit: 42, a: 0.030, px: 0.08 },
+      { x: window.innerWidth * 0.35, y: window.innerHeight * 0.45, r: 200, dx: 0.09,  dy: 0.13,  hue: 240, sat: 70, lit: 40, a: 0.022, px: 0.12 },
     ]
 
     let mx = window.innerWidth / 2
@@ -225,6 +236,15 @@ export default function CinematicBackground() {
       <canvas ref={orbRef}
         style={{ position:'fixed', top:0, left:0, width:'100%', height:'100%', zIndex:1, pointerEvents:'none' }}
       />
+      {/* ── Cold frost overlay — top-left to bottom-right diagonal ── */}
+      <div style={{
+        position:'fixed', inset:0, zIndex:1, pointerEvents:'none',
+        background:`
+          radial-gradient(ellipse 55% 40% at 85% 8%,  rgba(100,180,255,0.06) 0%, transparent 70%),
+          radial-gradient(ellipse 45% 35% at 5%  75%, rgba(80, 160,240,0.05) 0%, transparent 65%),
+          radial-gradient(ellipse 30% 25% at 55% 5%,  rgba(160,220,255,0.04) 0%, transparent 60%)
+        `,
+      }} />
     </>
   )
 }
