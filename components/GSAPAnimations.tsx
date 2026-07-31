@@ -7,7 +7,7 @@ export default function GSAPAnimations() {
   const pathname = usePathname()
 
   useEffect(() => {
-    let gsap: any, ScrollTrigger: any, SplitText: any
+    let gsap: any, ScrollTrigger: any
     let ctx: any
 
     const init = async () => {
@@ -20,7 +20,7 @@ export default function GSAPAnimations() {
       ctx = gsap.context(() => {
 
         /* ── 1. Section headers — slide in from left ── */
-        gsap.utils.toArray<HTMLElement>('.gsap-heading').forEach((el) => {
+        gsap.utils.toArray('.gsap-heading').forEach((el: any) => {
           gsap.fromTo(el,
             { opacity: 0, x: -40 },
             {
@@ -32,8 +32,8 @@ export default function GSAPAnimations() {
         })
 
         /* ── 2. Movie card grids — stagger reveal ── */
-        gsap.utils.toArray<HTMLElement>('.gsap-grid').forEach((grid) => {
-          const cards = grid.querySelectorAll<HTMLElement>('.gsap-card')
+        gsap.utils.toArray('.gsap-grid').forEach((grid: any) => {
+          const cards = grid.querySelectorAll('.gsap-card')
           if (!cards.length) return
           gsap.fromTo(cards,
             { opacity: 0, y: 36, scale: 0.94 },
@@ -52,7 +52,7 @@ export default function GSAPAnimations() {
         })
 
         /* ── 3. Top-rated list items — slide from right ── */
-        gsap.utils.toArray<HTMLElement>('.gsap-list-item').forEach((el, i) => {
+        gsap.utils.toArray('.gsap-list-item').forEach((el: any, i: number) => {
           gsap.fromTo(el,
             { opacity: 0, x: 60 },
             {
@@ -69,7 +69,7 @@ export default function GSAPAnimations() {
         })
 
         /* ── 4. Stats counters — scale up ── */
-        gsap.utils.toArray<HTMLElement>('.gsap-stat').forEach((el) => {
+        gsap.utils.toArray('.gsap-stat').forEach((el: any) => {
           gsap.fromTo(el,
             { opacity: 0, scale: 0.8, y: 20 },
             {
@@ -86,7 +86,7 @@ export default function GSAPAnimations() {
         })
 
         /* ── 5. Section divider lines — grow from center ── */
-        gsap.utils.toArray<HTMLElement>('.cin-section-line').forEach((el) => {
+        gsap.utils.toArray('.cin-section-line').forEach((el: any) => {
           gsap.fromTo(el,
             { scaleX: 0, opacity: 0 },
             {
@@ -103,8 +103,8 @@ export default function GSAPAnimations() {
         })
 
         /* ── 6. Genre cards — fan-in ── */
-        gsap.utils.toArray<HTMLElement>('.gsap-genre-grid').forEach((grid) => {
-          const cards = grid.querySelectorAll<HTMLElement>('a')
+        gsap.utils.toArray('.gsap-genre-grid').forEach((grid: any) => {
+          const cards = grid.querySelectorAll('a')
           gsap.fromTo(cards,
             { opacity: 0, y: 30, rotation: -3 },
             {
@@ -122,7 +122,7 @@ export default function GSAPAnimations() {
         })
 
         /* ── 7. Blog cards — slide up with blur ── */
-        gsap.utils.toArray<HTMLElement>('.gsap-blog-card').forEach((el, i) => {
+        gsap.utils.toArray('.gsap-blog-card').forEach((el: any, i: number) => {
           gsap.fromTo(el,
             { opacity: 0, y: 50, filter: 'blur(4px)' },
             {
@@ -140,7 +140,7 @@ export default function GSAPAnimations() {
         })
 
         /* ── 8. Hero CTA banner ── */
-        const banner = document.querySelector<HTMLElement>('.gsap-cta-banner')
+        const banner = document.querySelector('.gsap-cta-banner')
         if (banner) {
           gsap.fromTo(banner,
             { opacity: 0, scale: 0.96, y: 30 },
