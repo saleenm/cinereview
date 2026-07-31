@@ -13,6 +13,7 @@ import ReviewSection from '@/components/ReviewSection'
 import WatchlistButton from '@/components/WatchlistButton'
 import ShareButton from '@/components/ShareButton'
 import WhereToWatch from '@/components/WhereToWatch'
+import VPNBanner from '@/components/VPNBanner'
 import AdUnit from '@/components/AdUnit'
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 
@@ -279,6 +280,9 @@ export default async function MoviePage({ params }: Props) {
 
               {/* Where to watch */}
               <WhereToWatch title={movie.title} year={movie.year} locale={locale} />
+
+              {/* VPN Affiliate */}
+              <VPNBanner locale={locale} variant="sidebar" />
 
               {/* Sidebar Ad */}
               <AdUnit slot="3456789012" format="rectangle" className="rounded-xl overflow-hidden" />

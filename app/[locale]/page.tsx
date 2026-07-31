@@ -11,6 +11,7 @@ import CinematicEffects from '@/components/CinematicEffects'
 import CinematicFilmGrid from '@/components/CinematicFilmGrid'
 import AdUnit from '@/components/AdUnit'
 import GSAPAnimations from '@/components/GSAPAnimations'
+import VPNBanner from '@/components/VPNBanner'
 import { getMovies, getMovieOfTheDay } from '@/lib/movies'
 import { getRecentPosts, getPostData } from '@/lib/blog'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
@@ -477,6 +478,11 @@ export default async function HomePage({ params }: Props) {
               )
             })}
           </div>
+        </section>
+
+        {/* ═══════════════════ VPN AFFILIATE BANNER ═══════════════════ */}
+        <section className="max-w-4xl mx-auto px-4 pb-10" style={{ position:'relative', zIndex:10 }}>
+          <VPNBanner locale={locale} variant="banner" />
         </section>
 
         {/* ═══════════════════ CTA BANNER ═══════════════════ */}

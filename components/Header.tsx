@@ -51,6 +51,7 @@ export default function Header({ locale }: Props) {
 
   const exploreLinks = [
     { href: `/${locale}/new`,         label: t('newMovies') },
+    { href: `/${locale}/streaming`,   label: t('streaming') },
     { href: `/${locale}/genre/all`,   label: t('genres') },
     { href: `/${locale}/directors`,   label: t('directors') },
     { href: `/${locale}/actors`,      label: t('actors') },

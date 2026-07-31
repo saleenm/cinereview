@@ -56,6 +56,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...localizedUrls('/compare', 0.7, 'monthly'),
     ...localizedUrls('/map', 0.7, 'monthly'),
     ...localizedUrls('/podcast', 0.7, 'weekly'),
+    ...localizedUrls('/streaming', 0.8, 'monthly'),
     ...localizedUrls('/about', 0.5, 'monthly'),
     ...localizedUrls('/privacy', 0.3, 'yearly'),
     // Note: /profile, /watchlist, /list/create excluded (robots.txt disallow)
