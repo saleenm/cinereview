@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import React from 'react'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -29,7 +30,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           crossOrigin="anonymous"
         />
         <script dangerouslySetInnerHTML={{ __html: `if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}))` }} />
-        <meta name="impact-site-verification" content="c785a95c-8a0f-4576-bd05-922532bfd08e" />
+        {/* eslint-disable-next-line */}
+        {React.createElement('meta', {name: 'impact-site-verification', value: 'c785a95c-8a0f-4576-bd05-922532bfd08e'})}
       </head>
       <body>{children}</body>
     </html>
