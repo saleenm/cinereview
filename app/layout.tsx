@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     type: 'website',
   },
   twitter: { card: 'summary_large_image' },
+  other: {
+    'impact-site-verification': '7ccaeef5-42ae-4b3e-a23c-20dce7667066',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -18,7 +21,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#f59e0b" />
-        <meta name="impact-site-verification" value="7ccaeef5-42ae-4b3e-a23c-20dce7667066" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <script
