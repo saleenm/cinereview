@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           crossOrigin="anonymous"
         />
         <script dangerouslySetInnerHTML={{ __html: `if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}))` }} />
-        <meta name="impact-site-verification" content="bf117cf3-d394-494f-a9ab-49557453c11d" />
+        <meta name="impact-site-verification" content="5a266a3c-1a9e-4ca6-bc8a-398353a5dd90" />
       </head>
       <body>{children}</body>
     </html>
