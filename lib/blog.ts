@@ -1571,6 +1571,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'casablanca-deep-review-2026-08',
+    date: '2026-08-01',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/bBLWEOJVfCHBMjbOhT7LJlCxfDl.jpg',
+    movieSlug: 'casablanca',
+    i18n: {
+      ar: {
+        title: 'كازابلانكا: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم كازابلانكا (1942) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## كازابلانكا — تحفة سينمائية\n\n**المخرج:** Michael Curtiz\n**السنة:** 1942\n**التقييم:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **كازابلانكا** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Michael Curtiz كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Michael Curtiz أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **كازابلانكا** مكانته بين أبرز أفلام **1942**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Casablanca: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Casablanca (1942) by Michael Curtiz — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Casablanca — A Cinematic Masterpiece\n\n**Director:** Michael Curtiz\n**Year:** 1942\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Casablanca** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michael Curtiz deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichael Curtiz crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Casablanca** rightfully earns its place among the defining films of **1942**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Casablanca: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Casablanca (1942) by Michael Curtiz — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Casablanca — A Cinematic Masterpiece\n\n**Director:** Michael Curtiz\n**Year:** 1942\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Casablanca** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michael Curtiz deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichael Curtiz crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Casablanca** rightfully earns its place among the defining films of **1942**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Casablanca: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Casablanca (1942) by Michael Curtiz — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Casablanca — A Cinematic Masterpiece\n\n**Director:** Michael Curtiz\n**Year:** 1942\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Casablanca** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michael Curtiz deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichael Curtiz crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Casablanca** rightfully earns its place among the defining films of **1942**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Casablanca: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Casablanca (1942) by Michael Curtiz — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Casablanca — A Cinematic Masterpiece\n\n**Director:** Michael Curtiz\n**Year:** 1942\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Casablanca** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michael Curtiz deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichael Curtiz crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Casablanca** rightfully earns its place among the defining films of **1942**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Casablanca: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Casablanca (1942) by Michael Curtiz — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Casablanca — A Cinematic Masterpiece\n\n**Director:** Michael Curtiz\n**Year:** 1942\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Casablanca** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michael Curtiz deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichael Curtiz crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Casablanca** rightfully earns its place among the defining films of **1942**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Casablanca: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Casablanca (1942) by Michael Curtiz — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Casablanca — A Cinematic Masterpiece\n\n**Director:** Michael Curtiz\n**Year:** 1942\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Casablanca** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michael Curtiz deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichael Curtiz crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Casablanca** rightfully earns its place among the defining films of **1942**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Casablanca: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Casablanca (1942) by Michael Curtiz — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Casablanca — A Cinematic Masterpiece\n\n**Director:** Michael Curtiz\n**Year:** 1942\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Casablanca** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michael Curtiz deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichael Curtiz crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Casablanca** rightfully earns its place among the defining films of **1942**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
