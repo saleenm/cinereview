@@ -40,6 +40,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ['ar', 'en', 'fr', 'es', 'tr', 'de', 'ja', 'pt'].map((l) => [l, `${BASE}/${l}/movies/${slug}`])
       ),
     },
+    keywords: [
+      movie.title, movie.title_ar, movie.director,
+      ...movie.genres,
+      `${movie.title} review`, `${movie.title} rating`,
+      `${movie.title} ${movie.year}`,
+      locale === 'ar' ? `مراجعة ${movie.title_ar}` : `${movie.title} film review`,
+    ].filter(Boolean).join(', '),
     openGraph: {
       title,
       description: desc,
@@ -74,7 +81,9 @@ function MovieJsonLd({ movie, locale }: { movie: ReturnType<typeof getMovieBySlu
   if (!movie) return null
   const title = locale === 'ar' ? movie.title_ar : movie.title
   const description = getMovieDescription(movie, locale).slice(0, 300)
-  const jsonLd = {
+  const isAr = locale === 'ar'
+
+  const movieSchema = {
     '@context': 'https://schema.org',
     '@type': 'Movie',
     name: title,
@@ -95,7 +104,51 @@ function MovieJsonLd({ movie, locale }: { movie: ReturnType<typeof getMovieBySlu
     },
     ...(movie.trailer_url ? { trailer: { '@type': 'VideoObject', name: `${title} Trailer`, embedUrl: movie.trailer_url } } : {}),
   }
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
+  // FAQ schema — boosts Google rich snippets
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: isAr ? `ما تقييم فيلم ${title}؟` : `What is the rating of ${title}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isAr
+            ? `حصل فيلم ${title} على تقييم ${movie.rating_overall}/10 على سينيريفيو، وتقييم ${movie.imdb_rating}/10 على IMDb.`
+            : `${title} has a rating of ${movie.rating_overall}/10 on CineReview and ${movie.imdb_rating}/10 on IMDb.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isAr ? `من أخرج فيلم ${title}؟` : `Who directed ${title}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isAr
+            ? `أخرج الفيلم ${isAr ? movie.director_ar : movie.director} عام ${movie.year}.`
+            : `${title} was directed by ${movie.director} in ${movie.year}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isAr ? `ما مدة فيلم ${title}؟` : `How long is ${title}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isAr
+            ? `مدة الفيلم ${movie.duration} دقيقة.`
+            : `${title} runs for ${movie.duration} minutes.`,
+        },
+      },
+    ],
+  }
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(movieSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+    </>
+  )
 }
 
 export default async function MoviePage({ params }: Props) {

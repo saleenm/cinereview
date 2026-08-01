@@ -7,6 +7,7 @@ import RatingCircle from '@/components/RatingCircle'
 import { getMovies } from '@/lib/movies'
 import { GENRE_ICONS, GENRE_COLORS, LOCALES } from '@/lib/types'
 import AdUnit from '@/components/AdUnit'
+import VPNBanner from '@/components/VPNBanner'
 
 interface Props { params: Promise<{ locale: string }> }
 
@@ -154,6 +155,9 @@ export default async function TopRatedPage({ params }: Props) {
           </div>
           <div className="mt-10">
             <AdUnit slot="5678901234" format="horizontal" className="rounded-xl overflow-hidden" />
+          </div>
+          <div className="mt-8">
+            <VPNBanner locale={locale} variant="compact" />
           </div>
         </div>
       </main>

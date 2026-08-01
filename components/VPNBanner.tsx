@@ -141,7 +141,7 @@ export default function VPNBanner({ locale = 'en', variant = 'sidebar' }: Props)
       <div className="absolute -top-6 -start-6 w-24 h-24 rounded-full opacity-20 blur-2xl"
         style={{ background: offer.color }} />
       <div className="absolute -bottom-6 -end-6 w-20 h-20 rounded-full opacity-15 blur-2xl"
-        style={{ background: VPN_OFFERS[1 - active].color }} />
+        style={{ background: VPN_OFFERS[(active + 1) % VPN_OFFERS.length].color }} />
 
       <div className="relative">
         {/* Header */}

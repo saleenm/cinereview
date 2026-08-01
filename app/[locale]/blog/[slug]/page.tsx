@@ -10,6 +10,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import AdUnit from '@/components/AdUnit'
 import BlogImage from '@/components/BlogImage'
+import NewsletterForm from '@/components/NewsletterForm'
 
 interface Props { params: Promise<{ locale: string; slug: string }> }
 
@@ -267,6 +268,11 @@ export default async function BlogPostPage({ params }: Props) {
             </aside>
 
           </div>
+        </div>
+
+        {/* Newsletter signup after article */}
+        <div className="max-w-2xl mx-auto px-4 pb-12">
+          <NewsletterForm locale={locale} />
         </div>
 
       </main>

@@ -5,6 +5,8 @@ import Footer from '@/components/Footer'
 import BlogImage from '@/components/BlogImage'
 import { getAllBlogPosts, getPostOfDay, getPostData } from '@/lib/blog'
 import { LOCALES } from '@/lib/types'
+import NewsletterForm from '@/components/NewsletterForm'
+import VPNBanner from '@/components/VPNBanner'
 
 interface Props { params: Promise<{ locale: string }> }
 
@@ -197,6 +199,12 @@ export default async function BlogPage({ params }: Props) {
             </aside>
 
           </div>
+        </div>
+
+        {/* Newsletter + VPN */}
+        <div className="max-w-7xl mx-auto px-4 pb-12 grid md:grid-cols-2 gap-6">
+          <NewsletterForm locale={locale} />
+          <VPNBanner locale={locale} variant="compact" />
         </div>
 
       </main>

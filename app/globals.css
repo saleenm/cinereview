@@ -208,8 +208,98 @@ html { scroll-behavior: smooth; }
 /* ── Cinematic hero ── */
 .cin-hero-bg {
   background:
-    radial-gradient(ellipse 60% 80% at 50% 0%, rgba(212,168,82,0.06) 0%, transparent 60%),
-    var(--cin-void);
+    radial-gradient(ellipse 70% 60% at 50% 0%,   rgba(212,168,82,0.16) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 40% at 15% 40%,  rgba(212,130,50,0.09) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 85% 30%,  rgba(80,160,255,0.09) 0%, transparent 60%),
+    radial-gradient(ellipse 100% 40% at 50% 100%, rgba(0,0,0,0.5) 0%, transparent 70%);
+}
+
+/* ── Star field in hero — split into 3 layers for staggered twinkling ── */
+.cin-hero-bg::before,
+.cin-hero-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* Layer A — gold stars — slow twinkle */
+.cin-hero-bg::before {
+  background-image:
+    radial-gradient(2px 2px at 7%  18%, rgba(212,168,82,1)   0%, transparent 100%),
+    radial-gradient(1px 1px at 22% 38%, rgba(212,168,82,0.9) 0%, transparent 100%),
+    radial-gradient(3px 3px at 38% 12%, rgba(212,168,82,1)   0%, transparent 100%),
+    radial-gradient(2px 2px at 53% 30%, rgba(212,168,82,0.9) 0%, transparent 100%),
+    radial-gradient(2px 2px at 71% 22%, rgba(212,168,82,1)   0%, transparent 100%),
+    radial-gradient(3px 3px at 87% 8%,  rgba(212,168,82,0.9) 0%, transparent 100%),
+    radial-gradient(2px 2px at 28% 65%, rgba(212,168,82,0.9) 0%, transparent 100%),
+    radial-gradient(3px 3px at 58% 48%, rgba(212,168,82,0.8) 0%, transparent 100%),
+    radial-gradient(2px 2px at 83% 35%, rgba(212,168,82,1)   0%, transparent 100%),
+    radial-gradient(1px 1px at 13% 72%, rgba(212,168,82,0.8) 0%, transparent 100%),
+    radial-gradient(1px 1px at 45% 55%, rgba(212,168,82,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 96% 70%, rgba(212,168,82,0.8) 0%, transparent 100%),
+    /* White/silver */
+    radial-gradient(2px 2px at 10% 50%, rgba(255,255,255,0.9) 0%, transparent 100%),
+    radial-gradient(2px 2px at 33% 75%, rgba(255,255,255,0.8) 0%, transparent 100%),
+    radial-gradient(3px 3px at 65% 60%, rgba(255,255,255,0.9) 0%, transparent 100%),
+    radial-gradient(2px 2px at 89% 80%, rgba(255,255,255,0.8) 0%, transparent 100%),
+    radial-gradient(2px 2px at 47% 70%, rgba(255,255,255,0.9) 0%, transparent 100%),
+    /* Ice blue */
+    radial-gradient(2px 2px at 25% 10%, rgba(160,210,255,0.9) 0%, transparent 100%),
+    radial-gradient(2px 2px at 74% 5%,  rgba(160,210,255,0.9) 0%, transparent 100%),
+    radial-gradient(2px 2px at 36% 30%, rgba(160,210,255,0.8) 0%, transparent 100%);
+  animation: cin-twinkle-a 5s ease-in-out infinite alternate;
+  z-index: 0;
+}
+
+/* Layer B — smaller stars with offset timing */
+.cin-hero-bg::after {
+  background-image:
+    radial-gradient(1px 1px at 17% 5%,  rgba(212,168,82,1)   0%, transparent 100%),
+    radial-gradient(1px 1px at 42% 95%, rgba(212,168,82,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 67% 85%, rgba(212,168,82,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 31% 88%, rgba(212,168,82,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 94% 45%, rgba(212,168,82,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 4%  90%, rgba(212,168,82,0.8) 0%, transparent 100%),
+    radial-gradient(1px 1px at 79% 62%, rgba(212,168,82,0.8) 0%, transparent 100%),
+    radial-gradient(1px 1px at 19% 25%, rgba(255,255,255,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 50% 15%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 77% 42%, rgba(255,255,255,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 3%  30%, rgba(255,255,255,0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 91% 20%, rgba(255,255,255,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 55% 92%, rgba(160,210,255,0.7) 0%, transparent 100%),
+    radial-gradient(1px 1px at 88% 55%, rgba(160,210,255,0.6) 0%, transparent 100%),
+    radial-gradient(1px 1px at 62% 78%, rgba(212,168,82,0.7) 0%, transparent 100%);
+  animation: cin-twinkle-b 3.5s ease-in-out infinite alternate;
+  animation-delay: -1.8s;
+  z-index: 0;
+}
+
+@keyframes cin-twinkle-a {
+  0%   { opacity: 0.6; }
+  100% { opacity: 1;   }
+}
+@keyframes cin-twinkle-b {
+  0%   { opacity: 0.3; }
+  100% { opacity: 0.9; }
+}
+
+/* ── Mobile: hide small stars layer, reduce grain ── */
+@media (max-width: 640px) {
+  .cin-hero-bg::after { display: none; }
+  .cin-hero-bg::before { opacity: 0.7; }
+}
+
+/* ── Mobile: star rating sizing ── */
+@media (max-width: 640px) {
+  .cin-star { font-size: 14px !important; }
+  .cin-star-row { gap: 2px !important; }
+}
+
+/* ── Mobile: hero text scale ── */
+@media (max-width: 480px) {
+  .cin-hero-subtitle { font-size: 0.85rem !important; letter-spacing: 2px !important; }
+  .cin-cursor-ring { display: none !important; }
 }
 
 /* ── Marquee section ── */
@@ -307,6 +397,63 @@ html { scroll-behavior: smooth; }
   from { opacity: 0; transform: translateY(30px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+/* ── 3D Title entrance animation ── */
+@keyframes cin-3d-reveal {
+  0%   {
+    opacity: 0;
+    transform: perspective(800px) rotateX(90deg) translateY(60px) scale(0.8);
+    text-shadow: 0 0 0 rgba(212,168,82,0);
+  }
+  60%  {
+    opacity: 1;
+    transform: perspective(800px) rotateX(-8deg) translateY(-10px) scale(1.03);
+    text-shadow: 0 20px 60px rgba(212,168,82,0.5), 0 0 120px rgba(212,168,82,0.2);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(800px) rotateX(0deg) translateY(0) scale(1);
+    text-shadow: 0 8px 40px rgba(212,168,82,0.3), 0 0 80px rgba(212,168,82,0.1);
+  }
+}
+
+/* ── WORLD outline float animation ── */
+@keyframes cin-world-float {
+  0%, 100% { transform: perspective(600px) rotateX(2deg) translateY(0px); letter-spacing: 0.18em; }
+  50%       { transform: perspective(600px) rotateX(-2deg) translateY(-6px); letter-spacing: 0.22em; }
+}
+
+/* ── Spotlight sweep across title ── */
+@keyframes cin-spotlight {
+  0%   { background-position: -200% center; }
+  100% { background-position: 300% center; }
+}
+
+/* 3D title classes */
+.cin-title-3d {
+  animation: cin-3d-reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transform-origin: center bottom;
+  will-change: transform, opacity;
+}
+.cin-world-3d {
+  animation: cin-world-float 4s ease-in-out infinite 2s;
+  transform-origin: center center;
+  will-change: transform;
+}
+.cin-spotlight-text {
+  background: linear-gradient(
+    105deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0) 40%,
+    rgba(255,255,255,0.6) 50%,
+    rgba(255,255,255,0) 60%,
+    rgba(255,255,255,0) 100%
+  );
+  background-size: 300% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: cin-spotlight 4s ease-in-out infinite 3s;
+}
 @keyframes fadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -326,13 +473,14 @@ a, button {
               box-shadow 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
 }
 
-/* ── Card hover lift ── */
+/* ── Card hover lift + glow ── */
 .card-glow {
-  transition: box-shadow 0.35s ease, border-color 0.35s ease, transform 0.35s cubic-bezier(0.16,1,0.3,1);
+  transition: box-shadow 0.35s ease, border-color 0.35s ease, transform 0.35s cubic-bezier(0.16,1,0.3,1), filter 0.35s ease;
 }
 .card-glow:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 48px rgba(0,0,0,0.5), 0 0 24px rgba(212,168,82,0.08);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.5), 0 0 32px rgba(212,168,82,0.18), 0 0 8px rgba(212,168,82,0.12);
+  filter: drop-shadow(0 0 12px rgba(212,168,82,0.22));
 }
 
 /* ── Focus ring ── */
@@ -529,4 +677,65 @@ a:active { opacity: 0.85; }
 /* Search bar focus glow */
 .search-glow:focus-within {
   box-shadow: 0 0 0 2px rgba(212,168,82,0.3), 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* ═══════════════════════════════════════════════
+   CTA PULSING GLOW — buttons with .cin-cta-glow
+   ═══════════════════════════════════════════════ */
+@keyframes cta-pulse {
+  0%   { filter: drop-shadow(0 0 4px rgba(212,168,82,0.6)) drop-shadow(0 0 12px rgba(212,168,82,0.3)); }
+  50%  { filter: drop-shadow(0 0 10px rgba(212,168,82,0.9)) drop-shadow(0 0 24px rgba(212,168,82,0.5)); }
+  100% { filter: drop-shadow(0 0 4px rgba(212,168,82,0.6)) drop-shadow(0 0 12px rgba(212,168,82,0.3)); }
+}
+.cin-cta-glow {
+  animation: cta-pulse 2.4s ease-in-out infinite;
+  position: relative;
+}
+.cin-cta-glow:hover {
+  animation-play-state: paused;
+  filter: drop-shadow(0 0 14px rgba(212,168,82,1)) drop-shadow(0 0 30px rgba(212,168,82,0.6)) !important;
+}
+
+/* ── Hero featured poster glow ── */
+.cin-poster-glow {
+  position: relative;
+}
+.cin-poster-glow::after {
+  content: '';
+  position: absolute;
+  inset: -20px;
+  border-radius: inherit;
+  background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(212,168,82,0.25) 0%, transparent 70%);
+  z-index: -1;
+  pointer-events: none;
+  filter: blur(8px);
+}
+
+/* ── Genre tag color glows ── */
+.genre-glow-action  { box-shadow: 0 0 12px rgba(248,113,113,0.4) !important; border-color: rgba(248,113,113,0.6) !important; }
+.genre-glow-drama   { box-shadow: 0 0 12px rgba(192,132,252,0.4) !important; border-color: rgba(192,132,252,0.6) !important; }
+.genre-glow-scifi   { box-shadow: 0 0 12px rgba(34,211,238,0.4)  !important; border-color: rgba(34,211,238,0.6)  !important; }
+.genre-glow-horror  { box-shadow: 0 0 12px rgba(156,163,175,0.4) !important; border-color: rgba(156,163,175,0.6) !important; }
+.genre-glow-comedy  { box-shadow: 0 0 12px rgba(251,191,36,0.4)  !important; border-color: rgba(251,191,36,0.6)  !important; }
+.genre-glow-romance { box-shadow: 0 0 12px rgba(244,114,182,0.4) !important; border-color: rgba(244,114,182,0.6) !important; }
+.genre-glow-crime   { box-shadow: 0 0 12px rgba(107,114,128,0.4) !important; border-color: rgba(107,114,128,0.6) !important; }
+.genre-glow-history { box-shadow: 0 0 12px rgba(180,140,80,0.4)  !important; border-color: rgba(180,140,80,0.6)  !important; }
+
+/* Genre tags transition for hover glow */
+[class*="genre-glow-"] {
+  transition: box-shadow 0.25s ease, border-color 0.25s ease !important;
+}
+
+/* ── Golden star glow (active rating stars) ── */
+.star-glow-active {
+  filter: drop-shadow(0 0 5px rgba(245,200,66,0.8)) drop-shadow(0 0 2px rgba(245,200,66,0.5));
+}
+
+/* ── Glassmorphism modal backdrop ── */
+.cin-glass-modal {
+  background: rgba(8, 8, 15, 0.85);
+  backdrop-filter: blur(24px) saturate(1.6);
+  -webkit-backdrop-filter: blur(24px) saturate(1.6);
+  border: 1px solid rgba(212,168,82,0.15);
+  box-shadow: 0 32px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.04);
 }

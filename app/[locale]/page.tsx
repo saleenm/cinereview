@@ -11,7 +11,9 @@ import CinematicEffects from '@/components/CinematicEffects'
 import CinematicFilmGrid from '@/components/CinematicFilmGrid'
 import AdUnit from '@/components/AdUnit'
 import GSAPAnimations from '@/components/GSAPAnimations'
+import HeroTitle from '@/components/HeroTitle'
 import VPNBanner from '@/components/VPNBanner'
+import NewsletterForm from '@/components/NewsletterForm'
 import { getMovies, getMovieOfTheDay } from '@/lib/movies'
 import { getRecentPosts, getPostData } from '@/lib/blog'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
@@ -130,32 +132,9 @@ export default async function HomePage({ params }: Props) {
             ◆ &nbsp; {isRTL ? 'اكتشف عالم السينما' : 'Discover the World of Cinema'} &nbsp; ◆
           </p>
 
-          {/* Title with decode animation */}
-          <h1 style={{
-            fontFamily:'var(--font-cinzel,Cinzel,serif)',
-            fontSize:'clamp(3.5rem,10vw,9rem)', fontWeight:900,
-            lineHeight:0.9, letterSpacing:-2, marginBottom:30,
-            animation:'fadeUp 1s forwards 0.6s', opacity:0,
-          }}>
-            <span
-              data-decode="CINEMA"
-              style={{
-                display:'block',
-                background:'linear-gradient(135deg, #fff 0%, var(--cin-gold) 50%, #fff 100%)',
-                WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent',
-                backgroundSize:'200% 200%',
-                animation:'cin-shimmer 3s infinite 1.5s',
-              }}
-            >
-              CINEMA
-            </span>
-            <span style={{
-              display:'block', color:'transparent',
-              WebkitTextStroke:'1px rgba(212,168,82,0.4)',
-              fontSize:'0.48em', letterSpacing:'0.18em',
-            }}>
-              WORLD
-            </span>
+          {/* Title — GSAP 3D animation */}
+          <h1 style={{ margin: 0 }}>
+            <HeroTitle isRTL={isRTL} />
           </h1>
 
           {/* Subtitle */}
@@ -171,7 +150,7 @@ export default async function HomePage({ params }: Props) {
 
           {/* CTA buttons */}
           <div style={{ display:'flex', gap:20, flexWrap:'wrap', justifyContent:'center', animation:'fadeUp 1s forwards 1.2s', opacity:0 }}>
-            <Link href={`/${locale}/movies`} className="cin-magnetic" style={{
+            <Link href={`/${locale}/movies`} className="cin-magnetic cin-cta-glow" style={{
               padding:'16px 48px',
               background:'linear-gradient(135deg,var(--cin-gold),var(--cin-gold2))',
               color:'#000', fontFamily:'var(--font-cairo,Cairo,sans-serif)',
@@ -266,7 +245,7 @@ export default async function HomePage({ params }: Props) {
             <div className="absolute inset-0 bg-gradient-to-t from-gray-950/50 to-transparent" />
             <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-500/60 to-transparent" />
             <div className="relative flex flex-col md:flex-row items-center gap-6 p-6 md:p-8">
-              <div className="relative w-32 h-48 flex-shrink-0 rounded-xl overflow-hidden shadow-2xl shadow-black/60 ring-2 ring-amber-500/30 hidden md:block">
+              <div className="relative w-32 h-48 flex-shrink-0 rounded-xl overflow-hidden shadow-2xl shadow-black/60 ring-2 ring-amber-500/30 hidden md:block cin-poster-glow" data-cursor="play">
                 <Image src={movieOfDay.poster_url} alt={movieOfDay.title} fill className="object-cover" sizes="128px" />
               </div>
               <div className="flex-1 text-center md:text-start">
@@ -483,6 +462,11 @@ export default async function HomePage({ params }: Props) {
         {/* ═══════════════════ VPN AFFILIATE BANNER ═══════════════════ */}
         <section className="max-w-4xl mx-auto px-4 pb-10" style={{ position:'relative', zIndex:10 }}>
           <VPNBanner locale={locale} variant="banner" />
+        </section>
+
+        {/* ═══════════════════ NEWSLETTER ═══════════════════ */}
+        <section className="max-w-2xl mx-auto px-4 pb-10" style={{ position:'relative', zIndex:10 }}>
+          <NewsletterForm locale={locale} />
         </section>
 
         {/* ═══════════════════ CTA BANNER ═══════════════════ */}

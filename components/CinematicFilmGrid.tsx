@@ -83,29 +83,45 @@ export default function CinematicFilmGrid({ movies, locale }: Props) {
           onClick={e => { if (e.target === e.currentTarget) setModalMovie(null) }}
           style={{
             position:'fixed', inset:0, zIndex:5000,
-            background:'rgba(3,3,6,0.92)', backdropFilter:'blur(8px)',
+            background:'rgba(3,3,6,0.88)', backdropFilter:'blur(16px)',
             display:'flex', alignItems:'center', justifyContent:'center',
+            padding:'20px',
           }}
         >
-          <div style={{ width:'min(900px,90vw)' }}>
-            <button
-              onClick={() => setModalMovie(null)}
-              style={{ color:'#d4a852', fontSize:'1.5rem', background:'none', border:'none', cursor:'pointer', marginBottom:8, display:'block' }}
-            >
-              ✕ إغلاق
-            </button>
+          <div className="cin-glass-modal" style={{ width:'min(900px,90vw)', borderRadius:16, padding:28 }}>
+            <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:16 }}>
+              <div style={{ fontFamily:'var(--font-cinzel,Cinzel,serif)', fontSize:'1.2rem', color:'#d4a852', letterSpacing:2 }}>
+                {isRTL ? modalMovie.title_ar : modalMovie.title}
+              </div>
+              <button
+                onClick={() => setModalMovie(null)}
+                style={{ color:'rgba(212,168,82,0.7)', fontSize:'1.2rem', background:'none', border:'none', cursor:'pointer', padding:'4px 8px', lineHeight:1 }}
+                aria-label="Close"
+              >
+                ✕
+              </button>
+            </div>
             <div style={{
               aspectRatio:'16/9',
               background:'linear-gradient(135deg,#0a0a14,#1a1030,#0a0a14)',
-              border:'1px solid rgba(212,168,82,0.3)',
+              border:'1px solid rgba(212,168,82,0.2)',
+              borderRadius:10,
               display:'flex', alignItems:'center', justifyContent:'center',
-              boxShadow:'0 0 80px rgba(212,168,82,0.15)', position:'relative', overflow:'hidden',
+              boxShadow:'0 0 60px rgba(212,168,82,0.1)', position:'relative', overflow:'hidden',
             }}>
-              <div style={{ position:'absolute', inset:0, background:'repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.15) 3px)', pointerEvents:'none' }} />
-              <div style={{ fontSize:'4rem', color:'#d4a852', opacity:0.6 }}>▶</div>
+              <div style={{ position:'absolute', inset:0, background:'repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.12) 3px)', pointerEvents:'none' }} />
+              <div style={{ textAlign:'center' }}>
+                <div style={{ fontSize:'3.5rem', color:'#d4a852', opacity:0.5, marginBottom:12 }}>▶</div>
+                <div style={{ fontSize:'0.7rem', letterSpacing:4, color:'rgba(212,168,82,0.4)', textTransform:'uppercase' }}>
+                  {isRTL ? 'المقطع الدعائي' : 'Trailer'}
+                </div>
+              </div>
             </div>
-            <div style={{ fontFamily:'var(--font-cinzel,Cinzel,serif)', fontSize:'1.4rem', color:'#fff', marginTop:24, textAlign:'center' }}>
-              {isRTL ? modalMovie.title_ar : modalMovie.title}
+            <div style={{ marginTop:16, display:'flex', gap:16, flexWrap:'wrap', fontSize:'0.8rem', color:'rgba(232,220,200,0.5)' }}>
+              <span>★ {modalMovie.rating_overall}/10</span>
+              <span>{modalMovie.year}</span>
+              <span>{isRTL ? modalMovie.director_ar : modalMovie.director}</span>
+              <span>{modalMovie.duration}{isRTL ? 'د' : 'm'}</span>
             </div>
           </div>
         </div>
@@ -136,6 +152,7 @@ function FilmCard({ movie, locale, isRTL, first, dimmed, onPlay }: {
   return (
     <Link
       href={`/${locale}/movies/${movie.slug}`}
+      data-cursor="play"
       style={{
         position:'relative', overflow:'hidden', background:'#111',
         transformStyle:'preserve-3d',

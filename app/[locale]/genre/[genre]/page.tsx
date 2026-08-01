@@ -8,6 +8,7 @@ import Link from 'next/link'
 import { getMovies } from '@/lib/movies'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS, type Genre } from '@/lib/types'
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
+import VPNBanner from '@/components/VPNBanner'
 
 interface Props { params: Promise<{ locale: string; genre: string }> }
 
@@ -128,6 +129,9 @@ export default async function GenrePage({ params }: Props) {
               </Link>
             </div>
           )}
+          <div className="mt-10 max-w-4xl mx-auto">
+            <VPNBanner locale={locale} variant="compact" />
+          </div>
         </div>
       </main>
       <Footer locale={locale} />

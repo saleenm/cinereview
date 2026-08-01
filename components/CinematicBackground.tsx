@@ -68,7 +68,7 @@ export default function CinematicBackground() {
     gl.attachShader(prog, mkShader(gl.FRAGMENT_SHADER, fs))
     gl.linkProgram(prog); gl.useProgram(prog)
 
-    const N = 1200
+    const N = 1600
     const pos    = new Float32Array(N * 3)
     const sizes  = new Float32Array(N)
     const alphas = new Float32Array(N)
@@ -82,8 +82,8 @@ export default function CinematicBackground() {
       pos[i*3]   = radius * Math.sin(phi) * Math.cos(theta)
       pos[i*3+1] = radius * Math.sin(phi) * Math.sin(theta)
       pos[i*3+2] = radius * Math.cos(phi)
-      sizes[i]   = Math.random() * 2.5 + 0.5
-      alphas[i]  = (Math.random() * 0.5 + 0.15) * (1 - layer * 0.2)
+      sizes[i]   = Math.random() * 3.0 + 0.8
+      alphas[i]  = (Math.random() * 0.6 + 0.25) * (1 - layer * 0.15)
       layers[i]  = layer / 2           // 0..1
     }
 
@@ -174,15 +174,15 @@ export default function CinematicBackground() {
     window.addEventListener('resize', resizeOrbs)
 
     const orbs = [
-      // ── Warm orbs ──
-      { x: window.innerWidth * 0.15, y: window.innerHeight * 0.25, r: 420, dx: 0.12,  dy: 0.07,  hue: 38,  sat: 80, lit: 45, a: 0.050, px: 0.10 },
-      { x: window.innerWidth * 0.75, y: window.innerHeight * 0.65, r: 340, dx: -0.09, dy: 0.11,  hue: 42,  sat: 70, lit: 40, a: 0.040, px: 0.07 },
-      { x: window.innerWidth * 0.50, y: window.innerHeight * 0.80, r: 280, dx: 0.15,  dy: -0.08, hue: 6,   sat: 85, lit: 35, a: 0.032, px: 0.13 },
+      // ── Warm orbs (boosted contrast) ──
+      { x: window.innerWidth * 0.15, y: window.innerHeight * 0.25, r: 520, dx: 0.12,  dy: 0.07,  hue: 38,  sat: 95, lit: 62, a: 0.68, px: 0.10 },
+      { x: window.innerWidth * 0.75, y: window.innerHeight * 0.65, r: 420, dx: -0.09, dy: 0.11,  hue: 42,  sat: 88, lit: 58, a: 0.58, px: 0.07 },
+      { x: window.innerWidth * 0.50, y: window.innerHeight * 0.80, r: 350, dx: 0.15,  dy: -0.08, hue: 6,   sat: 92, lit: 52, a: 0.48, px: 0.13 },
       // ── Cold orbs ──
-      { x: window.innerWidth * 0.82, y: window.innerHeight * 0.12, r: 380, dx: -0.10, dy: 0.08,  hue: 205, sat: 90, lit: 55, a: 0.042, px: 0.11 },
-      { x: window.innerWidth * 0.10, y: window.innerHeight * 0.70, r: 320, dx: 0.07,  dy: -0.10, hue: 215, sat: 85, lit: 45, a: 0.038, px: 0.09 },
-      { x: window.innerWidth * 0.60, y: window.innerHeight * 0.10, r: 260, dx: -0.13, dy: 0.12,  hue: 185, sat: 80, lit: 42, a: 0.030, px: 0.08 },
-      { x: window.innerWidth * 0.35, y: window.innerHeight * 0.45, r: 200, dx: 0.09,  dy: 0.13,  hue: 240, sat: 70, lit: 40, a: 0.022, px: 0.12 },
+      { x: window.innerWidth * 0.82, y: window.innerHeight * 0.12, r: 420, dx: -0.10, dy: 0.08,  hue: 205, sat: 95, lit: 65, a: 0.40, px: 0.11 },
+      { x: window.innerWidth * 0.10, y: window.innerHeight * 0.70, r: 360, dx: 0.07,  dy: -0.10, hue: 215, sat: 90, lit: 60, a: 0.34, px: 0.09 },
+      { x: window.innerWidth * 0.60, y: window.innerHeight * 0.10, r: 300, dx: -0.13, dy: 0.12,  hue: 185, sat: 85, lit: 57, a: 0.30, px: 0.08 },
+      { x: window.innerWidth * 0.35, y: window.innerHeight * 0.45, r: 240, dx: 0.09,  dy: 0.13,  hue: 240, sat: 75, lit: 55, a: 0.25, px: 0.12 },
     ]
 
     let mx = window.innerWidth / 2

@@ -50,6 +50,20 @@ export const VPN_OFFERS = [
         ? `https://surfshark.com/deal?coupon=${AFFILIATE_IDS.surfshark}&${UTM}&utm_campaign=vpn`
         : `https://surfshark.com/?${UTM}&utm_campaign=vpn`,
   },
+  {
+    id: 'expressvpn',
+    name: 'ExpressVPN',
+    tagline_ar: 'الأسرع للبث — موثوق من الملايين',
+    tagline_en: 'Fastest for Streaming — Trusted by Millions',
+    discount: '49% OFF',
+    price_ar: 'من $6.67 / شهر',
+    price_en: 'From $6.67/mo',
+    color: '#DA3940',
+    getUrl: () =>
+      AFFILIATE_IDS.expressvpn !== 'YOUR_EXPRESSVPN_ID'
+        ? `https://www.expressvpn.com/order?offer_id=7&affiliate_id=${AFFILIATE_IDS.expressvpn}&${UTM}&utm_campaign=vpn`
+        : `https://www.expressvpn.com/?${UTM}&utm_campaign=vpn`,
+  },
 ]
 
 // Streaming platforms

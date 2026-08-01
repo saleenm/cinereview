@@ -18,12 +18,7 @@ export default function CinematicEffects() {
       spotlight?.style.setProperty('transform', `translate3d(${sx - 350}px,${sy - 350}px,0)`)
     }
 
-    let ringRaf = 0
-    const animRing = () => { ringRaf = requestAnimationFrame(animRing) }
-    ringRaf = requestAnimationFrame(animRing)
     document.addEventListener('mousemove', onMouseMove)
-
-    const bindHover = () => {}
 
     /* ── Scroll: progress bar + parallax sections ── */
     const progress = document.getElementById('cin-progress')
@@ -101,7 +96,7 @@ export default function CinematicEffects() {
         const loop = () => {
           state.cRX += (state.tRX - state.cRX) * 0.11
           state.cRY += (state.tRY - state.cRY) * 0.11
-          el.style.transform = `perspective(900px) rotateX(${state.cRX}deg) rotateY(${state.cRY}deg) scale(1.035)`
+          el.style.transform = `perspective(800px) rotateX(${state.cRX}deg) rotateY(${state.cRY}deg) scale(1.04)`
           state.rafId = requestAnimationFrame(loop)
         }
 
@@ -109,7 +104,7 @@ export default function CinematicEffects() {
           state.rafId = requestAnimationFrame(loop)
           glare.style.opacity = '1'
           el.style.zIndex = '10'
-          el.style.boxShadow = '0 24px 60px rgba(0,0,0,0.55),0 0 30px rgba(212,168,82,0.14)'
+          el.style.boxShadow = '0 28px 70px rgba(0,0,0,0.6),0 0 40px rgba(212,168,82,0.22),0 0 80px rgba(212,168,82,0.08)'
         }
 
         const onLeave = () => {
@@ -127,8 +122,8 @@ export default function CinematicEffects() {
           const r  = el.getBoundingClientRect()
           const dx = (e.clientX - r.left - r.width  / 2) / (r.width  / 2)
           const dy = (e.clientY - r.top  - r.height / 2) / (r.height / 2)
-          state.tRY =  dx * 10
-          state.tRX = -dy * 10 * 0.65
+          state.tRY =  dx * 15
+          state.tRX = -dy * 15 * 0.65
           const gx = ((e.clientX - r.left) / r.width)  * 100
           const gy = ((e.clientY - r.top)  / r.height) * 100
           glare.style.background = `radial-gradient(circle at ${gx}% ${gy}%,rgba(255,255,255,0.13) 0%,transparent 60%)`
@@ -234,7 +229,6 @@ export default function CinematicEffects() {
 
     return () => {
       clearTimeout(loaderTimer)
-      cancelAnimationFrame(ringRaf)
       document.removeEventListener('mousemove', onMouseMove)
       window.removeEventListener('scroll', onScroll)
       document.removeEventListener('keydown', onKeyDown)
@@ -311,29 +305,29 @@ export default function CinematicEffects() {
         </div>
       </div>
 
-      {/* ── Subtle spotlight glow only ── */}
+      {/* ── Mouse spotlight glow ── */}
       <div id="cin-spotlight" style={{
         position:'fixed', top:0, left:0,
-        width:700, height:700,
+        width:600, height:600,
         borderRadius:'50%', pointerEvents:'none', zIndex:2,
-        background:'radial-gradient(circle, rgba(212,168,82,0.04) 0%, transparent 60%)',
+        background:'radial-gradient(circle, rgba(212,168,82,0.22) 0%, rgba(212,168,82,0.08) 35%, transparent 65%)',
         transform:'translate3d(-500px,-500px,0)',
         willChange:'transform',
-        transition:'transform 0.08s linear',
+        transition:'transform 0.06s linear',
       }} />
 
-      {/* ── Film grain overlay ── */}
+      {/* ── Film grain overlay — slower, more subtle ── */}
       <div style={{
         position:'fixed', inset:0, zIndex:4, pointerEvents:'none',
-        opacity:0.25, mixBlendMode:'overlay',
+        opacity:0.10, mixBlendMode:'overlay',
         backgroundImage:"url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E\")",
-        animation:'cin-grain 0.9s steps(3) infinite',
+        animation:'cin-grain 1.8s steps(2) infinite',
       }} />
 
-      {/* ── Vignette ── */}
+      {/* ── Vignette — lighter edges ── */}
       <div style={{
         position:'fixed', inset:0, zIndex:3, pointerEvents:'none',
-        background:'radial-gradient(ellipse 85% 85% at 50% 40%, transparent 45%, rgba(0,0,0,0.55) 100%)',
+        background:'radial-gradient(ellipse 90% 90% at 50% 40%, transparent 50%, rgba(0,0,0,0.35) 100%)',
       }} />
 
       {/* ── Horizontal scan lines (subtle) ── */}

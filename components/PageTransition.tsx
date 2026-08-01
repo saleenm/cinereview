@@ -12,23 +12,21 @@ export default function PageTransition({ children }: { children: React.ReactNode
     if (!el) return
     // Instantly hide, then animate in on next frame
     el.style.opacity   = '0'
-    el.style.transform = 'translateY(20px)'
-    el.style.filter    = 'blur(4px)'
+    el.style.transform = 'translateY(16px)'
     el.style.transition = 'none'
 
     const id = requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        el.style.transition = 'opacity 0.55s cubic-bezier(0.16,1,0.3,1), transform 0.55s cubic-bezier(0.16,1,0.3,1), filter 0.55s cubic-bezier(0.16,1,0.3,1)'
+        el.style.transition = 'opacity 0.55s cubic-bezier(0.16,1,0.3,1), transform 0.55s cubic-bezier(0.16,1,0.3,1)'
         el.style.opacity   = '1'
         el.style.transform = 'translateY(0)'
-        el.style.filter    = 'blur(0px)'
       })
     })
     return () => cancelAnimationFrame(id)
   }, [pathname])
 
   return (
-    <div ref={ref} style={{ minHeight: '100%', willChange: 'opacity, transform, filter' }}>
+    <div ref={ref} style={{ minHeight: '100%', willChange: 'opacity, transform' }}>
       {children}
     </div>
   )
