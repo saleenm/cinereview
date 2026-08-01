@@ -46,9 +46,48 @@ export default async function TopRatedPage({ params }: Props) {
     })),
   }
 
+  const top3 = movies.slice(0, 3)
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: isRTL ? 'ما هو أعلى فيلم تقييماً على سينيريفيو؟' : 'What is the highest-rated movie on CineReview?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isRTL
+            ? `أعلى فيلم تقييماً هو "${top3[0]?.title_ar || top3[0]?.title}" بتقييم ${top3[0]?.rating_overall}/10`
+            : `The highest-rated movie is "${top3[0]?.title}" with a rating of ${top3[0]?.rating_overall}/10`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isRTL ? 'كم عدد الأفلام المصنّفة على سينيريفيو؟' : 'How many movies are ranked on CineReview?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isRTL
+            ? `يضم سينيريفيو ${movies.length}+ فيلم مصنّف ومراجع بمعايير نقدية دقيقة.`
+            : `CineReview features ${movies.length}+ ranked and reviewed movies with detailed critical analysis.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isRTL ? 'كيف يتم تصنيف الأفلام على سينيريفيو؟' : 'How are movies ranked on CineReview?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isRTL
+            ? 'يعتمد التصنيف على تقييم شامل يشمل: الإخراج، التمثيل، السيناريو، التصوير، الموسيقى، والتأثير السينمائي العام.'
+            : 'Rankings are based on a comprehensive score covering direction, acting, screenplay, cinematography, music, and overall cinematic impact.',
+        },
+      },
+    ],
+  }
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(topRatedSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header locale={locale} />
       <main style={{ background: '#030712' }}>
         {/* Hero */}

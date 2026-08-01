@@ -7,6 +7,7 @@ import { getAllBlogPosts, getPostOfDay, getPostData } from '@/lib/blog'
 import { LOCALES } from '@/lib/types'
 import NewsletterForm from '@/components/NewsletterForm'
 import VPNBanner from '@/components/VPNBanner'
+import AdUnit from '@/components/AdUnit'
 
 interface Props { params: Promise<{ locale: string }> }
 
@@ -38,14 +39,49 @@ export default async function BlogPage({ params }: Props) {
   const postOfDayData = getPostData(postOfDay, locale)
 
   const allPosts = getAllBlogPosts()
-  // All posts except post of day
   const otherPosts = allPosts.filter((p) => p.slug !== postOfDay.slug)
-
-  // Unique categories
   const categories = [...new Set(allPosts.map((p) => getPostData(p, locale).category))]
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: isRTL ? 'ما هي مواضيع مدونة سينيريفيو؟' : 'What topics does CineReview blog cover?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isRTL
+            ? 'تغطي مدونة سينيريفيو: تحليل الأفلام، مراجعات نقدية، قوائم أفضل الأفلام، تاريخ السينما، المخرجين والممثلين.'
+            : 'CineReview blog covers: film analysis, critical reviews, best movie lists, cinema history, directors and actors.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isRTL ? 'كم عدد مقالات سينيريفيو؟' : 'How many articles does CineReview publish?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isRTL
+            ? `يضم سينيريفيو ${allPosts.length}+ مقال سينمائي متعمق يُضاف إليها بشكل منتظم.`
+            : `CineReview features ${allPosts.length}+ in-depth cinema articles with regular new additions.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isRTL ? 'هل مدونة سينيريفيو مجانية؟' : 'Is CineReview blog free?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isRTL
+            ? 'نعم، جميع مقالات سينيريفيو مجانية تماماً وبدون اشتراك.'
+            : 'Yes, all CineReview articles are completely free with no subscription required.',
+        },
+      },
+    ],
+  }
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Header locale={locale} />
       <main className="flex-1">
 
@@ -110,6 +146,9 @@ export default async function BlogPage({ params }: Props) {
                   </div>
                 </Link>
               </div>
+
+              {/* Ad between featured and other posts */}
+              <AdUnit slot="5678901234" format="horizontal" className="rounded-xl overflow-hidden" />
 
               {/* All Other Posts */}
               <div>

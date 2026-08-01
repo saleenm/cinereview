@@ -9,6 +9,7 @@ import { getMovies } from '@/lib/movies'
 import { GENRE_KEYS, GENRE_ICONS, GENRE_COLORS, type Genre } from '@/lib/types'
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 import VPNBanner from '@/components/VPNBanner'
+import AdUnit from '@/components/AdUnit'
 
 interface Props { params: Promise<{ locale: string; genre: string }> }
 
@@ -52,9 +53,40 @@ export default async function GenrePage({ params }: Props) {
   const genreKey = genre as Genre
   const genreName = isAll ? tg('all') : tg(genreKey)
   const isRTL = locale === 'ar'
+  const topMovie = movies[0]
+
+  const faqSchema = !isAll ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: isRTL ? `ما هو أفضل فيلم ${genreName}؟` : `What is the best ${genreName} movie?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: topMovie
+            ? (isRTL
+                ? `أفضل فيلم ${genreName} هو "${topMovie.title_ar || topMovie.title}" بتقييم ${topMovie.rating_overall}/10`
+                : `The best ${genreName} movie is "${topMovie.title}" with a rating of ${topMovie.rating_overall}/10`)
+            : (isRTL ? 'لا توجد أفلام في هذا التصنيف بعد.' : 'No movies in this genre yet.'),
+        },
+      },
+      {
+        '@type': 'Question',
+        name: isRTL ? `كم عدد أفلام ${genreName} على سينيريفيو؟` : `How many ${genreName} movies are on CineReview?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isRTL
+            ? `يضم سينيريفيو ${movies.length} فيلم ${genreName} مع تقييمات تفصيلية.`
+            : `CineReview features ${movies.length} ${genreName} movies with detailed reviews.`,
+        },
+      },
+    ],
+  } : null
 
   return (
     <>
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       {!isAll && (
         <BreadcrumbJsonLd crumbs={[
           { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: `https://cinereview-mu.vercel.app/${locale}` },
@@ -129,7 +161,8 @@ export default async function GenrePage({ params }: Props) {
               </Link>
             </div>
           )}
-          <div className="mt-10 max-w-4xl mx-auto">
+          <div className="mt-10 max-w-4xl mx-auto space-y-6">
+            <AdUnit slot="3456789012" format="horizontal" className="rounded-xl overflow-hidden" />
             <VPNBanner locale={locale} variant="compact" />
           </div>
         </div>

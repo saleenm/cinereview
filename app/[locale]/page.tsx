@@ -138,7 +138,7 @@ export default async function HomePage({ params }: Props) {
           </h1>
 
           {/* Subtitle */}
-          <p style={{
+          <p className="cin-hero-subtitle" style={{
             fontSize:'1rem', color:'rgba(232,220,200,0.5)',
             letterSpacing:3, maxWidth:500, marginBottom:50, lineHeight:1.8,
             animation:'fadeUp 1s forwards 0.9s', opacity:0,
