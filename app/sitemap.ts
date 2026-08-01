@@ -52,8 +52,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...getAvailableYears().flatMap((y) => localizedUrls(`/best-of/${y}`, 0.7, 'monthly')),
     // Collections
     ...COLLECTIONS.map((c) => localizedUrls(`/collection/${c.slug}`, 0.8, 'weekly')).flat(),
-    // Compare, lists, map, podcast
-    ...localizedUrls('/compare', 0.7, 'monthly'),
+    // Map, podcast (search & compare excluded — noindex pages)
     ...localizedUrls('/map', 0.7, 'monthly'),
     ...localizedUrls('/podcast', 0.7, 'weekly'),
     ...localizedUrls('/streaming', 0.8, 'monthly'),

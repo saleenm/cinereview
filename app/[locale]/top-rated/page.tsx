@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server'
 import Link from 'next/link'
 import Image from 'next/image'
+import { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import RatingCircle from '@/components/RatingCircle'
@@ -9,10 +10,31 @@ import { GENRE_ICONS, GENRE_COLORS, LOCALES } from '@/lib/types'
 import AdUnit from '@/components/AdUnit'
 import VPNBanner from '@/components/VPNBanner'
 
+const BASE = 'https://cinereview-mu.vercel.app'
+const LANGS = ['ar','en','fr','es','tr','de','ja','pt']
+
 interface Props { params: Promise<{ locale: string }> }
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }))
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params
+  const isAr = locale === 'ar'
+  const title = isAr ? 'أفضل الأفلام تقييماً | سينيريفيو' : 'Top Rated Movies | CineReview'
+  const description = isAr
+    ? 'قائمة أفضل الأفلام تقييماً على الإطلاق — مصنّفة حسب تقييمات نقدية معمّقة'
+    : 'The best rated movies of all time — ranked by in-depth critical scores'
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE}/${locale}/top-rated`,
+      languages: Object.fromEntries(LANGS.map((l) => [l, `${BASE}/${l}/top-rated`])),
+    },
+    openGraph: { title, description, url: `${BASE}/${locale}/top-rated`, siteName: 'CineReview' },
+  }
 }
 
 export default async function TopRatedPage({ params }: Props) {

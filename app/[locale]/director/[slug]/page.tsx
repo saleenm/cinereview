@@ -19,16 +19,26 @@ export async function generateStaticParams() {
   )
 }
 
+const BASE = 'https://cinereview-mu.vercel.app'
+const LANGS = ['ar','en','fr','es','tr','de','ja','pt']
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params
   const director = getDirectorBySlug(slug)
   if (!director) return {}
   const name = locale === 'ar' ? director.name_ar : director.name
-  const title = `${name} — ${director.movies.length} films`
+  const title = `${name} — ${director.movies.length} ${locale === 'ar' ? 'فيلم' : 'Films'} | CineReview`
+  const description = locale === 'ar'
+    ? `اكتشف أفلام المخرج ${name} — ${director.movies.length} فيلم مع تقييمات تفصيلية`
+    : `Discover ${name}'s filmography — ${director.movies.length} films with detailed reviews`
   return {
     title,
-    description: title,
-    openGraph: { title, type: 'profile' },
+    description,
+    alternates: {
+      canonical: `${BASE}/${locale}/director/${slug}`,
+      languages: Object.fromEntries(LANGS.map((l) => [l, `${BASE}/${l}/director/${slug}`])),
+    },
+    openGraph: { title, description, url: `${BASE}/${locale}/director/${slug}`, siteName: 'CineReview', type: 'profile' },
   }
 }
 

@@ -7,14 +7,24 @@ import Footer from '@/components/Footer'
 import { getAllDirectors } from '@/lib/movies'
 import { LOCALES } from '@/lib/types'
 
+const BASE = 'https://cinereview-mu.vercel.app'
+const LANGS = ['ar','en','fr','es','tr','de','ja','pt']
+
 interface Props { params: Promise<{ locale: string }> }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations('directorPage')
+  const title = t('directorsTitle')
+  const description = t('directorsSubtitle')
   return {
-    title: t('directorsTitle'),
-    description: t('directorsSubtitle'),
+    title,
+    description,
+    alternates: {
+      canonical: `${BASE}/${locale}/directors`,
+      languages: Object.fromEntries(LANGS.map((l) => [l, `${BASE}/${l}/directors`])),
+    },
+    openGraph: { title, description, url: `${BASE}/${locale}/directors`, siteName: 'CineReview' },
   }
 }
 

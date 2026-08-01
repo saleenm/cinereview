@@ -15,12 +15,25 @@ export async function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }))
 }
 
+const BASE = 'https://cinereview-mu.vercel.app'
+const LANGS = ['ar','en','fr','es','tr','de','ja','pt']
+
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params
   const t = await getTranslations('blog')
   return {
     title: t('title'),
     description: t('subtitle'),
+    alternates: {
+      canonical: `${BASE}/${locale}/blog`,
+      languages: Object.fromEntries(LANGS.map((l) => [l, `${BASE}/${l}/blog`])),
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('subtitle'),
+      url: `${BASE}/${locale}/blog`,
+      siteName: 'CineReview',
+    },
   }
 }
 

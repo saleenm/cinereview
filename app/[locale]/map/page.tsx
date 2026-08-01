@@ -7,12 +7,21 @@ import type { Metadata } from 'next'
 
 interface Props { params: Promise<{ locale: string }> }
 
+const BASE = 'https://cinereview-mu.vercel.app'
+const LANGS = ['ar','en','fr','es','tr','de','ja','pt']
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   const title = locale === 'ar' ? 'أفلام حول العالم | CineReview' : 'Movies Around the World | CineReview'
+  const description = locale === 'ar' ? 'اكتشف أفلاماً من كل دولة حول العالم' : 'Discover films from every country around the world'
   return {
     title,
-    description: locale === 'ar' ? 'اكتشف أفلاماً من كل دولة حول العالم' : 'Discover films from every country around the world',
+    description,
+    alternates: {
+      canonical: `${BASE}/${locale}/map`,
+      languages: Object.fromEntries(LANGS.map((l) => [l, `${BASE}/${l}/map`])),
+    },
+    openGraph: { title, description, url: `${BASE}/${locale}/map`, siteName: 'CineReview' },
   }
 }
 
