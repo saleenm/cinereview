@@ -33,9 +33,9 @@ export default function Header({ locale }: Props) {
   const isRTL = locale === 'ar'
 
   const switchLocale = (newLocale: string) => {
-    // next-intl v4: usePathname() returns path WITHOUT locale prefix (e.g. '/movies' not '/ar/movies')
-    // So we build the new URL manually: /newLocale + currentPath
-    router.push(`/${newLocale}${pathname === '/' ? '' : pathname}`)
+    const segments = pathname.split('/')
+    segments[1] = newLocale
+    router.push(segments.join('/'))
     setLangOpen(false)
   }
 
