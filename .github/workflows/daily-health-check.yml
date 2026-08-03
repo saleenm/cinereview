@@ -1,0 +1,69 @@
+name: Daily Health Check
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # كل يوم 6:00 صباحاً UTC (9 صباحاً توقيت السعودية)
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Check site is up
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://cinereview-mu.vercel.app)
+          echo "Site status: $STATUS"
+          if [ "$STATUS" != "200" ]; then
+            echo "❌ SITE DOWN — HTTP $STATUS"
+            exit 1
+          else
+            echo "✅ Site is up"
+          fi
+
+      - name: Check key pages
+        run: |
+          for path in "/" "/ar" "/en" "/ar/movies" "/ar/blog"; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://cinereview-mu.vercel.app$path")
+            echo "  $path → $STATUS"
+            if [ "$STATUS" = "404" ] || [ "$STATUS" = "500" ]; then
+              echo "❌ ERROR on $path: $STATUS"
+              exit 1
+            fi
+          done
+          echo "✅ All key pages OK"
+
+      - name: Check last auto-movies run
+        run: |
+          echo "Last 3 commits:"
+          git log --oneline -3
+
+      - name: Check workflows status via GitHub API
+        run: |
+          echo "Checking recent workflow runs..."
+          curl -s -H "Authorization: token ${{ secrets.GH_PAT || github.token }}" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/runs?per_page=5" \
+            | python3 -c "
+          import json,sys
+          data = json.load(sys.stdin)
+          runs = data.get('workflow_runs', [])
+          for r in runs:
+            status = r['conclusion'] or r['status']
+            name = r['name']
+            print(f'  {status.upper():10} — {name}')
+          "
+
+      - name: Summary
+        run: |
+          echo ""
+          echo "✅ Daily health check complete — $(date)"
+          echo "   Site: https://cinereview-mu.vercel.app"
+          echo "   Repo: https://github.com/${{ github.repository }}/actions"

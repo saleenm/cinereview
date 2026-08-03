@@ -1,0 +1,81 @@
+name: Weekly Review & Updates
+
+on:
+  schedule:
+    - cron: '0 7 * * 0'   # كل أحد 7:00 صباحاً UTC (10 صباحاً توقيت السعودية)
+  workflow_dispatch:
+
+jobs:
+  weekly-review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT || github.token }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline || npm install
+
+      - name: Check for outdated npm packages
+        run: |
+          echo "=== Outdated packages ==="
+          npm outdated || true
+
+      - name: Check package security
+        run: |
+          echo "=== Security audit ==="
+          npm audit --audit-level=high || true
+
+      - name: Count movies and blog posts
+        run: |
+          MOVIES=$(grep -c "slug:" lib/movies.ts 2>/dev/null || echo "0")
+          BLOGS=$(grep -c "slug:" lib/blog.ts 2>/dev/null || echo "0")
+          echo "📽️  Movies in lib/movies.ts: $MOVIES"
+          echo "📝 Blog posts in lib/blog.ts: $BLOGS"
+
+      - name: Check Vercel deployment status
+        run: |
+          echo "=== Recent Vercel deployments ==="
+          npx vercel ls --token=${{ secrets.VERCEL_TOKEN }} 2>/dev/null | head -5 || echo "Vercel check skipped"
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        continue-on-error: true
+
+      - name: Weekly summary report
+        run: |
+          echo ""
+          echo "=============================="
+          echo "   WEEKLY REVIEW — $(date +'%Y-%m-%d')"
+          echo "=============================="
+          echo ""
+          echo "📊 Workflow runs this week:"
+          curl -s -H "Authorization: token ${{ secrets.GH_PAT || github.token }}" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/runs?per_page=20" \
+            | python3 -c "
+          import json,sys
+          from datetime import datetime, timedelta
+          data = json.load(sys.stdin)
+          runs = data.get('workflow_runs', [])
+          week_ago = datetime.utcnow() - timedelta(days=7)
+          success = fail = 0
+          for r in runs:
+            created = datetime.strptime(r['created_at'], '%Y-%m-%dT%H:%M:%SZ')
+            if created > week_ago:
+              if r['conclusion'] == 'success': success += 1
+              elif r['conclusion'] == 'failure': fail += 1
+          print(f'  ✅ Success: {success}')
+          print(f'  ❌ Failed:  {fail}')
+          "
+          echo ""
+          echo "Next steps: check https://github.com/${{ github.repository }}/actions"
