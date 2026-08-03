@@ -1685,6 +1685,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'inception-legacy-impact-2026-08',
+    date: '2026-08-03',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/s3TBrRGB1iav7gFOCNx3H31MoES.jpg',
+    movieSlug: 'inception',
+    i18n: {
+      ar: {
+        title: 'البداية: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم البداية (2010) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## البداية — تحفة سينمائية\n\n**المخرج:** Christopher Nolan\n**السنة:** 2010\n**التقييم:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **البداية** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Christopher Nolan كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Christopher Nolan أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **البداية** مكانته بين أبرز أفلام **2010**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Inception: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Inception (2010) by Christopher Nolan — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Inception — A Cinematic Masterpiece\n\n**Director:** Christopher Nolan\n**Year:** 2010\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Inception** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Christopher Nolan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nChristopher Nolan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Inception** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Inception: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Inception (2010) by Christopher Nolan — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Inception — A Cinematic Masterpiece\n\n**Director:** Christopher Nolan\n**Year:** 2010\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Inception** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Christopher Nolan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nChristopher Nolan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Inception** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Inception: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Inception (2010) by Christopher Nolan — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Inception — A Cinematic Masterpiece\n\n**Director:** Christopher Nolan\n**Year:** 2010\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Inception** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Christopher Nolan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nChristopher Nolan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Inception** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Inception: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Inception (2010) by Christopher Nolan — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Inception — A Cinematic Masterpiece\n\n**Director:** Christopher Nolan\n**Year:** 2010\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Inception** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Christopher Nolan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nChristopher Nolan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Inception** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Inception: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Inception (2010) by Christopher Nolan — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Inception — A Cinematic Masterpiece\n\n**Director:** Christopher Nolan\n**Year:** 2010\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Inception** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Christopher Nolan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nChristopher Nolan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Inception** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Inception: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Inception (2010) by Christopher Nolan — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Inception — A Cinematic Masterpiece\n\n**Director:** Christopher Nolan\n**Year:** 2010\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Inception** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Christopher Nolan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nChristopher Nolan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Inception** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Inception: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Inception (2010) by Christopher Nolan — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Inception — A Cinematic Masterpiece\n\n**Director:** Christopher Nolan\n**Year:** 2010\n**Rating:** 9.3/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Inception** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Christopher Nolan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nChristopher Nolan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Inception** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
