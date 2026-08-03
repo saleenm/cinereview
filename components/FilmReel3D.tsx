@@ -6,66 +6,91 @@ export default function FilmReel3D() {
   const mountRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    if (!mountRef.current) return
     const el = mountRef.current
+    if (!el) return
 
-    let renderer: any, scene: any, camera: any, reel: any, rafId: number
-    let THREE: any
+    let renderer: any, scene: any, camera: any, reelGroup: any, rafId: number
+    let destroyed = false
 
     async function init() {
-      const mod = await import('three')
-      THREE = mod
+      const THREE = await import('three')
 
-      // Scene
+      if (destroyed) return
+
+      // ── Scene & Camera ──────────────────────────────────────────
       scene = new THREE.Scene()
-      camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100)
-      camera.position.set(0, 0, 4.5)
+      camera = new THREE.PerspectiveCamera(38, 1, 0.1, 100)
+      camera.position.set(0, 0.1, 5.2)
 
       renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
       renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
-      renderer.setSize(el.clientWidth, el.clientHeight)
       renderer.shadowMap.enabled = true
-      el.appendChild(renderer.domElement)
+      renderer.shadowMap.type = THREE.PCFSoftShadowMap
+      renderer.toneMapping = THREE.ACESFilmicToneMapping
+      renderer.toneMappingExposure = 1.4
 
-      // Lighting
-      const ambient = new THREE.AmbientLight(0xfff5e0, 0.6)
-      scene.add(ambient)
-      const key = new THREE.DirectionalLight(0xf5a623, 2.4)
-      key.position.set(3, 4, 3)
-      key.castShadow = true
-      scene.add(key)
-      const fill = new THREE.DirectionalLight(0x88aaff, 0.7)
-      fill.position.set(-3, -1, 2)
-      scene.add(fill)
-      const rim = new THREE.DirectionalLight(0xffffff, 0.4)
-      rim.position.set(0, -3, -2)
-      scene.add(rim)
+      const size = el!.clientWidth
+      renderer.setSize(size, size)
+      el!.appendChild(renderer.domElement)
 
-      // Materials
-      const steel = new THREE.MeshStandardMaterial({ color: 0x2e2e33, metalness: 0.7, roughness: 0.3 })
-      const amber = new THREE.MeshStandardMaterial({ color: 0xf5a623, metalness: 0.5, roughness: 0.2 })
-      const film  = new THREE.MeshStandardMaterial({ color: 0x0c0c0c, metalness: 0.05, roughness: 0.85 })
+      // ── Lighting ────────────────────────────────────────────────
+      scene.add(new THREE.AmbientLight(0xffeedd, 0.5))
 
-      const R = 0.55, holeR = 0.14, holeDist = 0.30, centerHoleR = 0.135
-      const plateThick = 0.035, gap = 0.26
+      const keyLight = new THREE.DirectionalLight(0xf5a623, 3.5)
+      keyLight.position.set(4, 5, 4)
+      keyLight.castShadow = true
+      keyLight.shadow.mapSize.setScalar(1024)
+      keyLight.shadow.camera.near = 0.1
+      keyLight.shadow.camera.far = 20
+      scene.add(keyLight)
+
+      const fillLight = new THREE.DirectionalLight(0x6699ff, 1.0)
+      fillLight.position.set(-4, -1, 3)
+      scene.add(fillLight)
+
+      const rimLight = new THREE.DirectionalLight(0xfff0cc, 0.8)
+      rimLight.position.set(0, -4, -3)
+      scene.add(rimLight)
+
+      const topLight = new THREE.PointLight(0xffcc66, 1.2, 8)
+      topLight.position.set(0, 3, 2)
+      scene.add(topLight)
+
+      // ── Materials ───────────────────────────────────────────────
+      const steel = new THREE.MeshStandardMaterial({
+        color: 0x3a3a42, metalness: 0.85, roughness: 0.18,
+        envMapIntensity: 0.6,
+      })
+      const amber = new THREE.MeshStandardMaterial({
+        color: 0xf5a623, metalness: 0.6, roughness: 0.15,
+        emissive: new THREE.Color(0xf5a623), emissiveIntensity: 0.08,
+      })
+      const filmMat = new THREE.MeshStandardMaterial({
+        color: 0x111115, metalness: 0.1, roughness: 0.9,
+      })
+
+      // ── Geometry helpers ────────────────────────────────────────
+      const R = 0.58, holeR = 0.145, holeDist = 0.30
+      const centerHoleR = 0.138, plateThick = 0.038, gap = 0.28
 
       function makePlateShape() {
-        const shape = new THREE.Shape()
-        shape.absarc(0, 0, R, 0, Math.PI * 2, false)
-        const ch = new THREE.Path(); ch.absarc(0, 0, centerHoleR, 0, Math.PI * 2, true); shape.holes.push(ch)
+        const s = new THREE.Shape()
+        s.absarc(0, 0, R, 0, Math.PI * 2, false)
+        const ch = new THREE.Path(); ch.absarc(0, 0, centerHoleR, 0, Math.PI * 2, true); s.holes.push(ch)
         for (let i = 0; i < 3; i++) {
-          const ang = (i / 3) * Math.PI * 2 + Math.PI / 6
-          const hole = new THREE.Path()
-          hole.absarc(Math.cos(ang) * holeDist, Math.sin(ang) * holeDist, holeR, 0, Math.PI * 2, true)
-          shape.holes.push(hole)
+          const a = (i / 3) * Math.PI * 2 + Math.PI / 6
+          const h = new THREE.Path()
+          h.absarc(Math.cos(a) * holeDist, Math.sin(a) * holeDist, holeR, 0, Math.PI * 2, true)
+          s.holes.push(h)
         }
-        return shape
+        return s
       }
 
       function makePlate() {
         const geo = new THREE.ExtrudeGeometry(makePlateShape(), {
           depth: plateThick, bevelEnabled: true,
-          bevelThickness: 0.006, bevelSize: 0.006, bevelSegments: 2, curveSegments: 64,
+          bevelThickness: 0.007, bevelSize: 0.007,
+          bevelSegments: 3, curveSegments: 80,
         })
         geo.rotateX(-Math.PI / 2)
         const m = new THREE.Mesh(geo, steel)
@@ -73,59 +98,117 @@ export default function FilmReel3D() {
         return m
       }
 
-      reel = new THREE.Group()
+      // ── Assemble reel ───────────────────────────────────────────
+      reelGroup = new THREE.Group()
 
-      const plateB = makePlate(); plateB.position.y = 0
+      const plateB = makePlate()
       const plateT = makePlate(); plateT.position.y = gap - plateThick
-      reel.add(plateB, plateT)
+      reelGroup.add(plateB, plateT)
 
-      const hub = new THREE.Mesh(new THREE.CylinderGeometry(centerHoleR - 0.01, centerHoleR - 0.01, gap + 0.01, 32), amber)
-      hub.position.y = gap / 2; hub.castShadow = true; reel.add(hub)
+      const hub = new THREE.Mesh(
+        new THREE.CylinderGeometry(centerHoleR - 0.01, centerHoleR - 0.01, gap + 0.015, 48),
+        amber
+      )
+      hub.position.y = gap / 2; hub.castShadow = true
+      reelGroup.add(hub)
 
-      const cap = new THREE.Mesh(new THREE.CylinderGeometry(centerHoleR + 0.02, centerHoleR + 0.02, 0.018, 32), amber)
-      cap.position.y = gap + plateThick + 0.009; cap.castShadow = true; reel.add(cap)
+      const capGeo = new THREE.CylinderGeometry(centerHoleR + 0.025, centerHoleR + 0.025, 0.022, 48)
+      ;[-0.011, gap + plateThick + 0.011].forEach(y => {
+        const c = new THREE.Mesh(capGeo, amber); c.position.y = y; c.castShadow = true
+        reelGroup.add(c)
+      })
 
-      const filmTorus = new THREE.Mesh(new THREE.TorusGeometry(0.36, 0.075, 24, 64), film)
-      filmTorus.rotation.x = Math.PI / 2; filmTorus.position.y = gap / 2
-      filmTorus.castShadow = true; filmTorus.receiveShadow = true; reel.add(filmTorus)
+      // Film wound on reel
+      const filmTorus = new THREE.Mesh(
+        new THREE.TorusGeometry(0.365, 0.082, 32, 80), filmMat
+      )
+      filmTorus.rotation.x = Math.PI / 2
+      filmTorus.position.y = gap / 2
+      filmTorus.castShadow = true; filmTorus.receiveShadow = true
+      reelGroup.add(filmTorus)
 
-      // Centre & stand
-      const box = new THREE.Box3().setFromObject(reel)
-      reel.position.y -= box.min.y + (box.max.y - box.min.y) / 2
+      // Thin outer rim ring highlight
+      const rimRing = new THREE.Mesh(
+        new THREE.TorusGeometry(R + 0.004, 0.006, 12, 80),
+        new THREE.MeshStandardMaterial({ color: 0xd4a852, metalness: 0.9, roughness: 0.05 })
+      )
+      rimRing.rotation.x = Math.PI / 2
+      rimRing.position.y = gap - plateThick / 2
+      reelGroup.add(rimRing)
 
-      scene.add(reel)
+      // Centre reel
+      const box = new THREE.Box3().setFromObject(reelGroup)
+      reelGroup.position.y -= (box.min.y + box.max.y) / 2
 
-      // Mouse tilt
-      let tx = 0, ty = 0, cx = 0, cy = 0
+      // Slight initial tilt — looks more 3D
+      reelGroup.rotation.x = 0.18
+      reelGroup.rotation.z = 0.06
+
+      scene.add(reelGroup)
+
+      // ── Mouse interaction (window-based, smooth) ─────────────────
+      let targetX = 0, targetY = 0
+      let currentX = 0, currentY = 0
+      let floatT = 0
+
       const onMove = (e: MouseEvent) => {
-        const rect = el.getBoundingClientRect()
-        tx = ((e.clientX - rect.left) / rect.width  - 0.5) * 0.6
-        ty = ((e.clientY - rect.top)  / rect.height - 0.5) * 0.4
+        // Map full viewport to ±1 range
+        targetX = (e.clientX / window.innerWidth  - 0.5) * 2   //  ±1
+        targetY = (e.clientY / window.innerHeight - 0.5) * 2   //  ±1
       }
       window.addEventListener('mousemove', onMove)
 
+      // ── Resize handler ──────────────────────────────────────────
+      const onResize = () => {
+        const s = el!.clientWidth
+        renderer.setSize(s, s)
+      }
+      window.addEventListener('resize', onResize)
+
+      // ── Render loop ─────────────────────────────────────────────
+      const clock = new THREE.Clock()
+
       function animate() {
+        if (destroyed) return
         rafId = requestAnimationFrame(animate)
-        cx += (tx - cx) * 0.06
-        cy += (ty - cy) * 0.06
-        reel.rotation.y += 0.008
-        reel.rotation.x = cy * 0.5
+
+        const delta = clock.getDelta()
+        floatT += delta
+
+        // Smooth mouse lag
+        currentX += (targetX - currentX) * 0.04
+        currentY += (targetY - currentY) * 0.04
+
+        // Constant spin + mouse tilt
+        reelGroup.rotation.y += 0.007
+        reelGroup.rotation.x = 0.18 + currentY * 0.22
+        reelGroup.rotation.z = 0.06 - currentX * 0.14
+
+        // Subtle float
+        reelGroup.position.y = Math.sin(floatT * 0.55) * 0.06
+
+        // Amber glow pulse on hub
+        topLight.intensity = 1.2 + Math.sin(floatT * 1.3) * 0.25
+
         renderer.render(scene, camera)
       }
       animate()
 
-      const cleanup = () => { window.removeEventListener('mousemove', onMove) }
-      ;(el as any).__cleanup = cleanup
+      ;(el as any).__cleanup = () => {
+        window.removeEventListener('mousemove', onMove)
+        window.removeEventListener('resize', onResize)
+      }
     }
 
     init()
 
     return () => {
+      destroyed = true
       cancelAnimationFrame(rafId)
       if ((el as any).__cleanup) (el as any).__cleanup()
       if (renderer) {
         renderer.dispose()
-        if (renderer.domElement.parentNode === el) el.removeChild(renderer.domElement)
+        if (renderer.domElement.parentNode === el) el!.removeChild(renderer.domElement)
       }
     }
   }, [])
@@ -133,11 +216,7 @@ export default function FilmReel3D() {
   return (
     <div
       ref={mountRef}
-      style={{
-        width: '100%',
-        height: '100%',
-        pointerEvents: 'none',
-      }}
+      style={{ width: '100%', height: '100%' }}
     />
   )
 }

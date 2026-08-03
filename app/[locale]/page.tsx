@@ -128,13 +128,26 @@ export default async function HomePage({ params }: Props) {
           textAlign:'center', padding:'0 20px',
         }}>
 
-          {/* ── 3D Film Reel — top-right decorative ── */}
+          {/* ── 3D Film Reel — right-center hero ── */}
           <div style={{
-            position:'absolute', top:'8%', right:'4%',
-            width:'min(220px, 22vw)', height:'min(220px, 22vw)',
-            opacity:0.85, pointerEvents:'none',
-            animation:'fadeUp 1.5s forwards 1.4s', zIndex:5,
+            position:'absolute',
+            right: 'clamp(2%, 6vw, 9%)',
+            top: '50%',
+            transform: 'translateY(-50%)',
+            width: 'clamp(260px, 28vw, 420px)',
+            height: 'clamp(260px, 28vw, 420px)',
+            zIndex: 5,
+            animation: 'fadeUp 1.4s cubic-bezier(0.16,1,0.3,1) forwards 0.8s',
+            opacity: 0,
           }}>
+            {/* Glow halo behind reel */}
+            <div style={{
+              position:'absolute', inset:'-18%',
+              borderRadius:'50%',
+              background:'radial-gradient(circle, rgba(245,166,35,0.18) 0%, rgba(245,166,35,0.06) 45%, transparent 70%)',
+              filter:'blur(18px)',
+              pointerEvents:'none',
+            }} />
             <FilmReel3DWrapper />
           </div>
 
