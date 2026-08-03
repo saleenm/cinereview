@@ -14,8 +14,7 @@ import GSAPAnimations from '@/components/GSAPAnimations'
 import HeroTitle from '@/components/HeroTitle'
 import VPNBanner from '@/components/VPNBanner'
 import LetterboxIntro from '@/components/LetterboxIntro'
-import dynamic from 'next/dynamic'
-const FilmReel3D = dynamic(() => import('@/components/FilmReel3D'), { ssr: false })
+import FilmReel3DWrapper from '@/components/FilmReel3DWrapper'
 import NewsletterForm from '@/components/NewsletterForm'
 import { getMovies, getMovieOfTheDay } from '@/lib/movies'
 import { getRecentPosts, getPostData } from '@/lib/blog'
@@ -136,7 +135,7 @@ export default async function HomePage({ params }: Props) {
             opacity:0.85, pointerEvents:'none',
             animation:'fadeUp 1.5s forwards 1.4s', zIndex:5,
           }}>
-            <FilmReel3D />
+            <FilmReel3DWrapper />
           </div>
 
           {/* Eyebrow */}
