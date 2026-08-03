@@ -1742,6 +1742,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'leon-the-professional-legacy-impact-2026-08',
+    date: '2026-08-03',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/8ln5VUVk7gnNGIb2VNgw8nICDVt.jpg',
+    movieSlug: 'leon-the-professional',
+    i18n: {
+      ar: {
+        title: 'ليون: المحترف: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم ليون: المحترف (1994) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## ليون: المحترف — تحفة سينمائية\n\n**المخرج:** Luc Besson\n**السنة:** 1994\n**التقييم:** 9/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **ليون: المحترف** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Luc Besson كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Luc Besson أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **ليون: المحترف** مكانته بين أبرز أفلام **1994**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Leon: The Professional: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Leon: The Professional (1994) by Luc Besson — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Leon: The Professional — A Cinematic Masterpiece\n\n**Director:** Luc Besson\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Leon: The Professional** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Luc Besson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLuc Besson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Leon: The Professional** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Leon: The Professional: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Leon: The Professional (1994) by Luc Besson — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Leon: The Professional — A Cinematic Masterpiece\n\n**Director:** Luc Besson\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Leon: The Professional** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Luc Besson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLuc Besson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Leon: The Professional** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Leon: The Professional: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Leon: The Professional (1994) by Luc Besson — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Leon: The Professional — A Cinematic Masterpiece\n\n**Director:** Luc Besson\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Leon: The Professional** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Luc Besson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLuc Besson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Leon: The Professional** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Leon: The Professional: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Leon: The Professional (1994) by Luc Besson — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Leon: The Professional — A Cinematic Masterpiece\n\n**Director:** Luc Besson\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Leon: The Professional** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Luc Besson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLuc Besson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Leon: The Professional** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Leon: The Professional: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Leon: The Professional (1994) by Luc Besson — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Leon: The Professional — A Cinematic Masterpiece\n\n**Director:** Luc Besson\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Leon: The Professional** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Luc Besson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLuc Besson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Leon: The Professional** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Leon: The Professional: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Leon: The Professional (1994) by Luc Besson — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Leon: The Professional — A Cinematic Masterpiece\n\n**Director:** Luc Besson\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Leon: The Professional** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Luc Besson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLuc Besson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Leon: The Professional** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Leon: The Professional: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Leon: The Professional (1994) by Luc Besson — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Leon: The Professional — A Cinematic Masterpiece\n\n**Director:** Luc Besson\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Leon: The Professional** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Luc Besson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLuc Besson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Leon: The Professional** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
