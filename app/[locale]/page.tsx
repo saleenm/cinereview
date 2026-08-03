@@ -105,8 +105,8 @@ export default async function HomePage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
-      {/* ── Cinematic letterbox intro ── */}
-      <LetterboxIntro />
+      {/* ── Cinematic letterbox intro (key=locale forces remount on language change) ── */}
+      <LetterboxIntro key={locale} />
 
       {/* ── Fixed cinematic background (WebGL + orbs) ── */}
       <CinematicBackground />
@@ -229,28 +229,73 @@ export default async function HomePage({ params }: Props) {
           <CinematicFilmGrid movies={gridMovies} locale={locale} />
         </section>
 
-        {/* ═══════════════════ STATS ROW ═══════════════════ */}
-        <div className="cin-stats-row" style={{ position:'relative', zIndex:10, padding:'0' }}>
-          {stats.map((s, i) => (
-            <div key={i} style={{
-              padding:'40px', textAlign:'center', position:'relative', background:'rgba(8,8,15,0.7)',
-            }} className="cin-reveal gsap-stat">
-              {i < stats.length - 1 && (
-                <div style={{ position:'absolute', right:0, top:'20%', bottom:'20%', width:1, background:'rgba(212,168,82,0.15)' }} />
-              )}
-              <div style={{
-                fontFamily:'var(--font-cinzel,Cinzel,serif)', fontSize:'3.5rem', fontWeight:900,
-                background:'linear-gradient(135deg,var(--cin-gold),var(--cin-gold2))',
-                WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent',
-                lineHeight:1, marginBottom:10,
-              }}>
-                <span data-cin-count={s.num}>0</span>{s.suffix}
+        {/* ═══════════════════ FILM STRIP STATS ═══════════════════ */}
+        <div style={{
+          position:'relative', zIndex:10,
+          background:'#0a0a0f',
+          borderTop:'2px solid #1a1a22',
+          borderBottom:'2px solid #1a1a22',
+          overflow:'hidden',
+        }}>
+          {/* Sprocket holes — top */}
+          <div style={{
+            position:'absolute', top:0, left:0, right:0, height:14,
+            background:'#060609',
+            display:'flex', alignItems:'center',
+            padding:'0 8px', gap:14, overflow:'hidden',
+            animation:'filmScroll 6s linear infinite',
+          }}>
+            {Array.from({ length: 60 }).map((_, i) => (
+              <div key={i} style={{
+                minWidth:20, height:8, borderRadius:2,
+                background:'#1c1c2a', border:'1px solid #2a2a3a', flexShrink:0,
+              }} />
+            ))}
+          </div>
+
+          {/* Sprocket holes — bottom */}
+          <div style={{
+            position:'absolute', bottom:0, left:0, right:0, height:14,
+            background:'#060609',
+            display:'flex', alignItems:'center',
+            padding:'0 8px', gap:14, overflow:'hidden',
+            animation:'filmScroll 6s linear infinite reverse',
+          }}>
+            {Array.from({ length: 60 }).map((_, i) => (
+              <div key={i} style={{
+                minWidth:20, height:8, borderRadius:2,
+                background:'#1c1c2a', border:'1px solid #2a2a3a', flexShrink:0,
+              }} />
+            ))}
+          </div>
+
+          {/* Stats content */}
+          <div className="cin-stats-row" style={{ padding:'14px 0' }}>
+            {stats.map((s, i) => (
+              <div key={i} style={{
+                padding:'28px 40px', textAlign:'center', position:'relative',
+              }} className="cin-reveal gsap-stat">
+                {i < stats.length - 1 && (
+                  <div style={{
+                    position:'absolute', right:0, top:'20%', bottom:'20%',
+                    width:1,
+                    background:'linear-gradient(to bottom, transparent, rgba(212,168,82,0.3), transparent)',
+                  }} />
+                )}
+                <div style={{
+                  fontFamily:'var(--font-cinzel,Cinzel,serif)', fontSize:'3rem', fontWeight:900,
+                  background:'linear-gradient(135deg,var(--cin-gold),var(--cin-gold2))',
+                  WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent',
+                  lineHeight:1, marginBottom:8,
+                }}>
+                  <span data-cin-count={s.num}>0</span>{s.suffix}
+                </div>
+                <div style={{ fontSize:'0.65rem', letterSpacing:5, color:'rgba(232,220,200,0.35)', textTransform:'uppercase' }}>
+                  {s.label}
+                </div>
               </div>
-              <div style={{ fontSize:'0.7rem', letterSpacing:4, color:'rgba(232,220,200,0.4)', textTransform:'uppercase' }}>
-                {s.label}
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* ═══════════════════ MOVIE OF THE DAY ═══════════════════ */}

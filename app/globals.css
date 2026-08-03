@@ -392,6 +392,12 @@ html { scroll-behavior: smooth; }
   font-family: var(--font-cinzel, 'Cinzel', serif);
 }
 
+/* ── Film strip scroll ── */
+@keyframes filmScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
 /* ── Hero animations ── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(30px); }
