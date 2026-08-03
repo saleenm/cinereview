@@ -128,8 +128,8 @@ export default async function HomePage({ params }: Props) {
           textAlign:'center', padding:'0 20px',
         }}>
 
-          {/* ── 3D Film Reel — right-center hero ── */}
-          <div style={{
+          {/* ── 3D Film Reel — right-center hero (hidden on mobile) ── */}
+          <div className="film-reel-3d-wrapper" style={{
             position:'absolute',
             right: 'clamp(2%, 6vw, 9%)',
             top: '50%',
