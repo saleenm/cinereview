@@ -13,6 +13,9 @@ import AdUnit from '@/components/AdUnit'
 import GSAPAnimations from '@/components/GSAPAnimations'
 import HeroTitle from '@/components/HeroTitle'
 import VPNBanner from '@/components/VPNBanner'
+import LetterboxIntro from '@/components/LetterboxIntro'
+import dynamic from 'next/dynamic'
+const FilmReel3D = dynamic(() => import('@/components/FilmReel3D'), { ssr: false })
 import NewsletterForm from '@/components/NewsletterForm'
 import { getMovies, getMovieOfTheDay } from '@/lib/movies'
 import { getRecentPosts, getPostData } from '@/lib/blog'
@@ -103,6 +106,9 @@ export default async function HomePage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
+      {/* ── Cinematic letterbox intro ── */}
+      <LetterboxIntro />
+
       {/* ── Fixed cinematic background (WebGL + orbs) ── */}
       <CinematicBackground />
 
@@ -122,6 +128,17 @@ export default async function HomePage({ params }: Props) {
           justifyContent:'center', alignItems:'center',
           textAlign:'center', padding:'0 20px',
         }}>
+
+          {/* ── 3D Film Reel — top-right decorative ── */}
+          <div style={{
+            position:'absolute', top:'8%', right:'4%',
+            width:'min(220px, 22vw)', height:'min(220px, 22vw)',
+            opacity:0.85, pointerEvents:'none',
+            animation:'fadeUp 1.5s forwards 1.4s', zIndex:5,
+          }}>
+            <FilmReel3D />
+          </div>
+
           {/* Eyebrow */}
           <p style={{
             fontFamily:'var(--font-cinzel,Cinzel,serif)',
