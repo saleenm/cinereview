@@ -6,6 +6,7 @@ import { getMovieOfTheDay, getMovies, getMovieDescription } from '@/lib/movies'
 import { LOCALES, GENRE_ICONS, GENRE_COLORS } from '@/lib/types'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import AdUnit from '@/components/AdUnit'
 import RatingCircle from '@/components/RatingCircle'
 import WatchlistButton from '@/components/WatchlistButton'
 import PushNotificationButton from '@/components/PushNotificationButton'
@@ -257,6 +258,7 @@ export default async function MovieOfDayPage({ params }: Props) {
             </div>
           </section>
         </div>
+        <AdUnit slot="8765432109" format="horizontal" className="mt-8 rounded-xl overflow-hidden" />
       </main>
       <Footer locale={locale} />
     </>

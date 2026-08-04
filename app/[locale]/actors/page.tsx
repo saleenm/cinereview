@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server'
 import { getAllActors } from '@/lib/movies'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import AdUnit from '@/components/AdUnit'
 import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 import { LOCALES } from '@/lib/types'
 
@@ -106,7 +107,7 @@ export default async function ActorsPage({ params }: Props) {
               )
             })}
           </div>
-        </div>
+        <AdUnit slot="9876543210" format="horizontal" className="mt-8 rounded-xl overflow-hidden" />
       </main>
       <Footer locale={locale} />
     </>

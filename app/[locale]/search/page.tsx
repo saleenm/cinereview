@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import AdUnit from '@/components/AdUnit'
 
 interface Movie {
   slug: string; title: string; title_ar: string; year: number
@@ -206,6 +207,7 @@ export default function SearchPage() {
             </button>
           </div>
         )}
+        <AdUnit slot="6543210987" format="horizontal" className="mt-8 rounded-xl overflow-hidden" />
       </main>
       <Footer locale={locale} />
     </>

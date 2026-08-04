@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { Metadata } from 'next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import AdUnit from '@/components/AdUnit'
 import { getAllDirectors } from '@/lib/movies'
 import { LOCALES } from '@/lib/types'
 
@@ -108,6 +109,7 @@ export default async function DirectorsPage({ params }: Props) {
             })}
           </div>
         </div>
+        <AdUnit slot="7654321098" format="horizontal" className="mt-8 rounded-xl overflow-hidden" />
       </main>
       <Footer locale={locale} />
     </>
