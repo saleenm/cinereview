@@ -1799,6 +1799,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'amelie-compare-era-2026-08',
+    date: '2026-08-04',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/woZJ52CY4n1pE1SXB1oYmS96oBB.jpg',
+    movieSlug: 'amelie',
+    i18n: {
+      ar: {
+        title: 'أميلي: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم أميلي (2001) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## أميلي — تحفة سينمائية\n\n**المخرج:** Jean-Pierre Jeunet\n**السنة:** 2001\n**التقييم:** 9/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **أميلي** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Jean-Pierre Jeunet كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Jean-Pierre Jeunet أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **أميلي** مكانته بين أبرز أفلام **2001**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Amélie: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amélie (2001) by Jean-Pierre Jeunet — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Amélie — A Cinematic Masterpiece\n\n**Director:** Jean-Pierre Jeunet\n**Year:** 2001\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amélie** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Pierre Jeunet deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Pierre Jeunet crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amélie** rightfully earns its place among the defining films of **2001**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Amélie: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amélie (2001) by Jean-Pierre Jeunet — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Amélie — A Cinematic Masterpiece\n\n**Director:** Jean-Pierre Jeunet\n**Year:** 2001\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amélie** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Pierre Jeunet deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Pierre Jeunet crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amélie** rightfully earns its place among the defining films of **2001**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Amélie: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amélie (2001) by Jean-Pierre Jeunet — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Amélie — A Cinematic Masterpiece\n\n**Director:** Jean-Pierre Jeunet\n**Year:** 2001\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amélie** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Pierre Jeunet deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Pierre Jeunet crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amélie** rightfully earns its place among the defining films of **2001**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Amélie: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amélie (2001) by Jean-Pierre Jeunet — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Amélie — A Cinematic Masterpiece\n\n**Director:** Jean-Pierre Jeunet\n**Year:** 2001\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amélie** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Pierre Jeunet deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Pierre Jeunet crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amélie** rightfully earns its place among the defining films of **2001**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Amélie: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amélie (2001) by Jean-Pierre Jeunet — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Amélie — A Cinematic Masterpiece\n\n**Director:** Jean-Pierre Jeunet\n**Year:** 2001\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amélie** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Pierre Jeunet deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Pierre Jeunet crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amélie** rightfully earns its place among the defining films of **2001**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Amélie: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amélie (2001) by Jean-Pierre Jeunet — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Amélie — A Cinematic Masterpiece\n\n**Director:** Jean-Pierre Jeunet\n**Year:** 2001\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amélie** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Pierre Jeunet deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Pierre Jeunet crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amélie** rightfully earns its place among the defining films of **2001**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Amélie: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amélie (2001) by Jean-Pierre Jeunet — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Amélie — A Cinematic Masterpiece\n\n**Director:** Jean-Pierre Jeunet\n**Year:** 2001\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amélie** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Pierre Jeunet deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Pierre Jeunet crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amélie** rightfully earns its place among the defining films of **2001**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
