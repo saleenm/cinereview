@@ -1,0 +1,331 @@
+- generic [active] [ref=f106e1]:
+  - generic [ref=f106e2]:
+    - button "Skip to content" [ref=f106e4]
+    - banner "Top menu" [ref=f106e7]:
+      - link "Semrush homepage" [ref=f106e8] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f106e10]:
+        - link "Log In" [ref=f106e11] [cursor=pointer]:
+          - /url: /login/?src=header
+        - link "Sign Up" [ref=f106e12] [cursor=pointer]:
+          - /url: /signup/?src=header
+      - button "Open menu" [ref=f106e13] [cursor=pointer]
+    - generic [ref=f106e14]:
+      - main [ref=f106e15]:
+        - generic [ref=f106e24]:
+          - generic [ref=f106e28]:
+            - generic [ref=f106e29]:
+              - heading "Get Your Free 7‑Day Semrush Trial. The only marketing tool you'll ever need." [level=1] [ref=f106e30]
+              - paragraph [ref=f106e31]: Own your brand’s visibility, everywhere it counts.
+            - link "Start Free Trial" [ref=f106e32] [cursor=pointer]:
+              - /url: https://www.semrush.com/signup/?src=lp-trial-page&custom=ai-seo&trial=force&redirect_to=%2Fseo%2F
+          - region "Partner logos carousel" [ref=f106e36]:
+            - list [ref=f106e37]:
+              - listitem [ref=f106e38]:
+                - img "amazon" [ref=f106e39]
+              - listitem [ref=f106e40]:
+                - img "tiktok" [ref=f106e41]
+              - listitem [ref=f106e42]:
+                - img "shopify" [ref=f106e43]
+              - listitem [ref=f106e44]:
+                - img "grammarly" [ref=f106e45]
+              - listitem [ref=f106e46]:
+                - img "microsoft" [ref=f106e47]
+              - listitem [ref=f106e48]:
+                - img "airbnb" [ref=f106e49]
+              - listitem [ref=f106e50]:
+                - img "netflix" [ref=f106e51]
+          - region [ref=f106e53]:
+            - heading "Find the Right Free Trial for Your Business" [level=2] [ref=f106e56]
+          - region [ref=f106e58]:
+            - generic [ref=f106e59]:
+              - img "Placeholder image" [ref=f106e62]
+              - generic [ref=f106e64]:
+                - heading "Semrush One" [level=3] [ref=f106e65]
+                - paragraph [ref=f106e66]: Win every search, from traditional SEO to AI discovery
+                - list [ref=f106e68]:
+                  - listitem [ref=f106e69]: Grow your organic traffic and AI visibility in one platform
+                  - listitem [ref=f106e70]: Competitor insights across Google search and LLMs
+                  - listitem [ref=f106e71]: Run technical SEO and AI readiness audits
+                  - listitem [ref=f106e72]: Track daily SERP positions and AI visibility
+                - link "Try Semrush One" [ref=f106e74] [cursor=pointer]:
+                  - /url: https://www.semrush.com/signup/?src=lp-trial-page&custom=ai-seo&trial=force&redirect_to=%2Fseo%2F
+          - region [ref=f106e76]:
+            - generic [ref=f106e77]:
+              - img "Placeholder image" [ref=f106e80]
+              - generic [ref=f106e82]:
+                - heading "SEO Toolkit" [level=3] [ref=f106e83]
+                - paragraph [ref=f106e84]: Boost your organic traffic with powerful SEO tools
+                - list [ref=f106e86]:
+                  - listitem [ref=f106e87]: Uncover millions of national & local keywords
+                  - listitem [ref=f106e88]: Analyze any domain’s backlink profile
+                  - listitem [ref=f106e89]: Run technical SEO audits
+                  - listitem [ref=f106e90]: Track your SERP positions and AI Overviews daily
+                - link "Try SEO Toolkit" [ref=f106e92] [cursor=pointer]:
+                  - /url: https://www.semrush.com/signup/?onboarding=off&trial=force&src=lp-trial-page&redirect_to=%2Fseo%2F
+          - region [ref=f106e94]:
+            - generic [ref=f106e95]:
+              - img "Placeholder image" [ref=f106e98]
+              - generic [ref=f106e100]:
+                - heading "Content Toolkit" [level=3] [ref=f106e101]
+                - paragraph [ref=f106e102]: Create content that ranks
+                - list [ref=f106e104]:
+                  - listitem [ref=f106e105]: Find topics that resonate with your audience
+                  - listitem [ref=f106e106]: Get actionable tips to create SEO‑friendly content
+                  - listitem [ref=f106e107]: AI-powered content creation to speed up your content production
+                  - listitem [ref=f106e108]: AI rewriting features to help you create great content
+                - link "Try Content Toolkit" [ref=f106e110] [cursor=pointer]:
+                  - /url: https://www.semrush.com/signup/?src=lp-trial-page&trial=force&custom=cmp&redirect_to=%2Fcontent-marketing%2Fget-started%2F
+          - region [ref=f106e112]:
+            - generic [ref=f106e113]:
+              - generic [ref=f106e115]:
+                - img "Placeholder image"
+              - generic [ref=f106e117]:
+                - heading "Traffic & Market Toolkit" [level=3] [ref=f106e118]
+                - paragraph [ref=f106e119]: Uncover your competitors’ marketing strategies
+                - list [ref=f106e121]:
+                  - listitem [ref=f106e122]: Analyze any website’s traffic
+                  - listitem [ref=f106e123]: Unveil competitors’ promotion strategies
+                  - listitem [ref=f106e124]: Get ideas for growing your market share
+                  - listitem [ref=f106e125]: Benchmark your performance against industry leaders
+                - link "Try Traffic & Market Toolkit" [ref=f106e127] [cursor=pointer]:
+                  - /url: https://www.semrush.com/signup/?onboarding=off&trial=force&src=lp-trial-page&custom=ci&redirect_to=%2Ftrends%2F
+          - region [ref=f106e129]:
+            - generic [ref=f106e130]:
+              - generic [ref=f106e132]:
+                - img "Placeholder image"
+              - generic [ref=f106e134]:
+                - heading "Advertising Toolkit" [level=3] [ref=f106e135]
+                - paragraph [ref=f106e136]: Discover how to reach more prospects while spending less
+                - list [ref=f106e138]:
+                  - listitem [ref=f106e139]: Find the best keywords for every PPC campaign
+                  - listitem [ref=f106e140]: Monitor your competitors' ad copy and landing pages
+                  - listitem [ref=f106e141]: Learn how to optimize your advertising spend
+                  - listitem [ref=f106e142]: Analyze Google Shopping campaigns
+                - link "Try Advertising Toolkit" [ref=f106e144] [cursor=pointer]:
+                  - /url: https://www.semrush.com/signup/?src=lp-trial-page&trial=force&redirect_to=%2Fppc%2F
+          - region [ref=f106e146]:
+            - generic [ref=f106e147]:
+              - generic [ref=f106e149]:
+                - img "Placeholder image"
+              - generic [ref=f106e151]:
+                - heading "Local Toolkit" [level=3] [ref=f106e152]
+                - paragraph [ref=f106e153]: The ultimate solution for local SEO
+                - list [ref=f106e155]:
+                  - listitem [ref=f106e156]: Optimize your Google Business Profile and monitor rankings
+                  - listitem [ref=f106e157]: Ensure your business is listed in top directories
+                  - listitem [ref=f106e158]: Use AI to respond to customer reviews
+                  - listitem [ref=f106e159]: Get insights about your local competitors
+                - link "Try Local Toolkit" [ref=f106e161] [cursor=pointer]:
+                  - /url: https://www.semrush.com/signup/?onboarding=off&trial=force&src=lp-trial-page&custom=local&redirect_to=%2Flocal%2F
+          - region [ref=f106e163]:
+            - generic [ref=f106e164]:
+              - generic [ref=f106e166]:
+                - img "Placeholder image"
+              - generic [ref=f106e168]:
+                - heading "Social Toolkit" [level=3] [ref=f106e169]
+                - paragraph [ref=f106e170]: Grow your brand’s social media presence
+                - list [ref=f106e172]:
+                  - listitem [ref=f106e173]: Use AI to create and schedule posts on various platforms
+                  - listitem [ref=f106e174]: Track your competitors’ social media audience and engagement
+                  - listitem [ref=f106e175]: Find influencers to help grow your brand
+                  - listitem [ref=f106e176]: Gain key insights into your social media strategy
+                - link "Try Social Toolkit" [ref=f106e178] [cursor=pointer]:
+                  - /url: https://www.semrush.com/signup/?onboarding=off&trial=force&src=lp-trial-page&custom=smm&redirect_to=%2Fsocial-media%2F
+          - generic [ref=f106e182]:
+            - region [ref=f106e184]:
+              - generic [ref=f106e186]:
+                - heading "Your Peers Think Semrush Rocks" [level=2] [ref=f106e187]
+                - paragraph [ref=f106e188]: Based on 4,700+ reviews across these platforms.
+            - list [ref=f106e189]:
+              - listitem [ref=f106e190]:
+                - generic [ref=f106e191]:
+                  - img "G2 logo"
+                - generic [ref=f106e192]:
+                  - paragraph [ref=f106e193]: "4.5"
+                  - img "Rated 4.5 out of 5 stars" [ref=f106e194]
+              - listitem [ref=f106e205]:
+                - generic [ref=f106e206]:
+                  - img "Capterra logo"
+                - generic [ref=f106e207]:
+                  - paragraph [ref=f106e208]: "4.7"
+                  - img "Rated 4.7 out of 5 stars" [ref=f106e209]
+              - listitem [ref=f106e220]:
+                - generic [ref=f106e221]:
+                  - img "Capterra logo"
+                - generic [ref=f106e222]:
+                  - paragraph [ref=f106e223]: "4.4"
+                  - img "Rated 4.4 out of 5 stars" [ref=f106e224]
+          - generic [ref=f106e239]:
+            - heading "FAQ" [level=2] [ref=f106e240]
+            - generic [ref=f106e241]:
+              - heading [level=3] [ref=f106e243]:
+                - button "How Does Semrush's Free Trial Work?" [ref=f106e244] [cursor=pointer]
+              - heading [level=3] [ref=f106e249]:
+                - button "Can You Cancel Your Semrush Subscription After the Free Trial?" [ref=f106e250] [cursor=pointer]
+              - heading [level=3] [ref=f106e255]:
+                - button "How Much Does Semrush Cost After the Free Trial?" [ref=f106e256] [cursor=pointer]
+          - generic [ref=f106e263]:
+            - heading "Start Growing Your Online Visibility Today" [level=2] [ref=f106e264]
+            - paragraph [ref=f106e265]: Get free 7-day access to our marketing toolkits. Cancel anytime.
+            - link "Start Free Trial" [ref=f106e267] [cursor=pointer]:
+              - /url: https://www.semrush.com/signup/?onboarding=off&trial=force&src=lp-trial-page
+      - contentinfo [ref=f106e269]:
+        - generic [ref=f106e270]:
+          - generic [ref=f106e271]:
+            - heading "Get started with Semrush today" [level=2] [ref=f106e272]
+            - paragraph [ref=f106e273]: Try Semrush free for seven days. Cancel anytime.
+            - link "Start free trial" [ref=f106e274] [cursor=pointer]:
+              - /url: /signup/?src=footer
+          - generic [ref=f106e275]:
+            - generic [ref=f106e276]:
+              - paragraph [ref=f106e277]: Semrush
+              - list [ref=f106e278]:
+                - listitem [ref=f106e279]:
+                  - link "Semrush One" [ref=f106e280] [cursor=pointer]:
+                    - /url: /one/
+                - listitem [ref=f106e281]:
+                  - link "Features" [ref=f106e282] [cursor=pointer]:
+                    - /url: /features/
+                - listitem [ref=f106e283]:
+                  - link "Solutions" [ref=f106e284] [cursor=pointer]:
+                    - /url: /solutions/
+                - listitem [ref=f106e285]:
+                  - link "Pricing" [ref=f106e286] [cursor=pointer]:
+                    - /url: /pricing/
+                - listitem [ref=f106e287]:
+                  - link "Free Trial" [ref=f106e288] [cursor=pointer]:
+                    - /url: /semrush-free-trial/
+                - listitem [ref=f106e289]:
+                  - link "Compare Semrush" [ref=f106e290] [cursor=pointer]:
+                    - /url: /vs/
+                - listitem [ref=f106e291]:
+                  - link "Success Stories" [ref=f106e292] [cursor=pointer]:
+                    - /url: /company/stories/
+                - listitem [ref=f106e293]:
+                  - link "Stats and Facts" [ref=f106e294] [cursor=pointer]:
+                    - /url: /stats/
+                - listitem [ref=f106e295]:
+                  - link "Affiliate Program" [ref=f106e296] [cursor=pointer]:
+                    - /url: /lp/affiliate-program/en/?utm_source=semrush&utm_medium=footer
+            - generic [ref=f106e297]:
+              - paragraph [ref=f106e298]: More tools
+              - list [ref=f106e299]:
+                - listitem [ref=f106e300]:
+                  - link "Semrush MCP" [ref=f106e301] [cursor=pointer]:
+                    - /url: /mcp/
+                - listitem [ref=f106e302]:
+                  - link "Enterprise SEO" [ref=f106e303] [cursor=pointer]:
+                    - /url: https://enterprise.semrush.com/?utm_source=semrush&utm_medium=footer
+                - listitem [ref=f106e304]:
+                  - link "Enterprise AIO" [ref=f106e305] [cursor=pointer]:
+                    - /url: /lp/enterprise-aio/en/
+                - listitem [ref=f106e306]:
+                  - link "Enterprise SI" [ref=f106e307] [cursor=pointer]:
+                    - /url: /lp/site-intelligence/en/
+                - listitem [ref=f106e308]:
+                  - link "Insights24" [ref=f106e309] [cursor=pointer]:
+                    - /url: /lp/insights/en/?utm_source=semrush&utm_medium=footer
+                - listitem [ref=f106e310]:
+                  - link "Mfour" [ref=f106e311] [cursor=pointer]:
+                    - /url: /lp/mfour/en/?utm_source=semrush&utm_medium=footer
+                - listitem [ref=f106e312]:
+                  - link "App Center" [ref=f106e313] [cursor=pointer]:
+                    - /url: /apps/?utm_source=semrush&utm_medium=footer
+                - listitem [ref=f106e314]:
+                  - link "Top Websites" [ref=f106e315] [cursor=pointer]:
+                    - /url: /website/top/?utm_source=semrush&utm_medium=footer
+                - listitem [ref=f106e316]:
+                  - link "Free Tools" [ref=f106e317] [cursor=pointer]:
+                    - /url: /free-tools/?utm_source=semrush&utm_medium=footer
+                - listitem [ref=f106e318]:
+                  - link "Sensor" [ref=f106e319] [cursor=pointer]:
+                    - /url: /sensor/?utm_source=semrush&utm_medium=footer
+            - generic [ref=f106e320]:
+              - paragraph [ref=f106e321]: Company
+              - list [ref=f106e322]:
+                - listitem [ref=f106e323]:
+                  - link "About Us" [ref=f106e324] [cursor=pointer]:
+                    - /url: /company/
+                - listitem [ref=f106e325]:
+                  - link "News" [ref=f106e326] [cursor=pointer]:
+                    - /url: /news/
+                - listitem [ref=f106e327]:
+                  - link "Careers" [ref=f106e328] [cursor=pointer]:
+                    - /url: https://careers.semrush.com/
+                - listitem [ref=f106e329]:
+                  - link "Partners" [ref=f106e330] [cursor=pointer]:
+                    - /url: /company/partners/
+                - listitem [ref=f106e331]:
+                  - link "Semrush Select" [ref=f106e332] [cursor=pointer]:
+                    - /url: /company/semrush-select/
+                - listitem [ref=f106e333]:
+                  - link "Global Issues Index" [ref=f106e334] [cursor=pointer]:
+                    - /url: /company/global-issues/
+                - listitem [ref=f106e335]:
+                  - link "Do not sell my personal info" [ref=f106e336] [cursor=pointer]:
+                    - /url: javascript:window.showDontSellMyDataSettings();
+                - listitem [ref=f106e337]:
+                  - link "Contact Us" [ref=f106e338] [cursor=pointer]:
+                    - /url: /company/contacts/
+            - generic [ref=f106e339]:
+              - generic [ref=f106e340]:
+                - paragraph [ref=f106e341]: Support
+                - list [ref=f106e342]:
+                  - listitem [ref=f106e343]:
+                    - link "Knowledge Base" [ref=f106e344] [cursor=pointer]:
+                      - /url: /kb/
+                  - listitem [ref=f106e345]:
+                    - link "Academy" [ref=f106e346] [cursor=pointer]:
+                      - /url: /academy/
+                  - listitem [ref=f106e347]:
+                    - link "Semrush API" [ref=f106e348] [cursor=pointer]:
+                      - /url: /api-documentation/
+              - generic [ref=f106e349]:
+                - paragraph [ref=f106e350]: Community
+                - list [ref=f106e351]:
+                  - listitem [ref=f106e352]:
+                    - link "Semrush Blog" [ref=f106e353] [cursor=pointer]:
+                      - /url: /blog/
+                  - listitem [ref=f106e354]:
+                    - link "Webinars" [ref=f106e355] [cursor=pointer]:
+                      - /url: /academy/webinars/
+                  - listitem [ref=f106e356]:
+                    - link "Ambassador Program" [ref=f106e357] [cursor=pointer]:
+                      - /url: /lp/semrush-circle/en/?utm_source=semrush&utm_medium=footer
+          - generic [ref=f106e358]:
+            - list [ref=f106e359]:
+              - listitem [ref=f106e360]:
+                - link "Semrush linkedin" [ref=f106e361] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/semrush
+              - listitem [ref=f106e362]:
+                - link "Semrush instagram" [ref=f106e363] [cursor=pointer]:
+                  - /url: https://instagram.com/semrush/
+              - listitem [ref=f106e364]:
+                - link "Semrush tiktok" [ref=f106e365] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@semrush
+              - listitem [ref=f106e366]:
+                - link "Semrush youtube" [ref=f106e367] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/SemrushHQ
+              - listitem [ref=f106e368]:
+                - link "Semrush facebook" [ref=f106e369] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Semrush
+              - listitem [ref=f106e370]:
+                - link "Semrush twitter" [ref=f106e371] [cursor=pointer]:
+                  - /url: https://x.com/semrush
+            - paragraph [ref=f106e372]:
+              - link "Adobe" [ref=f106e373] [cursor=pointer]:
+                - /url: https://business.adobe.com/
+              - generic [ref=f106e374]: © 2026 Semrush Holdings. All rights reserved.
+          - list [ref=f106e376]:
+            - listitem [ref=f106e377]:
+              - link "Privacy Policy" [ref=f106e378] [cursor=pointer]:
+                - /url: /company/legal/privacy-policy/
+            - listitem [ref=f106e379]:
+              - link "Terms of Service" [ref=f106e380] [cursor=pointer]:
+                - /url: /company/legal/
+            - listitem [ref=f106e381]:
+              - link "Cookies Settings" [ref=f106e382] [cursor=pointer]:
+                - /url: javascript:window.showConsentSettings();
+          - button "English" [ref=f106e384] [cursor=pointer]
+  - region "Notifications"

@@ -1,0 +1,330 @@
+- generic [active] [ref=f102e1]:
+  - main [ref=f102e2]:
+    - generic [ref=f102e5]:
+      - link "Skip to content" [ref=f102e6] [cursor=pointer]:
+        - /url: "#content"
+      - navigation [ref=f102e9]:
+        - list [ref=f102e10]:
+          - listitem [ref=f102e11]:
+            - link "ElevenLabs" [ref=f102e12] [cursor=pointer]:
+              - /url: /
+      - generic [ref=f102e17]:
+        - link "Sign up" [ref=f102e20] [cursor=pointer]:
+          - /url: /app/sign-up
+        - button "Open main navigation" [ref=f102e23] [cursor=pointer]
+    - generic [ref=f102e29]:
+      - generic [ref=f102e30]:
+        - generic [ref=f102e32]:
+          - heading "Affiliates program" [level=1] [ref=f102e36]
+          - generic [ref=f102e37]:
+            - heading "Become an affiliate and earn with every recommendation" [level=2] [ref=f102e39]
+            - paragraph [ref=f102e40]: Do you love ElevenLabs? Are you interested in earning money by promoting ElevenLabs products? We're always on the lookout for passionate individuals to partner with on our affiliate program
+            - link "Instant sign up" [ref=f102e43] [cursor=pointer]:
+              - /url: /app/home?affiliate=true
+        - img "Collage of five people working with audio equipment and using smartphones, with overlayed stats showing earnings and referral counts." [ref=f102e47]
+      - generic [ref=f102e48]:
+        - generic [ref=f102e50]:
+          - list [ref=f102e52]:
+            - listitem [ref=f102e53]:
+              - generic [ref=f102e54]:
+                - img "A black silhouette of a person sitting at a desk with a computer, surrounded by books and a lamp." [ref=f102e57]
+                - generic [ref=f102e58]:
+                  - heading "Rewarding referrals" [level=3] [ref=f102e59]
+                  - paragraph [ref=f102e60]: For every new paid subscriber plan, you’ll earn 22% of all payments for the first 12 months — with no limits!
+            - listitem [ref=f102e61]:
+              - generic [ref=f102e62]:
+                - img "A black silhouette of a person sitting at a desk with a computer, surrounded by books and a lamp." [ref=f102e65]
+                - generic [ref=f102e66]:
+                  - heading "Spread the word" [level=3] [ref=f102e67]
+                  - paragraph [ref=f102e68]: Share ElevenLabs with your friends and followers - and help make content universally accessible.
+            - listitem [ref=f102e69]:
+              - generic [ref=f102e70]:
+                - img "A black silhouette of a person sitting at a desk with a computer, surrounded by books and a lamp." [ref=f102e73]
+                - generic [ref=f102e74]:
+                  - heading "Transparent tracking" [level=3] [ref=f102e75]
+                  - paragraph [ref=f102e76]: Keep an eye on your earnings with our intuitive dashboard.
+          - generic [ref=f102e77]:
+            - heading "Start earning in 3 easy steps" [level=2] [ref=f102e79]
+            - list [ref=f102e80]:
+              - listitem [ref=f102e81]:
+                - generic [ref=f102e82]:
+                  - 'img "Alt text: A blurred blue and white background with a white oval containing the URL \"evelenlabs.io/?from=your-unique-URL\"." [ref=f102e84]'
+                  - heading "Share" [level=3] [ref=f102e85]
+                  - paragraph [ref=f102e86]: Create content with your unique affiliate link on your channels. You’ll have access to promotional best practices, guides, and more.
+              - listitem [ref=f102e87]:
+                - generic [ref=f102e88]:
+                  - img "A purple line graph with peaks and valleys on a white background." [ref=f102e90]
+                  - heading "Subscribe" [level=3] [ref=f102e91]
+                  - paragraph [ref=f102e92]: With our intuitive dashboard, you can easily track the resonance of your message and ElevenLabs purchases.
+              - listitem [ref=f102e93]:
+                - generic [ref=f102e94]:
+                  - img "You're getting paid!" [ref=f102e96]
+                  - heading "Earn" [level=3] [ref=f102e97]
+                  - paragraph [ref=f102e98]: You will receive 22% of all payments from referrals for the first year of the subscription.
+          - generic [ref=f102e104]:
+            - figure [ref=f102e107]:
+              - generic [ref=f102e109]:
+                - button "Unmute" [ref=f102e111] [cursor=pointer]
+                - button "Play" [ref=f102e115] [cursor=pointer]
+            - heading "Affiliates media pack" [level=2] [ref=f102e119]
+            - paragraph [ref=f102e120]: Get all the media resource you might need. Download the media pack or find out more in your affiliates dashboard.
+            - link "Download Media Pack" [ref=f102e122] [cursor=pointer]:
+              - /url: https://storage.googleapis.com/eleven-public-cdn/affiliates/Affiliates%20Marketing%20Bundle.zip
+        - generic [ref=f102e126]:
+          - heading "Creator affiliate program FAQ" [level=2] [ref=f102e127]
+          - generic [ref=f102e129]:
+            - heading [level=3] [ref=f102e131]:
+              - button "How much can I earn as an affiliate?" [ref=f102e132] [cursor=pointer]
+            - heading [level=3] [ref=f102e141]:
+              - button "How do I join the ElevenLabs Creator Affiliate Program?" [ref=f102e142] [cursor=pointer]
+            - heading [level=3] [ref=f102e153]:
+              - button "When and how will I get paid?" [ref=f102e154] [cursor=pointer]
+            - heading [level=3] [ref=f102e165]:
+              - button "What is the minimum payout threshold for the Creator Affiliate program?" [ref=f102e166] [cursor=pointer]
+            - heading [level=3] [ref=f102e177]:
+              - button "How can I track my sales and commissions?" [ref=f102e178] [cursor=pointer]
+            - heading [level=3] [ref=f102e189]:
+              - button "Do I need to have a blog or website to join?" [ref=f102e190] [cursor=pointer]
+            - heading [level=3] [ref=f102e201]:
+              - button "Can I refer other affiliates and earn from their sales?" [ref=f102e202] [cursor=pointer]
+            - heading [level=3] [ref=f102e213]:
+              - button "What happens if a customer I referred requests a refund?" [ref=f102e214] [cursor=pointer]
+            - heading [level=3] [ref=f102e225]:
+              - button "Who can I contact if I have more questions or need support?" [ref=f102e226] [cursor=pointer]
+            - heading [level=3] [ref=f102e237]:
+              - button "Can I earn commissions on my own purchases through my referral link?" [ref=f102e238] [cursor=pointer]
+            - heading [level=3] [ref=f102e249]:
+              - button "What is the cookie duration for my referral link?" [ref=f102e250] [cursor=pointer]
+            - heading [level=3] [ref=f102e261]:
+              - button "Can I promote ElevenLabs internationally?" [ref=f102e262] [cursor=pointer]
+            - heading [level=3] [ref=f102e273]:
+              - button "How do I know if my promotional efforts are successful?" [ref=f102e274] [cursor=pointer]
+            - heading [level=3] [ref=f102e285]:
+              - button "What methods of promotion are not allowed in the affiliate program?" [ref=f102e286] [cursor=pointer]
+            - heading [level=3] [ref=f102e297]:
+              - button "Can I create a website or social media profile that impersonates ElevenLabs for promotion?" [ref=f102e298] [cursor=pointer]
+            - heading [level=3] [ref=f102e309]:
+              - button "Are there any types of content or platforms where I can't promote ElevenLabs?" [ref=f102e310] [cursor=pointer]
+            - heading [level=3] [ref=f102e321]:
+              - button "If I violate the promotional guidelines, what are the consequences?" [ref=f102e322] [cursor=pointer]
+            - heading [level=3] [ref=f102e333]:
+              - button "What is Partnerstack and how does it relate to the ElevenLabs Creator Affiliate Program?" [ref=f102e334] [cursor=pointer]
+            - heading [level=3] [ref=f102e345]:
+              - button "How do I promote ElevenLabs effectively?" [ref=f102e346] [cursor=pointer]
+            - heading [level=3] [ref=f102e357]:
+              - button "How should I go about tagging ElevenLabs on social media?" [ref=f102e358] [cursor=pointer]
+            - heading [level=3] [ref=f102e369]:
+              - button "Are there any promotional materials provided?" [ref=f102e370] [cursor=pointer]
+            - heading [level=3] [ref=f102e381]:
+              - button "What are some guiding principles for promotion?" [ref=f102e382] [cursor=pointer]
+    - generic [ref=f102e394]:
+      - paragraph [ref=f102e395]: Create with the highest quality AI Audio
+      - link "Sign up" [ref=f102e397] [cursor=pointer]:
+        - /url: /app/sign-up
+    - generic [ref=f102e407]:
+      - generic [ref=f102e408]:
+        - link "ElevenLabs" [ref=f102e409] [cursor=pointer]:
+          - /url: /
+        - button "English" [ref=f102e415] [cursor=pointer]
+      - list [ref=f102e421]:
+        - listitem [ref=f102e422]:
+          - paragraph [ref=f102e423]:
+            - link "ElevenCreative" [ref=f102e424] [cursor=pointer]:
+              - /url: /creative
+          - list [ref=f102e425]:
+            - listitem [ref=f102e426]:
+              - link "Text to Speech" [ref=f102e427] [cursor=pointer]:
+                - /url: /text-to-speech
+            - listitem [ref=f102e428]:
+              - link "Speech to Text" [ref=f102e429] [cursor=pointer]:
+                - /url: /speech-to-text
+            - listitem [ref=f102e430]:
+              - link "Voice Changer" [ref=f102e431] [cursor=pointer]:
+                - /url: /voice-changer
+            - listitem [ref=f102e432]:
+              - link "Text to Sound Effects" [ref=f102e433] [cursor=pointer]:
+                - /url: /sound-effects
+            - listitem [ref=f102e434]:
+              - link "Voice Cloning" [ref=f102e435] [cursor=pointer]:
+                - /url: /voice-cloning
+            - listitem [ref=f102e436]:
+              - link "Voice Isolator" [ref=f102e437] [cursor=pointer]:
+                - /url: /voice-isolator
+            - listitem [ref=f102e438]:
+              - link "AI Music Generator" [ref=f102e439] [cursor=pointer]:
+                - /url: /music
+            - listitem [ref=f102e440]:
+              - link "Studio" [ref=f102e441] [cursor=pointer]:
+                - /url: /studio
+            - listitem [ref=f102e442]:
+              - link "Voice Design" [ref=f102e443] [cursor=pointer]:
+                - /url: /voice-design
+            - listitem [ref=f102e444]:
+              - link "AI Voice Generator" [ref=f102e445] [cursor=pointer]:
+                - /url: /ai-voice-generator
+            - listitem [ref=f102e446]:
+              - link "AI Image Generator" [ref=f102e447] [cursor=pointer]:
+                - /url: /image
+            - listitem [ref=f102e448]:
+              - link "AI Video Generator" [ref=f102e449] [cursor=pointer]:
+                - /url: /video
+            - listitem [ref=f102e450]:
+              - link "Ads Engine" [ref=f102e451] [cursor=pointer]:
+                - /url: /ads-engine
+        - listitem [ref=f102e452]:
+          - paragraph [ref=f102e453]:
+            - link "ElevenAgents" [ref=f102e454] [cursor=pointer]:
+              - /url: /agents
+          - list [ref=f102e455]:
+            - listitem [ref=f102e456]:
+              - link "Voice Agents" [ref=f102e457] [cursor=pointer]:
+                - /url: /voice-agents
+            - listitem [ref=f102e458]:
+              - link "Conversational AI" [ref=f102e459] [cursor=pointer]:
+                - /url: /conversational-ai
+            - listitem [ref=f102e460]:
+              - link "Integrations" [ref=f102e461] [cursor=pointer]:
+                - /url: /agents/integrations
+            - listitem [ref=f102e462]:
+              - link "Telecommunications" [ref=f102e463] [cursor=pointer]:
+                - /url: /agents/telecommunications
+            - listitem [ref=f102e464]:
+              - link "Financial Services" [ref=f102e465] [cursor=pointer]:
+                - /url: /agents/financial-services
+            - listitem [ref=f102e466]:
+              - link "Healthcare" [ref=f102e467] [cursor=pointer]:
+                - /url: /agents/healthcare
+            - listitem [ref=f102e468]:
+              - link "Technology" [ref=f102e469] [cursor=pointer]:
+                - /url: /agents/technology
+            - listitem [ref=f102e470]:
+              - link "Retail & E-commerce" [ref=f102e471] [cursor=pointer]:
+                - /url: /agents/retail-ecommerce
+            - listitem [ref=f102e472]:
+              - link "Travel & Hospitality" [ref=f102e473] [cursor=pointer]:
+                - /url: /agents/hospitality
+            - listitem [ref=f102e474]:
+              - link "Customer Support" [ref=f102e475] [cursor=pointer]:
+                - /url: /agents/ai-customer-support
+            - listitem [ref=f102e476]:
+              - link "Chatbots" [ref=f102e477] [cursor=pointer]:
+                - /url: /chatbot
+        - listitem [ref=f102e478]:
+          - paragraph [ref=f102e479]:
+            - link "ElevenAPI" [ref=f102e480] [cursor=pointer]:
+              - /url: /api
+          - list [ref=f102e481]:
+            - listitem [ref=f102e482]:
+              - link "API Reference" [ref=f102e483] [cursor=pointer]:
+                - /url: /docs/api-reference/text-to-speech/convert
+            - listitem [ref=f102e484]:
+              - link "Agents API" [ref=f102e485] [cursor=pointer]:
+                - /url: /docs/eleven-api/quickstart
+            - listitem [ref=f102e486]:
+              - link "Speech Engine" [ref=f102e487] [cursor=pointer]:
+                - /url: /docs/overview/capabilities/speech-engine
+            - listitem [ref=f102e488]:
+              - link "Dubbing API" [ref=f102e489] [cursor=pointer]:
+                - /url: /docs/eleven-api/guides/cookbooks/dubbing
+            - listitem [ref=f102e490]:
+              - link "Text to Speech API" [ref=f102e491] [cursor=pointer]:
+                - /url: /text-to-speech-api
+            - listitem [ref=f102e492]:
+              - link "Speech to Text API" [ref=f102e493] [cursor=pointer]:
+                - /url: /speech-to-text-api
+            - listitem [ref=f102e494]:
+              - link "Sound Effects API" [ref=f102e495] [cursor=pointer]:
+                - /url: /docs/eleven-api/guides/cookbooks/sound-effects
+            - listitem [ref=f102e496]:
+              - link "Music API" [ref=f102e497] [cursor=pointer]:
+                - /url: /docs/eleven-api/guides/cookbooks/music
+            - listitem [ref=f102e498]:
+              - link "API Key" [ref=f102e499] [cursor=pointer]:
+                - /url: /app/settings/api-keys
+        - listitem [ref=f102e500]:
+          - paragraph [ref=f102e501]:
+            - generic [ref=f102e502]: Resources
+          - list [ref=f102e503]:
+            - listitem [ref=f102e504]:
+              - link "Blog" [ref=f102e505] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f102e506]:
+              - link "Iconic Marketplace" [ref=f102e507] [cursor=pointer]:
+                - /url: /iconic-marketplace
+            - listitem [ref=f102e508]:
+              - link "Impact Program" [ref=f102e509] [cursor=pointer]:
+                - /url: /impact
+            - listitem [ref=f102e510]:
+              - link "Startup Grants" [ref=f102e511] [cursor=pointer]:
+                - /url: /startup-grants
+            - listitem [ref=f102e512]:
+              - link "Help Center" [ref=f102e513] [cursor=pointer]:
+                - /url: https://help.elevenlabs.io/hc/en-us
+            - listitem [ref=f102e514]:
+              - link "Webinars" [ref=f102e515] [cursor=pointer]:
+                - /url: /webinars
+            - listitem [ref=f102e516]:
+              - link "Docs" [ref=f102e517] [cursor=pointer]:
+                - /url: /docs/overview/intro
+            - listitem [ref=f102e518]:
+              - link "Enterprise" [ref=f102e519] [cursor=pointer]:
+                - /url: /enterprise
+            - listitem [ref=f102e520]:
+              - link "Trust Center" [ref=f102e521] [cursor=pointer]:
+                - /url: https://compliance.elevenlabs.io/
+            - listitem [ref=f102e522]:
+              - link "India" [ref=f102e523] [cursor=pointer]:
+                - /url: /india
+        - listitem [ref=f102e524]:
+          - paragraph [ref=f102e525]:
+            - generic [ref=f102e526]: Socials
+          - list [ref=f102e527]:
+            - listitem [ref=f102e528]:
+              - button "X" [ref=f102e530] [cursor=pointer]
+            - listitem [ref=f102e533]:
+              - button "LinkedIn" [ref=f102e535] [cursor=pointer]
+            - listitem [ref=f102e538]:
+              - link "GitHub" [ref=f102e539] [cursor=pointer]:
+                - /url: https://github.com/elevenlabs
+            - listitem [ref=f102e540]:
+              - link "YouTube" [ref=f102e541] [cursor=pointer]:
+                - /url: https://www.youtube.com/@elevenlabs?sub_confirmation=1
+            - listitem [ref=f102e542]:
+              - link "Discord" [ref=f102e543] [cursor=pointer]:
+                - /url: https://discord.gg/elevenlabs
+            - listitem [ref=f102e544]:
+              - link "TikTok" [ref=f102e545] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@elevenlabs
+            - listitem [ref=f102e546]:
+              - link "Instagram" [ref=f102e547] [cursor=pointer]:
+                - /url: https://www.instagram.com/elevenlabsio/?hl=en
+            - listitem [ref=f102e548]:
+              - link "Facebook" [ref=f102e549] [cursor=pointer]:
+                - /url: https://www.facebook.com/elevenlabsio/
+            - listitem [ref=f102e550]:
+              - link "Reddit" [ref=f102e551] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/ElevenLabs/
+        - listitem [ref=f102e552]:
+          - paragraph [ref=f102e553]:
+            - generic [ref=f102e554]: Company
+          - list [ref=f102e555]:
+            - listitem [ref=f102e556]:
+              - link "About" [ref=f102e557] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f102e558]:
+              - link "Careers" [ref=f102e559] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=f102e560]:
+              - link "Safety" [ref=f102e561] [cursor=pointer]:
+                - /url: /safety
+            - listitem [ref=f102e562]:
+              - link "Brand & Press Kit" [ref=f102e563] [cursor=pointer]:
+                - /url: /brand
+            - listitem [ref=f102e564]:
+              - link "ElevenLabs Summit" [ref=f102e565] [cursor=pointer]:
+                - /url: /events/elevenlabs-summit
+            - listitem [ref=f102e566]:
+              - button "Policies" [ref=f102e568] [cursor=pointer]
+            - listitem [ref=f102e571]:
+              - button "Cookie Settings" [ref=f102e572] [cursor=pointer]
+  - button "Voice chat" [ref=f102e576] [cursor=pointer]

@@ -1,0 +1,632 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Jasper.ai Homepage" [ref=e5] [cursor=pointer]:
+          - /url: /
+        - button "Logo options" [ref=e14] [cursor=pointer]
+      - list [ref=e15]:
+        - listitem [ref=e16]:
+          - generic [ref=e17]:
+            - generic: Platform
+            - link "Platform" [ref=e23] [cursor=pointer]:
+              - /url: /platform
+        - listitem [ref=e25]:
+          - generic [ref=e26]:
+            - generic: Solutions
+            - link "Solutions" [ref=e32] [cursor=pointer]:
+              - /url: /solutions
+        - listitem [ref=e34]:
+          - generic [ref=e35]:
+            - generic: Resources
+            - link "Resources" [ref=e41] [cursor=pointer]:
+              - /url: /resources
+        - listitem [ref=e43]:
+          - generic [ref=e44]:
+            - generic: Company
+            - link "Company" [ref=e50] [cursor=pointer]:
+              - /url: /company
+        - listitem [ref=e52]:
+          - generic [ref=e53]:
+            - generic: Pricing
+            - link "Pricing" [ref=e59] [cursor=pointer]:
+              - /url: /pricing
+      - list [ref=e61]:
+        - listitem [ref=e62]:
+          - link "Log in to Jasper" [ref=e63] [cursor=pointer]:
+            - /url: https://app.jasper.ai/
+            - generic [ref=e64]: Log In
+        - listitem [ref=e65]:
+          - link "Free Trial" [ref=e66] [cursor=pointer]:
+            - /url: https://app.jasper.ai/auth/signup
+        - listitem [ref=e68]:
+          - generic [ref=e69] [cursor=pointer]:
+            - link "Get a Demo" [ref=e71]:
+              - /url: /demo
+              - generic [ref=e72]: Get A Demo
+            - generic [ref=e73]: Get A Demo
+    - generic [ref=e74]:
+      - generic [ref=e78]:
+        - generic [ref=e79]: Legal Center
+        - link "Legal Center" [ref=e83] [cursor=pointer]:
+          - /url: /legal
+      - generic [ref=e86]:
+        - generic [ref=e89]:
+          - heading [ref=e90]:
+            - heading "Legal information" [level=2] [ref=e91]
+          - generic [ref=e93]:
+            - heading [ref=e96]:
+              - heading "For customers" [level=2] [ref=e97]
+            - list [ref=e101]:
+              - listitem [ref=e102]:
+                - link "Terms of Service ¹" [ref=e103] [cursor=pointer]:
+                  - /url: /legal/terms
+                  - generic [ref=e104]: Terms of Service
+                  - generic [ref=e105]: ¹
+              - listitem [ref=e107]:
+                - link "Usage Policies" [ref=e108] [cursor=pointer]:
+                  - /url: /legal/usage-policies
+              - listitem [ref=e110]:
+                - link "Software as a Service Agreement ²" [ref=e111] [cursor=pointer]:
+                  - /url: /legal/saas-agreement
+                  - generic [ref=e112]: Software as a Service Agreement
+                  - generic [ref=e113]: ²
+              - listitem [ref=e115]:
+                - link "Evaluation Agreement ³" [ref=e116] [cursor=pointer]:
+                  - /url: /legal/evaluation-agreement
+                  - generic [ref=e117]: Evaluation Agreement
+                  - generic [ref=e118]: ³
+              - listitem [ref=e120]:
+                - link "Data Processing Agreement ⁴" [ref=e121] [cursor=pointer]:
+                  - /url: /legal/dpa
+                  - generic [ref=e122]: Data Processing Agreement
+                  - generic [ref=e123]: ⁴
+          - generic [ref=e127]:
+            - heading [ref=e130]:
+              - heading "For everyone" [level=2] [ref=e131]
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - link "Privacy Policy" [ref=e137] [cursor=pointer]:
+                  - /url: /legal/privacy
+              - listitem [ref=e139]:
+                - link "Information Security Requirements" [ref=e140] [cursor=pointer]:
+                  - /url: /legal/security-requirements
+              - listitem [ref=e142]:
+                - link "Sub-Processors" [ref=e143] [cursor=pointer]:
+                  - /url: /legal/sub-processors
+              - listitem [ref=e145]:
+                - link "In-Product Cookie Policy" [ref=e146] [cursor=pointer]:
+                  - /url: /legal/cookies
+              - listitem [ref=e148]:
+                - link "Google API Disclosure" [ref=e149] [cursor=pointer]:
+                  - /url: /legal/google-api-disclosure
+              - listitem [ref=e151]:
+                - link "CCPA Notice to Candidates ⁵" [ref=e152] [cursor=pointer]:
+                  - /url: /legal/ccpa
+                  - generic [ref=e153]: CCPA Notice to Candidates
+                  - generic [ref=e154]: ⁵
+          - generic [ref=e158]:
+            - heading [ref=e161]:
+              - heading "For partners" [level=2] [ref=e162]
+            - list [ref=e166]:
+              - listitem [ref=e167]:
+                - link "Reseller Agreement" [ref=e168] [cursor=pointer]:
+                  - /url: /legal/reseller
+              - listitem [ref=e170]:
+                - link "End User License Agreement" [ref=e171] [cursor=pointer]:
+                  - /url: /legal/eula
+              - listitem [ref=e173]:
+                - link "Marketing Affiliate Program Agreement" [ref=e174] [cursor=pointer]:
+                  - /url: /legal/affiliates
+        - generic [ref=e177]:
+          - heading "Marketing Affiliate Program Agreement" [level=1] [ref=e178]
+          - generic [ref=e179]:
+            - generic [ref=e181]:
+              - generic [ref=e182]: Version
+              - generic [ref=e183]: "2.0"
+            - paragraph [ref=e185]: Effective Jul 31, 2023
+          - generic [ref=e189]:
+            - paragraph [ref=e190]:
+              - emphasis [ref=e191]: Effective September 1, 2023
+            - paragraph [ref=e192]: PLEASE READ THIS AFFILIATE PROGRAM AGREEMENT CAREFULLY.
+            - paragraph [ref=e193]: This Marketing Affiliate Program Agreement (the “Agreement”) is a contract between you (the “Affiliate”) and Jasper AI, Inc. (“we”, “us”, “our”, and “Jasper”) and applies to your participation in our marketing affiliate program (the “Affiliate Program”).
+            - paragraph [ref=e194]:
+              - strong [ref=e195]: 1. Definitions
+            - paragraph [ref=e196]: “Jasper Affiliate” means a company owned, operated or controlled by Jasper.
+            - paragraph [ref=e197]: “Affiliate Lead” means a customer prospect who (i) has no pre-existing business relationship with Jasper and (ii) clicks on the Affiliate Link that we have made available to you via the Affiliate Tool.
+            - paragraph [ref=e198]: “Affiliate Link” means the unique tracking link you place on your site or promote through other channels.
+            - paragraph [ref=e199]: “Affiliate Policies” means the policies applicable to affiliates which we may make available to you from time to time.
+            - paragraph [ref=e200]: “Affiliate Tool” means FirstPromoter or other similar tool that we make available to you upon your acceptance into the Affiliate Program and for you to use in order to participate in the Affiliate Program.
+            - paragraph [ref=e201]: “Commission” means an amount equal to twenty-five percent (25%) of the subscription price of the Commissionable Plan purchased by a Customer.
+            - paragraph [ref=e202]: “Commissionable Plan” means either Jasper’s Creator or Teams subscription plans, or other similar designated, non-enterprise subscription plans.
+            - paragraph [ref=e203]: “Customer” means the authorized actual user of the Jasper Products who has purchased or signed up for a Commissionable Plan after being an Affiliate Lead.
+            - paragraph [ref=e204]: “Customer Transactions” means those transactions by Affiliate Leads that are eligible for Commission pursuant to the ‘Customer Transactions’ section of this Agreement. Customer Transactions may include Customer purchases or Customer signups, as further described in the Affiliate Tool.
+            - paragraph [ref=e205]: “Customer Data” means all information that Customer submits or collects via the Jasper Products and all materials that Customer provides or posts, uploads, inputs or submits for public display through the Jasper Products.
+            - paragraph [ref=e206]: “Jasper Content” means all information, data, text, messages, software, sound, music, video, photographs, graphics, images, and tags that we incorporate into our services.
+            - paragraph [ref=e207]: “Jasper Products” means both the Subscription Service and Other Products.
+            - paragraph [ref=e208]:
+              - text: "“Program Policies Page” means the landing page:"
+              - link "www.jasper.ai/partners" [ref=e209] [cursor=pointer]:
+                - /url: http://www.jasper.ai/partners
+              - text: where we will provide all the up-to-date guidelines and policies for the Affiliate Program.
+            - paragraph [ref=e210]: “Other Products” means those products and services that we offer, if any, which are not included in the Subscription Service (as detailed below); and, for the purposes of this Agreement, Other Products may include all of our marketing software, legacy sales and marketing products, and any implementation, customization, training, consulting, additional support or other professional services, or fees for third-party products or services.
+            - paragraph [ref=e211]:
+              - text: “Subscription Service” means our web-based software that is subscribed to, and developed, operated, and maintained by us, accessible via
+              - link "www.jasper.ai" [ref=e212] [cursor=pointer]:
+                - /url: http://www.jasper.ai/
+              - text: or another designated URL, and add-on products to our software. For the purposes of this Agreement, the Subscription Service does not include our legacy products, any implementation, customization, training, consulting, additional support or other professional services, or fees for third-party products or services.
+            - paragraph [ref=e213]: “You” and “Affiliate” means the party, other than Jasper, entering into this Agreement and participating in the Affiliate Program.
+            - paragraph [ref=e214]:
+              - strong [ref=e215]: 2. Non-Exclusivity
+            - paragraph [ref=e216]: This Agreement does not create an exclusive agreement between you and us. Both you and we will have the right to recommend similar products and services of third parties and to work with other parties in connection with the design, sale, installation, implementation and use of similar services and products of third parties.
+            - paragraph [ref=e217]:
+              - strong [ref=e218]: 3. Affiliate Acceptance
+            - paragraph [ref=e219]: Once you complete an application to become an Affiliate, we will review your application and notify you whether you have been accepted to participate in the Affiliate Program, or not. Before we accept an application, we may want to review your application with you, so we may reach out to you for more information. We may require that you complete certain requirements or certification(s) before we accept your application. If we do not notify you that you are accepted to participate in the Affiliate Program within sixty (60) days from your application, your application is considered to be rejected.
+            - paragraph [ref=e220]: If you are accepted to participate in the Affiliate Program, then upon notification of acceptance, the terms and conditions of this Agreement shall apply in full force and effect, until terminated, pursuant to the terms set forth below. Further, you will need to complete any enrollment criteria set out in the Program Policies Page, if applicable. Failure to complete any enrollment criteria within thirty (30) days of your acceptance will result in the immediate termination of this Agreement.
+            - paragraph [ref=e221]: You will comply with the terms and conditions of this Agreement at all times, including any applicable Program Policies listed on Appendix A.
+            - paragraph [ref=e222]:
+              - strong [ref=e223]: 4. Commission and Payments
+            - paragraph [ref=e224]: a. Affiliate Program Limits. We will pay you Commission for each new Customer during the first twelve (12) months of the Customer’s subscription term, so long as the Customer remains a Customer and provided that you remain eligible to receive Commission pursuant to the terms of this Agreement. The start of the Customer’s subscription is determined by the date of the first purchase or sign up (as applicable) of the Subscription Service by the Customer and you will receive a Commission payment for that Customer Transaction only, regardless of any additional purchases made by that Customer during their relationship with Jasper.
+            - paragraph [ref=e225]: If the Customer cancels their subscription, you will stop receiving Commission. Jasper Business plans are not eligible for Commissions. If the Customer signs up for Jasper Business, you will not receive a Commission. You will receive Commission only so long as the Customer is on a Commissionable Plan. If the Customer signs up for a Commissionable Plan but later upgrades to Jasper Business, you will stop receiving Commissions. If that Customer then downgrades back to a Commissionable Plan, you will again begin receiving Commission.
+            - paragraph [ref=e226]: Your Commission will be paid on the same schedule the Customer pays. For example, if the Customer pays monthly, you’ll be paid the Commission monthly. If they pay annually, you will be paid annually. If at all possible with the Customer’s a Commissionable Plan, if the Customer upgrades or downgrade, your commission will match the new payment accordingly.
+            - paragraph [ref=e227]: "b. Eligibility. To be eligible for Commission:"
+            - list [ref=e228]:
+              - listitem [ref=e229]: an Affiliate Lead must be accepted and valid in accordance with the ‘Acceptance and Validity’ section,
+              - listitem [ref=e230]: a Customer Transaction must have occurred, and
+              - listitem [ref=e231]: a Customer must remain a customer during the locking period in the Affiliate Tool (or if applicable, in the Program Policies).
+            - paragraph [ref=e232]: "You are not eligible to receive Commission or any other compensation from us based on transactions for Other Products or if:"
+            - list [ref=e233]:
+              - listitem [ref=e234]: such compensation is disallowed or limited by federal, state or local law or regulation in the United States or the laws or regulations of your jurisdiction;
+              - listitem [ref=e235]: the applicable Customer reasonably objects to or prohibits such compensation or excludes such compensation from its payments to us or Jasper Affiliates;
+              - listitem [ref=e236]: the Customer has paid or will pay such commissions, referral fees, or other compensation directly to you, or
+              - listitem [ref=e237]: the Commission payment has been obtained by fraudulent means, misuse of the Affiliate Link, in violation of any Affiliate Program Policies that we make available to you, misuse of the Affiliate Tool or by any other means that we deem to breach the spirit of the Affiliate Program.
+            - paragraph [ref=e238]: In competitive situations with other affiliates, we may elect to provide the Commission to the affiliate that we deem to be the most eligible for Commission, at our discretion. In most circumstances, if a potential customer has multiple affiliate cookies (“Cookies”), the most recently-acquired Cookie will determine which affiliate is credited with the Customer Transaction. We may discontinue Commission payments should any of the eligibility criteria set forth in this subsection fail to be met at any time.
+            - paragraph [ref=e239]: c. Increased Commission. Your Commission will be increased to thirty percent (30%) if you both (i) generate one hundred (100) Affiliate Leads, and (ii) convert one hundred (100) Affiliate Leads to Customers within a rolling 12-month period. Upon reaching both milestones, you will receive the increased Commission for the following 12-month period for all net new Customers. In order to continue receiving the increased Commission thereafter, you must have met both milestones for the preceding 12 months.
+            - paragraph [ref=e240]: "d. Acceptance and Validity. You will only be eligible for a Commission payment for any Customer Transactions that derived from Affiliate Leads generated by the Affiliate Link that we make available to you and are accepted by Jasper. An Affiliate Lead will be considered valid and accepted if, in our reasonable determination:"
+            - list [ref=e241]:
+              - listitem [ref=e242]: it is a new potential customer of ours, and
+              - listitem [ref=e243]: is not, at the time of submission or sixty (60) days prior, one of our pre-existing customers, or involved in our active sales process.
+            - paragraph [ref=e244]: Notwithstanding the foregoing, we may choose not to accept an Affiliate Lead in our reasonable discretion. If an Affiliate Lead does not purchase the Subscription Service within fourteen (14) days of their first click on the Affiliate Link, you will not be eligible for a Commission payment, even if the Affiliate Lead decides to purchase after the time period has expired. An Affiliate Lead is not considered valid if it’s first click on the Affiliate Link is after this Agreement has expired or terminated.
+            - paragraph [ref=e245]: e. Engagement with Prospects. Once we have received the Affiliate Lead information, we may elect to engage with the prospect directly, regardless of whether or not the Affiliate Lead is valid. If an Affiliate Lead is not valid then we may choose to maintain it in our database and we may choose to engage with such Affiliate Lead. Any engagement between Jasper and an Affiliate Lead will be at Jasper’s discretion.
+            - paragraph [ref=e246]: "f. Commission and Payment. Once you earn Commission payments totaling $25 (USD), then in order to receive payment under this Agreement, you must have:"
+            - list [ref=e247]:
+              - listitem [ref=e248]: agreed to the terms of this Agreement;
+              - listitem [ref=e249]: completed all steps necessary to create your account in the Affiliate Tool in accordance with our directions;
+              - listitem [ref=e250]: have a valid and up-to-date payment method in PayPal, Wise, or similar payment processors (the “Payment Processor(s)”) utilized by Jasper; and
+              - listitem [ref=e251]: completed any and all required tax documentation in order for the Payment Processor to process any payments that may be owed to you.
+            - paragraph [ref=e252]: g. Requirements for Payment; Forfeiture. Notwithstanding the foregoing or anything to the contrary in this Agreement, if the Customer does not remain in good standing with Jasper (to be determined in our sole discretion) for thirty (30) days immediately following the close of a Customer Transaction, then your right to receive Commission arising from any and all Customer Transactions with the associated Customer will be forever forfeited (each, a “Forfeited Transaction”). We will have no obligation to pay you Commission associated with a Forfeited Transaction.
+            - paragraph [ref=e253]: Furthermore, if a Customer from which you’ve received a Commission later receives a refund or chargeback, then the Commission will be recouped from any future Commissions you receive from other Customers.
+            - paragraph [ref=e254]: h. Commission Payment. All Commissions are based on the amount of fees received by Jasper, less sales taxes. We or the Affiliate Tool will determine the currency in which we pay the Commission, as well as the applicable conversion rate. We will not pay more than one Commission payment or other similar referral fee on any given Customer Transaction (unless we choose to in our discretion). You must earn at least $25 in Commission before you are eligible to receive payment under this Agreement.
+            - paragraph [ref=e255]: i. Taxes and Fees. You are responsible for payment of all taxes and fees (including bank fees) applicable to the Commission. All amounts payable by us to you are subject to offset by us against any amounts owed by you to us. Some payment methods may incur processing fees that may be deducted from your Commission payment.
+            - paragraph [ref=e256]: j. Commission Amounts. We reserve the right to alter or change the Commission amount at any time.
+            - paragraph [ref=e257]:
+              - strong [ref=e258]: 5. Affiliate Representations, Warranties, and Covenants
+            - paragraph [ref=e259]: "a. Representations and Warranties. You represent and warrant that:"
+            - list [ref=e260]:
+              - listitem [ref=e261]: you have all sufficient rights and permissions to participate in the Affiliate Program and to provision Jasper with Affiliate Lead’s for our use in sales and marketing efforts or as otherwise set forth in this Agreement;
+              - listitem [ref=e262]: the information you provided during the application process was and is truthful and accurate;
+              - listitem [ref=e263]: your participation in this Affiliate Program will not conflict with any of your existing agreements or arrangements; and
+              - listitem [ref=e264]: you own or have sufficient rights to use and to grant to us our right to use the Affiliate Marks.
+            - paragraph [ref=e265]: "b. Covenants. You covenant that:"
+            - list [ref=e266]:
+              - listitem [ref=e267]: you will comply with any and all applicable rules listed in the Program Policies and Advertising Rules in Appendix A;
+              - listitem [ref=e268]: you will ensure that you are compliant with any trade or regulatory requirements that may apply to your participation in the Affiliate Program (for example, by clearly stating you are a Jasper Affiliate on any website(s) you own where you make an Affiliate Link available); and
+              - listitem [ref=e269]: you will accurately provide in the Affiliate Tool all websites and domains you own where you intend to use Affiliate Links to generate Affiliate Leads.
+            - paragraph [ref=e270]:
+              - strong [ref=e271]: 6. Proprietary Rights
+            - paragraph [ref=e272]:
+              - text: a. Jasper’s Proprietary Rights. No license to any software is granted by this Agreement. The Jasper Products are protected by intellectual property laws. The Jasper Products belong to and are the property of us or our licensors (if any). We retain all ownership rights in the Jasper Products. You agree not to copy, rent, lease, sell, distribute, or create derivative works based on the Jasper Content, or the Jasper Products in whole or in part, by any means, except as expressly authorized in writing by us. If you wish to use Jasper Content or the Jasper Products, you must become a direct customer of Jasper and comply with our Terms of Service at
+              - link "legal" [ref=e273] [cursor=pointer]:
+                - /url: http://www.jasper.ai/legal/terms
+              - text: .jasper.ai/#terms. Jasper, the Jasper logos, and other marks that we use from time to time are our trademarks and you may not use them without our prior written permission, except as otherwise set forth in this Agreement.
+            - paragraph [ref=e274]: We encourage all customers, affiliates and partners to comment on the Jasper Products, provide suggestions for improving them, and vote on suggestions they like. You agree that all such comments and suggestions will be non-confidential and that we own all rights to use and incorporate them into the Jasper Products, without payment to you.
+            - paragraph [ref=e275]: b. Customer’s Proprietary Rights. As between you and Customer, Customer retains the right to access and use the Customer portal associated with the Jasper Products. For the avoidance of doubt, Customer will own and retain all rights to the Customer Data.
+            - paragraph [ref=e276]: c. Trademarks. You grant to us a nonexclusive, nontransferable, royalty-free right to use and display your trademarks, service marks and logos (“Affiliate Marks”) in connection with the Affiliate Program and this Agreement.
+            - paragraph [ref=e277]:
+              - text: "During the term of this Agreement, in the event that we make our trademark available to you within the Affiliate Tool, you may use our trademark as long as you follow the usage requirements in this section. You must: (i) only use the images of our trademark that we make available to you, without altering them in any way; (ii) only use our trademarks in connection with the Affiliate Program and this Agreement; (iii) comply with our Brand Style Guide at"
+              - link "www.jasper.ai/brand" [ref=e278] [cursor=pointer]:
+                - /url: http://www.jasper.ai/brand
+              - text: "; and (iv) immediately comply if we request that you discontinue use. You must not: (i) use our trademark in a misleading or disparaging way; (ii) use our trademark in a way that implies we endorse, sponsor or approve of your services or products; or (iii) use our trademark in violation of applicable law or in connection with an obscene, indecent, or unlawful topic or material."
+            - paragraph [ref=e279]:
+              - strong [ref=e280]: 7. Confidentiality
+            - paragraph [ref=e281]: "As used herein, “Confidential Information” means all confidential information disclosed by a party (“Disclosing Party”) to the other party (“Receiving Party”), (i) whether orally or in writing, that is designated as confidential, and (ii) Jasper customer and prospect information, whether or not otherwise designated as confidential. Confidential Information does not include any information that (i) is or becomes generally known to the public without breach of any obligation owed to the Disclosing Party or (ii) was known to the Receiving Party prior to its disclosure by the Disclosing Party without breach of any obligation owed to the Disclosing Party. The Receiving Party shall: (i) protect the confidentiality of the Confidential Information of the Disclosing Party using the same degree of care that it uses with its own confidential information, but in no event less than reasonable care, (ii) not use any Confidential Information of the Disclosing Party for any purpose outside the scope of this Agreement, (iii) not disclose Confidential Information of the Disclosing Party to any third party, and (iv) limit access to Confidential Information of the Disclosing Party to its employees, contractors and agents. The Receiving Party may disclose Confidential Information of the Disclosing Party if required to do so under any federal, state, or local law, statute, rule or regulation, subpoena or legal process."
+            - paragraph [ref=e282]:
+              - strong [ref=e283]: 8. Indemnification
+            - paragraph [ref=e284]: You will indemnify, defend and hold us harmless, at your expense, against any third-party claim, suit, action, or proceeding (each, an “Action”) brought against us (and our officers, directors, employees, agents, service providers, licensors, and affiliates) by a third party not affiliated with us to the extent that such Action is based upon or arises out of (a) your participation in the Affiliate Program, (b) our use of the prospect data you provided us, (c) your noncompliance with or breach of this Agreement, (d) your use of the Affiliate Tool, or (e) our use of the Affiliate Marks.
+            - paragraph [ref=e285]: "We will: notify you in writing within thirty (30) days of our becoming aware of any such claim; give you sole control of the defense or settlement of such a claim; and provide you (at your expense) with any and all information and assistance reasonably requested by you to handle the defense or settlement of the claim. You shall not accept any settlement that (i) imposes an obligation on us; (ii) requires us to make an admission; or (iii) imposes liability not covered by these indemnifications or places restrictions on us without our prior written consent."
+            - paragraph [ref=e286]:
+              - strong [ref=e287]: 9. Disclaimers; Limitations of Liability
+            - paragraph [ref=e288]: a. Disclaimer of Warranties. WE AND OUR AFFILIATED COMPANIES AND AGENTS MAKE NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY, RELIABILITY, AVAILABILITY, TIMELINESS, SECURITY OR ACCURACY OF THE JASPER PRODUCTS, JASPER CONTENT, THE AFFILIATE PROGRAM OR THE AFFILIATE TOOL FOR ANY PURPOSE. APPLICATION PROGRAMMING INTERFACES (APIs) AND THE AFFILIATE TOOL MAY NOT BE AVAILABLE AT ALL TIMES. TO THE EXTENT PERMITTED BY LAW, THE JASPER PRODUCTS AND AFFILIATE TOOL ARE PROVIDED “AS IS” WITHOUT WARRANTY OR CONDITION OF ANY KIND. WE DISCLAIM ALL WARRANTIES AND CONDITIONS OF ANY KIND WITH REGARD TO THE JASPER PRODUCTS AND THE AFFILIATE TOOL INCLUDING ALL IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT.
+            - paragraph [ref=e289]: b. No Indirect Damages. TO THE EXTENT PERMITTED BY LAW, IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY INDIRECT, PUNITIVE, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS OR BUSINESS OPPORTUNITIES.
+            - paragraph [ref=e290]: c. Limitation of Liability. IF, NOTWITHSTANDING THE OTHER TERMS OF THIS AGREEMENT, WE ARE DETERMINED TO HAVE ANY LIABILITY TO YOU OR ANY THIRD PARTY, THE PARTIES AGREE THAT OUR AGGREGATE LIABILITY WILL BE LIMITED TO THE TOTAL COMMISSION AMOUNTS YOU HAVE ACTUALLY EARNED FOR THE RELATED CUSTOMER TRANSACTIONS IN THE TWELVE-MONTH PERIOD PRECEDING THE EVENT GIVING RISE TO A CLAIM.
+            - paragraph [ref=e291]: d. Affiliate Tool. WE DISCLAIM ALL LIABILITY WITH RESPECT TO THE AFFILIATE TOOL THAT YOU USE. WE DO NOT PROMISE TO MAKE THE AFFILIATE TOOL AVAILABLE TO YOU, AND WE MAY CHOOSE TO DO SO, OR NOT TO DO SO, IN OUR DISCRETION.
+            - paragraph [ref=e292]: e. Cookie Duration. COOKIES USED AS PART OF THE AFFILIATE TOOL HAVE A SET DURATION. IF A POTENTIAL CUSTOMER CLEARS THEIR COOKIES DURING THIS PERIOD, JASPER SHALL NOT BE LIABLE FOR ANY COMMISSIONS THAT MAY HAVE BEEN OWED TO YOU.
+            - paragraph [ref=e293]:
+              - strong [ref=e294]: 10. Term and Termination
+            - paragraph [ref=e295]: a. Term. This Agreement will apply for as long as you participate in the Affiliate Program, until terminated.
+            - paragraph [ref=e296]: b. Termination Without Cause. Both you and we may terminate this Agreement on seven (7) days written notice to the other party.
+            - paragraph [ref=e297]: c. Termination for Agreement Changes. If we update or replace the terms of this Agreement, you may terminate this Agreement on five (5) days written notice to us, provided that you send us written notice within ten (10) days after we send you notice of the change.
+            - paragraph [ref=e298]: "d. Termination for Cause. We may terminate this Agreement: (i) upon thirty (30) days’ notice to you of a material breach if such breach remains uncured at the expiration of such period, (ii) upon fifteen (15) days notice to you of non-payment of any amount due to us if such amount remains unpaid at the expiration of such period, (iii) immediately, if you become the subject of a petition in bankruptcy or any other proceeding relating to insolvency, receivership, liquidation or assignment for the benefit of creditors, (iv) immediately, if you breach the terms applicable to your subscription with us (if you have one), including if you default on your payment obligations to us or our affiliate, or (v) immediately, if we determine that you are acting, or have acted, in a way that has or may negatively reflect on or affect us, our prospects, or our customers."
+            - paragraph [ref=e299]: e. Automatic Termination. This Agreement will terminate automatically if you earn no Commission over a rolling twelve-month period.
+            - paragraph [ref=e300]: "f. Effects of Expiration/Termination. Expiration of this Agreement, and termination of this Agreement: (i) without cause by us, (ii) by you with cause, (iii) by you according to the ‘Termination for Agreement Changes’ section, shall not affect our obligation to pay you a Commission, so long as the related payment by the Customer Transaction is recognized by us within thirty (30) days after the date of such termination or expiration and provided that in no event shall you be entitled to payment of Commission under this Agreement if you are eligible to receive a revenue share payment under the Solutions Partner Program Agreement. We will not pay you fees on Customer Transactions recognized by us after thirty (30) days after the date of such termination or expiration set out above. Provided however, in the event of termination without cause by you, or for cause by us, our obligation to pay and your right to receive any Commission will terminate upon the date of such termination, regardless of whether you would have otherwise been eligible to receive Commission prior to the date of termination. Except as expressly set forth in this section, you are not eligible to receive a Commission payment after expiration or termination of this Agreement. Upon termination or expiration, you will discontinue all use of and delete the Affiliate Tool that we make available to you for your participation in the Affiliate Program. Upon termination or expiration, an Affiliate Lead is not considered valid, and we may choose to maintain it in our database and engage with such a prospect."
+            - paragraph [ref=e301]: Upon termination or expiration, you will immediately discontinue all use of our trademark and references to this Affiliate Program from your website(s) and other collateral. For the avoidance of doubt, termination or expiration of this Agreement shall not cause a Customer’s subscription agreement to be terminated.
+            - paragraph [ref=e302]:
+              - strong [ref=e303]: 11. General
+            - paragraph [ref=e304]: "a. Miscellaneous. We may update and change any part or all of this Agreement, including by replacing it in its entirety. If we update or change this Agreement, the updated Agreement will be made available to you via the Affiliate Tool and/or by email. The updated Agreement will become effective and binding on the next business day after we or the Affiliate Tool have notified you. When we change this Agreement, the “Last Modified” date above will be updated to reflect the date of the most recent version at legal.jasper.ai/#affiliates. We encourage you to review this Agreement periodically. If you don’t agree to the update, change or replacement, you can choose to terminate as we describe above. No delay in exercising any right or remedy or failure to object will be a waiver of such right or remedy or any other right or remedy. A waiver on one occasion will not be a waiver of any right or remedy on any future occasion. This Agreement shall be governed by the laws of the State of Texas, without regard to the conflict of laws provisions thereof. In the event either of us initiates an action in connection with this Agreement or any other dispute between the parties, the exclusive venue and jurisdiction of such action shall be in the state and federal courts in Austin, Texas. Neither party will be responsible for failure or delay of performance if caused by: an act of war, hostility, or sabotage; act of God; electrical, internet, or telecommunication outage that is not caused by the obligated party; government restrictions; or other event outside the reasonable control of the obligated party. Each party will use reasonable efforts to mitigate the effect of a force majeure event. Except for actions for nonpayment or breach of a party’s proprietary rights, no action, regardless of form, arising out of or relating to this Agreement may be brought by either party more than one (1) year after the cause of action has accrued. Both you and we agree that no joint venture, partnership, employment, or agency relationship exists between you and us as a result of this Agreement. You shall comply, and shall ensure that any third parties performing sales or referral activities on your behalf comply, with all applicable foreign and domestic laws (including without limitation export laws and laws applicable to sending of unsolicited email), governmental regulations, ordinances, and judicial administrative orders. You shall not engage in any deceptive, misleading, illegal or unethical marketing activities, or activities that otherwise may be detrimental to us, our customers, or to the public. Export laws and regulations of the United States and any other relevant local export laws and regulations may apply to the Jasper Products. You will comply with the sanctions programs administered by the Office of Foreign Assets Control (OFAC) of the US Department of the Treasury. You will not directly or indirectly export, re-export, or transfer the Jasper Products to prohibited countries or individuals or permit use of the Jasper Products by prohibited countries or individuals. If any part of this Agreement is determined to be invalid or unenforceable by applicable law, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of this Agreement will continue in effect. This Agreement is the entire agreement between us for the Affiliate Program and supersedes all other proposals and agreements, whether electronic, oral or written, between us. We object to and reject any additional or different terms proposed by you, including those contained in your purchase order, acceptance or website. Our obligations are not contingent on the delivery of any future functionality or features of the Jasper Products or dependent on any oral or written public comments made by us regarding future functionality or features of the Jasper Products. It is the express wish of both you and us that this Agreement and all related documents be drawn up in English. We might make versions of this Agreement available in languages other than English. If we do, the English version of this Agreement will govern our relationship and the translated version is provided for convenience only and will not be interpreted to modify the English version of this Agreement. You will not assign or transfer this Agreement, including any assignment or transfer by reason of merger, reorganization, sale of all or substantially all of its assets, change of control or operation of law, without our prior written consent. We may assign this Agreement in the event of merger, reorganization, sale of all or substantially all of our assets, change of control or operation of law. Nothing in this Agreement, express or implied, is intended to or shall confer upon any person or entity (other than the parties hereto) any right, benefit or remedy of any nature whatsoever under or by reason of this Agreement. We may change the Program Policies from time to time. Your participation in the Affiliate Program is subject to the Program Policies, which are incorporated herein by reference. We grant to you only the rights and licenses expressly stated in this Agreement, and you receive no other rights or licenses with respect to us, the Jasper Products, our trademarks, or any other property or right of ours. Agreement shall in no way limit our right to sell the Jasper Products, directly or indirectly, to any current or prospective customers. Each party represents and warrants to the other that it has full power and authority to enter into this Agreement and that it is binding upon such party and enforceable in accordance with its terms. The following sections shall survive the expiration or termination of this Agreement: ‘Commission and Payment’, ‘Proprietary Rights’, ‘Confidentiality’, ‘Effects of Termination/Expiration’, ‘Indemnification’, ‘Disclaimers; Limitation of Liability’, ‘Non-Solicitation’ and ‘General’."
+            - paragraph [ref=e305]: b. Notices. Notice will be sent to the contact address set forth herein (as such may be changed by notice given to the other party), and will be deemed delivered as of the date of actual receipt.
+            - list [ref=e306]:
+              - listitem [ref=e307]:
+                - text: "To Jasper AI, Inc.:"
+                - link "affiliates@jasper.ai" [ref=e308] [cursor=pointer]:
+                  - /url: mailto:partners@jasper.ai
+              - listitem [ref=e309]: "To you: your email address as provided in our affiliate account information for you.We may give electronic notices specific to you by email to your e-mail address(es) on record in our account information for you. We may give notice to you by telephone calls to the telephone numbers on record in our account information for you."
+            - paragraph [ref=e310]: "c. Data Processing and Protection. The parties acknowledge that in connection with the Affiliate Program, each party may provide or make available to the other party Personal Data. To the extent that any Personal Data is processed in connection with the Project the terms set forth in the Jasper Data Processing Agreement (posted at: legal.jasper.ai/#dpa), which are hereby incorporated by reference, shall apply. Each party shall process the copy of the Personal Data in its possession or control:"
+            - list [ref=e311]:
+              - listitem [ref=e312]: in accordance with the Jasper DPA
+              - listitem [ref=e313]: as an independent controller (not as a joint controller with the other party)
+              - listitem [ref=e314]: for the purposes described in this Agreement; and/or
+              - listitem [ref=e315]: as may otherwise be permitted under Applicable Data Protection Law. For the avoidance of doubt and without prejudice to the foregoing, Jasper shall be an independent controller of any Personal Data that it receives or shares with Affiliate.
+            - heading [level=4] [ref=e316]:
+              - strong [ref=e317]: APPENDIX A
+            - paragraph [ref=e318]:
+              - strong [ref=e319]: Program Policies and Advertising Rules
+            - heading [level=5] [ref=e320]:
+              - strong [ref=e321]: General Policies and Rules
+            - paragraph [ref=e322]: "You agree that:"
+            - list [ref=e323]:
+              - listitem [ref=e324]: You will not purchase ads that direct to your site(s) or through an Affiliate Link that could be considered as competing with Jasper’s own advertising, including, but not limited to, our branded keywords;
+              - listitem [ref=e325]: if you are running search ads on Google or Bing, you will set negative keywords for “jasper”, “Jasper”, “jasper.ai”, and “Jasper AI”;
+              - listitem [ref=e326]: you will not participate in cookie stuffing or pop-ups, false or misleading links are strictly prohibited;
+              - listitem [ref=e327]: you will not email purchased contact lists or people who have not opted-in to be contacted or send direct messages to people on social media soliciting Jasper without the person’s consent;
+              - listitem [ref=e328]: you will not attempt to mask the referring URL information;
+              - listitem [ref=e329]: you will not comment negatively about or disparage the products or services of Jasper or any other person or entity, including without limitation the products or services of a Jasper competitor;
+              - listitem [ref=e330]: you will not use your own Affiliate Link to purchase Jasper products for yourself; and
+              - listitem [ref=e331]: you will not use any mechanisms to deliver leads other than through an intended consumer. This includes sourcing leads through compilations of personal data such as phonebooks, using fake redirects or other tools or automation devices to generate leads (including but not limited to robots, lframes, or hidden frames), or offering incentives to encourage purchases or signups.
+            - heading [level=5] [ref=e332]:
+              - strong [ref=e333]: Compliance with Laws
+            - paragraph [ref=e334]: Affiliate shall publish or otherwise distribute advertisements in strict compliance with all applicable laws and regulations, including without limitation, laws prohibiting deceptive and misleading advertising and marketing, email marketing laws (including the federal CAN-SPAM Act (15 U.S.C. § 7701)), data protection laws (including but not limited to the European Union General Data Protection Regulation, U.K. Data Protection Act, California Consumer Privacy Act, and Brazilian General Data Protection Regulation), laws governing testimonials (including the FTC’s Revised Endorsements and Testimonials Guides (16 CFR Part 255 of the Code of Federal Regulations)), and all guidelines issued by the FTC. Affiliate is solely responsible for ensuring Affiliate’s compliance with all laws. Affiliates are strictly prohibited from making claims concerning the products and services offered by Jasper that are inconsistent with, or beyond the scope of marketing materials produced and made available by Jasper on their website, www.jasper.ai. Affiliate is prohibited from publishing or otherwise distributing advertisements by telemarketing, fax, or text messaging in any form to any device. Affiliate shall not offer monetary incentives, such as rewards points, cash, or prizes to prospects in return for their response to an advertisement. Affiliates may, however, offer prospects information and materials of tangible value including, but not limited to, website templates, information about e-commerce, website design, and online marketing, for reduced or no charge, but only so long as Affiliate accurately describes and delivers such information and materials to the prospect. Jasper retains the sole and exclusive discretion to determine whether Affiliate’s advertising and conduct is in compliance with all laws.
+            - paragraph [ref=e335]:
+              - strong [ref=e336]: Opt-Out and Unsubscribing
+            - paragraph [ref=e337]: You will comply promptly with all opt-out, unsubscribe, “do not call” and “do not send” requests. For the duration of this Agreement, you will establish and maintain systems and procedures appropriate to effectuate all opt-out, unsubscribe, “do not call” and “do not send” requests.
+            - heading [level=5] [ref=e338]:
+              - strong [ref=e339]: Disclosure
+            - paragraph [ref=e340]: "On any website that Affiliate advertises any Jasper service or product, Affiliate must plainly display (i.e., not in a link, or in small font) disclaimer language, such as:"
+            - paragraph [ref=e341]:
+              - text: ‍
+              - strong [ref=e342]: "”Disclosure:"
+              - text: I am an independent Jasper Affiliate, not an employee. I receive referral payments from Jasper. The opinions expressed here are my own and are not official statements of Jasper AI, Inc.”
+            - heading [level=4] [ref=e343]:
+              - strong [ref=e344]: Paid Ads - Google Adwords
+            - paragraph [ref=e345]: Affiliate is not permitted to engage in any unlawful or deceptive actions with respect to search engine optimization, including, but not limited to, using any technique that generates paid search results based on any trademarks of Jasper, or any brand name of Jasper.
+            - paragraph [ref=e346]: If you are running search ads on Google or Bing, you must set negative keywords for “jasper”, “Jasper”, “jasper.ai”, “jasper ai”, “conversion ai”, “Conversion.ai”, and “conversion.ai”.
+            - paragraph [ref=e347]: If it is found that a sale came from paid traffic on search engines including Google or Bing targeting Jasper’ branded and trademarked keywords, Affiliate will be in violation of this Agreement and Commissions will NOT be paid and Affiliate’s link will be banned, making it no longer possible for Affiliate to track referrals and receive commission.
+            - heading [level=4] [ref=e348]:
+              - strong [ref=e349]: Social Media.
+            - paragraph [ref=e350]:
+              - text: If Affiliate advertises on Instagram or YouTube, then each post must comply with the
+              - link "FTC’s guidelines on endorsements" [ref=e351] [cursor=pointer]:
+                - /url: https://www.ftc.gov/tips-advice/business-center/guidance/ftcs-endorsement-guides-what-people-are-asking
+              - text: "with all of the following:"
+            - list [ref=e352]:
+              - listitem [ref=e353]: If Affiliate is advertising on other forms of written social media (e.g., Facebook, Twitter), Affiliate must comply with the above disclosure restrictions as applicable to each form of social media. Affiliate must also comply with all rules of each social media platform that Affiliate uses.
+              - listitem [ref=e354]:
+                - text: Income and Business Opportunity Claims.
+                - strong [ref=e355]
+                - text: "Affiliates are expressly prohibited from making any claims that the use of Jasper will guarantee that the user will make money. If Affiliate’s recruiting efforts include claims related to income Affiliate has made from using Jasper or as an Affiliate, the following guidelines must be adhered to:"
+                - list [ref=e356]:
+                  - listitem [ref=e357]: Affiliate’s statements must be completely true and accurate and supported by evidence of Affiliate’s experience; and
+                  - listitem [ref=e358]: "Affiliate’s statements must be accompanied by the following disclaimer in clear and conspicuous font and placement: “These were my results. Your results will vary based on a variety of factors including Your education, effort, and market factors. There is no guarantee You will make any money.”"
+            - paragraph [ref=e359]: Affiliate is also expressly prohibited from making any express or implied claims that Jasper is or provides a business opportunity, franchise opportunity, a “business-in-a-box,” or an assisted marketing plan.
+            - paragraph [ref=e360]:
+              - strong [ref=e361]: Training and Support
+            - paragraph [ref=e362]: We may make available to you, without charge, various webinars and other resources made available as part of our Affiliate Program. If we make such resources available to you, you will encourage your sales representatives and/or other relevant personnel to participate in training and/or other certifications as we recommend and may make available to you from time-to-time. We may change or discontinue any or all parts of the Affiliate Program benefits or offerings at any time without notice.
+            - heading [level=4] [ref=e363]:
+              - strong [ref=e364]: Complaint Notification
+            - paragraph [ref=e365]:
+              - text: Affiliate must notify Jasper of any complaint received by Affiliate regarding any advertisements within twenty-four (24) hours of receiving such complaint. Notice should be sent to
+              - link "affiliates@jasper.ai" [ref=e366] [cursor=pointer]:
+                - /url: mailto:partners@jasper.ai
+              - text: .
+            - paragraph [ref=e367]: ‍
+    - main [ref=e369]:
+      - generic [ref=e370]:
+        - img "Light gray textured paper background resembling fibrous or recycled material." [ref=e373]
+        - generic [ref=e376]:
+          - generic [ref=e377]:
+            - generic [ref=e378]:
+              - link "Platform" [ref=e379] [cursor=pointer]:
+                - /url: /platform
+              - link "GEO & AI Optimization" [ref=e386] [cursor=pointer]:
+                - /url: /geo
+              - generic [ref=e391]:
+                - link "Agents" [ref=e392] [cursor=pointer]:
+                  - /url: /agents
+                - list [ref=e398]:
+                  - listitem [ref=e399]:
+                    - link "Optimization" [ref=e400] [cursor=pointer]:
+                      - /url: /agents/optimization
+                  - listitem [ref=e401]:
+                    - link "Research" [ref=e402] [cursor=pointer]:
+                      - /url: /agents/research
+                  - listitem [ref=e403]:
+                    - link "Translation" [ref=e404] [cursor=pointer]:
+                      - /url: /agents/translation
+              - generic [ref=e405]:
+                - link "Content Pipelines" [ref=e406] [cursor=pointer]:
+                  - /url: /content-pipelines
+                - list [ref=e412]:
+                  - listitem [ref=e413]:
+                    - link "AI Studio" [ref=e414] [cursor=pointer]:
+                      - /url: /studio
+                  - listitem [ref=e415]:
+                    - link "Jasper Grid" [ref=e416] [cursor=pointer]:
+                      - /url: /grid
+                  - listitem [ref=e417]:
+                    - link "Canvas" [ref=e418] [cursor=pointer]:
+                      - /url: /studio
+                    - list [ref=e419]:
+                      - listitem [ref=e420]:
+                        - link "Marketing AI Editor" [ref=e421] [cursor=pointer]:
+                          - /url: /editor
+                      - listitem [ref=e422]:
+                        - link "Jasper Chat" [ref=e423] [cursor=pointer]:
+                          - /url: /chat
+                  - listitem [ref=e424]:
+                    - link "Image Pipelines" [ref=e425] [cursor=pointer]:
+                      - /url: /image/pipelines
+                  - listitem [ref=e426]:
+                    - link "Jasper APIs" [ref=e427] [cursor=pointer]:
+                      - /url: /api
+                    - list [ref=e428]:
+                      - listitem [ref=e429]:
+                        - link "Jasper MCP" [ref=e430] [cursor=pointer]:
+                          - /url: /mcp
+                      - listitem [ref=e431]:
+                        - link "Image APIs" [ref=e432] [cursor=pointer]:
+                          - /url: /image/api
+              - generic [ref=e434]:
+                - link "Jasper IQ" [ref=e435] [cursor=pointer]:
+                  - /url: /jasper-iq
+                - list [ref=e440]:
+                  - listitem [ref=e441]:
+                    - link "Marketing IQ" [ref=e442] [cursor=pointer]:
+                      - /url: /marketing-iq
+                  - listitem [ref=e443]:
+                    - link "Knowledge Base" [ref=e444] [cursor=pointer]:
+                      - /url: /knowledge-base
+                  - listitem [ref=e445]:
+                    - link "Brand IQ" [ref=e446] [cursor=pointer]:
+                      - /url: /brand-iq
+                    - list [ref=e447]:
+                      - listitem [ref=e448]:
+                        - link "Brand Voice" [ref=e449] [cursor=pointer]:
+                          - /url: /brand-voice
+                      - listitem [ref=e450]:
+                        - link "Visual Guidelines" [ref=e451] [cursor=pointer]:
+                          - /url: /visual-guidelines
+                      - listitem [ref=e452]:
+                        - link "Style Guide" [ref=e453] [cursor=pointer]:
+                          - /url: /style-guide
+            - generic [ref=e454]:
+              - link "Solutions" [ref=e455] [cursor=pointer]:
+                - /url: /solutions
+              - generic [ref=e461]:
+                - link "Solutions by Use Case" [ref=e462] [cursor=pointer]:
+                  - /url: /use-cases
+                - list [ref=e467]:
+                  - listitem [ref=e468]:
+                    - link "GEO" [ref=e469] [cursor=pointer]:
+                      - /url: /geo
+                  - listitem [ref=e470]:
+                    - link "SEO & AEO" [ref=e471] [cursor=pointer]:
+                      - /url: /solutions/seo-aeo-geo
+                  - listitem [ref=e472]:
+                    - link "Personalization" [ref=e473] [cursor=pointer]:
+                      - /url: /solutions/personalization
+                  - listitem [ref=e474]:
+                    - link "Campaigns" [ref=e475] [cursor=pointer]:
+                      - /url: /solutions/campaigns
+              - generic [ref=e476]:
+                - link "Solutions by Role" [ref=e477] [cursor=pointer]:
+                  - /url: /solutions#by-role
+                - list [ref=e482]:
+                  - listitem [ref=e483]:
+                    - link "Product Marketing" [ref=e484] [cursor=pointer]:
+                      - /url: /solutions/by-role/product-marketers
+                  - listitem [ref=e485]:
+                    - link "Content Marketing" [ref=e486] [cursor=pointer]:
+                      - /url: /solutions/by-role/content-marketers
+                  - listitem [ref=e487]:
+                    - link "Performance Marketing" [ref=e488] [cursor=pointer]:
+                      - /url: /solutions/by-role/performance-marketers
+                  - listitem [ref=e489]:
+                    - link "Field & Events Marketing" [ref=e490] [cursor=pointer]:
+                      - /url: /solutions/by-role/field-marketers
+                  - listitem [ref=e491]:
+                    - link "Brand Marketing" [ref=e492] [cursor=pointer]:
+                      - /url: /solutions/by-role/brand-marketers
+                  - listitem [ref=e493]:
+                    - link "PR & Communications" [ref=e494] [cursor=pointer]:
+                      - /url: /solutions/by-role/pr-and-communications
+              - generic [ref=e495]:
+                - link "Solutions by Industry" [ref=e496] [cursor=pointer]:
+                  - /url: /solutions#by-industry
+                - list [ref=e501]:
+                  - listitem [ref=e502]:
+                    - link "Financial Services" [ref=e503] [cursor=pointer]:
+                      - /url: /solutions/by-industry/financial-services
+                  - listitem [ref=e504]:
+                    - link "Healthcare & Life Sciences" [ref=e505] [cursor=pointer]:
+                      - /url: /solutions/by-industry/healthcare
+                  - listitem [ref=e506]:
+                    - link "Technology" [ref=e507] [cursor=pointer]:
+                      - /url: /solutions/by-industry/tech
+                  - listitem [ref=e508]:
+                    - link "Retail & Consumer Goods" [ref=e509] [cursor=pointer]:
+                      - /url: /solutions/by-industry/retail-and-consumer-goods
+                  - listitem [ref=e510]:
+                    - link "Media & Entertainment" [ref=e511] [cursor=pointer]:
+                      - /url: /solutions/by-industry/media-and-entertainment
+                  - listitem [ref=e512]:
+                    - link "Professional Services" [ref=e513] [cursor=pointer]:
+                      - /url: /solutions/by-industry/professional-services
+            - generic [ref=e514]:
+              - link "Resources" [ref=e515] [cursor=pointer]:
+                - /url: /resources
+              - generic [ref=e521]:
+                - generic [ref=e522]: Diagnostics & Tools
+                - list [ref=e523]:
+                  - listitem [ref=e524]:
+                    - link "GEO Diagnostic" [ref=e525] [cursor=pointer]:
+                      - /url: /diagnostics/geo
+                  - listitem [ref=e526]:
+                    - link "Brand Compliance" [ref=e527] [cursor=pointer]:
+                      - /url: /diagnostics/brand-compliance
+                  - listitem [ref=e528]:
+                    - link "Jasper ROI Calculator" [ref=e529] [cursor=pointer]:
+                      - /url: /diagnostics/roi-calculator
+              - generic [ref=e530]:
+                - generic [ref=e531]: Discover
+                - list [ref=e532]:
+                  - listitem [ref=e533]:
+                    - link "Blog" [ref=e534] [cursor=pointer]:
+                      - /url: /blog
+                  - listitem [ref=e535]:
+                    - link "Customer Stories" [ref=e536] [cursor=pointer]:
+                      - /url: /customer-stories
+                  - listitem [ref=e537]:
+                    - link "Events & Webinars" [ref=e538] [cursor=pointer]:
+                      - /url: /webinars
+                  - listitem [ref=e539]:
+                    - link "Prompt Library" [ref=e540] [cursor=pointer]:
+                      - /url: /prompts
+                  - listitem [ref=e541]:
+                    - link "The State of AI in Marketing 2026" [ref=e542] [cursor=pointer]:
+                      - /url: /state-of-ai-marketing-2026
+              - generic [ref=e543]:
+                - generic [ref=e544]: Learn
+                - list [ref=e545]:
+                  - listitem [ref=e546]:
+                    - link "Courses" [ref=e547] [cursor=pointer]:
+                      - /url: https://community.jasper.ai/courses
+                  - listitem [ref=e548]:
+                    - link "The Jasper Community" [ref=e549] [cursor=pointer]:
+                      - /url: https://community.jasper.ai
+                  - listitem [ref=e550]:
+                    - link "Explore Jasper Workflows" [ref=e551] [cursor=pointer]:
+                      - /url: /workflows
+              - generic [ref=e552]:
+                - generic [ref=e553]: Get Support
+                - list [ref=e554]:
+                  - listitem [ref=e555]:
+                    - link "Contact Support" [ref=e556] [cursor=pointer]:
+                      - /url: /contact-support
+                  - listitem [ref=e557]:
+                    - link "FAQs & Help Center" [ref=e558] [cursor=pointer]:
+                      - /url: https://community.jasper.ai/c/help-center/
+                  - listitem [ref=e559]:
+                    - link "Customer Success" [ref=e560] [cursor=pointer]:
+                      - /url: /customer-success
+                  - listitem [ref=e561]:
+                    - link "Hire a Professional Partner" [ref=e562] [cursor=pointer]:
+                      - /url: https://ecosystem.jasper.ai/
+            - generic [ref=e563]:
+              - link "Company" [ref=e564] [cursor=pointer]:
+                - /url: /company
+              - generic [ref=e570]:
+                - generic [ref=e571]: Information
+                - list [ref=e572]:
+                  - listitem [ref=e573]:
+                    - link "About Jasper" [ref=e574] [cursor=pointer]:
+                      - /url: /company
+                  - listitem [ref=e575]:
+                    - link "Newsroom" [ref=e576] [cursor=pointer]:
+                      - /url: /press
+                  - listitem [ref=e577]:
+                    - link "Careers at Jasper" [ref=e578] [cursor=pointer]:
+                      - /url: /careers
+                  - listitem [ref=e579]:
+                    - link "Legal Information" [ref=e580] [cursor=pointer]:
+                      - /url: /legal
+                  - listitem [ref=e581]:
+                    - link "Company Logos" [ref=e582] [cursor=pointer]:
+                      - /url: /brand
+                  - listitem [ref=e583]:
+                    - link "Browser Extensions" [ref=e584] [cursor=pointer]:
+                      - /url: /chrome-extension
+                  - listitem [ref=e585]:
+                    - link "Integrations" [ref=e586] [cursor=pointer]:
+                      - /url: /integrations
+              - generic [ref=e587]:
+                - link "Trust Foundation" [ref=e588] [cursor=pointer]:
+                  - /url: /trust
+                - list [ref=e594]:
+                  - listitem [ref=e595]:
+                    - link "LLM-Optimized Architecture" [ref=e596] [cursor=pointer]:
+                      - /url: /llm-optimized
+                  - listitem [ref=e597]:
+                    - link "Security" [ref=e598] [cursor=pointer]:
+                      - /url: /security
+                  - listitem [ref=e599]:
+                    - link "Governance" [ref=e600] [cursor=pointer]:
+                      - /url: /governance
+                  - listitem [ref=e601]:
+                    - link "Compliance" [ref=e602] [cursor=pointer]:
+                      - /url: https://security.jasper.ai
+                  - listitem [ref=e603]:
+                    - link "Ethics at Jasper" [ref=e604] [cursor=pointer]:
+                      - /url: /ethics
+              - generic [ref=e605]:
+                - generic [ref=e606]: Become a Partner
+                - list [ref=e607]:
+                  - listitem [ref=e608]:
+                    - link "Become a Solutions Partner" [ref=e609] [cursor=pointer]:
+                      - /url: /partners/solutions
+                  - listitem [ref=e610]:
+                    - link "Become a Tech Partner" [ref=e611] [cursor=pointer]:
+                      - /url: /partners/tech-partnerships
+              - generic [ref=e612]:
+                - link "Pricing" [ref=e613] [cursor=pointer]:
+                  - /url: /pricing
+                - link "Enterprise" [ref=e618] [cursor=pointer]:
+                  - /url: /enterprise
+              - generic [ref=e623]:
+                - generic [ref=e624] [cursor=pointer]:
+                  - link "Get A Demo" [ref=e626]:
+                    - /url: /demo
+                  - generic [ref=e628]: Get A Demo
+                - generic [ref=e629] [cursor=pointer]:
+                  - link "Start Free Trial" [ref=e631]:
+                    - /url: https://app.jasper.ai/auth/signup
+                  - generic [ref=e633]: Start Free Trial
+          - generic [ref=e634]:
+            - link "Jasper.ai Homepage" [ref=e635] [cursor=pointer]:
+              - /url: /
+            - generic [ref=e644]:
+              - generic [ref=e645]:
+                - link "X / Twitter" [ref=e646] [cursor=pointer]:
+                  - /url: https://twitter.com/heyjasperai
+                - link "Facebook" [ref=e649] [cursor=pointer]:
+                  - /url: https://www.facebook.com/heyjasperai
+                - link "Instagram" [ref=e652] [cursor=pointer]:
+                  - /url: https://www.instagram.com/heyjasperai/
+                - link "Linked In" [ref=e655] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/heyjasperai/
+                - link "Youtube" [ref=e658] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@JasperAI?sub_confirmation=1
+              - list [ref=e662]:
+                - listitem [ref=e663]:
+                  - generic [ref=e664]: © 2026 Jasper AI, INC.
+                - listitem [ref=e665]:
+                  - link "Privacy Policy" [ref=e666] [cursor=pointer]:
+                    - /url: https://www.jasper.ai/legal/privacy
+                - listitem [ref=e667]:
+                  - link "Terms of Service" [ref=e668] [cursor=pointer]:
+                    - /url: https://www.jasper.ai/legal/terms
+                - listitem [ref=e669]:
+                  - link "Legal Center" [ref=e670] [cursor=pointer]:
+                    - /url: /legal
+  - iframe
+  - generic [ref=e671]:
+    - note "AI assistant" [ref=e672]
+    - note "After AI assistant" [ref=e673]

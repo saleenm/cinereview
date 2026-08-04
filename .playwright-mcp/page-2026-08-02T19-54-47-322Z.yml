@@ -1,0 +1,15 @@
+- generic [ref=f251e27]:
+  - banner [ref=f251e29]:
+    - button [ref=f251e44] [cursor=pointer]
+  - generic [ref=f251e49]:
+    - generic [ref=f251e50]: Contract Terms for Grammarly - Creator
+    - generic [ref=f251e52]:
+      - iframe [ref=f251e54]
+      - paragraph [ref=f251e56]:
+        - checkbox [checked] [ref=f251e57]
+        - text: I have read and accepted Grammarly - Creator's offer
+        - generic [ref=f251e61]:
+          - text: and
+          - link "program terms." [ref=f251e62] [cursor=pointer]:
+            - /url: /display-terms-pdf/campaign/Terms.pdf?id=___9XpvYq1Sf0_jpq75ciKPNy3ACcFt7jkO
+      - button "Continue" [ref=f251e63] [cursor=pointer]

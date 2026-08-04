@@ -1,0 +1,5 @@
+- generic [ref=f39e9]:
+  - heading "404" [level=1] [ref=f39e11]
+  - generic [ref=f39e12]: The page you are looking for doesn't exist or has been moved. Perhaps you are lost in the Matrix...
+  - link "Back to Homepage" [ref=f39e14] [cursor=pointer]:
+    - /url: https://www.copy.ai/

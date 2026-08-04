@@ -1,0 +1,361 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - link "Jasper.ai Homepage" [ref=f7e4] [cursor=pointer]:
+        - /url: /
+      - button "Logo options" [ref=f7e13] [cursor=pointer]
+    - list [ref=f7e14]:
+      - listitem [ref=f7e15]:
+        - generic [ref=f7e16]:
+          - generic: Platform
+          - link "Platform" [ref=f7e22] [cursor=pointer]:
+            - /url: /platform
+      - listitem [ref=f7e24]:
+        - generic [ref=f7e25]:
+          - generic: Solutions
+          - link "Solutions" [ref=f7e31] [cursor=pointer]:
+            - /url: /solutions
+      - listitem [ref=f7e33]:
+        - generic [ref=f7e34]:
+          - generic: Resources
+          - link "Resources" [ref=f7e40] [cursor=pointer]:
+            - /url: /resources
+      - listitem [ref=f7e42]:
+        - generic [ref=f7e43]:
+          - generic: Company
+          - link "Company" [ref=f7e49] [cursor=pointer]:
+            - /url: /company
+      - listitem [ref=f7e51]:
+        - generic [ref=f7e52]:
+          - generic: Pricing
+          - link "Pricing" [ref=f7e58] [cursor=pointer]:
+            - /url: /pricing
+    - list [ref=f7e60]:
+      - listitem [ref=f7e61]:
+        - link "Log in to Jasper" [ref=f7e62] [cursor=pointer]:
+          - /url: https://app.jasper.ai/
+          - generic [ref=f7e63]: Log In
+      - listitem [ref=f7e64]:
+        - link "Free Trial" [ref=f7e65] [cursor=pointer]:
+          - /url: https://app.jasper.ai/auth/signup
+      - listitem [ref=f7e67]:
+        - generic [ref=f7e68] [cursor=pointer]:
+          - link "Get a Demo" [ref=f7e70]:
+            - /url: /demo
+            - generic [ref=f7e71]: Get A Demo
+          - generic [ref=f7e72]: Get A Demo
+  - generic [ref=f7e73]:
+    - generic [ref=f7e74]:
+      - img "Abstract graphic with pink grid background and overlapping white circles and diagonal stripes." [ref=f7e77]
+      - generic [ref=f7e79]:
+        - generic [ref=f7e82]:
+          - paragraph [ref=f7e86]: Page Not Found
+          - heading [ref=f7e87]:
+            - heading "It looks like the page you are looking for doesn’t exist or was moved." [level=2] [ref=f7e88]
+          - generic [ref=f7e91] [cursor=pointer]:
+            - link "Back to Home" [ref=f7e93]:
+              - /url: /
+            - generic [ref=f7e95]: Back to Home
+        - img "Colorful graphic with the text '404 Page not found OOPS!' on a pink grid background." [ref=f7e98]
+    - generic [ref=f7e99]:
+      - img "Light gray textured paper background resembling fibrous or recycled material." [ref=f7e102]
+      - generic [ref=f7e105]:
+        - generic [ref=f7e106]:
+          - generic [ref=f7e107]:
+            - link "Platform" [ref=f7e108] [cursor=pointer]:
+              - /url: /platform
+            - link "GEO & AI Optimization" [ref=f7e115] [cursor=pointer]:
+              - /url: /geo
+            - generic [ref=f7e120]:
+              - link "Agents" [ref=f7e121] [cursor=pointer]:
+                - /url: /agents
+              - list [ref=f7e127]:
+                - listitem [ref=f7e128]:
+                  - link "Optimization" [ref=f7e129] [cursor=pointer]:
+                    - /url: /agents/optimization
+                - listitem [ref=f7e130]:
+                  - link "Research" [ref=f7e131] [cursor=pointer]:
+                    - /url: /agents/research
+                - listitem [ref=f7e132]:
+                  - link "Translation" [ref=f7e133] [cursor=pointer]:
+                    - /url: /agents/translation
+            - generic [ref=f7e134]:
+              - link "Content Pipelines" [ref=f7e135] [cursor=pointer]:
+                - /url: /content-pipelines
+              - list [ref=f7e141]:
+                - listitem [ref=f7e142]:
+                  - link "AI Studio" [ref=f7e143] [cursor=pointer]:
+                    - /url: /studio
+                - listitem [ref=f7e144]:
+                  - link "Jasper Grid" [ref=f7e145] [cursor=pointer]:
+                    - /url: /grid
+                - listitem [ref=f7e146]:
+                  - link "Canvas" [ref=f7e147] [cursor=pointer]:
+                    - /url: /studio
+                  - list [ref=f7e148]:
+                    - listitem [ref=f7e149]:
+                      - link "Marketing AI Editor" [ref=f7e150] [cursor=pointer]:
+                        - /url: /editor
+                    - listitem [ref=f7e151]:
+                      - link "Jasper Chat" [ref=f7e152] [cursor=pointer]:
+                        - /url: /chat
+                - listitem [ref=f7e153]:
+                  - link "Image Pipelines" [ref=f7e154] [cursor=pointer]:
+                    - /url: /image/pipelines
+                - listitem [ref=f7e155]:
+                  - link "Jasper APIs" [ref=f7e156] [cursor=pointer]:
+                    - /url: /api
+                  - list [ref=f7e157]:
+                    - listitem [ref=f7e158]:
+                      - link "Jasper MCP" [ref=f7e159] [cursor=pointer]:
+                        - /url: /mcp
+                    - listitem [ref=f7e160]:
+                      - link "Image APIs" [ref=f7e161] [cursor=pointer]:
+                        - /url: /image/api
+            - generic [ref=f7e163]:
+              - link "Jasper IQ" [ref=f7e164] [cursor=pointer]:
+                - /url: /jasper-iq
+              - list [ref=f7e169]:
+                - listitem [ref=f7e170]:
+                  - link "Marketing IQ" [ref=f7e171] [cursor=pointer]:
+                    - /url: /marketing-iq
+                - listitem [ref=f7e172]:
+                  - link "Knowledge Base" [ref=f7e173] [cursor=pointer]:
+                    - /url: /knowledge-base
+                - listitem [ref=f7e174]:
+                  - link "Brand IQ" [ref=f7e175] [cursor=pointer]:
+                    - /url: /brand-iq
+                  - list [ref=f7e176]:
+                    - listitem [ref=f7e177]:
+                      - link "Brand Voice" [ref=f7e178] [cursor=pointer]:
+                        - /url: /brand-voice
+                    - listitem [ref=f7e179]:
+                      - link "Visual Guidelines" [ref=f7e180] [cursor=pointer]:
+                        - /url: /visual-guidelines
+                    - listitem [ref=f7e181]:
+                      - link "Style Guide" [ref=f7e182] [cursor=pointer]:
+                        - /url: /style-guide
+          - generic [ref=f7e183]:
+            - link "Solutions" [ref=f7e184] [cursor=pointer]:
+              - /url: /solutions
+            - generic [ref=f7e190]:
+              - link "Solutions by Use Case" [ref=f7e191] [cursor=pointer]:
+                - /url: /use-cases
+              - list [ref=f7e196]:
+                - listitem [ref=f7e197]:
+                  - link "GEO" [ref=f7e198] [cursor=pointer]:
+                    - /url: /geo
+                - listitem [ref=f7e199]:
+                  - link "SEO & AEO" [ref=f7e200] [cursor=pointer]:
+                    - /url: /solutions/seo-aeo-geo
+                - listitem [ref=f7e201]:
+                  - link "Personalization" [ref=f7e202] [cursor=pointer]:
+                    - /url: /solutions/personalization
+                - listitem [ref=f7e203]:
+                  - link "Campaigns" [ref=f7e204] [cursor=pointer]:
+                    - /url: /solutions/campaigns
+            - generic [ref=f7e205]:
+              - link "Solutions by Role" [ref=f7e206] [cursor=pointer]:
+                - /url: /solutions#by-role
+              - list [ref=f7e211]:
+                - listitem [ref=f7e212]:
+                  - link "Product Marketing" [ref=f7e213] [cursor=pointer]:
+                    - /url: /solutions/by-role/product-marketers
+                - listitem [ref=f7e214]:
+                  - link "Content Marketing" [ref=f7e215] [cursor=pointer]:
+                    - /url: /solutions/by-role/content-marketers
+                - listitem [ref=f7e216]:
+                  - link "Performance Marketing" [ref=f7e217] [cursor=pointer]:
+                    - /url: /solutions/by-role/performance-marketers
+                - listitem [ref=f7e218]:
+                  - link "Field & Events Marketing" [ref=f7e219] [cursor=pointer]:
+                    - /url: /solutions/by-role/field-marketers
+                - listitem [ref=f7e220]:
+                  - link "Brand Marketing" [ref=f7e221] [cursor=pointer]:
+                    - /url: /solutions/by-role/brand-marketers
+                - listitem [ref=f7e222]:
+                  - link "PR & Communications" [ref=f7e223] [cursor=pointer]:
+                    - /url: /solutions/by-role/pr-and-communications
+            - generic [ref=f7e224]:
+              - link "Solutions by Industry" [ref=f7e225] [cursor=pointer]:
+                - /url: /solutions#by-industry
+              - list [ref=f7e230]:
+                - listitem [ref=f7e231]:
+                  - link "Financial Services" [ref=f7e232] [cursor=pointer]:
+                    - /url: /solutions/by-industry/financial-services
+                - listitem [ref=f7e233]:
+                  - link "Healthcare & Life Sciences" [ref=f7e234] [cursor=pointer]:
+                    - /url: /solutions/by-industry/healthcare
+                - listitem [ref=f7e235]:
+                  - link "Technology" [ref=f7e236] [cursor=pointer]:
+                    - /url: /solutions/by-industry/tech
+                - listitem [ref=f7e237]:
+                  - link "Retail & Consumer Goods" [ref=f7e238] [cursor=pointer]:
+                    - /url: /solutions/by-industry/retail-and-consumer-goods
+                - listitem [ref=f7e239]:
+                  - link "Media & Entertainment" [ref=f7e240] [cursor=pointer]:
+                    - /url: /solutions/by-industry/media-and-entertainment
+                - listitem [ref=f7e241]:
+                  - link "Professional Services" [ref=f7e242] [cursor=pointer]:
+                    - /url: /solutions/by-industry/professional-services
+          - generic [ref=f7e243]:
+            - link "Resources" [ref=f7e244] [cursor=pointer]:
+              - /url: /resources
+            - generic [ref=f7e250]:
+              - generic [ref=f7e251]: Diagnostics & Tools
+              - list [ref=f7e252]:
+                - listitem [ref=f7e253]:
+                  - link "GEO Diagnostic" [ref=f7e254] [cursor=pointer]:
+                    - /url: /diagnostics/geo
+                - listitem [ref=f7e255]:
+                  - link "Brand Compliance" [ref=f7e256] [cursor=pointer]:
+                    - /url: /diagnostics/brand-compliance
+                - listitem [ref=f7e257]:
+                  - link "Jasper ROI Calculator" [ref=f7e258] [cursor=pointer]:
+                    - /url: /diagnostics/roi-calculator
+            - generic [ref=f7e259]:
+              - generic [ref=f7e260]: Discover
+              - list [ref=f7e261]:
+                - listitem [ref=f7e262]:
+                  - link "Blog" [ref=f7e263] [cursor=pointer]:
+                    - /url: /blog
+                - listitem [ref=f7e264]:
+                  - link "Customer Stories" [ref=f7e265] [cursor=pointer]:
+                    - /url: /customer-stories
+                - listitem [ref=f7e266]:
+                  - link "Events & Webinars" [ref=f7e267] [cursor=pointer]:
+                    - /url: /webinars
+                - listitem [ref=f7e268]:
+                  - link "Prompt Library" [ref=f7e269] [cursor=pointer]:
+                    - /url: /prompts
+                - listitem [ref=f7e270]:
+                  - link "The State of AI in Marketing 2026" [ref=f7e271] [cursor=pointer]:
+                    - /url: /state-of-ai-marketing-2026
+            - generic [ref=f7e272]:
+              - generic [ref=f7e273]: Learn
+              - list [ref=f7e274]:
+                - listitem [ref=f7e275]:
+                  - link "Courses" [ref=f7e276] [cursor=pointer]:
+                    - /url: https://community.jasper.ai/courses
+                - listitem [ref=f7e277]:
+                  - link "The Jasper Community" [ref=f7e278] [cursor=pointer]:
+                    - /url: https://community.jasper.ai
+                - listitem [ref=f7e279]:
+                  - link "Explore Jasper Workflows" [ref=f7e280] [cursor=pointer]:
+                    - /url: /workflows
+            - generic [ref=f7e281]:
+              - generic [ref=f7e282]: Get Support
+              - list [ref=f7e283]:
+                - listitem [ref=f7e284]:
+                  - link "Contact Support" [ref=f7e285] [cursor=pointer]:
+                    - /url: /contact-support
+                - listitem [ref=f7e286]:
+                  - link "FAQs & Help Center" [ref=f7e287] [cursor=pointer]:
+                    - /url: https://community.jasper.ai/c/help-center/
+                - listitem [ref=f7e288]:
+                  - link "Customer Success" [ref=f7e289] [cursor=pointer]:
+                    - /url: /customer-success
+                - listitem [ref=f7e290]:
+                  - link "Hire a Professional Partner" [ref=f7e291] [cursor=pointer]:
+                    - /url: https://ecosystem.jasper.ai/
+          - generic [ref=f7e292]:
+            - link "Company" [ref=f7e293] [cursor=pointer]:
+              - /url: /company
+            - generic [ref=f7e299]:
+              - generic [ref=f7e300]: Information
+              - list [ref=f7e301]:
+                - listitem [ref=f7e302]:
+                  - link "About Jasper" [ref=f7e303] [cursor=pointer]:
+                    - /url: /company
+                - listitem [ref=f7e304]:
+                  - link "Newsroom" [ref=f7e305] [cursor=pointer]:
+                    - /url: /press
+                - listitem [ref=f7e306]:
+                  - link "Careers at Jasper" [ref=f7e307] [cursor=pointer]:
+                    - /url: /careers
+                - listitem [ref=f7e308]:
+                  - link "Legal Information" [ref=f7e309] [cursor=pointer]:
+                    - /url: /legal
+                - listitem [ref=f7e310]:
+                  - link "Company Logos" [ref=f7e311] [cursor=pointer]:
+                    - /url: /brand
+                - listitem [ref=f7e312]:
+                  - link "Browser Extensions" [ref=f7e313] [cursor=pointer]:
+                    - /url: /chrome-extension
+                - listitem [ref=f7e314]:
+                  - link "Integrations" [ref=f7e315] [cursor=pointer]:
+                    - /url: /integrations
+            - generic [ref=f7e316]:
+              - link "Trust Foundation" [ref=f7e317] [cursor=pointer]:
+                - /url: /trust
+              - list [ref=f7e323]:
+                - listitem [ref=f7e324]:
+                  - link "LLM-Optimized Architecture" [ref=f7e325] [cursor=pointer]:
+                    - /url: /llm-optimized
+                - listitem [ref=f7e326]:
+                  - link "Security" [ref=f7e327] [cursor=pointer]:
+                    - /url: /security
+                - listitem [ref=f7e328]:
+                  - link "Governance" [ref=f7e329] [cursor=pointer]:
+                    - /url: /governance
+                - listitem [ref=f7e330]:
+                  - link "Compliance" [ref=f7e331] [cursor=pointer]:
+                    - /url: https://security.jasper.ai
+                - listitem [ref=f7e332]:
+                  - link "Ethics at Jasper" [ref=f7e333] [cursor=pointer]:
+                    - /url: /ethics
+            - generic [ref=f7e334]:
+              - generic [ref=f7e335]: Become a Partner
+              - list [ref=f7e336]:
+                - listitem [ref=f7e337]:
+                  - link "Become a Solutions Partner" [ref=f7e338] [cursor=pointer]:
+                    - /url: /partners/solutions
+                - listitem [ref=f7e339]:
+                  - link "Become a Tech Partner" [ref=f7e340] [cursor=pointer]:
+                    - /url: /partners/tech-partnerships
+            - generic [ref=f7e341]:
+              - link "Pricing" [ref=f7e342] [cursor=pointer]:
+                - /url: /pricing
+              - link "Enterprise" [ref=f7e347] [cursor=pointer]:
+                - /url: /enterprise
+            - generic [ref=f7e352]:
+              - generic [ref=f7e353] [cursor=pointer]:
+                - link "Get A Demo" [ref=f7e355]:
+                  - /url: /demo
+                - generic [ref=f7e357]: Get A Demo
+              - generic [ref=f7e358] [cursor=pointer]:
+                - link "Start Free Trial" [ref=f7e360]:
+                  - /url: https://app.jasper.ai/auth/signup
+                - generic [ref=f7e362]: Start Free Trial
+        - generic [ref=f7e363]:
+          - link "Jasper.ai Homepage" [ref=f7e364] [cursor=pointer]:
+            - /url: /
+          - generic [ref=f7e373]:
+            - generic [ref=f7e374]:
+              - link "X / Twitter" [ref=f7e375] [cursor=pointer]:
+                - /url: https://twitter.com/heyjasperai
+              - link "Facebook" [ref=f7e378] [cursor=pointer]:
+                - /url: https://www.facebook.com/heyjasperai
+              - link "Instagram" [ref=f7e381] [cursor=pointer]:
+                - /url: https://www.instagram.com/heyjasperai/
+              - link "Linked In" [ref=f7e384] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/heyjasperai/
+              - link "Youtube" [ref=f7e387] [cursor=pointer]:
+                - /url: https://www.youtube.com/@JasperAI?sub_confirmation=1
+            - list [ref=f7e391]:
+              - listitem [ref=f7e392]:
+                - generic [ref=f7e393]: © 2026 Jasper AI, INC.
+              - listitem [ref=f7e394]:
+                - link "Privacy Policy" [ref=f7e395] [cursor=pointer]:
+                  - /url: https://www.jasper.ai/legal/privacy
+              - listitem [ref=f7e396]:
+                - link "Terms of Service" [ref=f7e397] [cursor=pointer]:
+                  - /url: https://www.jasper.ai/legal/terms
+              - listitem [ref=f7e398]:
+                - link "Legal Center" [ref=f7e399] [cursor=pointer]:
+                  - /url: /legal
+      - text: 
+  - iframe
+  - generic [ref=f7e400]:
+    - note "AI assistant" [ref=f7e401]
+    - note "After AI assistant" [ref=f7e402]

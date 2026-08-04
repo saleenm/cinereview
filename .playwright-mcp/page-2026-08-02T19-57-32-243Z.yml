@@ -1,0 +1,16 @@
+- generic [ref=f281e3]:
+  - generic [ref=f281e4]:
+    - heading "What is Impact?" [level=4] [ref=f281e5]
+    - paragraph [ref=f281e6]: Impact is a performance marketing platform that has been powering your direct partnership.
+    - heading "Why Join Impact?" [level=4] [ref=f281e7]
+    - paragraph [ref=f281e8]: To make more money! By joining Impact you will have access to all of the campaigns within our marketplace. Join today so that you can create new relationships.
+    - paragraph [ref=f281e9]:
+      - checkbox [checked] [ref=f281e10]
+      - text: I accept the
+      - link "Impact terms" [ref=f281e11] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - text: .
+  - generic [ref=f281e12]:
+    - emphasis [ref=f281e15]:
+      - button "Join Impact" [disabled] [ref=f281e16]
+    - text: It takes less than 60 seconds!

@@ -1,0 +1,37 @@
+- generic [ref=f80e1]:
+  - dialog "بانر الموافقة على ملفات تعريف الارتباط" [ref=f80e2]:
+    - button "أغلق هذا الحوار" [active] [ref=f80e3] [cursor=pointer]:
+      - img "أغلق هذا الحوار" [ref=f80e4]
+    - generic [ref=f80e5]:
+      - generic [ref=f80e6]: يستخدم موقع الويب هذا تقنيات مثل ملفات تعريف الارتباط لتمكين وظائف الموقع الأساسية، بالإضافة إلى التحليلات والتخصيص والإعلانات المستهدفة. يمكنك تغيير الإعدادات الخاصة بك في أي وقت أو قبول الإعدادات الافتراضية. يمكنك إغلاق هذا الشعار للمتابعة مع ملفات تعريف الارتباط الأساسية فقط.
+      - link "سياسة خاصة" [ref=f80e7] [cursor=pointer]:
+        - /url: https://impact.com/privacy-policy/
+      - paragraph [ref=f80e8]:
+        - link "تفضيلات التخزين" [ref=f80e9] [cursor=pointer]:
+          - /url: "#ed1b8db4-c1a0-497c-afe7-356e715e796c"
+      - group [ref=f80e10]:
+        - listitem [ref=f80e11]:
+          - generic [ref=f80e12]:
+            - switch "الإعلانات المستهدفة" [ref=f80e13]
+            - generic [ref=f80e15]: الإعلانات المستهدفة
+        - listitem [ref=f80e16]:
+          - generic [ref=f80e17]:
+            - switch "التخصيص" [ref=f80e18]
+            - generic [ref=f80e20]: التخصيص
+        - listitem [ref=f80e21]:
+          - generic [ref=f80e22]:
+            - switch "التحليلات" [ref=f80e23]
+            - generic [ref=f80e25]: التحليلات
+    - generic [ref=f80e26]:
+      - button "حفظ" [ref=f80e27] [cursor=pointer]
+      - button "قبول الكل" [ref=f80e28] [cursor=pointer]
+      - button "رفض الكل" [ref=f80e29] [cursor=pointer]
+  - generic [ref=f80e33]:
+    - banner [ref=f80e35]:
+      - button [ref=f80e44] [cursor=pointer]
+    - generic [ref=f80e50]:
+      - generic [ref=f80e51]: Semrush
+      - generic [ref=f80e52]: Apply and earn big by promoting our tools! You can earn from $50 to $300 for every sale you make, plus $10 for every trial you generate. Promote trusted tools and enjoy dedicated support, 120 days of cookie life, and commission growth based on performance. We'll help you from day one. We are waiting for you!
+      - generic [ref=f80e54]:
+        - text: 5 mins to complete
+        - button "Sign up" [ref=f80e55] [cursor=pointer]

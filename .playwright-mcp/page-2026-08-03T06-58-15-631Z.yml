@@ -1,0 +1,215 @@
+- generic [active] [ref=f140e1]:
+  - generic [ref=f140e3]:
+    - navigation "Main" [ref=f140e7]:
+      - generic [ref=f140e8]:
+        - link "Notion – Home" [ref=f140e10] [cursor=pointer]:
+          - /url: /product
+        - generic [ref=f140e15]:
+          - button "Product" [ref=f140e17] [cursor=pointer]
+          - button "Solutions" [ref=f140e23] [cursor=pointer]
+          - button "Resources" [ref=f140e29] [cursor=pointer]
+          - link "Developers" [ref=f140e34] [cursor=pointer]:
+            - /url: https://notion.dev
+          - link "Enterprise" [ref=f140e36] [cursor=pointer]:
+            - /url: /enterprise
+          - link "Pricing" [ref=f140e38] [cursor=pointer]:
+            - /url: /pricing
+          - link "Request a demo" [ref=f140e40] [cursor=pointer]:
+            - /url: /contact-sales
+        - generic [ref=f140e42]:
+          - link "Log in" [ref=f140e44] [cursor=pointer]:
+            - /url: /login?from=marketing&pathname=%2Faffiliates&tid=f46c2f1360d24889a9ea1e199cead53e
+          - link "Get Notion free" [ref=f140e47] [cursor=pointer]:
+            - /url: /signup?from=marketing&pathname=%2Faffiliates&tid=f46c2f1360d24889a9ea1e199cead53e
+    - main [ref=f140e49]:
+      - region [ref=f140e50]:
+        - generic [ref=f140e53]:
+          - generic [ref=f140e54]:
+            - heading "Join Notion's Affiliate Program." [level=1] [ref=f140e55]
+            - paragraph [ref=f140e56]: Refer Notion to your friends and followers, and earn up to $50 per activated sign up plus 20% of year one revenue for each referral you drive. ⚠️ Program is currently not accepting new affiliates.
+            - link "Existing affiliate login" [ref=f140e58] [cursor=pointer]:
+              - /url: https://dash.partnerstack.com/notion
+          - img "Affiliates illustration" [ref=f140e61]
+      - region [ref=f140e62]:
+        - heading "How it works." [level=2] [ref=f140e65]
+        - group [ref=f140e66]:
+          - article [ref=f140e67]:
+            - generic [ref=f140e68]:
+              - generic [ref=f140e69]:
+                - heading "Join the program" [level=3] [ref=f140e74]
+                - paragraph [ref=f140e75]: Apply to become a Notion affiliate.
+              - img "Acme Inc company wiki" [ref=f140e77]
+          - article [ref=f140e78]:
+            - generic [ref=f140e79]:
+              - generic [ref=f140e80]:
+                - heading "Promote Notion to your audience" [level=3] [ref=f140e85]
+                - paragraph [ref=f140e86]: Share your unique affiliate link through your channels. You’ll have access to our Affiliates Resource Center with promotional best practices, guides, videos, and more.
+              - img "Acme Inc company wiki" [ref=f140e88]
+          - article [ref=f140e89]:
+            - generic [ref=f140e90]:
+              - generic [ref=f140e91]:
+                - heading "Earn rewards" [level=3] [ref=f140e96]
+                - paragraph [ref=f140e97]: Earn commissions up to $50 per activated sign up plus 20% of year one revenue for each referral you drive. It’s easy to generate multiple links and track your rewards through PartnerStack.
+              - img "Acme Inc company wiki" [ref=f140e99]
+      - figure "Thomas Frank Template Creator" [ref=f140e100]:
+        - blockquote [ref=f140e101]: I love sharing the tools I build inside of Notion. And Notion's affiliate program lets me get paid doing the things I already wanted to do.
+        - generic [ref=f140e103]:
+          - strong [ref=f140e105]: Thomas Frank
+          - generic [ref=f140e106]: Template Creator
+      - region [ref=f140e107]:
+        - heading "Who can apply?" [level=2] [ref=f140e110]
+        - table [ref=f140e112]:
+          - rowgroup [ref=f140e113]:
+            - row [ref=f140e114]:
+              - columnheader [ref=f140e115]
+              - columnheader [ref=f140e116]
+          - rowgroup [ref=f140e117]:
+            - row [ref=f140e118]:
+              - rowheader "Bloggers and writers" [ref=f140e119]
+              - cell "✓" [ref=f140e120]
+            - row [ref=f140e121]:
+              - rowheader "Entrepreneurs" [ref=f140e122]
+              - cell "✓" [ref=f140e123]
+            - row [ref=f140e124]:
+              - rowheader "Educators" [ref=f140e125]
+              - cell "✓" [ref=f140e126]
+            - row [ref=f140e127]:
+              - rowheader "Media networks (news, podcasts)" [ref=f140e128]
+              - cell "✓" [ref=f140e129]
+            - row [ref=f140e130]:
+              - rowheader "Email newsletters" [ref=f140e131]
+              - cell "✓" [ref=f140e132]
+            - row [ref=f140e133]:
+              - rowheader "Content creators & influencers" [ref=f140e134]
+              - cell "✓" [ref=f140e135]
+            - row [ref=f140e136]:
+              - rowheader "Notion community leaders, ambassadors, and template creators" [ref=f140e137]
+              - cell "✓" [ref=f140e138]
+            - row [ref=f140e139]:
+              - rowheader "AI influencers & content creators" [ref=f140e140]
+              - cell "✓" [ref=f140e141]
+      - region [ref=f140e142]:
+        - heading "FAQs" [level=2] [ref=f140e145]
+        - group [ref=f140e146]:
+          - paragraph [ref=f140e148] [cursor=pointer]: What is the Notion Affiliate Program?
+        - group [ref=f140e151]:
+          - paragraph [ref=f140e153] [cursor=pointer]: What qualifies as a successful conversion?
+        - group [ref=f140e156]:
+          - paragraph [ref=f140e158] [cursor=pointer]: How can I create, track, and promote my affiliate link?
+        - group [ref=f140e161]:
+          - paragraph [ref=f140e163] [cursor=pointer]: What if a user adds additional seats to their workspace after their first invoice?
+        - group [ref=f140e166]:
+          - paragraph [ref=f140e168] [cursor=pointer]: What if a user downgrades?
+        - group [ref=f140e171]:
+          - paragraph [ref=f140e173] [cursor=pointer]: Can I refer myself?
+        - group [ref=f140e176]:
+          - paragraph [ref=f140e178] [cursor=pointer]: What terms apply to the Notion Affiliate Program?
+        - group [ref=f140e181]:
+          - paragraph [ref=f140e183] [cursor=pointer]: Have more questions?
+    - status [ref=f140e187]:
+      - paragraph
+    - contentinfo [ref=f140e189]:
+      - navigation "Footer" [ref=f140e190]:
+        - generic [ref=f140e191]:
+          - link "Notion – Home" [ref=f140e193] [cursor=pointer]:
+            - /url: /product
+          - generic [ref=f140e200]:
+            - list "Social media" [ref=f140e201]:
+              - listitem [ref=f140e202]:
+                - link "Instagram" [ref=f140e203] [cursor=pointer]:
+                  - /url: https://www.instagram.com/notionhq/
+              - listitem [ref=f140e207]:
+                - link "X" [ref=f140e208] [cursor=pointer]:
+                  - /url: https://twitter.com/NotionHQ
+              - listitem [ref=f140e212]:
+                - link "LinkedIn" [ref=f140e213] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/notionhq/
+              - listitem [ref=f140e217]:
+                - link "Facebook" [ref=f140e218] [cursor=pointer]:
+                  - /url: https://www.facebook.com/NotionHQ/
+              - listitem [ref=f140e222]:
+                - link "YouTube" [ref=f140e223] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCoSvlWS5XcwaSzIcbuJ-Ysg
+            - generic [ref=f140e228]:
+              - button [ref=f140e229] [cursor=pointer]
+              - button "Cookie settings" [ref=f140e236] [cursor=pointer]
+              - generic [ref=f140e238]: © 2026 Notion Labs, Inc.
+        - generic [ref=f140e240]:
+          - list "Company" [ref=f140e241]:
+            - text: Company
+            - listitem [ref=f140e242]:
+              - link "About us" [ref=f140e243] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f140e245]:
+              - link "Careers" [ref=f140e246] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=f140e248]:
+              - link "Security" [ref=f140e249] [cursor=pointer]:
+                - /url: /security
+            - listitem [ref=f140e251]:
+              - link "Status" [ref=f140e252] [cursor=pointer]:
+                - /url: https://www.notion-status.com
+            - listitem [ref=f140e254]:
+              - link "Terms & privacy" [ref=f140e255] [cursor=pointer]:
+                - /url: https://www.notion.so/28ffdd083dc3473e9c2da6ec011b58ac
+            - listitem [ref=f140e257]:
+              - link "Your privacy rights" [ref=f140e258] [cursor=pointer]:
+                - /url: https://www.notion.com/trust/privacy-policy#california
+          - list "Download" [ref=f140e260]:
+            - text: Download
+            - listitem [ref=f140e261]:
+              - link "iOS & Android" [ref=f140e262] [cursor=pointer]:
+                - /url: /mobile
+            - listitem [ref=f140e264]:
+              - link "Mac & Windows" [ref=f140e265] [cursor=pointer]:
+                - /url: /desktop
+            - listitem [ref=f140e267]:
+              - link "Calendar" [ref=f140e268] [cursor=pointer]:
+                - /url: /product/calendar/download
+            - listitem [ref=f140e270]:
+              - link "Web Clipper" [ref=f140e271] [cursor=pointer]:
+                - /url: /web-clipper
+          - list "Resources" [ref=f140e273]:
+            - text: Resources
+            - listitem [ref=f140e274]:
+              - link "Help center" [ref=f140e275] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=f140e277]:
+              - link "Pricing" [ref=f140e278] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f140e280]:
+              - link "Blog" [ref=f140e281] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f140e283]:
+              - link "Community" [ref=f140e284] [cursor=pointer]:
+                - /url: /community
+            - listitem [ref=f140e286]:
+              - link "Connections" [ref=f140e287] [cursor=pointer]:
+                - /url: /connections
+            - listitem [ref=f140e289]:
+              - link "Templates" [ref=f140e290] [cursor=pointer]:
+                - /url: /templates
+            - listitem [ref=f140e292]:
+              - link "Partner programs" [ref=f140e293] [cursor=pointer]:
+                - /url: /partners
+          - list "Notion for" [ref=f140e295]:
+            - text: Notion for
+            - listitem [ref=f140e296]:
+              - link "Enterprise" [ref=f140e297] [cursor=pointer]:
+                - /url: /enterprise
+            - listitem [ref=f140e299]:
+              - link "Startups" [ref=f140e300] [cursor=pointer]:
+                - /url: /startups
+            - listitem [ref=f140e302]:
+              - link "Small business" [ref=f140e303] [cursor=pointer]:
+                - /url: /teams
+            - listitem [ref=f140e305]:
+              - link "Personal" [ref=f140e306] [cursor=pointer]:
+                - /url: /personal
+            - listitem [ref=f140e308]:
+              - link [ref=f140e309] [cursor=pointer]:
+                - /url: /explore
+                - generic [ref=f140e310]:
+                  - text: Explore more
+                  - generic [ref=f140e311]: →
+  - alert [ref=f140e312]

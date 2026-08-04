@@ -1,0 +1,22 @@
+- generic [active] [ref=f80e1]:
+  - button "تفضيلات ملفات تعريف الارتباط" [ref=f80e56] [cursor=pointer]:
+    - img "تفضيلات ملفات تعريف الارتباط" [ref=f80e57]
+  - generic [ref=f80e99]:
+    - banner [ref=f80e101]:
+      - button [ref=f80e116] [cursor=pointer]
+    - generic [ref=f80e121]:
+      - generic [ref=f80e122]: Sign up and start earning
+      - generic [ref=f80e123]: To get started, please sign up and create an account
+      - generic [ref=f80e124]:
+        - button "Sign up with email" [ref=f80e125] [cursor=pointer]
+        - generic [ref=f80e126]: or
+        - generic [ref=f80e130]:
+          - img [ref=f80e131]: 
+          - button "Apple" [ref=f80e133] [cursor=pointer]
+        - button "Facebook" [ref=f80e137] [cursor=pointer]
+        - button "Google" [ref=f80e145] [cursor=pointer]
+        - button "X" [ref=f80e149] [cursor=pointer]
+        - button "LinkedIn" [ref=f80e156] [cursor=pointer]
+        - generic [ref=f80e157]: or
+        - generic [ref=f80e161]: Already have an account on impact.com?
+        - button "Sign in with impact.com" [ref=f80e163] [cursor=pointer]

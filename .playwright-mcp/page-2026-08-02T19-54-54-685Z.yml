@@ -1,0 +1,19 @@
+- generic [ref=f251e64]:
+  - banner [ref=f251e66]:
+    - button [ref=f251e81] [cursor=pointer]
+  - generic [ref=f251e86]:
+    - generic [ref=f251e87]: Sign up and start earning
+    - generic [ref=f251e88]: To get started, please sign up and create an account
+    - generic [ref=f251e89]:
+      - button "Sign up with email" [ref=f251e90] [cursor=pointer]
+      - generic [ref=f251e91]: or
+      - generic [ref=f251e95]:
+        - img [ref=f251e96]: 
+        - button "Apple" [ref=f251e98] [cursor=pointer]
+      - button "Facebook" [ref=f251e102] [cursor=pointer]
+      - button "Google" [ref=f251e110] [cursor=pointer]
+      - button "X" [ref=f251e114] [cursor=pointer]
+      - button "LinkedIn" [ref=f251e121] [cursor=pointer]
+      - generic [ref=f251e122]: or
+      - generic [ref=f251e126]: Already have an account on impact.com?
+      - button "Sign in with impact.com" [ref=f251e128] [cursor=pointer]

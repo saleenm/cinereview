@@ -1,0 +1,143 @@
+- generic [active] [ref=f66e1]:
+  - banner [ref=f66e2]:
+    - generic [ref=f66e3]:
+      - link "🤖 AITools" [ref=f66e4] [cursor=pointer]:
+        - /url: /ar
+        - generic [ref=f66e5]: 🤖
+        - generic [ref=f66e6]: AITools
+      - button [ref=f66e7] [cursor=pointer]
+  - main [ref=f66e11]:
+    - generic [ref=f66e12]:
+      - generic [ref=f66e13]: ✍️ المدونة
+      - heading "مقالات ومقارنات أدوات AI بالعربية" [level=1] [ref=f66e14]
+    - link "🎯 أدلة 6 دقائق قراءة ١‏/٦‏/٢٠٢٦ كيف تختار أداة AI المناسبة لك؟ دليل 2026 لا تضيّع وقتك في تجربة كل الأدوات. تعلّم كيف تختار الأداة الصحيحة من أول مرة بناءً على احتياجاتك. اقرأ المزيد ←" [ref=f66e15] [cursor=pointer]:
+      - /url: /ar/blog/how-to-choose-ai-tool
+      - generic [ref=f66e16]:
+        - generic [ref=f66e17]: 🎯
+        - generic [ref=f66e18]:
+          - generic [ref=f66e19]:
+            - generic [ref=f66e20]: أدلة
+            - generic [ref=f66e21]: 6 دقائق قراءة
+            - generic [ref=f66e22]: ١‏/٦‏/٢٠٢٦
+          - heading "كيف تختار أداة AI المناسبة لك؟ دليل 2026" [level=2] [ref=f66e23]
+          - paragraph [ref=f66e24]: لا تضيّع وقتك في تجربة كل الأدوات. تعلّم كيف تختار الأداة الصحيحة من أول مرة بناءً على احتياجاتك.
+          - generic [ref=f66e25]: اقرأ المزيد ←
+    - generic [ref=f66e26]:
+      - link "🌟 مراجعات 7 دقائق قراءة أفضل أدوات AI لصانعي المحتوى العربي في 2026 دليل خاص بصانعي المحتوى العربي — أفضل الأدوات لإنتاج محتوى احترافي باللغة العربية. ٢٠‏/٥‏/٢٠٢٦" [ref=f66e27] [cursor=pointer]:
+        - /url: /ar/blog/ai-tools-arabic-content-creators
+        - generic [ref=f66e28]: 🌟
+        - generic [ref=f66e29]:
+          - generic [ref=f66e30]: مراجعات
+          - generic [ref=f66e31]: 7 دقائق قراءة
+        - heading "أفضل أدوات AI لصانعي المحتوى العربي في 2026" [level=2] [ref=f66e32]
+        - paragraph [ref=f66e33]: دليل خاص بصانعي المحتوى العربي — أفضل الأدوات لإنتاج محتوى احترافي باللغة العربية.
+        - generic [ref=f66e34]: ٢٠‏/٥‏/٢٠٢٦
+      - link "💬 أدلة 10 دقائق قراءة دليل أفضل 50 Prompt لـ ChatGPT في 2026 اكتشف أقوى 50 أمر (Prompt) لـ ChatGPT تساعدك في الكتابة، البرمجة، التسويق، والمزيد. ١٠‏/٥‏/٢٠٢٦" [ref=f66e35] [cursor=pointer]:
+        - /url: /ar/blog/chatgpt-prompts-guide
+        - generic [ref=f66e36]: 💬
+        - generic [ref=f66e37]:
+          - generic [ref=f66e38]: أدلة
+          - generic [ref=f66e39]: 10 دقائق قراءة
+        - heading "دليل أفضل 50 Prompt لـ ChatGPT في 2026" [level=2] [ref=f66e40]
+        - paragraph [ref=f66e41]: اكتشف أقوى 50 أمر (Prompt) لـ ChatGPT تساعدك في الكتابة، البرمجة، التسويق، والمزيد.
+        - generic [ref=f66e42]: ١٠‏/٥‏/٢٠٢٦
+      - link "🤖 مراجعات 8 دقائق قراءة أفضل 10 أدوات ذكاء اصطناعي في 2026 قائمة شاملة بأفضل أدوات AI التي غيّرت طريقة عملنا في 2026 — مع مقارنة تفصيلية للمميزات والأسعار. ١‏/٤‏/٢٠٢٦" [ref=f66e43] [cursor=pointer]:
+        - /url: /ar/blog/best-ai-tools-2025
+        - generic [ref=f66e44]: 🤖
+        - generic [ref=f66e45]:
+          - generic [ref=f66e46]: مراجعات
+          - generic [ref=f66e47]: 8 دقائق قراءة
+        - heading "أفضل 10 أدوات ذكاء اصطناعي في 2026" [level=2] [ref=f66e48]
+        - paragraph [ref=f66e49]: قائمة شاملة بأفضل أدوات AI التي غيّرت طريقة عملنا في 2026 — مع مقارنة تفصيلية للمميزات والأسعار.
+        - generic [ref=f66e50]: ١‏/٤‏/٢٠٢٦
+      - 'link "⚖️ مقارنات 10 دقائق قراءة ChatGPT مقابل Claude: أيهما أفضل في 2026؟ مقارنة تفصيلية بين ChatGPT وClaude في الكتابة والبرمجة وتحليل المستندات. ٢٠‏/٣‏/٢٠٢٦" [ref=f66e51] [cursor=pointer]':
+        - /url: /ar/blog/chatgpt-vs-claude-comparison
+        - generic [ref=f66e52]: ⚖️
+        - generic [ref=f66e53]:
+          - generic [ref=f66e54]: مقارنات
+          - generic [ref=f66e55]: 10 دقائق قراءة
+        - 'heading "ChatGPT مقابل Claude: أيهما أفضل في 2026؟" [level=2] [ref=f66e56]'
+        - paragraph [ref=f66e57]: مقارنة تفصيلية بين ChatGPT وClaude في الكتابة والبرمجة وتحليل المستندات.
+        - generic [ref=f66e58]: ٢٠‏/٣‏/٢٠٢٦
+      - link "🆓 أدلة 6 دقائق قراءة أفضل أدوات AI المجانية في 2026 — لا حاجة لبطاقة ائتمان قائمة بأفضل أدوات الذكاء الاصطناعي المجانية بالكامل أو التي تقدم خطة مجانية سخية. ١٠‏/٣‏/٢٠٢٦" [ref=f66e59] [cursor=pointer]:
+        - /url: /ar/blog/free-ai-tools-2025
+        - generic [ref=f66e60]: 🆓
+        - generic [ref=f66e61]:
+          - generic [ref=f66e62]: أدلة
+          - generic [ref=f66e63]: 6 دقائق قراءة
+        - heading "أفضل أدوات AI المجانية في 2026 — لا حاجة لبطاقة ائتمان" [level=2] [ref=f66e64]
+        - paragraph [ref=f66e65]: قائمة بأفضل أدوات الذكاء الاصطناعي المجانية بالكامل أو التي تقدم خطة مجانية سخية.
+        - generic [ref=f66e66]: ١٠‏/٣‏/٢٠٢٦
+  - contentinfo [ref=f66e67]:
+    - generic [ref=f66e68]:
+      - generic [ref=f66e69]:
+        - generic [ref=f66e70]:
+          - generic [ref=f66e71]:
+            - generic [ref=f66e72]: 🤖
+            - generic [ref=f66e73]: AITools
+          - paragraph [ref=f66e74]: دليلك الشامل لأفضل أدوات الذكاء الاصطناعي — مقارنات دقيقة بالعربية.
+          - link "𝕏" [ref=f66e76] [cursor=pointer]:
+            - /url: https://twitter.com
+        - generic [ref=f66e77]:
+          - heading "الفئات" [level=3] [ref=f66e78]
+          - list [ref=f66e82]:
+            - listitem [ref=f66e83]:
+              - link "💬 المحادثة" [ref=f66e84] [cursor=pointer]:
+                - /url: /ar?category=chatbot
+            - listitem [ref=f66e85]:
+              - link "🎨 الصور" [ref=f66e86] [cursor=pointer]:
+                - /url: /ar?category=image
+            - listitem [ref=f66e87]:
+              - link "✍️ الكتابة" [ref=f66e88] [cursor=pointer]:
+                - /url: /ar?category=writing
+            - listitem [ref=f66e89]:
+              - link "💻 البرمجة" [ref=f66e90] [cursor=pointer]:
+                - /url: /ar?category=code
+            - listitem [ref=f66e91]:
+              - link "🎬 الفيديو" [ref=f66e92] [cursor=pointer]:
+                - /url: /ar?category=video
+            - listitem [ref=f66e93]:
+              - link "الصوت" [ref=f66e94] [cursor=pointer]:
+                - /url: /ar?category=audio
+        - generic [ref=f66e95]:
+          - heading "مقارنات شائعة" [level=3] [ref=f66e96]
+          - list [ref=f66e99]:
+            - listitem [ref=f66e100]:
+              - link "ChatGPT vs Gemini" [ref=f66e101] [cursor=pointer]:
+                - /url: /ar/compare/chatgpt-vs-gemini
+            - listitem [ref=f66e102]:
+              - link "ChatGPT vs Claude" [ref=f66e103] [cursor=pointer]:
+                - /url: /ar/compare/chatgpt-vs-claude
+            - listitem [ref=f66e104]:
+              - link "Midjourney vs DALL·E" [ref=f66e105] [cursor=pointer]:
+                - /url: /ar/compare/midjourney-vs-dall-e-3
+            - listitem [ref=f66e106]:
+              - link "Claude vs Gemini" [ref=f66e107] [cursor=pointer]:
+                - /url: /ar/compare/claude-vs-gemini
+        - generic [ref=f66e108]:
+          - heading "روابط سريعة" [level=3] [ref=f66e109]
+          - list [ref=f66e113]:
+            - listitem [ref=f66e114]:
+              - link "المدونة" [ref=f66e115] [cursor=pointer]:
+                - /url: /ar/blog
+            - listitem [ref=f66e116]:
+              - link "التصنيفات" [ref=f66e117] [cursor=pointer]:
+                - /url: /ar/categories
+            - listitem [ref=f66e118]:
+              - link "المقارنة" [ref=f66e119] [cursor=pointer]:
+                - /url: /ar/compare
+            - listitem [ref=f66e120]:
+              - link "أضف أداة" [ref=f66e121] [cursor=pointer]:
+                - /url: /ar/submit
+            - listitem [ref=f66e122]:
+              - link "من نحن" [ref=f66e123] [cursor=pointer]:
+                - /url: /ar/about
+            - listitem [ref=f66e124]:
+              - link "تواصل معنا" [ref=f66e125] [cursor=pointer]:
+                - /url: /ar/contact
+            - listitem [ref=f66e126]:
+              - link "سياسة الخصوصية" [ref=f66e127] [cursor=pointer]:
+                - /url: /ar/privacy
+      - generic [ref=f66e128]:
+        - generic [ref=f66e129]: © 2026 AI Tools — جميع الحقوق محفوظة
+        - generic [ref=f66e130]: يعمل بشكل طبيعي

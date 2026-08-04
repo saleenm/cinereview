@@ -3,6 +3,8 @@ import { getMessages, getTranslations } from 'next-intl/server'
 import { Cairo, Cinzel, Noto_Sans_JP } from 'next/font/google'
 import { RTL_LOCALES } from '@/lib/types'
 import PageTransition from '@/components/PageTransition'
+import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const cairo = Cairo({
   subsets: ['arabic', 'latin'],
@@ -84,6 +86,8 @@ export default async function LocaleLayout({ children, params }: Props) {
         <NextIntlClientProvider messages={messages}>
           <PageTransition>{children}</PageTransition>
         </NextIntlClientProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )

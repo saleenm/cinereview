@@ -1,0 +1,103 @@
+- generic [ref=f154e5]:
+  - generic [ref=f154e6]:
+    - heading "Welcome to Writesonic Partner Program" [level=2] [ref=f154e8]
+    - paragraph [ref=f154e10]: Join the Writesonic Partner Program and earn 20% recurring commission for up to 12 months on every referral that subscribes.
+  - generic [ref=f154e14]:
+    - heading "Sign Up" [level=1] [ref=f154e15]
+    - iframe [ref=f154e16]:
+      - button "Continue with Google" [ref=f155e2] [cursor=pointer]
+    - paragraph [ref=f154e17]:
+      - generic [ref=f154e18]: OR
+    - generic [ref=f154e19]:
+      - generic [ref=f154e22]:
+        - generic [ref=f154e23]:
+          - generic [ref=f154e24]: First Name *
+          - textbox "First Name *" [ref=f154e27]:
+            - /placeholder: John
+            - text: Mohammed
+        - generic [ref=f154e28]:
+          - generic [ref=f154e29]: Last Name
+          - textbox "Last Name" [ref=f154e32]:
+            - /placeholder: Doe
+      - generic [ref=f154e35]:
+        - generic [ref=f154e36]: Email *
+        - textbox "Email *" [ref=f154e39]:
+          - /placeholder: Enter your email
+          - text: m.hmo_ode@hotmail.com
+      - generic [ref=f154e42]:
+        - generic [ref=f154e43]: Password
+        - textbox "Password" [ref=f154e46]:
+          - /placeholder: Enter your password
+          - text: Mj@62687760m
+        - generic [ref=f154e1697]:
+          - generic [ref=f154e1698]: "Password requirements:"
+          - generic [ref=f154e1699]:
+            - generic [ref=f154e1700]:
+              - generic [ref=f154e1701]: ✓
+              - generic [ref=f154e1702]: At least 12 characters
+            - generic [ref=f154e1703]:
+              - generic [ref=f154e1704]: ✓
+              - generic [ref=f154e1705]: At least 1 special character
+      - generic [ref=f154e50]:
+        - generic [ref=f154e51]: Country *
+        - button [ref=f154e1694] [cursor=pointer]:
+          - combobox "Saudi Arabia" [ref=f154e1696]
+      - generic [ref=f154e63]:
+        - generic [ref=f154e64]: Website
+        - textbox "Website" [ref=f154e67]:
+          - /placeholder: https://example.com
+          - text: https://aitools-ar.vercel.app
+      - generic [ref=f154e70]:
+        - generic [ref=f154e71]: Company Name *
+        - textbox "Company Name *" [ref=f154e74]:
+          - /placeholder: Example Inc.
+          - text: AI Tools AR
+      - generic [ref=f154e77]:
+        - generic [ref=f154e78]: How do you plan to promote Writesonic? *
+        - generic [ref=f154e80]:
+          - generic [ref=f154e82]:
+            - checkbox "Blog/Website" [checked] [ref=f154e83]
+            - generic [ref=f154e85]: Blog/Website
+          - generic [ref=f154e89]:
+            - checkbox "Email Marketing" [ref=f154e90]
+            - generic [ref=f154e92]: Email Marketing
+          - generic [ref=f154e96]:
+            - checkbox "LinkedIn" [ref=f154e97]
+            - generic [ref=f154e99]: LinkedIn
+          - generic [ref=f154e103]:
+            - checkbox "YouTube" [ref=f154e104]
+            - generic [ref=f154e106]: YouTube
+          - generic [ref=f154e110]:
+            - checkbox "Facebook" [ref=f154e111]
+            - generic [ref=f154e113]: Facebook
+          - generic [ref=f154e117]:
+            - checkbox "X/Twitter" [ref=f154e118]
+            - generic [ref=f154e120]: X/Twitter
+          - generic [ref=f154e124]:
+            - checkbox "Instagram" [ref=f154e125]
+            - generic [ref=f154e127]: Instagram
+          - generic [ref=f154e131]:
+            - checkbox "Tiktok" [ref=f154e132]
+            - generic [ref=f154e134]: Tiktok
+          - generic [ref=f154e138]:
+            - checkbox "Others" [ref=f154e139]
+            - generic [ref=f154e141]: Others
+      - generic [ref=f154e146]:
+        - generic [ref=f154e147]:
+          - generic [ref=f154e148]: Provide the link(s) where you'll be promoting Writesonic *
+          - textbox "Provide the link(s) where you'll be promoting Writesonic *" [ref=f154e151]: https://aitools-ar.vercel.app — AI tools directory for Arabic speakers, covering ChatGPT, Gemini, Midjourney and 75+ tools. Monthly traffic growing.
+        - generic [ref=f154e152]: Share your website URL, LinkedIn profile, YouTube channel, or any platform where you plan to promote us. If promoting via your blog/website, please also mention your approximate monthly traffic and whether your content covers AI, marketing, SEO/GEO, or content creation.
+      - generic [ref=f154e156]:
+        - generic [ref=f154e157]: Have you worked as an affiliate marketer before? If yes, which programs have you been part of? *
+        - textbox "Have you worked as an affiliate marketer before? If yes, which programs have you been part of? *" [ref=f154e160]: Yes, I run an AI tools directory at aitools-ar.vercel.app promoting AI tools to Arabic-speaking audiences. I have affiliate experience in the AI niche.
+      - generic [ref=f154e164]:
+        - generic [ref=f154e165]: Have you used Writesonic before? *
+        - button "Yes" [ref=f154e199]
+      - generic [ref=f154e176]:
+        - checkbox "I agree to receive email notifications (like when I earn a commission) and other important emails regarding the affiliate program" [checked] [ref=f154e177]
+        - generic [ref=f154e179]: I agree to receive email notifications (like when I earn a commission) and other important emails regarding the affiliate program
+    - button [disabled] [ref=f154e1706]
+    - paragraph [ref=f154e185]:
+      - text: Already have an account?
+      - link "Sign In" [ref=f154e186] [cursor=pointer]:
+        - /url: /login

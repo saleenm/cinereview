@@ -1,0 +1,588 @@
+- generic [ref=f206e2]:
+  - generic [ref=f206e3]:
+    - link "Skip to content" [ref=f206e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=f206e6]:
+      - heading "Navigation Menu" [level=2] [ref=f206e7]
+      - generic [ref=f206e8]:
+        - link "Homepage" [ref=f206e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f206e13]:
+          - navigation "Global" [ref=f206e16]:
+            - list [ref=f206e17]:
+              - listitem [ref=f206e18]:
+                - button "Platform" [ref=f206e20] [cursor=pointer]
+              - listitem [ref=f206e23]:
+                - button "Solutions" [ref=f206e25] [cursor=pointer]
+              - listitem [ref=f206e28]:
+                - button "Resources" [ref=f206e30] [cursor=pointer]
+              - listitem [ref=f206e33]:
+                - button "Open Source" [ref=f206e35] [cursor=pointer]
+              - listitem [ref=f206e38]:
+                - button "Enterprise" [ref=f206e40] [cursor=pointer]
+              - listitem [ref=f206e43]:
+                - link "Pricing" [ref=f206e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=f206e46]:
+            - button "Search or jump to…" [ref=f206e49] [cursor=pointer]
+            - link "Sign in" [ref=f206e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsaleenm%2Fcinereview%2Factions%2Fworkflows%2Fadd-movies.yml
+            - link "Sign up" [ref=f206e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Factions%2Findex&source=header-repo&source_repo=saleenm%2Fcinereview
+            - button "Appearance settings" [disabled] [ref=f206e58]
+  - main [ref=f206e62]:
+    - generic [ref=f206e63]:
+      - generic [ref=f206e64]:
+        - generic [ref=f206e66]:
+          - link "saleenm" [ref=f206e70] [cursor=pointer]:
+            - /url: /saleenm
+          - generic [ref=f206e71]: /
+          - strong [ref=f206e72]:
+            - link "cinereview" [ref=f206e73] [cursor=pointer]:
+              - /url: /saleenm/cinereview
+          - generic [ref=f206e74]: Public
+        - generic [ref=f206e75]:
+          - list:
+            - listitem [ref=f206e76]:
+              - link "You must be signed in to change notification settings" [ref=f206e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsaleenm%2Fcinereview
+                - text: Notifications
+            - listitem [ref=f206e80]:
+              - link "Fork 0" [ref=f206e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsaleenm%2Fcinereview
+                - text: Fork
+                - generic "0" [ref=f206e84]
+            - listitem [ref=f206e85]:
+              - link "You must be signed in to star a repository" [ref=f206e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsaleenm%2Fcinereview
+                - text: Star
+                - generic "0 users starred this repository" [ref=f206e90]: "0"
+      - navigation "Repository" [ref=f206e91]:
+        - list [ref=f206e92]:
+          - listitem [ref=f206e93]:
+            - link "Code" [ref=f206e94] [cursor=pointer]:
+              - /url: /saleenm/cinereview
+          - listitem [ref=f206e98]:
+            - link "Issues" [ref=f206e99] [cursor=pointer]:
+              - /url: /saleenm/cinereview/issues
+          - listitem [ref=f206e104]:
+            - link "Pull requests" [ref=f206e105] [cursor=pointer]:
+              - /url: /saleenm/cinereview/pulls
+          - listitem [ref=f206e109]:
+            - link "Actions" [ref=f206e110] [cursor=pointer]:
+              - /url: /saleenm/cinereview/actions
+          - listitem [ref=f206e114]:
+            - link "Projects" [ref=f206e115] [cursor=pointer]:
+              - /url: /saleenm/cinereview/projects
+          - listitem [ref=f206e119]:
+            - link "Security and quality" [ref=f206e120] [cursor=pointer]:
+              - /url: /saleenm/cinereview/security
+          - listitem [ref=f206e124]:
+            - link "Insights" [ref=f206e125] [cursor=pointer]:
+              - /url: /saleenm/cinereview/pulse
+    - generic [ref=f206e130]:
+      - 'heading "Actions: saleenm/cinereview" [level=1] [ref=f206e131]'
+      - generic [ref=f206e134]:
+        - generic [ref=f206e135]:
+          - heading "Actions" [level=2] [ref=f206e137]
+          - navigation "Actions Workflows" [ref=f206e141]:
+            - list [ref=f206e143]:
+              - listitem [ref=f206e144]:
+                - link "All workflows" [ref=f206e145] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/actions
+              - listitem [ref=f206e147]
+              - listitem [ref=f206e148]:
+                - list "Workflows" [ref=f206e152]:
+                  - listitem [ref=f206e153]:
+                    - link "Auto Add Movies" [ref=f206e154] [cursor=pointer]:
+                      - /url: /saleenm/cinereview/actions/workflows/add-movies.yml
+                  - listitem [ref=f206e156]:
+                    - link "Auto Generate Blog Post" [ref=f206e157] [cursor=pointer]:
+                      - /url: /saleenm/cinereview/actions/workflows/auto-blog.yml
+                  - listitem [ref=f206e159]:
+                    - link "Daily Health Check" [ref=f206e160] [cursor=pointer]:
+                      - /url: /saleenm/cinereview/actions/workflows/daily-health-check.yml
+                  - listitem [ref=f206e162]:
+                    - link "Daily Push Notification" [ref=f206e163] [cursor=pointer]:
+                      - /url: /saleenm/cinereview/actions/workflows/daily-push.yml
+                  - listitem [ref=f206e165]:
+                    - link "Deploy to Vercel" [ref=f206e166] [cursor=pointer]:
+                      - /url: /saleenm/cinereview/actions/workflows/deploy.yml
+                  - listitem [ref=f206e168]:
+                    - link "Weekly Review & Updates" [ref=f206e169] [cursor=pointer]:
+                      - /url: /saleenm/cinereview/actions/workflows/weekly-review.yml
+              - listitem [ref=f206e171]
+              - listitem [ref=f206e172]:
+                - generic [ref=f206e175]:
+                  - heading "Management" [level=3] [ref=f206e177]
+                  - list "Management" [ref=f206e178]:
+                    - listitem [ref=f206e179]:
+                      - link "Caches" [ref=f206e180] [cursor=pointer]:
+                        - /url: /saleenm/cinereview/actions/caches
+                    - listitem [ref=f206e182]:
+                      - link "Deployments" [ref=f206e183] [cursor=pointer]:
+                        - /url: /saleenm/cinereview/deployments
+        - generic [ref=f206e187]:
+          - generic [ref=f206e188]:
+            - generic [ref=f206e189]:
+              - heading "Auto Add Movies" [level=2] [ref=f206e191]
+              - generic [ref=f206e194]:
+                - search [ref=f206e197]:
+                  - combobox "Filter workflow runs" [ref=f206e198]
+                - button "Show workflow options" [ref=f206e201] [cursor=pointer]
+            - link "add-movies.yml" [ref=f206e203] [cursor=pointer]:
+              - /url: /saleenm/cinereview/blob/main/.github/workflows/add-movies.yml
+          - generic [ref=f206e204]:
+            - generic [ref=f206e205]:
+              - strong [ref=f206e208]: 81 workflow runs
+              - generic [ref=f206e209]:
+                - button "Event" [ref=f206e213] [cursor=pointer]
+                - button "Status" [ref=f206e219] [cursor=pointer]
+                - button "Branch" [ref=f206e225] [cursor=pointer]
+                - button "Actor" [ref=f206e231] [cursor=pointer]
+            - generic [ref=f206e234]:
+              - generic [ref=f206e236]:
+                - generic [ref=f206e237]:
+                  - 'link "failed: Run 81 of Auto Add Movies." [ref=f206e238] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30790255149
+                    - img "failed:" [ref=f206e240]
+                    - generic [ref=f206e242]: Auto Add Movies
+                  - generic [ref=f206e243]: "Auto Add Movies #81: Scheduled"
+                - link "main" [ref=f206e245] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e247]:
+                  - generic [ref=f206e248]:
+                    - generic "Aug 3, 2026, 9:27 AM GMT+3" [ref=f206e253]: Today at 9:27 AM
+                    - generic [ref=f206e254]:
+                      - img "Run duration" [ref=f206e255]
+                      - text: 34s
+                  - group [ref=f206e258]:
+                    - img "Show options" [ref=f206e260] [cursor=pointer]
+              - generic [ref=f206e263]:
+                - generic [ref=f206e264]:
+                  - 'link "completed successfully: Run 80 of Auto Add Movies." [ref=f206e265] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30735283668
+                    - img "completed successfully:" [ref=f206e267]
+                    - generic [ref=f206e269]: Auto Add Movies
+                  - generic [ref=f206e270]: "Auto Add Movies #80: Scheduled"
+                - link "main" [ref=f206e272] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e274]:
+                  - generic [ref=f206e275]:
+                    - generic "Aug 2, 2026, 9:05 AM GMT+3" [ref=f206e280]: Aug 2, 9:05 AM GMT+3
+                    - generic [ref=f206e281]:
+                      - img "Run duration" [ref=f206e282]
+                      - text: 5m 27s
+                  - group [ref=f206e285]:
+                    - img "Show options" [ref=f206e287] [cursor=pointer]
+              - generic [ref=f206e290]:
+                - generic [ref=f206e291]:
+                  - 'link "completed successfully: Run 79 of Auto Add Movies." [ref=f206e292] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30686861115
+                    - img "completed successfully:" [ref=f206e294]
+                    - generic [ref=f206e296]: Auto Add Movies
+                  - generic [ref=f206e297]: "Auto Add Movies #79: Scheduled"
+                - link "main" [ref=f206e299] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e301]:
+                  - generic [ref=f206e302]:
+                    - generic "Aug 1, 2026, 8:59 AM GMT+3" [ref=f206e307]: Aug 1, 8:59 AM GMT+3
+                    - generic [ref=f206e308]:
+                      - img "Run duration" [ref=f206e309]
+                      - text: 1m 51s
+                  - group [ref=f206e312]:
+                    - img "Show options" [ref=f206e314] [cursor=pointer]
+              - generic [ref=f206e317]:
+                - generic [ref=f206e318]:
+                  - 'link "completed successfully: Run 78 of Auto Add Movies." [ref=f206e319] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30609152099
+                    - img "completed successfully:" [ref=f206e321]
+                    - generic [ref=f206e323]: Auto Add Movies
+                  - generic [ref=f206e324]: "Auto Add Movies #78: Scheduled"
+                - link "main" [ref=f206e326] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e328]:
+                  - generic [ref=f206e329]:
+                    - generic "Jul 31, 2026, 9:16 AM GMT+3" [ref=f206e334]: Jul 31, 9:16 AM GMT+3
+                    - generic [ref=f206e335]:
+                      - img "Run duration" [ref=f206e336]
+                      - text: 6m 55s
+                  - group [ref=f206e339]:
+                    - img "Show options" [ref=f206e341] [cursor=pointer]
+              - generic [ref=f206e344]:
+                - generic [ref=f206e345]:
+                  - 'link "completed successfully: Run 77 of Auto Add Movies." [ref=f206e346] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30571727493
+                    - img "completed successfully:" [ref=f206e348]
+                    - generic [ref=f206e350]: Auto Add Movies
+                  - generic [ref=f206e351]:
+                    - text: "Auto Add Movies #77:"
+                    - generic [ref=f206e352]:
+                      - text: Manually run by
+                      - link "saleenm" [ref=f206e353] [cursor=pointer]:
+                        - /url: /saleenm
+                - link "main" [ref=f206e355] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e357]:
+                  - generic [ref=f206e358]:
+                    - generic "Jul 30, 2026, 9:44 PM GMT+3" [ref=f206e363]: Jul 30, 9:44 PM GMT+3
+                    - generic [ref=f206e364]:
+                      - img "Run duration" [ref=f206e365]
+                      - text: 7m 8s
+                  - group [ref=f206e368]:
+                    - img "Show options" [ref=f206e370] [cursor=pointer]
+              - generic [ref=f206e373]:
+                - generic [ref=f206e374]:
+                  - 'link "failed: Run 76 of Auto Add Movies." [ref=f206e375] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30517465180
+                    - img "failed:" [ref=f206e377]
+                    - generic [ref=f206e379]: Auto Add Movies
+                  - generic [ref=f206e380]: "Auto Add Movies #76: Scheduled"
+                - link "main" [ref=f206e382] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e384]:
+                  - generic [ref=f206e385]:
+                    - generic "Jul 30, 2026, 8:44 AM GMT+3" [ref=f206e390]: Jul 30, 8:44 AM GMT+3
+                    - generic [ref=f206e391]:
+                      - img "Run duration" [ref=f206e392]
+                      - text: 36s
+                  - group [ref=f206e395]:
+                    - img "Show options" [ref=f206e397] [cursor=pointer]
+              - generic [ref=f206e400]:
+                - generic [ref=f206e401]:
+                  - 'link "failed: Run 75 of Auto Add Movies." [ref=f206e402] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30426516990
+                    - img "failed:" [ref=f206e404]
+                    - generic [ref=f206e406]: Auto Add Movies
+                  - generic [ref=f206e407]: "Auto Add Movies #75: Scheduled"
+                - link "main" [ref=f206e409] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e411]:
+                  - generic [ref=f206e412]:
+                    - generic "Jul 29, 2026, 8:55 AM GMT+3" [ref=f206e417]: Jul 29, 8:55 AM GMT+3
+                    - generic [ref=f206e418]:
+                      - img "Run duration" [ref=f206e419]
+                      - text: 40s
+                  - group [ref=f206e422]:
+                    - img "Show options" [ref=f206e424] [cursor=pointer]
+              - generic [ref=f206e427]:
+                - generic [ref=f206e428]:
+                  - 'link "failed: Run 74 of Auto Add Movies." [ref=f206e429] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30332824912
+                    - img "failed:" [ref=f206e431]
+                    - generic [ref=f206e433]: Auto Add Movies
+                  - generic [ref=f206e434]: "Auto Add Movies #74: Scheduled"
+                - link "main" [ref=f206e436] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e438]:
+                  - generic [ref=f206e439]:
+                    - generic "Jul 28, 2026, 8:50 AM GMT+3" [ref=f206e444]: Jul 28, 8:50 AM GMT+3
+                    - generic [ref=f206e445]:
+                      - img "Run duration" [ref=f206e446]
+                      - text: 32s
+                  - group [ref=f206e449]:
+                    - img "Show options" [ref=f206e451] [cursor=pointer]
+              - generic [ref=f206e454]:
+                - generic [ref=f206e455]:
+                  - 'link "failed: Run 73 of Auto Add Movies." [ref=f206e456] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30243139195
+                    - img "failed:" [ref=f206e458]
+                    - generic [ref=f206e460]: Auto Add Movies
+                  - generic [ref=f206e461]: "Auto Add Movies #73: Scheduled"
+                - link "main" [ref=f206e463] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e465]:
+                  - generic [ref=f206e466]:
+                    - generic "Jul 27, 2026, 9:33 AM GMT+3" [ref=f206e471]: Jul 27, 9:33 AM GMT+3
+                    - generic [ref=f206e472]:
+                      - img "Run duration" [ref=f206e473]
+                      - text: 38s
+                  - group [ref=f206e476]:
+                    - img "Show options" [ref=f206e478] [cursor=pointer]
+              - generic [ref=f206e481]:
+                - generic [ref=f206e482]:
+                  - 'link "failed: Run 72 of Auto Add Movies." [ref=f206e483] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30190552314
+                    - img "failed:" [ref=f206e485]
+                    - generic [ref=f206e487]: Auto Add Movies
+                  - generic [ref=f206e488]: "Auto Add Movies #72: Scheduled"
+                - link "main" [ref=f206e490] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e492]:
+                  - generic [ref=f206e493]:
+                    - generic "Jul 26, 2026, 9:08 AM GMT+3" [ref=f206e498]: Jul 26, 9:08 AM GMT+3
+                    - generic [ref=f206e499]:
+                      - img "Run duration" [ref=f206e500]
+                      - text: 28s
+                  - group [ref=f206e503]:
+                    - img "Show options" [ref=f206e505] [cursor=pointer]
+              - generic [ref=f206e508]:
+                - generic [ref=f206e509]:
+                  - 'link "failed: Run 71 of Auto Add Movies." [ref=f206e510] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30146323677
+                    - img "failed:" [ref=f206e512]
+                    - generic [ref=f206e514]: Auto Add Movies
+                  - generic [ref=f206e515]: "Auto Add Movies #71: Scheduled"
+                - link "main" [ref=f206e517] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e519]:
+                  - generic [ref=f206e520]:
+                    - generic "Jul 25, 2026, 8:45 AM GMT+3" [ref=f206e525]: Jul 25, 8:45 AM GMT+3
+                    - generic [ref=f206e526]:
+                      - img "Run duration" [ref=f206e527]
+                      - text: 43s
+                  - group [ref=f206e530]:
+                    - img "Show options" [ref=f206e532] [cursor=pointer]
+              - generic [ref=f206e535]:
+                - generic [ref=f206e536]:
+                  - 'link "failed: Run 70 of Auto Add Movies." [ref=f206e537] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/30070628018
+                    - img "failed:" [ref=f206e539]
+                    - generic [ref=f206e541]: Auto Add Movies
+                  - generic [ref=f206e542]: "Auto Add Movies #70: Scheduled"
+                - link "main" [ref=f206e544] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e546]:
+                  - generic [ref=f206e547]:
+                    - generic "Jul 24, 2026, 8:52 AM GMT+3" [ref=f206e552]: Jul 24, 8:52 AM GMT+3
+                    - generic [ref=f206e553]:
+                      - img "Run duration" [ref=f206e554]
+                      - text: 39s
+                  - group [ref=f206e557]:
+                    - img "Show options" [ref=f206e559] [cursor=pointer]
+              - generic [ref=f206e562]:
+                - generic [ref=f206e563]:
+                  - 'link "failed: Run 69 of Auto Add Movies." [ref=f206e564] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29983926539
+                    - img "failed:" [ref=f206e566]
+                    - generic [ref=f206e568]: Auto Add Movies
+                  - generic [ref=f206e569]: "Auto Add Movies #69: Scheduled"
+                - link "main" [ref=f206e571] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e573]:
+                  - generic [ref=f206e574]:
+                    - generic "Jul 23, 2026, 9:04 AM GMT+3" [ref=f206e579]: Jul 23, 9:04 AM GMT+3
+                    - generic [ref=f206e580]:
+                      - img "Run duration" [ref=f206e581]
+                      - text: 41s
+                  - group [ref=f206e584]:
+                    - img "Show options" [ref=f206e586] [cursor=pointer]
+              - generic [ref=f206e589]:
+                - generic [ref=f206e590]:
+                  - 'link "failed: Run 68 of Auto Add Movies." [ref=f206e591] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29895056345
+                    - img "failed:" [ref=f206e593]
+                    - generic [ref=f206e595]: Auto Add Movies
+                  - generic [ref=f206e596]: "Auto Add Movies #68: Scheduled"
+                - link "main" [ref=f206e598] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e600]:
+                  - generic [ref=f206e601]:
+                    - generic "Jul 22, 2026, 8:53 AM GMT+3" [ref=f206e606]: Jul 22, 8:53 AM GMT+3
+                    - generic [ref=f206e607]:
+                      - img "Run duration" [ref=f206e608]
+                      - text: 37s
+                  - group [ref=f206e611]:
+                    - img "Show options" [ref=f206e613] [cursor=pointer]
+              - generic [ref=f206e616]:
+                - generic [ref=f206e617]:
+                  - 'link "failed: Run 67 of Auto Add Movies." [ref=f206e618] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29805352259
+                    - img "failed:" [ref=f206e620]
+                    - generic [ref=f206e622]: Auto Add Movies
+                  - generic [ref=f206e623]: "Auto Add Movies #67: Scheduled"
+                - link "main" [ref=f206e625] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e627]:
+                  - generic [ref=f206e628]:
+                    - generic "Jul 21, 2026, 8:54 AM GMT+3" [ref=f206e633]: Jul 21, 8:54 AM GMT+3
+                    - generic [ref=f206e634]:
+                      - img "Run duration" [ref=f206e635]
+                      - text: 37s
+                  - group [ref=f206e638]:
+                    - img "Show options" [ref=f206e640] [cursor=pointer]
+              - generic [ref=f206e643]:
+                - generic [ref=f206e644]:
+                  - 'link "failed: Run 66 of Auto Add Movies." [ref=f206e645] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29721397097
+                    - img "failed:" [ref=f206e647]
+                    - generic [ref=f206e649]: Auto Add Movies
+                  - generic [ref=f206e650]: "Auto Add Movies #66: Scheduled"
+                - link "main" [ref=f206e652] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e654]:
+                  - generic [ref=f206e655]:
+                    - generic "Jul 20, 2026, 9:20 AM GMT+3" [ref=f206e660]: Jul 20, 9:20 AM GMT+3
+                    - generic [ref=f206e661]:
+                      - img "Run duration" [ref=f206e662]
+                      - text: 32s
+                  - group [ref=f206e665]:
+                    - img "Show options" [ref=f206e667] [cursor=pointer]
+              - generic [ref=f206e670]:
+                - generic [ref=f206e671]:
+                  - 'link "failed: Run 65 of Auto Add Movies." [ref=f206e672] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29675633993
+                    - img "failed:" [ref=f206e674]
+                    - generic [ref=f206e676]: Auto Add Movies
+                  - generic [ref=f206e677]: "Auto Add Movies #65: Scheduled"
+                - link "main" [ref=f206e679] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e681]:
+                  - generic [ref=f206e682]:
+                    - generic "Jul 19, 2026, 8:57 AM GMT+3" [ref=f206e687]: Jul 19, 8:57 AM GMT+3
+                    - generic [ref=f206e688]:
+                      - img "Run duration" [ref=f206e689]
+                      - text: 39s
+                  - group [ref=f206e692]:
+                    - img "Show options" [ref=f206e694] [cursor=pointer]
+              - generic [ref=f206e697]:
+                - generic [ref=f206e698]:
+                  - 'link "failed: Run 64 of Auto Add Movies." [ref=f206e699] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29632375820
+                    - img "failed:" [ref=f206e701]
+                    - generic [ref=f206e703]: Auto Add Movies
+                  - generic [ref=f206e704]: "Auto Add Movies #64: Scheduled"
+                - link "main" [ref=f206e706] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e708]:
+                  - generic [ref=f206e709]:
+                    - generic "Jul 18, 2026, 8:30 AM GMT+3" [ref=f206e714]: Jul 18, 8:30 AM GMT+3
+                    - generic [ref=f206e715]:
+                      - img "Run duration" [ref=f206e716]
+                      - text: 1m 9s
+                  - group [ref=f206e719]:
+                    - img "Show options" [ref=f206e721] [cursor=pointer]
+              - generic [ref=f206e724]:
+                - generic [ref=f206e725]:
+                  - 'link "failed: Run 63 of Auto Add Movies." [ref=f206e726] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29558132528
+                    - img "failed:" [ref=f206e728]
+                    - generic [ref=f206e730]: Auto Add Movies
+                  - generic [ref=f206e731]: "Auto Add Movies #63: Scheduled"
+                - link "main" [ref=f206e733] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e735]:
+                  - generic [ref=f206e736]:
+                    - generic "Jul 17, 2026, 8:44 AM GMT+3" [ref=f206e741]: Jul 17, 8:44 AM GMT+3
+                    - generic [ref=f206e742]:
+                      - img "Run duration" [ref=f206e743]
+                      - text: 34s
+                  - group [ref=f206e746]:
+                    - img "Show options" [ref=f206e748] [cursor=pointer]
+              - generic [ref=f206e751]:
+                - generic [ref=f206e752]:
+                  - 'link "failed: Run 62 of Auto Add Movies." [ref=f206e753] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29474661048
+                    - img "failed:" [ref=f206e755]
+                    - generic [ref=f206e757]: Auto Add Movies
+                  - generic [ref=f206e758]: "Auto Add Movies #62: Scheduled"
+                - link "main" [ref=f206e760] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e762]:
+                  - generic [ref=f206e763]:
+                    - generic "Jul 16, 2026, 8:43 AM GMT+3" [ref=f206e768]: Jul 16, 8:43 AM GMT+3
+                    - generic [ref=f206e769]:
+                      - img "Run duration" [ref=f206e770]
+                      - text: 36s
+                  - group [ref=f206e773]:
+                    - img "Show options" [ref=f206e775] [cursor=pointer]
+              - generic [ref=f206e778]:
+                - generic [ref=f206e779]:
+                  - 'link "failed: Run 61 of Auto Add Movies." [ref=f206e780] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29391870444
+                    - img "failed:" [ref=f206e782]
+                    - generic [ref=f206e784]: Auto Add Movies
+                  - generic [ref=f206e785]: "Auto Add Movies #61: Scheduled"
+                - link "main" [ref=f206e787] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e789]:
+                  - generic [ref=f206e790]:
+                    - generic "Jul 15, 2026, 8:36 AM GMT+3" [ref=f206e795]: Jul 15, 8:36 AM GMT+3
+                    - generic [ref=f206e796]:
+                      - img "Run duration" [ref=f206e797]
+                      - text: 39s
+                  - group [ref=f206e800]:
+                    - img "Show options" [ref=f206e802] [cursor=pointer]
+              - generic [ref=f206e805]:
+                - generic [ref=f206e806]:
+                  - 'link "failed: Run 60 of Auto Add Movies." [ref=f206e807] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29308909264
+                    - img "failed:" [ref=f206e809]
+                    - generic [ref=f206e811]: Auto Add Movies
+                  - generic [ref=f206e812]: "Auto Add Movies #60: Scheduled"
+                - link "main" [ref=f206e814] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e816]:
+                  - generic [ref=f206e817]:
+                    - generic "Jul 14, 2026, 8:34 AM GMT+3" [ref=f206e822]: Jul 14, 8:34 AM GMT+3
+                    - generic [ref=f206e823]:
+                      - img "Run duration" [ref=f206e824]
+                      - text: 46s
+                  - group [ref=f206e827]:
+                    - img "Show options" [ref=f206e829] [cursor=pointer]
+              - generic [ref=f206e832]:
+                - generic [ref=f206e833]:
+                  - 'link "failed: Run 59 of Auto Add Movies." [ref=f206e834] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29228840806
+                    - img "failed:" [ref=f206e836]
+                    - generic [ref=f206e838]: Auto Add Movies
+                  - generic [ref=f206e839]: "Auto Add Movies #59: Scheduled"
+                - link "main" [ref=f206e841] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e843]:
+                  - generic [ref=f206e844]:
+                    - generic "Jul 13, 2026, 9:23 AM GMT+3" [ref=f206e849]: Jul 13, 9:23 AM GMT+3
+                    - generic [ref=f206e850]:
+                      - img "Run duration" [ref=f206e851]
+                      - text: 28s
+                  - group [ref=f206e854]:
+                    - img "Show options" [ref=f206e856] [cursor=pointer]
+              - generic [ref=f206e859]:
+                - generic [ref=f206e860]:
+                  - 'link "failed: Run 58 of Auto Add Movies." [ref=f206e861] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29182177660
+                    - img "failed:" [ref=f206e863]
+                    - generic [ref=f206e865]: Auto Add Movies
+                  - generic [ref=f206e866]: "Auto Add Movies #58: Scheduled"
+                - link "main" [ref=f206e868] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e870]:
+                  - generic [ref=f206e871]:
+                    - generic "Jul 12, 2026, 9:07 AM GMT+3" [ref=f206e876]: Jul 12, 9:07 AM GMT+3
+                    - generic [ref=f206e877]:
+                      - img "Run duration" [ref=f206e878]
+                      - text: 41s
+                  - group [ref=f206e881]:
+                    - img "Show options" [ref=f206e883] [cursor=pointer]
+              - generic [ref=f206e886]:
+                - generic [ref=f206e887]:
+                  - 'link "failed: Run 57 of Auto Add Movies." [ref=f206e888] [cursor=pointer]':
+                    - /url: /saleenm/cinereview/actions/runs/29141678494
+                    - img "failed:" [ref=f206e890]
+                    - generic [ref=f206e892]: Auto Add Movies
+                  - generic [ref=f206e893]: "Auto Add Movies #57: Scheduled"
+                - link "main" [ref=f206e895] [cursor=pointer]:
+                  - /url: /saleenm/cinereview/tree/refs/heads/main
+                - generic [ref=f206e897]:
+                  - generic [ref=f206e898]:
+                    - generic "Jul 11, 2026, 8:44 AM GMT+3" [ref=f206e903]: Jul 11, 8:44 AM GMT+3
+                    - generic [ref=f206e904]:
+                      - img "Run duration" [ref=f206e905]
+                      - text: 38s
+                  - group [ref=f206e908]:
+                    - img "Show options" [ref=f206e910] [cursor=pointer]
+          - navigation "Pagination" [ref=f206e914]:
+            - generic "Previous page" [ref=f206e915]: Previous
+            - emphasis [ref=f206e916] [cursor=pointer]: "1"
+            - link "Page 2" [ref=f206e917] [cursor=pointer]:
+              - /url: /saleenm/cinereview/actions/workflows/add-movies.yml?page=2
+              - text: "2"
+            - link "Page 3" [ref=f206e918] [cursor=pointer]:
+              - /url: /saleenm/cinereview/actions/workflows/add-movies.yml?page=3
+              - text: "3"
+            - link "Page 4" [ref=f206e919] [cursor=pointer]:
+              - /url: /saleenm/cinereview/actions/workflows/add-movies.yml?page=4
+              - text: "4"
+            - link "Next page" [ref=f206e920] [cursor=pointer]:
+              - /url: /saleenm/cinereview/actions/workflows/add-movies.yml?page=2
+              - text: Next

@@ -1,0 +1,12 @@
+- generic [active] [ref=f80e1]:
+  - button "تفضيلات ملفات تعريف الارتباط" [ref=f80e56] [cursor=pointer]:
+    - img "تفضيلات ملفات تعريف الارتباط" [ref=f80e57]
+  - generic [ref=f80e33]:
+    - banner [ref=f80e35]:
+      - button [ref=f80e44] [cursor=pointer]
+    - generic [ref=f80e50]:
+      - generic [ref=f80e51]: Semrush
+      - generic [ref=f80e52]: Apply and earn big by promoting our tools! You can earn from $50 to $300 for every sale you make, plus $10 for every trial you generate. Promote trusted tools and enjoy dedicated support, 120 days of cookie life, and commission growth based on performance. We'll help you from day one. We are waiting for you!
+      - generic [ref=f80e54]:
+        - text: 5 mins to complete
+        - button "Sign up" [ref=f80e55] [cursor=pointer]

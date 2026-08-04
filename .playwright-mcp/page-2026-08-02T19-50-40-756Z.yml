@@ -1,0 +1,60 @@
+- table [ref=f181e9]:
+  - rowgroup [ref=f181e10]:
+    - row:
+      - columnheader
+      - columnheader
+      - columnheader
+      - columnheader
+    - row [ref=f181e11]:
+      - cell [ref=f181e12]:
+        - link [ref=f181e14] [cursor=pointer]:
+          - /url: /advertiser-campaign-info/Grammarly.brand?lang=en&c=___9XpvYq1Sf08ai2jmVgvAaLQXOV4MOgob
+      - cell [ref=f181e16]:
+        - generic [ref=f181e17]:
+          - heading "Grammarly" [level=3] [ref=f181e18]
+          - text: Grammarly is an AI-powered writing assistant that helps users write clearly and effectively. Join our affiliate program to share Grammarly with your audience and earn commissions while promoting better communication for all.
+      - 'cell "Grammarly iOS : Paid Upgrade : $20.00 Grammarly Android : Paid Upgrade : $20.00 Upgrade : $20.00 Grammarly iOS : Keyboard Install : $6.00 Grammarly Android : Keyboard Install : $6.00 Account Creation : $0.20" [ref=f181e19]':
+        - generic [ref=f181e20]:
+          - generic [ref=f181e21]: "Grammarly iOS : Paid Upgrade : $20.00"
+          - generic [ref=f181e22]: "Grammarly Android : Paid Upgrade : $20.00"
+          - generic [ref=f181e23]: "Upgrade : $20.00"
+          - generic [ref=f181e24]: "Grammarly iOS : Keyboard Install : $6.00"
+          - generic [ref=f181e25]: "Grammarly Android : Keyboard Install : $6.00"
+          - generic [ref=f181e26]: "Account Creation : $0.20"
+      - cell [ref=f181e27]:
+        - link [ref=f181e29] [cursor=pointer]:
+          - /url: /advertiser-applycampaign-info/Grammarly.brand?lang=en&c=___9XpvYq1Sf08ai2jmVgvAaLQXOV4MOgob
+          - button "Apply Now" [ref=f181e30]
+    - row [ref=f181e31]:
+      - cell [ref=f181e32]:
+        - link [ref=f181e34] [cursor=pointer]:
+          - /url: /advertiser-campaign-info/Grammarly.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPNy3ACcFt7jkO
+      - cell [ref=f181e36]:
+        - generic [ref=f181e37]:
+          - heading "Grammarly - Creator" [level=3] [ref=f181e38]
+          - text: Grammarly is an AI-powered writing assistant that helps users write clearly and effectively. Join our affiliate program to share Grammarly with your audience and earn commissions while promoting better communication for all.
+      - 'cell "Upgrade : $25.00 Gift : $0.00 Creator Post : $0.00" [ref=f181e39]':
+        - generic [ref=f181e40]:
+          - generic [ref=f181e41]: "Upgrade : $25.00"
+          - generic [ref=f181e42]: "Gift : $0.00"
+          - generic [ref=f181e43]: "Creator Post : $0.00"
+      - cell [ref=f181e44]:
+        - link [ref=f181e46] [cursor=pointer]:
+          - /url: /advertiser-applycampaign-info/Grammarly.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPNy3ACcFt7jkO
+          - button "Apply Now" [ref=f181e47]
+    - row [ref=f181e48]:
+      - cell [ref=f181e49]:
+        - link [ref=f181e51] [cursor=pointer]:
+          - /url: /advertiser-campaign-info/Grammarly.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN6vSLUHCH7Ld
+      - cell [ref=f181e53]:
+        - generic [ref=f181e54]:
+          - heading "Superhuman Mail" [level=3] [ref=f181e55]
+          - text: Superhuman Mail is the leading AI-native email experience for high-performing teams. Fly through your inbox, be more responsive to what matters most, and collaborate faster than ever before.
+      - 'cell "Subscription : $30.00 Sign Up : $30.00" [ref=f181e56]':
+        - generic [ref=f181e57]:
+          - generic [ref=f181e58]: "Subscription : $30.00"
+          - generic [ref=f181e59]: "Sign Up : $30.00"
+      - cell [ref=f181e60]:
+        - link [ref=f181e62] [cursor=pointer]:
+          - /url: /advertiser-applycampaign-info/Grammarly.brand?lang=en&c=___9XpvYq1Sf0_jpq75ciKPN6vSLUHCH7Ld
+          - button "Apply Now" [ref=f181e63]

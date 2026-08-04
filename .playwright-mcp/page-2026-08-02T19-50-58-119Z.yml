@@ -1,0 +1,9 @@
+- generic [ref=f184e5]:
+  - banner [ref=f184e7]:
+    - button [ref=f184e16] [cursor=pointer]
+  - generic [ref=f184e21]:
+    - generic [ref=f184e22]: Make more money from your traffic and audience!
+    - generic [ref=f184e23]: We have partnered with Impact to provide you with a market leading performance-advertising program. Performance advertising is simple; you receive large earnings for promoting high quality, unique products or services to your audience.
+    - generic [ref=f184e25]:
+      - text: 5 mins to complete
+      - button "Sign up" [ref=f184e26] [cursor=pointer]

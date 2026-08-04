@@ -1,0 +1,1203 @@
+- generic [active] [ref=f14e1]:
+  - alert [ref=f14e1506]: All Movies | CineReview | CineReview
+  - link "Skip to main content" [ref=f14e10369] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f14e10370]:
+    - banner [ref=f14e10371]:
+      - generic [ref=f14e10372]:
+        - link "CineReview" [ref=f14e10373] [cursor=pointer]:
+          - /url: /pt
+        - navigation "Main navigation" [ref=f14e10380]:
+          - link [ref=f14e10381] [cursor=pointer]:
+            - /url: /pt
+          - link [ref=f14e10386] [cursor=pointer]:
+            - /url: /pt/movies
+          - link [ref=f14e10391] [cursor=pointer]:
+            - /url: /pt/top-rated
+          - link [ref=f14e10395] [cursor=pointer]:
+            - /url: /pt/blog
+          - button [ref=f14e10400]
+        - search [ref=f14e10410]:
+          - generic [ref=f14e10411]:
+            - button "Search" [ref=f14e10412]
+            - searchbox "Buscar um filme..." [ref=f14e10416]
+        - generic [ref=f14e10417]:
+          - button "Change language" [ref=f14e10419]:
+            - generic [ref=f14e10423]: pt
+          - button "Sign in" [ref=f14e10427]
+          - button "Toggle theme" [ref=f14e10432]
+    - main [ref=f14e10439]:
+      - generic [ref=f14e10443]:
+        - heading "Todos os Filmes" [level=1] [ref=f14e10446]
+        - paragraph [ref=f14e10447]: 1920 filmes
+      - generic [ref=f14e10448]:
+        - generic [ref=f14e10449]:
+          - generic [ref=f14e10450]:
+            - paragraph [ref=f14e10451]: Genre
+            - generic [ref=f14e10452]:
+              - link "Todos" [ref=f14e10453] [cursor=pointer]:
+                - /url: /pt/movies
+              - link "🎭 Drama" [ref=f14e10454] [cursor=pointer]:
+                - /url: /pt/movies?genre=drama
+              - link "💥 Ação" [ref=f14e10455] [cursor=pointer]:
+                - /url: /pt/movies?genre=action
+              - link "🔪 Suspense" [ref=f14e10456] [cursor=pointer]:
+                - /url: /pt/movies?genre=thriller
+              - link "😂 Comédia" [ref=f14e10457] [cursor=pointer]:
+                - /url: /pt/movies?genre=comedy
+              - link "👻 Terror" [ref=f14e10458] [cursor=pointer]:
+                - /url: /pt/movies?genre=horror
+              - link "💕 Romance" [ref=f14e10459] [cursor=pointer]:
+                - /url: /pt/movies?genre=romance
+              - link "🚀 Ficção Científica" [ref=f14e10460] [cursor=pointer]:
+                - /url: /pt/movies?genre=scifi
+              - link "🎨 Animação" [ref=f14e10461] [cursor=pointer]:
+                - /url: /pt/movies?genre=animation
+              - link "📽️ Documentário" [ref=f14e10462] [cursor=pointer]:
+                - /url: /pt/movies?genre=documentary
+              - link "🏛️ Histórico" [ref=f14e10463] [cursor=pointer]:
+                - /url: /pt/movies?genre=history
+              - link "🕵️ Crime" [ref=f14e10464] [cursor=pointer]:
+                - /url: /pt/movies?genre=crime
+              - link "🌍 Aventura" [ref=f14e10465] [cursor=pointer]:
+                - /url: /pt/movies?genre=adventure
+              - link "🌙 Árabe" [ref=f14e10466] [cursor=pointer]:
+                - /url: /pt/movies?genre=arabic
+          - generic [ref=f14e10467]:
+            - generic [ref=f14e10468]:
+              - paragraph [ref=f14e10469]: Década
+              - generic [ref=f14e10470]:
+                - link "Todos" [ref=f14e10471] [cursor=pointer]:
+                  - /url: /pt/movies
+                - link "1940s" [ref=f14e10472] [cursor=pointer]:
+                  - /url: /pt/movies?decade=1940
+                - link "1950s" [ref=f14e10473] [cursor=pointer]:
+                  - /url: /pt/movies?decade=1950
+                - link "1960s" [ref=f14e10474] [cursor=pointer]:
+                  - /url: /pt/movies?decade=1960
+                - link "1970s" [ref=f14e10475] [cursor=pointer]:
+                  - /url: /pt/movies?decade=1970
+                - link "1980s" [ref=f14e10476] [cursor=pointer]:
+                  - /url: /pt/movies?decade=1980
+                - link "1990s" [ref=f14e10477] [cursor=pointer]:
+                  - /url: /pt/movies?decade=1990
+                - link "2000s" [ref=f14e10478] [cursor=pointer]:
+                  - /url: /pt/movies?decade=2000
+                - link "2010s" [ref=f14e10479] [cursor=pointer]:
+                  - /url: /pt/movies?decade=2010
+                - link "2020s" [ref=f14e10480] [cursor=pointer]:
+                  - /url: /pt/movies?decade=2020
+            - generic [ref=f14e10481]:
+              - generic [ref=f14e10482]:
+                - paragraph [ref=f14e10483]: Avaliação
+                - generic [ref=f14e10484]:
+                  - link "Todos" [ref=f14e10485] [cursor=pointer]:
+                    - /url: /pt/movies
+                  - link "7+" [ref=f14e10486] [cursor=pointer]:
+                    - /url: /pt/movies?rating=7
+                  - link "8+" [ref=f14e10489] [cursor=pointer]:
+                    - /url: /pt/movies?rating=8
+                  - link "9+" [ref=f14e10492] [cursor=pointer]:
+                    - /url: /pt/movies?rating=9
+              - generic [ref=f14e10495]:
+                - paragraph [ref=f14e10496]: Idioma
+                - generic [ref=f14e10497]:
+                  - link "Todos" [ref=f14e10498] [cursor=pointer]:
+                    - /url: /pt/movies
+                  - link "🇺🇸 English" [ref=f14e10499] [cursor=pointer]:
+                    - /url: /pt/movies?lang=en
+                  - link "🇰🇷 한국어" [ref=f14e10500] [cursor=pointer]:
+                    - /url: /pt/movies?lang=ko
+                  - link "🇯🇵 日本語" [ref=f14e10501] [cursor=pointer]:
+                    - /url: /pt/movies?lang=ja
+                  - link "🇸🇦 عربي" [ref=f14e10502] [cursor=pointer]:
+                    - /url: /pt/movies?lang=ar
+                  - link "🇫🇷 Français" [ref=f14e10503] [cursor=pointer]:
+                    - /url: /pt/movies?lang=fr
+                  - link "🇮🇹 Italiano" [ref=f14e10504] [cursor=pointer]:
+                    - /url: /pt/movies?lang=it
+                  - link "🇹🇷 Türkçe" [ref=f14e10505] [cursor=pointer]:
+                    - /url: /pt/movies?lang=tr
+              - generic [ref=f14e10506]:
+                - paragraph [ref=f14e10507]: Ordenar
+                - generic [ref=f14e10508]:
+                  - link "Mais Bem Avaliados" [ref=f14e10509] [cursor=pointer]:
+                    - /url: /pt/movies?sort=rating
+                  - link "Mais Recentes" [ref=f14e10512] [cursor=pointer]:
+                    - /url: /pt/movies?sort=year
+        - generic [ref=f14e10516]:
+          - link "The Godfather — 1972" [ref=f14e10517] [cursor=pointer]:
+            - /url: /pt/movies/the-godfather
+            - generic [ref=f14e10518]:
+              - img "The Godfather" [ref=f14e10519]
+              - generic [ref=f14e10521]: "9.7"
+              - generic [ref=f14e10525]: TOP
+              - generic [ref=f14e10526]:
+                - generic [ref=f14e10527]: 🕵️
+                - generic [ref=f14e10528]: 🎭
+            - generic [ref=f14e10529]:
+              - heading "The Godfather" [level=3] [ref=f14e10530]
+              - paragraph [ref=f14e10531]: Francis Ford Coppola · 1972
+              - generic [ref=f14e10532]:
+                - generic [ref=f14e10533]:
+                  - generic [ref=f14e10534]: "9.2"
+                  - generic [ref=f14e10537]: 🍅 97%
+                - generic "قيّم الفيلم" [ref=f14e10538]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10539]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10540]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10541]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10542]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10543]: ★
+          - link "Schindler's List — 1993" [ref=f14e10544] [cursor=pointer]:
+            - /url: /pt/movies/schindlers-list
+            - generic [ref=f14e10545]:
+              - img "Schindler's List" [ref=f14e10546]
+              - generic [ref=f14e10548]: "9.6"
+              - generic [ref=f14e10552]: TOP
+              - generic [ref=f14e10553]:
+                - generic [ref=f14e10554]: 🏛️
+                - generic [ref=f14e10555]: 🎭
+            - generic [ref=f14e10556]:
+              - heading "Schindler's List" [level=3] [ref=f14e10557]
+              - paragraph [ref=f14e10558]: Steven Spielberg · 1993
+              - generic [ref=f14e10559]:
+                - generic [ref=f14e10560]:
+                  - generic [ref=f14e10561]: "9"
+                  - generic [ref=f14e10564]: 🍅 98%
+                - generic "قيّم الفيلم" [ref=f14e10565]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10566]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10567]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10568]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10569]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10570]: ★
+          - link "The Shawshank Redemption — 1994" [ref=f14e10571] [cursor=pointer]:
+            - /url: /pt/movies/the-shawshank-redemption
+            - generic [ref=f14e10572]:
+              - img "The Shawshank Redemption" [ref=f14e10573]
+              - generic [ref=f14e10575]: "9.6"
+              - generic [ref=f14e10579]: 🎭
+            - generic [ref=f14e10581]:
+              - heading "The Shawshank Redemption" [level=3] [ref=f14e10582]
+              - paragraph [ref=f14e10583]: Frank Darabont · 1994
+              - generic [ref=f14e10584]:
+                - generic [ref=f14e10585]:
+                  - generic [ref=f14e10586]: "9.3"
+                  - generic [ref=f14e10589]: 🍅 91%
+                - generic "قيّم الفيلم" [ref=f14e10590]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10591]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10592]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10593]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10594]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10595]: ★
+          - link "The Dark Knight — 2008" [ref=f14e10596] [cursor=pointer]:
+            - /url: /pt/movies/the-dark-knight
+            - generic [ref=f14e10597]:
+              - img "The Dark Knight" [ref=f14e10598]
+              - generic [ref=f14e10600]: "9.5"
+              - generic [ref=f14e10604]: TOP
+              - generic [ref=f14e10605]:
+                - generic [ref=f14e10606]: 💥
+                - generic [ref=f14e10607]: 🔪
+            - generic [ref=f14e10608]:
+              - heading "The Dark Knight" [level=3] [ref=f14e10609]
+              - paragraph [ref=f14e10610]: Christopher Nolan · 2008
+              - generic [ref=f14e10611]:
+                - generic [ref=f14e10612]:
+                  - generic [ref=f14e10613]: "9"
+                  - generic [ref=f14e10616]: 🍅 94%
+                - generic "قيّم الفيلم" [ref=f14e10617]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10618]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10619]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10620]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10621]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10622]: ★
+          - link "Parasite — 2019" [ref=f14e10623] [cursor=pointer]:
+            - /url: /pt/movies/parasite
+            - generic [ref=f14e10624]:
+              - img "Parasite" [ref=f14e10625]
+              - generic [ref=f14e10627]: "9.4"
+              - generic [ref=f14e10631]: TOP
+              - generic [ref=f14e10632]:
+                - generic [ref=f14e10633]: 🔪
+                - generic [ref=f14e10634]: 🎭
+            - generic [ref=f14e10635]:
+              - heading "Parasite" [level=3] [ref=f14e10636]
+              - paragraph [ref=f14e10637]: Bong Joon-ho · 2019
+              - generic [ref=f14e10638]:
+                - generic [ref=f14e10639]:
+                  - generic [ref=f14e10640]: "8.5"
+                  - generic [ref=f14e10643]: 🍅 99%
+                - generic "قيّم الفيلم" [ref=f14e10644]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10645]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10646]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10647]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10648]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10649]: ★
+          - link "12 Angry Men — 1957" [ref=f14e10650] [cursor=pointer]:
+            - /url: /pt/movies/12-angry-men
+            - generic [ref=f14e10651]:
+              - img "12 Angry Men" [ref=f14e10652]
+              - generic [ref=f14e10654]: "9.4"
+              - generic [ref=f14e10658]: TOP
+              - generic [ref=f14e10659]:
+                - generic [ref=f14e10660]: 🎭
+                - generic [ref=f14e10661]: 🔪
+            - generic [ref=f14e10662]:
+              - heading "12 Angry Men" [level=3] [ref=f14e10663]
+              - paragraph [ref=f14e10664]: Sidney Lumet · 1957
+              - generic [ref=f14e10665]:
+                - generic [ref=f14e10666]:
+                  - generic [ref=f14e10667]: "9"
+                  - generic [ref=f14e10670]: 🍅 100%
+                - generic "قيّم الفيلم" [ref=f14e10671]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10672]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10673]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10674]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10675]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10676]: ★
+          - link "Inception — 2010" [ref=f14e10677] [cursor=pointer]:
+            - /url: /pt/movies/inception
+            - generic [ref=f14e10678]:
+              - img "Inception" [ref=f14e10679]
+              - generic [ref=f14e10681]: "9.3"
+              - generic [ref=f14e10685]: TOP
+              - generic [ref=f14e10686]:
+                - generic [ref=f14e10687]: 🚀
+                - generic [ref=f14e10688]: 💥
+            - generic [ref=f14e10689]:
+              - heading "Inception" [level=3] [ref=f14e10690]
+              - paragraph [ref=f14e10691]: Christopher Nolan · 2010
+              - generic [ref=f14e10692]:
+                - generic [ref=f14e10693]:
+                  - generic [ref=f14e10694]: "8.8"
+                  - generic [ref=f14e10697]: 🍅 87%
+                - generic "قيّم الفيلم" [ref=f14e10698]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10699]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10700]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10701]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10702]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10703]: ★
+          - link "Spirited Away — 2001" [ref=f14e10704] [cursor=pointer]:
+            - /url: /pt/movies/spirited-away
+            - generic [ref=f14e10705]:
+              - img "Spirited Away" [ref=f14e10706]
+              - generic [ref=f14e10708]: "9.3"
+              - generic [ref=f14e10712]:
+                - generic [ref=f14e10713]: 🎨
+                - generic [ref=f14e10714]: 🌍
+            - generic [ref=f14e10715]:
+              - heading "Spirited Away" [level=3] [ref=f14e10716]
+              - paragraph [ref=f14e10717]: Hayao Miyazaki · 2001
+              - generic [ref=f14e10718]:
+                - generic [ref=f14e10719]:
+                  - generic [ref=f14e10720]: "8.6"
+                  - generic [ref=f14e10723]: 🍅 97%
+                - generic "قيّم الفيلم" [ref=f14e10724]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10725]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10726]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10727]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10728]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10729]: ★
+          - link "Pulp Fiction — 1994" [ref=f14e10730] [cursor=pointer]:
+            - /url: /pt/movies/pulp-fiction
+            - generic [ref=f14e10731]:
+              - img "Pulp Fiction" [ref=f14e10732]
+              - generic [ref=f14e10734]: "9.3"
+              - generic [ref=f14e10738]: TOP
+              - generic [ref=f14e10739]:
+                - generic [ref=f14e10740]: 🕵️
+                - generic [ref=f14e10741]: 🎭
+            - generic [ref=f14e10742]:
+              - heading "Pulp Fiction" [level=3] [ref=f14e10743]
+              - paragraph [ref=f14e10744]: Quentin Tarantino · 1994
+              - generic [ref=f14e10745]:
+                - generic [ref=f14e10746]:
+                  - generic [ref=f14e10747]: "8.9"
+                  - generic [ref=f14e10750]: 🍅 92%
+                - generic "قيّم الفيلم" [ref=f14e10751]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10752]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10753]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10754]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10755]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10756]: ★
+          - link "Whiplash — 2014" [ref=f14e10757] [cursor=pointer]:
+            - /url: /pt/movies/whiplash
+            - generic [ref=f14e10758]:
+              - img "Whiplash" [ref=f14e10759]
+              - generic [ref=f14e10761]: "9.3"
+              - generic [ref=f14e10765]: 🎭
+            - generic [ref=f14e10767]:
+              - heading "Whiplash" [level=3] [ref=f14e10768]
+              - paragraph [ref=f14e10769]: Damien Chazelle · 2014
+              - generic [ref=f14e10770]:
+                - generic [ref=f14e10771]:
+                  - generic [ref=f14e10772]: "8.5"
+                  - generic [ref=f14e10775]: 🍅 94%
+                - generic "قيّم الفيلم" [ref=f14e10776]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10777]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10778]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10779]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10780]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10781]: ★
+          - 'link "2001: A Space Odyssey — 1968" [ref=f14e10782] [cursor=pointer]':
+            - /url: /pt/movies/2001-a-space-odyssey
+            - generic [ref=f14e10783]:
+              - 'img "2001: A Space Odyssey" [ref=f14e10784]'
+              - generic [ref=f14e10786]: "9.3"
+              - generic [ref=f14e10790]: TOP
+              - generic [ref=f14e10791]:
+                - generic [ref=f14e10792]: 🚀
+                - generic [ref=f14e10793]: 🎭
+            - generic [ref=f14e10794]:
+              - 'heading "2001: A Space Odyssey" [level=3] [ref=f14e10795]'
+              - paragraph [ref=f14e10796]: Stanley Kubrick · 1968
+              - generic [ref=f14e10797]:
+                - generic [ref=f14e10798]:
+                  - generic [ref=f14e10799]: "8.3"
+                  - generic [ref=f14e10802]: 🍅 92%
+                - generic "قيّم الفيلم" [ref=f14e10803]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10804]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10805]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10806]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10807]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10808]: ★
+          - 'link "The Lord of the Rings: The Fellowship of the Ring — 2001" [ref=f14e10809] [cursor=pointer]':
+            - /url: /pt/movies/the-lord-of-the-rings
+            - generic [ref=f14e10810]:
+              - 'img "The Lord of the Rings: The Fellowship of the Ring" [ref=f14e10811]'
+              - generic [ref=f14e10813]: "9.3"
+              - generic [ref=f14e10817]: TOP
+              - generic [ref=f14e10818]:
+                - generic [ref=f14e10819]: 🌍
+                - generic [ref=f14e10820]: 🎭
+            - generic [ref=f14e10821]:
+              - 'heading "The Lord of the Rings: The Fellowship of the Ring" [level=3] [ref=f14e10822]'
+              - paragraph [ref=f14e10823]: Peter Jackson · 2001
+              - generic [ref=f14e10824]:
+                - generic [ref=f14e10825]:
+                  - generic [ref=f14e10826]: "8.8"
+                  - generic [ref=f14e10829]: 🍅 91%
+                - generic "قيّم الفيلم" [ref=f14e10830]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10831]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10832]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10833]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10834]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10835]: ★
+          - link "Interstellar — 2014" [ref=f14e10836] [cursor=pointer]:
+            - /url: /pt/movies/interstellar
+            - generic [ref=f14e10837]:
+              - img "Interstellar" [ref=f14e10838]
+              - generic [ref=f14e10840]: "9.2"
+              - generic [ref=f14e10844]: TOP
+              - generic [ref=f14e10845]:
+                - generic [ref=f14e10846]: 🚀
+                - generic [ref=f14e10847]: 🎭
+            - generic [ref=f14e10848]:
+              - heading "Interstellar" [level=3] [ref=f14e10849]
+              - paragraph [ref=f14e10850]: Christopher Nolan · 2014
+              - generic [ref=f14e10851]:
+                - generic [ref=f14e10852]:
+                  - generic [ref=f14e10853]: "8.7"
+                  - generic [ref=f14e10856]: 🍅 73%
+                - generic "قيّم الفيلم" [ref=f14e10857]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10858]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10859]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10860]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10861]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10862]: ★
+          - link "Fight Club — 1999" [ref=f14e10863] [cursor=pointer]:
+            - /url: /pt/movies/fight-club
+            - generic [ref=f14e10864]:
+              - img "Fight Club" [ref=f14e10865]
+              - generic [ref=f14e10867]: "9.2"
+              - generic [ref=f14e10871]:
+                - generic [ref=f14e10872]: 🎭
+                - generic [ref=f14e10873]: 🔪
+            - generic [ref=f14e10874]:
+              - heading "Fight Club" [level=3] [ref=f14e10875]
+              - paragraph [ref=f14e10876]: David Fincher · 1999
+              - generic [ref=f14e10877]:
+                - generic [ref=f14e10878]:
+                  - generic [ref=f14e10879]: "8.8"
+                  - generic [ref=f14e10882]: 🍅 79%
+                - generic "قيّم الفيلم" [ref=f14e10883]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10884]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10885]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10886]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10887]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10888]: ★
+          - link "No Country for Old Men — 2007" [ref=f14e10889] [cursor=pointer]:
+            - /url: /pt/movies/no-country-for-old-men
+            - generic [ref=f14e10890]:
+              - img "No Country for Old Men" [ref=f14e10891]
+              - generic [ref=f14e10893]: "9.2"
+              - generic [ref=f14e10897]:
+                - generic [ref=f14e10898]: 🔪
+                - generic [ref=f14e10899]: 🕵️
+            - generic [ref=f14e10900]:
+              - heading "No Country for Old Men" [level=3] [ref=f14e10901]
+              - paragraph [ref=f14e10902]: Joel & Ethan Coen · 2007
+              - generic [ref=f14e10903]:
+                - generic [ref=f14e10904]:
+                  - generic [ref=f14e10905]: "8.2"
+                  - generic [ref=f14e10908]: 🍅 93%
+                - generic "قيّم الفيلم" [ref=f14e10909]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10910]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10911]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10912]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10913]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10914]: ★
+          - link "Oppenheimer — 2023" [ref=f14e10915] [cursor=pointer]:
+            - /url: /pt/movies/oppenheimer
+            - generic [ref=f14e10916]:
+              - img "Oppenheimer" [ref=f14e10917]
+              - generic [ref=f14e10919]: "9.2"
+              - generic [ref=f14e10923]: TOP
+              - generic [ref=f14e10924]:
+                - generic [ref=f14e10925]: 🏛️
+                - generic [ref=f14e10926]: 🎭
+            - generic [ref=f14e10927]:
+              - heading "Oppenheimer" [level=3] [ref=f14e10928]
+              - paragraph [ref=f14e10929]: Christopher Nolan · 2023
+              - generic [ref=f14e10930]:
+                - generic [ref=f14e10931]:
+                  - generic [ref=f14e10932]: "8.4"
+                  - generic [ref=f14e10935]: 🍅 93%
+                - generic "قيّم الفيلم" [ref=f14e10936]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10937]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10938]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10939]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10940]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10941]: ★
+          - link "Casablanca — 1942" [ref=f14e10942] [cursor=pointer]:
+            - /url: /pt/movies/casablanca
+            - generic [ref=f14e10943]:
+              - img "Casablanca" [ref=f14e10944]
+              - generic [ref=f14e10946]: "9.2"
+              - generic [ref=f14e10950]: TOP
+              - generic [ref=f14e10951]:
+                - generic [ref=f14e10952]: 💕
+                - generic [ref=f14e10953]: 🎭
+            - generic [ref=f14e10954]:
+              - heading "Casablanca" [level=3] [ref=f14e10955]
+              - paragraph [ref=f14e10956]: Michael Curtiz · 1942
+              - generic [ref=f14e10957]:
+                - generic [ref=f14e10958]:
+                  - generic [ref=f14e10959]: "8.5"
+                  - generic [ref=f14e10962]: 🍅 99%
+                - generic "قيّم الفيلم" [ref=f14e10963]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10964]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10965]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10966]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10967]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10968]: ★
+          - link "The Silence of the Lambs — 1991" [ref=f14e10969] [cursor=pointer]:
+            - /url: /pt/movies/the-silence-of-the-lambs
+            - generic [ref=f14e10970]:
+              - img "The Silence of the Lambs" [ref=f14e10971]
+              - generic [ref=f14e10973]: "9.2"
+              - generic [ref=f14e10977]: TOP
+              - generic [ref=f14e10978]:
+                - generic [ref=f14e10979]: 🔪
+                - generic [ref=f14e10980]: 🕵️
+            - generic [ref=f14e10981]:
+              - heading "The Silence of the Lambs" [level=3] [ref=f14e10982]
+              - paragraph [ref=f14e10983]: Jonathan Demme · 1991
+              - generic [ref=f14e10984]:
+                - generic [ref=f14e10985]:
+                  - generic [ref=f14e10986]: "8.6"
+                  - generic [ref=f14e10989]: 🍅 95%
+                - generic "قيّم الفيلم" [ref=f14e10990]:
+                  - button "Rate 1 of 5 stars" [ref=f14e10991]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e10992]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e10993]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e10994]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e10995]: ★
+          - link "Life Is Beautiful — 1997" [ref=f14e10996] [cursor=pointer]:
+            - /url: /pt/movies/life-is-beautiful
+            - generic [ref=f14e10997]:
+              - img "Life Is Beautiful" [ref=f14e10998]
+              - generic [ref=f14e11000]: "9.2"
+              - generic [ref=f14e11004]: TOP
+              - generic [ref=f14e11005]:
+                - generic [ref=f14e11006]: 🎭
+                - generic [ref=f14e11007]: 😂
+            - generic [ref=f14e11008]:
+              - heading "Life Is Beautiful" [level=3] [ref=f14e11009]
+              - paragraph [ref=f14e11010]: Roberto Benigni · 1997
+              - generic [ref=f14e11011]:
+                - generic [ref=f14e11012]:
+                  - generic [ref=f14e11013]: "8.6"
+                  - generic [ref=f14e11016]: 🍅 80%
+                - generic "قيّم الفيلم" [ref=f14e11017]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11018]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11019]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11020]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11021]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11022]: ★
+          - link "Blade Runner 2049 — 2017" [ref=f14e11023] [cursor=pointer]:
+            - /url: /pt/movies/blade-runner-2049
+            - generic [ref=f14e11024]:
+              - img "Blade Runner 2049" [ref=f14e11025]
+              - generic [ref=f14e11027]: "9.2"
+              - generic [ref=f14e11031]: TOP
+              - generic [ref=f14e11032]:
+                - generic [ref=f14e11033]: 🚀
+                - generic [ref=f14e11034]: 🎭
+            - generic [ref=f14e11035]:
+              - heading "Blade Runner 2049" [level=3] [ref=f14e11036]
+              - paragraph [ref=f14e11037]: Denis Villeneuve · 2017
+              - generic [ref=f14e11038]:
+                - generic [ref=f14e11039]:
+                  - generic [ref=f14e11040]: "8"
+                  - generic [ref=f14e11043]: 🍅 88%
+                - generic "قيّم الفيلم" [ref=f14e11044]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11045]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11046]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11047]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11048]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11049]: ★
+          - link "Cinema Paradiso — 1988" [ref=f14e11050] [cursor=pointer]:
+            - /url: /pt/movies/cinema-paradiso
+            - generic [ref=f14e11051]:
+              - img "Cinema Paradiso" [ref=f14e11052]
+              - generic [ref=f14e11054]: "9.2"
+              - generic [ref=f14e11058]:
+                - generic [ref=f14e11059]: 🎭
+                - generic [ref=f14e11060]: 💕
+            - generic [ref=f14e11061]:
+              - heading "Cinema Paradiso" [level=3] [ref=f14e11062]
+              - paragraph [ref=f14e11063]: Giuseppe Tornatore · 1988
+              - generic [ref=f14e11064]:
+                - generic [ref=f14e11065]:
+                  - generic [ref=f14e11066]: "8.5"
+                  - generic [ref=f14e11069]: 🍅 89%
+                - generic "قيّم الفيلم" [ref=f14e11070]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11071]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11072]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11073]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11074]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11075]: ★
+          - 'link "Spider-Man: Into the Spider-Verse — 2018" [ref=f14e11076] [cursor=pointer]':
+            - /url: /pt/movies/spider-man-into-spider-verse
+            - generic [ref=f14e11077]:
+              - 'img "Spider-Man: Into the Spider-Verse" [ref=f14e11078]'
+              - generic [ref=f14e11080]: "9.2"
+              - generic [ref=f14e11084]: TOP
+              - generic [ref=f14e11085]:
+                - generic [ref=f14e11086]: 🎨
+                - generic [ref=f14e11087]: 💥
+            - generic [ref=f14e11088]:
+              - 'heading "Spider-Man: Into the Spider-Verse" [level=3] [ref=f14e11089]'
+              - paragraph [ref=f14e11090]: Bob Persichetti, Peter Ramsey & Rodney Rothman · 2018
+              - generic [ref=f14e11091]:
+                - generic [ref=f14e11092]:
+                  - generic [ref=f14e11093]: "8.4"
+                  - generic [ref=f14e11096]: 🍅 97%
+                - generic "قيّم الفيلم" [ref=f14e11097]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11098]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11099]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11100]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11101]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11102]: ★
+          - link "Forrest Gump — 1994" [ref=f14e11103] [cursor=pointer]:
+            - /url: /pt/movies/forrest-gump
+            - generic [ref=f14e11104]:
+              - img "Forrest Gump" [ref=f14e11105]
+              - generic [ref=f14e11107]: "9.1"
+              - generic [ref=f14e11111]:
+                - generic [ref=f14e11112]: 🎭
+                - generic [ref=f14e11113]: 💕
+            - generic [ref=f14e11114]:
+              - heading "Forrest Gump" [level=3] [ref=f14e11115]
+              - paragraph [ref=f14e11116]: Robert Zemeckis · 1994
+              - generic [ref=f14e11117]:
+                - generic [ref=f14e11118]:
+                  - generic [ref=f14e11119]: "8.8"
+                  - generic [ref=f14e11122]: 🍅 71%
+                - generic "قيّم الفيلم" [ref=f14e11123]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11124]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11125]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11126]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11127]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11128]: ★
+          - link "Lawrence of Arabia — 1962" [ref=f14e11129] [cursor=pointer]:
+            - /url: /pt/movies/lawrence-of-arabia
+            - generic [ref=f14e11130]:
+              - img "Lawrence of Arabia" [ref=f14e11131]
+              - generic [ref=f14e11133]: "9.1"
+              - generic [ref=f14e11137]:
+                - generic [ref=f14e11138]: 🏛️
+                - generic [ref=f14e11139]: 🌍
+            - generic [ref=f14e11140]:
+              - heading "Lawrence of Arabia" [level=3] [ref=f14e11141]
+              - paragraph [ref=f14e11142]: David Lean · 1962
+              - generic [ref=f14e11143]:
+                - generic [ref=f14e11144]:
+                  - generic [ref=f14e11145]: "8.3"
+                  - generic [ref=f14e11148]: 🍅 98%
+                - generic "قيّم الفيلم" [ref=f14e11149]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11150]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11151]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11152]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11153]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11154]: ★
+          - link "Saving Private Ryan — 1998" [ref=f14e11155] [cursor=pointer]:
+            - /url: /pt/movies/saving-private-ryan
+            - generic [ref=f14e11156]:
+              - img "Saving Private Ryan" [ref=f14e11157]
+              - generic [ref=f14e11159]: "9.1"
+              - generic [ref=f14e11163]:
+                - generic [ref=f14e11164]: 💥
+                - generic [ref=f14e11165]: 🎭
+            - generic [ref=f14e11166]:
+              - heading "Saving Private Ryan" [level=3] [ref=f14e11167]
+              - paragraph [ref=f14e11168]: Steven Spielberg · 1998
+              - generic [ref=f14e11169]:
+                - generic [ref=f14e11170]:
+                  - generic [ref=f14e11171]: "8.6"
+                  - generic [ref=f14e11174]: 🍅 93%
+                - generic "قيّم الفيلم" [ref=f14e11175]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11176]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11177]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11178]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11179]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11180]: ★
+          - link "Joker — 2019" [ref=f14e11181] [cursor=pointer]:
+            - /url: /pt/movies/joker-2019
+            - generic [ref=f14e11182]:
+              - img "Joker" [ref=f14e11183]
+              - generic [ref=f14e11185]: "9.1"
+              - generic [ref=f14e11189]: TOP
+              - generic [ref=f14e11190]:
+                - generic [ref=f14e11191]: 🎭
+                - generic [ref=f14e11192]: 🔪
+            - generic [ref=f14e11193]:
+              - heading "Joker" [level=3] [ref=f14e11194]
+              - paragraph [ref=f14e11195]: Todd Phillips · 2019
+              - generic [ref=f14e11196]:
+                - generic [ref=f14e11197]:
+                  - generic [ref=f14e11198]: "8.4"
+                  - generic [ref=f14e11201]: 🍅 69%
+                - generic "قيّم الفيلم" [ref=f14e11202]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11203]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11204]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11205]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11206]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11207]: ★
+          - link "Capernaum — 2018" [ref=f14e11208] [cursor=pointer]:
+            - /url: /pt/movies/capernaum
+            - generic [ref=f14e11209]:
+              - img "Capernaum" [ref=f14e11210]
+              - generic [ref=f14e11212]: "9.1"
+              - generic [ref=f14e11216]: TOP
+              - generic [ref=f14e11217]:
+                - generic [ref=f14e11218]: 🎭
+                - generic [ref=f14e11219]: 🌙
+            - generic [ref=f14e11220]:
+              - heading "Capernaum" [level=3] [ref=f14e11221]
+              - paragraph [ref=f14e11222]: Nadine Labaki · 2018
+              - generic [ref=f14e11223]:
+                - generic [ref=f14e11224]:
+                  - generic [ref=f14e11225]: "8.4"
+                  - generic [ref=f14e11228]: 🍅 89%
+                - generic "قيّم الفيلم" [ref=f14e11229]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11230]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11231]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11232]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11233]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11234]: ★
+          - link "The Pianist — 2002" [ref=f14e11235] [cursor=pointer]:
+            - /url: /pt/movies/the-pianist
+            - generic [ref=f14e11236]:
+              - img "The Pianist" [ref=f14e11237]
+              - generic [ref=f14e11239]: "9.1"
+              - generic [ref=f14e11243]:
+                - generic [ref=f14e11244]: 🎭
+                - generic [ref=f14e11245]: 🏛️
+            - generic [ref=f14e11246]:
+              - heading "The Pianist" [level=3] [ref=f14e11247]
+              - paragraph [ref=f14e11248]: Roman Polanski · 2002
+              - generic [ref=f14e11249]:
+                - generic [ref=f14e11250]:
+                  - generic [ref=f14e11251]: "8.5"
+                  - generic [ref=f14e11254]: 🍅 95%
+                - generic "قيّم الفيلم" [ref=f14e11255]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11256]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11257]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11258]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11259]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11260]: ★
+          - link "The Departed — 2006" [ref=f14e11261] [cursor=pointer]:
+            - /url: /pt/movies/the-departed
+            - generic [ref=f14e11262]:
+              - img "The Departed" [ref=f14e11263]
+              - generic [ref=f14e11265]: "9.1"
+              - generic [ref=f14e11269]: TOP
+              - generic [ref=f14e11270]:
+                - generic [ref=f14e11271]: 🕵️
+                - generic [ref=f14e11272]: 🔪
+            - generic [ref=f14e11273]:
+              - heading "The Departed" [level=3] [ref=f14e11274]
+              - paragraph [ref=f14e11275]: Martin Scorsese · 2006
+              - generic [ref=f14e11276]:
+                - generic [ref=f14e11277]:
+                  - generic [ref=f14e11278]: "8.5"
+                  - generic [ref=f14e11281]: 🍅 91%
+                - generic "قيّم الفيلم" [ref=f14e11282]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11283]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11284]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11285]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11286]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11287]: ★
+          - link "Eternal Sunshine of the Spotless Mind — 2004" [ref=f14e11288] [cursor=pointer]:
+            - /url: /pt/movies/eternal-sunshine
+            - generic [ref=f14e11289]:
+              - img "Eternal Sunshine of the Spotless Mind" [ref=f14e11290]
+              - generic [ref=f14e11292]: "9.1"
+              - generic [ref=f14e11296]:
+                - generic [ref=f14e11297]: 💕
+                - generic [ref=f14e11298]: 🚀
+            - generic [ref=f14e11299]:
+              - heading "Eternal Sunshine of the Spotless Mind" [level=3] [ref=f14e11300]
+              - paragraph [ref=f14e11301]: Michel Gondry · 2004
+              - generic [ref=f14e11302]:
+                - generic [ref=f14e11303]:
+                  - generic [ref=f14e11304]: "8.3"
+                  - generic [ref=f14e11307]: 🍅 93%
+                - generic "قيّم الفيلم" [ref=f14e11308]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11309]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11310]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11311]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11312]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11313]: ★
+          - link "WALL-E — 2008" [ref=f14e11314] [cursor=pointer]:
+            - /url: /pt/movies/wall-e
+            - generic [ref=f14e11315]:
+              - img "WALL-E" [ref=f14e11316]
+              - generic [ref=f14e11318]: "9.1"
+              - generic [ref=f14e11322]:
+                - generic [ref=f14e11323]: 🎨
+                - generic [ref=f14e11324]: 🚀
+            - generic [ref=f14e11325]:
+              - heading "WALL-E" [level=3] [ref=f14e11326]
+              - paragraph [ref=f14e11327]: Andrew Stanton · 2008
+              - generic [ref=f14e11328]:
+                - generic [ref=f14e11329]:
+                  - generic [ref=f14e11330]: "8.4"
+                  - generic [ref=f14e11333]: 🍅 95%
+                - generic "قيّم الفيلم" [ref=f14e11334]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11335]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11336]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11337]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11338]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11339]: ★
+          - link "Everything Everywhere All at Once — 2022" [ref=f14e11340] [cursor=pointer]:
+            - /url: /pt/movies/everything-everywhere
+            - generic [ref=f14e11341]:
+              - img "Everything Everywhere All at Once" [ref=f14e11342]
+              - generic [ref=f14e11344]: "9.1"
+              - generic [ref=f14e11348]: TOP
+              - generic [ref=f14e11349]:
+                - generic [ref=f14e11350]: 🚀
+                - generic [ref=f14e11351]: 💥
+            - generic [ref=f14e11352]:
+              - heading "Everything Everywhere All at Once" [level=3] [ref=f14e11353]
+              - paragraph [ref=f14e11354]: Daniel Kwan & Daniel Scheinert · 2022
+              - generic [ref=f14e11355]:
+                - generic [ref=f14e11356]:
+                  - generic [ref=f14e11357]: "7.8"
+                  - generic [ref=f14e11360]: 🍅 95%
+                - generic "قيّم الفيلم" [ref=f14e11361]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11362]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11363]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11364]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11365]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11366]: ★
+          - link "The Green Mile — 1999" [ref=f14e11367] [cursor=pointer]:
+            - /url: /pt/movies/the-green-mile
+            - generic [ref=f14e11368]:
+              - img "The Green Mile" [ref=f14e11369]
+              - generic [ref=f14e11371]: "9.1"
+              - generic [ref=f14e11375]: 🎭
+            - generic [ref=f14e11377]:
+              - heading "The Green Mile" [level=3] [ref=f14e11378]
+              - paragraph [ref=f14e11379]: Frank Darabont · 1999
+              - generic [ref=f14e11380]:
+                - generic [ref=f14e11381]:
+                  - generic [ref=f14e11382]: "8.6"
+                  - generic [ref=f14e11385]: 🍅 78%
+                - generic "قيّم الفيلم" [ref=f14e11386]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11387]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11388]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11389]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11390]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11391]: ★
+          - link "Apocalypse Now — 1979" [ref=f14e11392] [cursor=pointer]:
+            - /url: /pt/movies/apocalypse-now
+            - generic [ref=f14e11393]:
+              - img "Apocalypse Now" [ref=f14e11394]
+              - generic [ref=f14e11396]: "9.1"
+              - generic [ref=f14e11400]:
+                - generic [ref=f14e11401]: 🎭
+                - generic [ref=f14e11402]: 💥
+            - generic [ref=f14e11403]:
+              - heading "Apocalypse Now" [level=3] [ref=f14e11404]
+              - paragraph [ref=f14e11405]: Francis Ford Coppola · 1979
+              - generic [ref=f14e11406]:
+                - generic [ref=f14e11407]:
+                  - generic [ref=f14e11408]: "8.4"
+                  - generic [ref=f14e11411]: 🍅 96%
+                - generic "قيّم الفيلم" [ref=f14e11412]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11413]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11414]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11415]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11416]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11417]: ★
+          - link "Past Lives — 2023" [ref=f14e11418] [cursor=pointer]:
+            - /url: /pt/movies/past-lives
+            - generic [ref=f14e11419]:
+              - img "Past Lives" [ref=f14e11420]
+              - generic [ref=f14e11422]: "9.1"
+              - generic [ref=f14e11426]:
+                - generic [ref=f14e11427]: 💕
+                - generic [ref=f14e11428]: 🎭
+            - generic [ref=f14e11429]:
+              - heading "Past Lives" [level=3] [ref=f14e11430]
+              - paragraph [ref=f14e11431]: Celine Song · 2023
+              - generic [ref=f14e11432]:
+                - generic [ref=f14e11433]:
+                  - generic [ref=f14e11434]: "7.9"
+                  - generic [ref=f14e11437]: 🍅 98%
+                - generic "قيّم الفيلم" [ref=f14e11438]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11439]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11440]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11441]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11442]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11443]: ★
+          - link "The Message — 1976" [ref=f14e11444] [cursor=pointer]:
+            - /url: /pt/movies/the-message
+            - generic [ref=f14e11445]:
+              - img "The Message" [ref=f14e11446]
+              - generic [ref=f14e11448]: "9.0"
+              - generic [ref=f14e11452]: TOP
+              - generic [ref=f14e11453]:
+                - generic [ref=f14e11454]: 🏛️
+                - generic [ref=f14e11455]: 🎭
+            - generic [ref=f14e11456]:
+              - heading "The Message" [level=3] [ref=f14e11457]
+              - paragraph [ref=f14e11458]: Moustapha Akkad · 1976
+              - generic [ref=f14e11459]:
+                - generic [ref=f14e11460]:
+                  - generic [ref=f14e11461]: "8.2"
+                  - generic [ref=f14e11464]: 🍅 85%
+                - generic "قيّم الفيلم" [ref=f14e11465]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11466]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11467]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11468]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11469]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11470]: ★
+          - link "The Matrix — 1999" [ref=f14e11471] [cursor=pointer]:
+            - /url: /pt/movies/the-matrix
+            - generic [ref=f14e11472]:
+              - img "The Matrix" [ref=f14e11473]
+              - generic [ref=f14e11475]: "9.0"
+              - generic [ref=f14e11479]:
+                - generic [ref=f14e11480]: 🚀
+                - generic [ref=f14e11481]: 💥
+            - generic [ref=f14e11482]:
+              - heading "The Matrix" [level=3] [ref=f14e11483]
+              - paragraph [ref=f14e11484]: The Wachowskis · 1999
+              - generic [ref=f14e11485]:
+                - generic [ref=f14e11486]:
+                  - generic [ref=f14e11487]: "8.7"
+                  - generic [ref=f14e11490]: 🍅 88%
+                - generic "قيّم الفيلم" [ref=f14e11491]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11492]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11493]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11494]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11495]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11496]: ★
+          - link "Gladiator — 2000" [ref=f14e11497] [cursor=pointer]:
+            - /url: /pt/movies/gladiator
+            - generic [ref=f14e11498]:
+              - img "Gladiator" [ref=f14e11499]
+              - generic [ref=f14e11501]: "9.0"
+              - generic [ref=f14e11505]:
+                - generic [ref=f14e11506]: 💥
+                - generic [ref=f14e11507]: 🎭
+            - generic [ref=f14e11508]:
+              - heading "Gladiator" [level=3] [ref=f14e11509]
+              - paragraph [ref=f14e11510]: Ridley Scott · 2000
+              - generic [ref=f14e11511]:
+                - generic [ref=f14e11512]:
+                  - generic [ref=f14e11513]: "8.5"
+                  - generic [ref=f14e11516]: 🍅 78%
+                - generic "قيّم الفيلم" [ref=f14e11517]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11518]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11519]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11520]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11521]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11522]: ★
+          - 'link "Dune: Part Two — 2024" [ref=f14e11523] [cursor=pointer]':
+            - /url: /pt/movies/dune-part-two
+            - generic [ref=f14e11524]:
+              - 'img "Dune: Part Two" [ref=f14e11525]'
+              - generic [ref=f14e11527]: "9.0"
+              - generic [ref=f14e11531]: TOP
+              - generic [ref=f14e11532]:
+                - generic [ref=f14e11533]: 🚀
+                - generic [ref=f14e11534]: 💥
+            - generic [ref=f14e11535]:
+              - 'heading "Dune: Part Two" [level=3] [ref=f14e11536]'
+              - paragraph [ref=f14e11537]: Denis Villeneuve · 2024
+              - generic [ref=f14e11538]:
+                - generic [ref=f14e11539]:
+                  - generic [ref=f14e11540]: "8.5"
+                  - generic [ref=f14e11543]: 🍅 93%
+                - generic "قيّم الفيلم" [ref=f14e11544]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11545]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11546]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11547]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11548]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11549]: ★
+          - link "The Yacoubian Building — 2006" [ref=f14e11550] [cursor=pointer]:
+            - /url: /pt/movies/yacoubian-building
+            - generic [ref=f14e11551]:
+              - img "The Yacoubian Building" [ref=f14e11552]
+              - generic [ref=f14e11554]: "9.0"
+              - generic [ref=f14e11558]:
+                - generic [ref=f14e11559]: 🎭
+                - generic [ref=f14e11560]: 🌙
+            - generic [ref=f14e11561]:
+              - heading "The Yacoubian Building" [level=3] [ref=f14e11562]
+              - paragraph [ref=f14e11563]: Marwan Hamed · 2006
+              - generic [ref=f14e11564]:
+                - generic [ref=f14e11565]:
+                  - generic [ref=f14e11566]: "7.4"
+                  - generic [ref=f14e11569]: 🍅 88%
+                - generic "قيّم الفيلم" [ref=f14e11570]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11571]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11572]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11573]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11574]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11575]: ★
+          - link "1917 — 2019" [ref=f14e11576] [cursor=pointer]:
+            - /url: /pt/movies/1917
+            - generic [ref=f14e11577]:
+              - img "1917" [ref=f14e11578]
+              - generic [ref=f14e11580]: "9.0"
+              - generic [ref=f14e11584]:
+                - generic [ref=f14e11585]: 💥
+                - generic [ref=f14e11586]: 🏛️
+            - generic [ref=f14e11587]:
+              - heading "1917" [level=3] [ref=f14e11588]
+              - paragraph [ref=f14e11589]: Sam Mendes · 2019
+              - generic [ref=f14e11590]:
+                - generic [ref=f14e11591]:
+                  - generic [ref=f14e11592]: "8.3"
+                  - generic [ref=f14e11595]: 🍅 88%
+                - generic "قيّم الفيلم" [ref=f14e11596]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11597]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11598]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11599]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11600]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11601]: ★
+          - link "Good Will Hunting — 1997" [ref=f14e11602] [cursor=pointer]:
+            - /url: /pt/movies/good-will-hunting
+            - generic [ref=f14e11603]:
+              - img "Good Will Hunting" [ref=f14e11604]
+              - generic [ref=f14e11606]: "9.0"
+              - generic [ref=f14e11610]: 🎭
+            - generic [ref=f14e11612]:
+              - heading "Good Will Hunting" [level=3] [ref=f14e11613]
+              - paragraph [ref=f14e11614]: Gus Van Sant · 1997
+              - generic [ref=f14e11615]:
+                - generic [ref=f14e11616]:
+                  - generic [ref=f14e11617]: "8.3"
+                  - generic [ref=f14e11620]: 🍅 97%
+                - generic "قيّم الفيلم" [ref=f14e11621]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11622]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11623]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11624]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11625]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11626]: ★
+          - link "Se7en — 1995" [ref=f14e11627] [cursor=pointer]:
+            - /url: /pt/movies/se7en
+            - generic [ref=f14e11628]:
+              - img "Se7en" [ref=f14e11629]
+              - generic [ref=f14e11631]: "9.0"
+              - generic [ref=f14e11635]:
+                - generic [ref=f14e11636]: 🔪
+                - generic [ref=f14e11637]: 🕵️
+            - generic [ref=f14e11638]:
+              - heading "Se7en" [level=3] [ref=f14e11639]
+              - paragraph [ref=f14e11640]: David Fincher · 1995
+              - generic [ref=f14e11641]:
+                - generic [ref=f14e11642]:
+                  - generic [ref=f14e11643]: "8.6"
+                  - generic [ref=f14e11646]: 🍅 82%
+                - generic "قيّم الفيلم" [ref=f14e11647]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11648]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11649]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11650]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11651]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11652]: ★
+          - 'link "Leon: The Professional — 1994" [ref=f14e11653] [cursor=pointer]':
+            - /url: /pt/movies/leon-the-professional
+            - generic [ref=f14e11654]:
+              - 'img "Leon: The Professional" [ref=f14e11655]'
+              - generic [ref=f14e11657]: "9.0"
+              - generic [ref=f14e11661]:
+                - generic [ref=f14e11662]: 💥
+                - generic [ref=f14e11663]: 🔪
+            - generic [ref=f14e11664]:
+              - 'heading "Leon: The Professional" [level=3] [ref=f14e11665]'
+              - paragraph [ref=f14e11666]: Luc Besson · 1994
+              - generic [ref=f14e11667]:
+                - generic [ref=f14e11668]:
+                  - generic [ref=f14e11669]: "8.5"
+                  - generic [ref=f14e11672]: 🍅 72%
+                - generic "قيّم الفيلم" [ref=f14e11673]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11674]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11675]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11676]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11677]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11678]: ★
+          - link "The Lion King — 1994" [ref=f14e11679] [cursor=pointer]:
+            - /url: /pt/movies/the-lion-king
+            - generic [ref=f14e11680]:
+              - img "The Lion King" [ref=f14e11681]
+              - generic [ref=f14e11683]: "9.0"
+              - generic [ref=f14e11687]: TOP
+              - generic [ref=f14e11688]:
+                - generic [ref=f14e11689]: 🎨
+                - generic [ref=f14e11690]: 🌍
+            - generic [ref=f14e11691]:
+              - heading "The Lion King" [level=3] [ref=f14e11692]
+              - paragraph [ref=f14e11693]: Roger Allers & Rob Minkoff · 1994
+              - generic [ref=f14e11694]:
+                - generic [ref=f14e11695]:
+                  - generic [ref=f14e11696]: "8.5"
+                  - generic [ref=f14e11699]: 🍅 93%
+                - generic "قيّم الفيلم" [ref=f14e11700]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11701]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11702]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11703]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11704]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11705]: ★
+          - link "Toy Story — 1995" [ref=f14e11706] [cursor=pointer]:
+            - /url: /pt/movies/toy-story
+            - generic [ref=f14e11707]:
+              - img "Toy Story" [ref=f14e11708]
+              - generic [ref=f14e11710]: "9.0"
+              - generic [ref=f14e11714]:
+                - generic [ref=f14e11715]: 🎨
+                - generic [ref=f14e11716]: 😂
+            - generic [ref=f14e11717]:
+              - heading "Toy Story" [level=3] [ref=f14e11718]
+              - paragraph [ref=f14e11719]: John Lasseter · 1995
+              - generic [ref=f14e11720]:
+                - generic [ref=f14e11721]:
+                  - generic [ref=f14e11722]: "8.3"
+                  - generic [ref=f14e11725]: 🍅 100%
+                - generic "قيّم الفيلم" [ref=f14e11726]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11727]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11728]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11729]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11730]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11731]: ★
+          - link "Amadeus — 1984" [ref=f14e11732] [cursor=pointer]:
+            - /url: /pt/movies/amadeus
+            - generic [ref=f14e11733]:
+              - img "Amadeus" [ref=f14e11734]
+              - generic [ref=f14e11736]: "9.0"
+              - generic [ref=f14e11740]:
+                - generic [ref=f14e11741]: 🎭
+                - generic [ref=f14e11742]: 🏛️
+            - generic [ref=f14e11743]:
+              - heading "Amadeus" [level=3] [ref=f14e11744]
+              - paragraph [ref=f14e11745]: Milos Forman · 1984
+              - generic [ref=f14e11746]:
+                - generic [ref=f14e11747]:
+                  - generic [ref=f14e11748]: "8.4"
+                  - generic [ref=f14e11751]: 🍅 93%
+                - generic "قيّم الفيلم" [ref=f14e11752]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11753]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11754]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11755]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11756]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11757]: ★
+          - link "The Social Network — 2010" [ref=f14e11758] [cursor=pointer]:
+            - /url: /pt/movies/the-social-network
+            - generic [ref=f14e11759]:
+              - img "The Social Network" [ref=f14e11760]
+              - generic [ref=f14e11762]: "9.0"
+              - generic [ref=f14e11766]:
+                - generic [ref=f14e11767]: 🎭
+                - generic [ref=f14e11768]: 🔪
+            - generic [ref=f14e11769]:
+              - heading "The Social Network" [level=3] [ref=f14e11770]
+              - paragraph [ref=f14e11771]: David Fincher · 2010
+              - generic [ref=f14e11772]:
+                - generic [ref=f14e11773]:
+                  - generic [ref=f14e11774]: "7.7"
+                  - generic [ref=f14e11777]: 🍅 96%
+                - generic "قيّم الفيلم" [ref=f14e11778]:
+                  - button "Rate 1 of 5 stars" [ref=f14e11779]: ★
+                  - button "Rate 2 of 5 stars" [ref=f14e11780]: ★
+                  - button "Rate 3 of 5 stars" [ref=f14e11781]: ★
+                  - button "Rate 4 of 5 stars" [ref=f14e11782]: ★
+                  - button "Rate 5 of 5 stars" [ref=f14e11783]: ★
+        - insertion [ref=f14e11785]
+        - generic [ref=f14e11787]:
+          - link "‹":
+            - /url: "#"
+          - link "1" [ref=f14e11788] [cursor=pointer]:
+            - /url: /pt/movies
+          - link "2" [ref=f14e11789] [cursor=pointer]:
+            - /url: /pt/movies?page=2
+          - link "3" [ref=f14e11790] [cursor=pointer]:
+            - /url: /pt/movies?page=3
+          - link "4" [ref=f14e11791] [cursor=pointer]:
+            - /url: /pt/movies?page=4
+          - link "5" [ref=f14e11792] [cursor=pointer]:
+            - /url: /pt/movies?page=5
+          - link "6" [ref=f14e11793] [cursor=pointer]:
+            - /url: /pt/movies?page=6
+          - link "7" [ref=f14e11794] [cursor=pointer]:
+            - /url: /pt/movies?page=7
+          - link "›" [ref=f14e11795] [cursor=pointer]:
+            - /url: /pt/movies?page=2
+        - paragraph [ref=f14e11796]: Page 1 of 40
+    - contentinfo [ref=f14e11797]:
+      - generic [ref=f14e11799]:
+        - generic [ref=f14e11800]:
+          - generic [ref=f14e11801]: 📧
+          - heading "Assine a newsletter semanal" [level=3] [ref=f14e11802]
+          - paragraph [ref=f14e11803]: Top 5 filmes toda semana — direto na sua caixa
+        - generic [ref=f14e11804]:
+          - textbox "Seu endereço de e-mail" [ref=f14e11805]
+          - button "Assinar grátis" [ref=f14e11806]
+      - generic [ref=f14e11809]:
+        - generic [ref=f14e11810]:
+          - generic [ref=f14e11811]: 🎬
+          - generic [ref=f14e11812]:
+            - paragraph [ref=f14e11813]: CineReview
+            - paragraph [ref=f14e11814]: As Críticas de Cinema Mais Profundas
+        - generic [ref=f14e11815]:
+          - link "Início" [ref=f14e11816] [cursor=pointer]:
+            - /url: /pt
+          - link "Filmes" [ref=f14e11817] [cursor=pointer]:
+            - /url: /pt/movies
+          - link "Mais Bem Avaliados" [ref=f14e11818] [cursor=pointer]:
+            - /url: /pt/top-rated
+          - link "Blog" [ref=f14e11819] [cursor=pointer]:
+            - /url: /pt/blog
+          - link "About" [ref=f14e11820] [cursor=pointer]:
+            - /url: /pt/about
+          - link "Privacy" [ref=f14e11821] [cursor=pointer]:
+            - /url: /pt/privacy
+        - generic [ref=f14e11822]:
+          - paragraph [ref=f14e11823]: © 2026 CineReview · Todos os direitos reservados
+          - paragraph [ref=f14e11824]: As avaliações são baseadas em análise profissional aprofundada

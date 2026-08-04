@@ -1,0 +1,49 @@
+- generic [active] [ref=f91e1]:
+  - generic [ref=f91e3]:
+    - generic [ref=f91e4]:
+      - generic [ref=f91e6]:
+        - generic [ref=f91e7]: جارٍ التحميل
+        - progressbar [ref=f91e8]
+      - main [ref=f91e15]:
+        - generic [ref=f91e16]:
+          - generic [ref=f91e17]: تسجيل الدخول باستخدام Google
+          - generic [ref=f91e27]:
+            - heading "اختيار حساب" [level=1] [ref=f91e28]
+            - generic [ref=f91e30]:
+              - text: المتابعة إلى
+              - button "impact.com" [ref=f91e31] [cursor=pointer]
+        - generic [ref=f91e34]:
+          - list [ref=f91e42]:
+            - listitem [ref=f91e43]:
+              - link "Dark age M m.hmo_ode@hotmail.com" [ref=f91e44] [cursor=pointer]:
+                - generic [ref=f91e48]:
+                  - generic [ref=f91e49]: Dark age M
+                  - generic [ref=f91e50]: m.hmo_ode@hotmail.com
+            - listitem [ref=f91e51]:
+              - link "استخدام حساب آخر" [ref=f91e52] [cursor=pointer]
+          - generic [ref=f91e61]:
+            - text: قبل استخدام هذا التطبيق، يمكنك مراجعة
+            - link "سياسة الخصوصية" [ref=f91e62] [cursor=pointer]:
+              - /url: https://impact.com/privacy-policy/
+            - text: و
+            - link "بنود الخدمة" [ref=f91e63] [cursor=pointer]:
+              - /url: https://impact.com/terms-of-use/
+            - text: في impact.com.
+    - contentinfo [ref=f91e68]:
+      - combobox "تغيير اللغة العربية" [ref=f91e72] [cursor=pointer]:
+        - generic: العربية
+      - list [ref=f91e74]:
+        - listitem [ref=f91e75]:
+          - link "فتح مركز المساعدة الخاص بحسابات Google (رابط خارجي يفتح في نافذة جديدة)" [ref=f91e76] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=ar&p=account_iph
+            - text: المساعدة
+        - listitem [ref=f91e77]:
+          - link "سياسة الخصوصية (رابط خارجي يفتح في نافذة جديدة)" [ref=f91e78] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=SA&hl=ar&privacy=true
+            - text: الخصوصية
+        - listitem [ref=f91e79]:
+          - link "بنود خدمة Google (رابط خارجي يفتح في نافذة جديدة)" [ref=f91e80] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=SA&hl=ar
+            - text: البنود
+  - iframe [ref=f91e81]:
+    

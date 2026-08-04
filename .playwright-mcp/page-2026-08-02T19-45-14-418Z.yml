@@ -1,0 +1,35 @@
+- generic [active] [ref=f160e1]:
+  - alert [ref=f160e2]
+  - generic [ref=f160e13]:
+    - banner [ref=f160e14]:
+      - heading "Welcome back" [level=1] [ref=f160e15]
+    - generic [ref=f160e16]:
+      - button "Google Sign in with Google" [ref=f160e18] [cursor=pointer]:
+        - img "Google" [ref=f160e20]
+        - generic [ref=f160e26]: Sign in with Google
+      - button "Apple Sign in with Apple" [ref=f160e28] [cursor=pointer]:
+        - img "Apple" [ref=f160e31]
+        - generic [ref=f160e33]: Sign in with Apple
+      - generic [ref=f160e34]:
+        - generic: Sign in with SSO
+        - link "Sign in with SSO" [ref=f160e36] [cursor=pointer]:
+          - /url: /app/sso
+    - generic [ref=f160e41]:
+      - generic [ref=f160e42]:
+        - generic [ref=f160e43] [cursor=pointer]: Email
+        - textbox [ref=f160e45]
+      - generic [ref=f160e48]:
+        - generic [ref=f160e49] [cursor=pointer]: Password
+        - generic [ref=f160e50]:
+          - textbox [ref=f160e51]
+          - button [ref=f160e52] [cursor=pointer]
+        - generic [ref=f160e56]: Forgot your password?
+      - generic [ref=f160e57]:
+        - generic: Sign in
+        - button "Sign in" [disabled] [ref=f160e59]
+    - contentinfo [ref=f160e61]:
+      - text: Don't have an account?
+      - generic [ref=f160e62]: Sign up
+  - status [ref=f160e63]
+  - iframe [ref=f160e64]:
+    

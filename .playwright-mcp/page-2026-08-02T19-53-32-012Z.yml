@@ -1,0 +1,19 @@
+- generic [ref=f227e9]:
+  - textbox "Username/Email" [active] [ref=f227e10]
+  - textbox "Password" [ref=f227e11]
+  - button "Sign In" [ref=f227e12] [cursor=pointer]
+  - link "Forgot Password or Username?" [ref=f227e14] [cursor=pointer]:
+    - /url: /blc/Grammarly-Creator/password/forgot.brand
+  - generic [ref=f227e15]:
+    - text: No Account?
+    - link "Sign up" [ref=f227e16] [cursor=pointer]:
+      - /url: https://app.impact.com/campaign-campaign-info-v2/Grammarly-Creator.brand
+  - table [ref=f227e17]:
+    - row [ref=f227e18]:
+      - cell [ref=f227e19]:
+        - generic: or
+        - button "apple" [ref=f227e20] [cursor=pointer]
+        - button "facebook" [ref=f227e23] [cursor=pointer]
+        - button "linkedin" [ref=f227e26] [cursor=pointer]
+        - button "x" [ref=f227e29] [cursor=pointer]
+        - button "google" [ref=f227e32] [cursor=pointer]

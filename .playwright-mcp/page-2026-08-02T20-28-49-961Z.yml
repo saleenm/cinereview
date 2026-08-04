@@ -1,0 +1,14 @@
+- generic [active] [ref=f80e1]:
+  - button "تفضيلات ملفات تعريف الارتباط" [ref=f80e56] [cursor=pointer]:
+    - img "تفضيلات ملفات تعريف الارتباط" [ref=f80e57]
+  - generic [ref=f80e64]:
+    - banner [ref=f80e66]:
+      - button [ref=f80e81] [cursor=pointer]
+    - generic [ref=f80e86]:
+      - generic [ref=f80e87]: Contract Terms for Semrush
+      - generic [ref=f80e89]:
+        - iframe [ref=f80e91]
+        - paragraph [ref=f80e93]:
+          - checkbox [checked] [ref=f80e94]
+          - text: I have read and accepted Semrush's offer
+        - button "Continue" [ref=f80e98] [cursor=pointer]
