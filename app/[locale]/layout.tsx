@@ -5,6 +5,7 @@ import { RTL_LOCALES } from '@/lib/types'
 import PageTransition from '@/components/PageTransition'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import CustomCursor from '@/components/CustomCursor'
 
 const cairo = Cairo({
   subsets: ['arabic', 'latin'],
@@ -93,6 +94,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         </NextIntlClientProvider>
         <Analytics />
         <SpeedInsights />
+        <CustomCursor />
       </body>
     </html>
   )
