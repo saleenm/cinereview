@@ -11,7 +11,7 @@
  */
 
 export const AFFILIATE_IDS = {
-  nordvpn:    'YOUR_NORDVPN_ID',      // Replace after signup
+  nordvpn:    'ACTIVE',               // impact.com approved — using direct link
   surfshark:  'YOUR_SURFSHARK_ID',    // Replace after signup
   expressvpn: 'YOUR_EXPRESSVPN_ID',  // Replace after signup
   amazon:     'cinereview-20',        // Your existing tag
@@ -31,10 +31,7 @@ export const VPN_OFFERS = [
     price_ar: 'من $2.99 / شهر',
     price_en: 'From $2.99/mo',
     color: '#4687FF',
-    getUrl: () =>
-      AFFILIATE_IDS.nordvpn !== 'YOUR_NORDVPN_ID'
-        ? `https://go.nordvpn.net/aff_c?offer_id=15&aff_id=${AFFILIATE_IDS.nordvpn}&${UTM}&utm_campaign=vpn`
-        : `https://nordvpn.com/?${UTM}&utm_campaign=vpn`,
+    getUrl: () => `https://nordvpn.sjv.io/c/7544129/417838/7452`,
   },
   {
     id: 'surfshark',

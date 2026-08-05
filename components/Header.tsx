@@ -6,7 +6,6 @@ import { usePathname, useRouter } from 'next/navigation'
 import { useState } from 'react'
 import { LOCALE_NAMES } from '@/lib/types'
 import SearchBar from './SearchBar'
-import ThemeToggle from './ThemeToggle'
 import UserMenu from './UserMenu'
 
 interface Props { locale: string }
@@ -35,8 +34,7 @@ export default function Header({ locale }: Props) {
   const switchLocale = (newLocale: string) => {
     const segments = pathname.split('/')
     segments[1] = newLocale
-    router.push(segments.join('/'))
-    setLangOpen(false)
+    window.location.href = segments.join('/')
   }
 
   const isActive = (href: string) =>
@@ -157,7 +155,6 @@ export default function Header({ locale }: Props) {
           </div>
 
           <UserMenu locale={locale} />
-          <ThemeToggle />
 
           {/* Mobile menu toggle */}
           <button onClick={() => setMenuOpen(!menuOpen)}
