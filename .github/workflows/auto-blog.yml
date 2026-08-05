@@ -47,9 +47,4 @@ jobs:
             git push
           fi
 
-      - name: Deploy to Vercel
-        continue-on-error: true
-        run: npx vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
-        env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      # Vercel auto-deploys via GitHub integration — no manual deploy needed

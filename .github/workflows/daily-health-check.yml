@@ -20,21 +20,21 @@ jobs:
 
       - name: Check site is up
         run: |
-          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://cinereview-mu.vercel.app)
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" -L --max-redirs 5 https://cinereview-mu.vercel.app/ar)
           echo "Site status: $STATUS"
-          if [ "$STATUS" != "200" ]; then
+          if [ "$STATUS" = "200" ] || [ "$STATUS" = "304" ]; then
+            echo "✅ Site is up"
+          else
             echo "❌ SITE DOWN — HTTP $STATUS"
             exit 1
-          else
-            echo "✅ Site is up"
           fi
 
       - name: Check key pages
         run: |
-          for path in "/" "/ar" "/en" "/ar/movies" "/ar/blog"; do
-            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://cinereview-mu.vercel.app$path")
+          for path in "/ar" "/en" "/ar/movies" "/ar/blog" "/ar/top-rated"; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" -L --max-redirs 5 "https://cinereview-mu.vercel.app$path")
             echo "  $path → $STATUS"
-            if [ "$STATUS" = "404" ] || [ "$STATUS" = "500" ]; then
+            if [ "$STATUS" = "404" ] || [ "$STATUS" = "500" ] || [ "$STATUS" = "000" ]; then
               echo "❌ ERROR on $path: $STATUS"
               exit 1
             fi
