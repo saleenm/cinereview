@@ -31,7 +31,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     alternates: {
       canonical: `${BASE}/${locale}/top-rated`,
-      languages: Object.fromEntries(LANGS.map((l) => [l, `${BASE}/${l}/top-rated`])),
+      languages: {
+        ...Object.fromEntries(LANGS.map((l) => [l, `${BASE}/${l}/top-rated`])),
+        'x-default': `${BASE}/ar/top-rated`,
+      },
     },
     openGraph: { title, description, url: `${BASE}/${locale}/top-rated`, siteName: 'CineReview' },
   }

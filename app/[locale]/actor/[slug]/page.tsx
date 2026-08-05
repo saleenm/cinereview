@@ -20,14 +20,22 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params
+  const { locale, slug } = await params
   const actor = getActorBySlug(slug)
   if (!actor) return {}
+  const BASE = 'https://cinereview-mu.vercel.app'
   const title = `${actor.name} — ${actor.movies.length} Films`
   const topPoster = actor.movies[0]?.poster_url
   return {
     title,
     description: `All movies starring ${actor.name} — ratings and reviews on CineReview`,
+    alternates: {
+      canonical: `${BASE}/${locale}/actor/${slug}`,
+      languages: {
+        ...Object.fromEntries(['ar','en','fr','es','tr','de','ja','pt'].map((l) => [l, `${BASE}/${l}/actor/${slug}`])),
+        'x-default': `${BASE}/ar/actor/${slug}`,
+      },
+    },
     openGraph: {
       title,
       type: 'profile',

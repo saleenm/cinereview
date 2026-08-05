@@ -38,7 +38,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     alternates: {
       canonical: `${BASE}/${locale}`,
-      languages: Object.fromEntries(['ar','en','fr','es','tr','de','ja','pt'].map((l) => [l, `${BASE}/${l}`])),
+      languages: {
+        ...Object.fromEntries(['ar','en','fr','es','tr','de','ja','pt'].map((l) => [l, `${BASE}/${l}`])),
+        'x-default': `${BASE}/ar`,
+      },
     },
     openGraph: { title, description, url: `${BASE}/${locale}`, siteName: 'CineReview', images: [{ url: ogImage, width: 1280, height: 720, alt: title }], type: 'website' },
     twitter: { card: 'summary_large_image', title, description, images: [ogImage] },

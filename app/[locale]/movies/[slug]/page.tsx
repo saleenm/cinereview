@@ -36,9 +36,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: desc,
     alternates: {
       canonical: `${BASE}/${locale}/movies/${slug}`,
-      languages: Object.fromEntries(
-        ['ar', 'en', 'fr', 'es', 'tr', 'de', 'ja', 'pt'].map((l) => [l, `${BASE}/${l}/movies/${slug}`])
-      ),
+      languages: {
+        ...Object.fromEntries(
+          ['ar', 'en', 'fr', 'es', 'tr', 'de', 'ja', 'pt'].map((l) => [l, `${BASE}/${l}/movies/${slug}`])
+        ),
+        'x-default': `${BASE}/ar/movies/${slug}`,
+      },
     },
     keywords: [
       movie.title, movie.title_ar, movie.director,

@@ -10,15 +10,18 @@ import AdUnit from '@/components/AdUnit'
 
 const BASE = 'https://cinereview-mu.vercel.app'
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: { params: Promise<{ locale: string }>; searchParams: Promise<{ genre?: string; sort?: string; decade?: string; rating?: string; lang?: string; page?: string }> }): Promise<Metadata> {
   const { locale } = await params
+  const sp = await searchParams
   const isAr = locale === 'ar'
   const top = getMovies({ sort: 'rating', limit: 1 })[0]
   const ogImage = top?.backdrop_url || `${BASE}/logos/icon-512.png`
   const title = isAr ? 'جميع الأفلام | سينيريفيو' : 'All Movies | CineReview'
   const description = isAr ? 'تصفّح 1000+ فيلم مع فلاتر النوع والتقييم والعقد الزمني' : 'Browse 1000+ movies with genre, rating, and decade filters'
+  const hasFilters = !!(sp.genre || sp.decade || sp.lang || sp.rating || (sp.sort && sp.sort !== 'rating') || (sp.page && parseInt(sp.page) > 1))
   return {
     title, description,
+    robots: hasFilters ? { index: false, follow: true } : { index: true, follow: true },
     alternates: { canonical: `${BASE}/${locale}/movies` },
     openGraph: { title, description, images: [{ url: ogImage, width: 1280, height: 720 }], siteName: 'CineReview' },
     twitter: { card: 'summary_large_image', title, images: [ogImage] },

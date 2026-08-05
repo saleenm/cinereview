@@ -107,7 +107,8 @@ export default async function ActorsPage({ params }: Props) {
               )
             })}
           </div>
-        <AdUnit slot="9876543210" format="horizontal" className="mt-8 rounded-xl overflow-hidden" />
+          <AdUnit slot="9876543210" format="horizontal" className="mt-8 rounded-xl overflow-hidden" />
+        </div>
       </main>
       <Footer locale={locale} />
     </>
