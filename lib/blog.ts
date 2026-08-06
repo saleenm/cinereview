@@ -2412,6 +2412,64 @@ Some of these films may be geo-blocked in your region — a **VPN solves it inst
       },
     },
   },
+
+  {
+    slug: 'amadeus-legacy-impact-2026-08',
+    date: '2026-08-06',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/rGsXb3sgxNEoLeWCJqYTbNSu0bC.jpg',
+    movieSlug: 'amadeus',
+    i18n: {
+      ar: {
+        title: 'أماديوس: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم أماديوس (1984) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## أماديوس — تحفة سينمائية\n\n**المخرج:** Milos Forman\n**السنة:** 1984\n**التقييم:** 9/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **أماديوس** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Milos Forman كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Milos Forman أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **أماديوس** مكانته بين أبرز أفلام **1984**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Amadeus: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amadeus (1984) by Milos Forman — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Amadeus — A Cinematic Masterpiece\n\n**Director:** Milos Forman\n**Year:** 1984\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amadeus** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Milos Forman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMilos Forman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amadeus** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Amadeus: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amadeus (1984) by Milos Forman — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Amadeus — A Cinematic Masterpiece\n\n**Director:** Milos Forman\n**Year:** 1984\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amadeus** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Milos Forman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMilos Forman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amadeus** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Amadeus: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amadeus (1984) by Milos Forman — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Amadeus — A Cinematic Masterpiece\n\n**Director:** Milos Forman\n**Year:** 1984\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amadeus** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Milos Forman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMilos Forman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amadeus** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Amadeus: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amadeus (1984) by Milos Forman — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Amadeus — A Cinematic Masterpiece\n\n**Director:** Milos Forman\n**Year:** 1984\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amadeus** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Milos Forman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMilos Forman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amadeus** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Amadeus: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amadeus (1984) by Milos Forman — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Amadeus — A Cinematic Masterpiece\n\n**Director:** Milos Forman\n**Year:** 1984\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amadeus** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Milos Forman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMilos Forman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amadeus** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Amadeus: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amadeus (1984) by Milos Forman — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Amadeus — A Cinematic Masterpiece\n\n**Director:** Milos Forman\n**Year:** 1984\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amadeus** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Milos Forman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMilos Forman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amadeus** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Amadeus: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Amadeus (1984) by Milos Forman — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Amadeus — A Cinematic Masterpiece\n\n**Director:** Milos Forman\n**Year:** 1984\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Amadeus** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Milos Forman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMilos Forman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Amadeus** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
