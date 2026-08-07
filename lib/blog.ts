@@ -1958,6 +1958,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'killers-of-flower-moon-hidden-meanings-2026-08',
+    date: '2026-08-07',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/1X7vow16X7CnCoexXh4H4F2yDJv.jpg',
+    movieSlug: 'killers-of-flower-moon',
+    i18n: {
+      ar: {
+        title: 'قتلة قمر الزهور: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم قتلة قمر الزهور (2023) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## قتلة قمر الزهور — تحفة سينمائية\n\n**المخرج:** Martin Scorsese\n**السنة:** 2023\n**التقييم:** 9/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **قتلة قمر الزهور** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Martin Scorsese كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Martin Scorsese أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **قتلة قمر الزهور** مكانته بين أبرز أفلام **2023**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Killers of the Flower Moon: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Killers of the Flower Moon (2023) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Killers of the Flower Moon — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2023\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Killers of the Flower Moon** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Killers of the Flower Moon** rightfully earns its place among the defining films of **2023**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Killers of the Flower Moon: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Killers of the Flower Moon (2023) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Killers of the Flower Moon — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2023\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Killers of the Flower Moon** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Killers of the Flower Moon** rightfully earns its place among the defining films of **2023**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Killers of the Flower Moon: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Killers of the Flower Moon (2023) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Killers of the Flower Moon — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2023\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Killers of the Flower Moon** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Killers of the Flower Moon** rightfully earns its place among the defining films of **2023**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Killers of the Flower Moon: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Killers of the Flower Moon (2023) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Killers of the Flower Moon — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2023\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Killers of the Flower Moon** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Killers of the Flower Moon** rightfully earns its place among the defining films of **2023**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Killers of the Flower Moon: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Killers of the Flower Moon (2023) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Killers of the Flower Moon — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2023\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Killers of the Flower Moon** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Killers of the Flower Moon** rightfully earns its place among the defining films of **2023**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Killers of the Flower Moon: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Killers of the Flower Moon (2023) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Killers of the Flower Moon — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2023\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Killers of the Flower Moon** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Killers of the Flower Moon** rightfully earns its place among the defining films of **2023**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Killers of the Flower Moon: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Killers of the Flower Moon (2023) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Killers of the Flower Moon — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2023\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Killers of the Flower Moon** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Killers of the Flower Moon** rightfully earns its place among the defining films of **2023**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
