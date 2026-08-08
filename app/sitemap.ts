@@ -6,8 +6,13 @@ import { GENRE_KEYS, LOCALES } from '@/lib/types'
 
 const BASE_URL = 'https://cinereview-mu.vercel.app'
 
+// Only submit ar + en to Google — crawl budget is limited for new sites.
+// Other locales (fr, es, tr, de, ja, pt) stay accessible via hreflang but
+// are not in the sitemap so Google focuses on the highest-value pages first.
+const SITEMAP_LOCALES = ['ar', 'en'] as const
+
 function localizedUrls(path: string, priority: number, changeFreq: MetadataRoute.Sitemap[0]['changeFrequency']) {
-  return LOCALES.map((locale) => ({
+  return SITEMAP_LOCALES.map((locale) => ({
     url: `${BASE_URL}/${locale}${path}`,
     lastModified: new Date(),
     changeFrequency: changeFreq,
