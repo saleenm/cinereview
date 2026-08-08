@@ -2015,6 +2015,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'fight-club-hidden-meanings-2026-08',
+    date: '2026-08-08',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/dhr0q4eiRr8ltqPig32TwhPRdaD.jpg',
+    movieSlug: 'fight-club',
+    i18n: {
+      ar: {
+        title: 'نادي القتال: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم نادي القتال (1999) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## نادي القتال — تحفة سينمائية\n\n**المخرج:** David Fincher\n**السنة:** 1999\n**التقييم:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **نادي القتال** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج David Fincher كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع David Fincher أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **نادي القتال** مكانته بين أبرز أفلام **1999**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Fight Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Fight Club (1999) by David Fincher — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Fight Club — A Cinematic Masterpiece\n\n**Director:** David Fincher\n**Year:** 1999\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Fight Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Fincher deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Fincher crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Fight Club** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Fight Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Fight Club (1999) by David Fincher — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Fight Club — A Cinematic Masterpiece\n\n**Director:** David Fincher\n**Year:** 1999\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Fight Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Fincher deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Fincher crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Fight Club** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Fight Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Fight Club (1999) by David Fincher — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Fight Club — A Cinematic Masterpiece\n\n**Director:** David Fincher\n**Year:** 1999\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Fight Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Fincher deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Fincher crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Fight Club** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Fight Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Fight Club (1999) by David Fincher — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Fight Club — A Cinematic Masterpiece\n\n**Director:** David Fincher\n**Year:** 1999\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Fight Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Fincher deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Fincher crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Fight Club** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Fight Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Fight Club (1999) by David Fincher — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Fight Club — A Cinematic Masterpiece\n\n**Director:** David Fincher\n**Year:** 1999\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Fight Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Fincher deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Fincher crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Fight Club** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Fight Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Fight Club (1999) by David Fincher — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Fight Club — A Cinematic Masterpiece\n\n**Director:** David Fincher\n**Year:** 1999\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Fight Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Fincher deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Fincher crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Fight Club** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Fight Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Fight Club (1999) by David Fincher — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Fight Club — A Cinematic Masterpiece\n\n**Director:** David Fincher\n**Year:** 1999\n**Rating:** 9.2/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Fight Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Fincher deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Fincher crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Fight Club** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
