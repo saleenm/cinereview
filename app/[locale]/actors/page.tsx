@@ -13,7 +13,7 @@ interface Props { params: Promise<{ locale: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   const title = locale === 'ar' ? 'الممثلون — CineReview' : 'Actors — CineReview'
-  return { title, description: title }
+  return { title, description: title, robots: { index: false, follow: true } }
 }
 
 export function generateStaticParams() {

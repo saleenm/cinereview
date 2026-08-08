@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next'
-import { getAllSlugs, getAllDirectors, getAvailableYears, getAllActors } from '@/lib/movies'
+import { getAllSlugs, getAllDirectors, getAvailableYears } from '@/lib/movies'
 import { getAllBlogPosts } from '@/lib/blog'
 import { COLLECTIONS } from '@/lib/collections'
-import { GENRE_KEYS, LOCALES } from '@/lib/types'
+import { GENRE_KEYS } from '@/lib/types'
 
 const BASE_URL = 'https://cinereview-mu.vercel.app'
 
@@ -22,7 +22,6 @@ function localizedUrls(path: string, priority: number, changeFreq: MetadataRoute
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const slugs = getAllSlugs()
-  const actors = getAllActors()
 
   return [
     // Home pages
@@ -49,9 +48,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Directors
     ...localizedUrls('/directors', 0.8, 'weekly'),
     ...getAllDirectors().flatMap((d) => localizedUrls(`/director/${d.slug}`, 0.7, 'monthly')),
-    // Actors
-    ...localizedUrls('/actors', 0.8, 'weekly'),
-    ...actors.flatMap((a) => localizedUrls(`/actor/${a.slug}`, 0.7, 'monthly')),
+    // Actors excluded from sitemap — thin content, hurts crawl budget.
+    // Pages are still accessible via internal links + hreflang.
     // Best-of years
     ...localizedUrls('/best-of', 0.8, 'monthly'),
     ...getAvailableYears().flatMap((y) => localizedUrls(`/best-of/${y}`, 0.7, 'monthly')),

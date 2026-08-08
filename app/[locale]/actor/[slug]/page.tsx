@@ -29,13 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description: `All movies starring ${actor.name} — ratings and reviews on CineReview`,
-    alternates: {
-      canonical: `${BASE}/${locale}/actor/${slug}`,
-      languages: {
-        ...Object.fromEntries(['ar','en','fr','es','tr','de','ja','pt'].map((l) => [l, `${BASE}/${l}/actor/${slug}`])),
-        'x-default': `${BASE}/ar/actor/${slug}`,
-      },
-    },
+    robots: { index: false, follow: true },
     openGraph: {
       title,
       type: 'profile',
