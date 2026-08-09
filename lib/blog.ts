@@ -2072,6 +2072,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'apocalypse-now-director-analysis-2026-08',
+    date: '2026-08-09',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/vkizHuer6cKTRzP7z3jGVnHFAXP.jpg',
+    movieSlug: 'apocalypse-now',
+    i18n: {
+      ar: {
+        title: 'نهاية العالم الآن: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم نهاية العالم الآن (1979) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## نهاية العالم الآن — تحفة سينمائية\n\n**المخرج:** Francis Ford Coppola\n**السنة:** 1979\n**التقييم:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **نهاية العالم الآن** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Francis Ford Coppola كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Francis Ford Coppola أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **نهاية العالم الآن** مكانته بين أبرز أفلام **1979**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Apocalypse Now: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Apocalypse Now (1979) by Francis Ford Coppola — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Apocalypse Now — A Cinematic Masterpiece\n\n**Director:** Francis Ford Coppola\n**Year:** 1979\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Apocalypse Now** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Francis Ford Coppola deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFrancis Ford Coppola crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Apocalypse Now** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Apocalypse Now: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Apocalypse Now (1979) by Francis Ford Coppola — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Apocalypse Now — A Cinematic Masterpiece\n\n**Director:** Francis Ford Coppola\n**Year:** 1979\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Apocalypse Now** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Francis Ford Coppola deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFrancis Ford Coppola crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Apocalypse Now** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Apocalypse Now: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Apocalypse Now (1979) by Francis Ford Coppola — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Apocalypse Now — A Cinematic Masterpiece\n\n**Director:** Francis Ford Coppola\n**Year:** 1979\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Apocalypse Now** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Francis Ford Coppola deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFrancis Ford Coppola crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Apocalypse Now** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Apocalypse Now: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Apocalypse Now (1979) by Francis Ford Coppola — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Apocalypse Now — A Cinematic Masterpiece\n\n**Director:** Francis Ford Coppola\n**Year:** 1979\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Apocalypse Now** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Francis Ford Coppola deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFrancis Ford Coppola crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Apocalypse Now** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Apocalypse Now: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Apocalypse Now (1979) by Francis Ford Coppola — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Apocalypse Now — A Cinematic Masterpiece\n\n**Director:** Francis Ford Coppola\n**Year:** 1979\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Apocalypse Now** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Francis Ford Coppola deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFrancis Ford Coppola crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Apocalypse Now** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Apocalypse Now: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Apocalypse Now (1979) by Francis Ford Coppola — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Apocalypse Now — A Cinematic Masterpiece\n\n**Director:** Francis Ford Coppola\n**Year:** 1979\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Apocalypse Now** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Francis Ford Coppola deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFrancis Ford Coppola crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Apocalypse Now** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Apocalypse Now: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Apocalypse Now (1979) by Francis Ford Coppola — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Apocalypse Now — A Cinematic Masterpiece\n\n**Director:** Francis Ford Coppola\n**Year:** 1979\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Apocalypse Now** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Francis Ford Coppola deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFrancis Ford Coppola crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Apocalypse Now** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
