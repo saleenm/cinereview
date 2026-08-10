@@ -2129,6 +2129,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'saving-private-ryan-compare-era-2026-08',
+    date: '2026-08-10',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/jW21PoKwqs79wk6bfiYezox63mK.jpg',
+    movieSlug: 'saving-private-ryan',
+    i18n: {
+      ar: {
+        title: 'إنقاذ الجندي رايان: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم إنقاذ الجندي رايان (1998) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## إنقاذ الجندي رايان — تحفة سينمائية\n\n**المخرج:** Steven Spielberg\n**السنة:** 1998\n**التقييم:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **إنقاذ الجندي رايان** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Steven Spielberg كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Steven Spielberg أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **إنقاذ الجندي رايان** مكانته بين أبرز أفلام **1998**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Saving Private Ryan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Saving Private Ryan (1998) by Steven Spielberg — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Saving Private Ryan — A Cinematic Masterpiece\n\n**Director:** Steven Spielberg\n**Year:** 1998\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Saving Private Ryan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Steven Spielberg deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSteven Spielberg crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Saving Private Ryan** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Saving Private Ryan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Saving Private Ryan (1998) by Steven Spielberg — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Saving Private Ryan — A Cinematic Masterpiece\n\n**Director:** Steven Spielberg\n**Year:** 1998\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Saving Private Ryan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Steven Spielberg deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSteven Spielberg crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Saving Private Ryan** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Saving Private Ryan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Saving Private Ryan (1998) by Steven Spielberg — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Saving Private Ryan — A Cinematic Masterpiece\n\n**Director:** Steven Spielberg\n**Year:** 1998\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Saving Private Ryan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Steven Spielberg deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSteven Spielberg crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Saving Private Ryan** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Saving Private Ryan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Saving Private Ryan (1998) by Steven Spielberg — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Saving Private Ryan — A Cinematic Masterpiece\n\n**Director:** Steven Spielberg\n**Year:** 1998\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Saving Private Ryan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Steven Spielberg deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSteven Spielberg crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Saving Private Ryan** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Saving Private Ryan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Saving Private Ryan (1998) by Steven Spielberg — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Saving Private Ryan — A Cinematic Masterpiece\n\n**Director:** Steven Spielberg\n**Year:** 1998\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Saving Private Ryan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Steven Spielberg deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSteven Spielberg crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Saving Private Ryan** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Saving Private Ryan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Saving Private Ryan (1998) by Steven Spielberg — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Saving Private Ryan — A Cinematic Masterpiece\n\n**Director:** Steven Spielberg\n**Year:** 1998\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Saving Private Ryan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Steven Spielberg deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSteven Spielberg crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Saving Private Ryan** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Saving Private Ryan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Saving Private Ryan (1998) by Steven Spielberg — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Saving Private Ryan — A Cinematic Masterpiece\n\n**Director:** Steven Spielberg\n**Year:** 1998\n**Rating:** 9.1/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Saving Private Ryan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Steven Spielberg deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSteven Spielberg crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Saving Private Ryan** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
