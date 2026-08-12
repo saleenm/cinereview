@@ -42,8 +42,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...slugs.flatMap((slug) => localizedUrls(`/movies/${slug}`, 0.9, 'weekly')),
     // Blog index
     ...localizedUrls('/blog', 0.8, 'daily'),
-    // Blog posts
-    ...getAllBlogPosts().flatMap((p) => localizedUrls(`/blog/${p.slug}`, 0.7, 'weekly')),
+    // Blog posts — exclude auto-generated thin-content posts (noindex: true)
+    ...getAllBlogPosts().filter((p) => !p.noindex).flatMap((p) => localizedUrls(`/blog/${p.slug}`, 0.7, 'weekly')),
     // Directors
     ...localizedUrls('/directors', 0.8, 'weekly'),
     ...getAllDirectors().flatMap((d) => localizedUrls(`/director/${d.slug}`, 0.7, 'monthly')),

@@ -6,6 +6,8 @@ export interface BlogPost {
   readTime: number
   image: string
   movieSlug?: string
+  /** Auto-generated thin content (genre lists, director lists) — noindex from Google. */
+  noindex?: boolean
   i18n: Record<Locale, {
     title: string
     description: string

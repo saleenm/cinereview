@@ -14,9 +14,11 @@ import NewsletterForm from '@/components/NewsletterForm'
 
 interface Props { params: Promise<{ locale: string; slug: string }> }
 
+// Pre-render ar + en only. Other locales have duplicate English content
+// (the auto-blog agent only writes ar + en); canonical points to en for non-ar locales.
 export async function generateStaticParams() {
   const allPosts = getAllBlogPosts()
-  return LOCALES.flatMap((locale) =>
+  return ['ar', 'en'].flatMap((locale) =>
     allPosts.map((p) => ({ locale, slug: p.slug }))
   )
 }
@@ -27,13 +29,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {}
   const d = getPostData(post, locale)
   const BASE = 'https://cinereview-mu.vercel.app'
+  // For non-ar/en locales the content is English — canonical points to /en/ to prevent duplicate indexing.
+  // Also noindex auto-generated thin-content posts (genre lists, director lists).
+  const canonicalLocale = locale === 'ar' ? 'ar' : 'en'
+  const isNonPrimaryLocale = locale !== 'ar' && locale !== 'en'
+  const shouldNoindex = isNonPrimaryLocale || post.noindex === true
   return {
     title: d.title,
     description: d.description,
+    ...(shouldNoindex ? { robots: { index: false, follow: true } } : {}),
     alternates: {
-      canonical: `${BASE}/${locale}/blog/${slug}`,
+      canonical: `${BASE}/${canonicalLocale}/blog/${slug}`,
       languages: {
-        ...Object.fromEntries(['ar','en','fr','es','tr','de','ja','pt'].map((l) => [l, `${BASE}/${l}/blog/${slug}`])),
+        ar: `${BASE}/ar/blog/${slug}`,
+        en: `${BASE}/en/blog/${slug}`,
         'x-default': `${BASE}/ar/blog/${slug}`,
       },
     },

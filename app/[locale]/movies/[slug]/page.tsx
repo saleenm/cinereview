@@ -19,9 +19,13 @@ import BreadcrumbJsonLd from '@/components/BreadcrumbJsonLd'
 
 interface Props { params: Promise<{ locale: string; slug: string }> }
 
+// Pre-render ar + en only to limit build size (2,375 movies × 8 locales = 19,000 pages).
+// Other locales are served on-demand with ISR (revalidate = 86400).
+export const revalidate = 86400
+
 export async function generateStaticParams() {
   const slugs = getAllSlugs()
-  return LOCALES.flatMap((locale) => slugs.map((slug) => ({ locale, slug })))
+  return ['ar', 'en'].flatMap((locale) => slugs.map((slug) => ({ locale, slug })))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -2381,7 +2381,7 @@ function generateGenrePosts(): BlogPost[] {
       i18n[locale] = { title, description, category: gName, content }
     }
 
-    posts.push({ slug, date, readTime: 4, image, i18n })
+    posts.push({ slug, date, readTime: 4, image, i18n, noindex: true })
   }
 
   return posts
@@ -2421,7 +2421,7 @@ function generateDirectorPosts(): BlogPost[] {
       i18n[locale] = { title, description, category: FILMS_CAT[locale], content }
     }
 
-    posts.push({ slug, date: `2026-05-${String(13 - (posts.length % 5)).padStart(2, '0')}`, readTime: 5, image, i18n, movieSlug: sorted[0].slug })
+    posts.push({ slug, date: `2026-05-${String(13 - (posts.length % 5)).padStart(2, '0')}`, readTime: 5, image, i18n, movieSlug: sorted[0].slug, noindex: true })
   }
 
   return posts
