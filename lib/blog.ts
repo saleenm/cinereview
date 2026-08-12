@@ -2243,6 +2243,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'the-lion-king-director-analysis-2026-08',
+    date: '2026-08-12',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/wXSqAMnqJfOs3mlxkqvkK5WUfYY.jpg',
+    movieSlug: 'the-lion-king',
+    i18n: {
+      ar: {
+        title: 'الأسد الملك: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم الأسد الملك (1994) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## الأسد الملك — تحفة سينمائية\n\n**المخرج:** Roger Allers & Rob Minkoff\n**السنة:** 1994\n**التقييم:** 9/10 ⭐⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **الأسد الملك** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Roger Allers & Rob Minkoff كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Roger Allers & Rob Minkoff أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **الأسد الملك** مكانته بين أبرز أفلام **1994**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'The Lion King: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lion King (1994) by Roger Allers & Rob Minkoff — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## The Lion King — A Cinematic Masterpiece\n\n**Director:** Roger Allers & Rob Minkoff\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lion King** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Roger Allers & Rob Minkoff deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRoger Allers & Rob Minkoff crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lion King** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'The Lion King: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lion King (1994) by Roger Allers & Rob Minkoff — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## The Lion King — A Cinematic Masterpiece\n\n**Director:** Roger Allers & Rob Minkoff\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lion King** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Roger Allers & Rob Minkoff deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRoger Allers & Rob Minkoff crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lion King** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'The Lion King: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lion King (1994) by Roger Allers & Rob Minkoff — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## The Lion King — A Cinematic Masterpiece\n\n**Director:** Roger Allers & Rob Minkoff\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lion King** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Roger Allers & Rob Minkoff deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRoger Allers & Rob Minkoff crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lion King** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'The Lion King: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lion King (1994) by Roger Allers & Rob Minkoff — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## The Lion King — A Cinematic Masterpiece\n\n**Director:** Roger Allers & Rob Minkoff\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lion King** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Roger Allers & Rob Minkoff deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRoger Allers & Rob Minkoff crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lion King** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'The Lion King: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lion King (1994) by Roger Allers & Rob Minkoff — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## The Lion King — A Cinematic Masterpiece\n\n**Director:** Roger Allers & Rob Minkoff\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lion King** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Roger Allers & Rob Minkoff deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRoger Allers & Rob Minkoff crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lion King** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'The Lion King: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lion King (1994) by Roger Allers & Rob Minkoff — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## The Lion King — A Cinematic Masterpiece\n\n**Director:** Roger Allers & Rob Minkoff\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lion King** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Roger Allers & Rob Minkoff deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRoger Allers & Rob Minkoff crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lion King** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'The Lion King: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lion King (1994) by Roger Allers & Rob Minkoff — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## The Lion King — A Cinematic Masterpiece\n\n**Director:** Roger Allers & Rob Minkoff\n**Year:** 1994\n**Rating:** 9/10 ⭐⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lion King** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Roger Allers & Rob Minkoff deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRoger Allers & Rob Minkoff crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lion King** rightfully earns its place among the defining films of **1994**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
