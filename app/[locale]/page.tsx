@@ -48,6 +48,53 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
+function SiteJsonLd({ locale }: { locale: string }) {
+  const isAr = locale === 'ar'
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'CineReview',
+    alternateName: 'سينيريفيو',
+    url: BASE,
+    description: isAr
+      ? 'تقييمات سينمائية معمّقة لأعظم الأفلام — 1000+ فيلم بـ 8 لغات'
+      : 'In-depth film reviews of the greatest movies — 1000+ films in 8 languages',
+    inLanguage: [locale],
+    potentialAction: [
+      {
+        '@type': 'SearchAction',
+        target: { '@type': 'EntryPoint', urlTemplate: `${BASE}/ar/search?q={search_term_string}` },
+        'query-input': 'required name=search_term_string',
+      },
+      {
+        '@type': 'SearchAction',
+        target: { '@type': 'EntryPoint', urlTemplate: `${BASE}/en/search?q={search_term_string}` },
+        'query-input': 'required name=search_term_string',
+      },
+    ],
+  }
+  const orgSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'CineReview',
+    alternateName: 'سينيريفيو',
+    url: BASE,
+    logo: { '@type': 'ImageObject', url: `${BASE}/logos/icon-512.png`, width: 512, height: 512 },
+    sameAs: [
+      'https://cinereview-mu.vercel.app',
+    ],
+    description: isAr
+      ? 'موقع مراجعات أفلام متعدد اللغات — يقدم تقييمات نقدية معمّقة لأعظم الأفلام في التاريخ'
+      : 'Multilingual film review website — in-depth critical reviews of the greatest films in history',
+  }
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
+    </>
+  )
+}
+
 export default async function HomePage({ params }: Props) {
   const { locale } = await params
   const t  = await getTranslations('home')
@@ -105,6 +152,7 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
+      <SiteJsonLd locale={locale} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 

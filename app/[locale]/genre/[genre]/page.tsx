@@ -15,23 +15,35 @@ interface Props { params: Promise<{ locale: string; genre: string }> }
 
 const BASE = 'https://cinereview-mu.vercel.app'
 
+// Arabic translations for genre names (used in metadata — no getTranslations available there)
+const GENRE_NAMES_AR: Record<string, string> = {
+  drama: 'دراما', action: 'أكشن', thriller: 'إثارة', comedy: 'كوميديا',
+  horror: 'رعب', romance: 'رومانسي', scifi: 'خيال علمي', animation: 'أنيميشن',
+  documentary: 'وثائقي', history: 'تاريخي', crime: 'جريمة', adventure: 'مغامرة',
+  arabic: 'أفلام عربية', all: 'كل الأنواع',
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, genre } = await params
   const isAr = locale === 'ar'
   const movies = genre === 'all' ? getMovies({ sort: 'rating', limit: 1 }) : getMovies({ genre, sort: 'rating', limit: 1 })
   const ogImage = movies[0]?.backdrop_url || movies[0]?.poster_url || `${BASE}/logos/icon-512.png`
-  const genreLabel = genre === 'all' ? (isAr ? 'كل الأنواع' : 'All Genres') : genre
-  const title = isAr ? `أفلام ${genreLabel} | سينيريفيو` : `${genreLabel} Movies | CineReview`
+  const genreAr = GENRE_NAMES_AR[genre] || genre
+  const genreEn = genre === 'all' ? 'All Genres' : genre.charAt(0).toUpperCase() + genre.slice(1)
+  const title = isAr
+    ? `أفضل أفلام ${genreAr} | سينيريفيو`
+    : `Best ${genreEn} Movies | CineReview`
   const description = isAr
-    ? `اكتشف أفضل أفلام ${genreLabel} مع تقييمات تفصيلية`
-    : `Discover the best ${genreLabel} movies with detailed reviews`
+    ? `اكتشف أفضل أفلام ${genreAr} مرتبة حسب التقييم — مراجعات نقدية تفصيلية على سينيريفيو`
+    : `Discover the best ${genreEn} movies ranked by score — in-depth critical reviews on CineReview`
   return {
     title,
     description,
     alternates: {
       canonical: `${BASE}/${locale}/genre/${genre}`,
       languages: {
-        ...Object.fromEntries(['ar','en','fr','es','tr','de','ja','pt'].map((l) => [l, `${BASE}/${l}/genre/${genre}`])),
+        ar: `${BASE}/ar/genre/${genre}`,
+        en: `${BASE}/en/genre/${genre}`,
         'x-default': `${BASE}/ar/genre/${genre}`,
       },
     },
@@ -40,8 +52,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
+// Pre-render ar + en only; other locales on-demand.
 export async function generateStaticParams() {
-  return ['ar','en','fr','es','tr','de','ja','pt'].flatMap((locale) =>
+  return ['ar', 'en'].flatMap((locale) =>
     [...GENRE_KEYS, 'all'].map((genre) => ({ locale, genre }))
   )
 }
@@ -60,6 +73,38 @@ export default async function GenrePage({ params }: Props) {
   const genreName = isAll ? tg('all') : tg(genreKey)
   const isRTL = locale === 'ar'
   const topMovie = movies[0]
+
+  const top10 = [...movies].sort((a, b) => b.rating_overall - a.rating_overall).slice(0, 10)
+
+  const itemListSchema = !isAll ? {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: isRTL ? `أفضل أفلام ${genreName}` : `Best ${genreName} Movies`,
+    description: isRTL
+      ? `قائمة أفضل أفلام ${genreName} مرتبة حسب التقييم على سينيريفيو`
+      : `Top ${genreName} movies ranked by CineReview score`,
+    url: `${BASE}/${locale}/genre/${genre}`,
+    numberOfItems: top10.length,
+    itemListElement: top10.map((m, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Movie',
+        name: isRTL ? m.title_ar : m.title,
+        url: `${BASE}/${locale}/movies/${m.slug}`,
+        dateCreated: String(m.year),
+        director: { '@type': 'Person', name: m.director },
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: m.rating_overall,
+          bestRating: 10,
+          worstRating: 0,
+          ratingCount: m.reviews_count || 1,
+        },
+        image: m.poster_url,
+      },
+    })),
+  } : null
 
   const faqSchema = !isAll ? {
     '@context': 'https://schema.org',
@@ -87,11 +132,22 @@ export default async function GenrePage({ params }: Props) {
             : `CineReview features ${movies.length} ${genreName} movies with detailed reviews.`,
         },
       },
+      {
+        '@type': 'Question',
+        name: isRTL ? `هل أفلام ${genreName} متاحة بالعربية؟` : `Are ${genreName} movie reviews available in Arabic?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: isRTL
+            ? `نعم، جميع مراجعات أفلام ${genreName} على سينيريفيو متاحة باللغة العربية مع وصف تفصيلي وتقييم شامل.`
+            : `Yes, all ${genreName} movie reviews on CineReview are available in Arabic and English with detailed descriptions and comprehensive ratings.`,
+        },
+      },
     ],
   } : null
 
   return (
     <>
+      {itemListSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />}
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       {!isAll && (
         <BreadcrumbJsonLd crumbs={[

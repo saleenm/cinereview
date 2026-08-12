@@ -107,27 +107,49 @@ function getMovies() {
   return movies
 }
 
+// High-profile blockbusters that major sites (IMDb, RT, Letterboxd) dominate.
+// Avoid these — we can't outrank them. Focus on hidden gems instead.
+const BLOCKBUSTER_SLUGS = new Set([
+  'the-godfather','the-dark-knight','schindlers-list','pulp-fiction',
+  'the-shawshank-redemption','forrest-gump','goodfellas','fight-club',
+  'inception','the-silence-of-the-lambs','saving-private-ryan',
+  'the-green-mile','interstellar','the-departed','gladiator',
+  'the-lord-of-the-rings-the-return-of-the-king','casablanca',
+  'rear-window','psycho','2001-a-space-odyssey','apocalypse-now',
+  'taxi-driver','one-flew-over-the-cuckoos-nest','chinatown',
+  'citizen-kane','vertigo','the-godfather-part-ii',
+])
+
 // ── Pick movie for blog post ──────────────────────────────────────────────────
 function pickMovie(movies, existingSlugs) {
   const blogMovieSlugs = new Set()
   const src = fs.readFileSync(BLOG_FILE, 'utf8')
   for (const m of src.matchAll(/movieSlug:\s*'([^']+)'/g)) blogMovieSlugs.add(m[1])
 
-  // filter: not already blogged, rating >= 8.0, has backdrop
-  const candidates = movies.filter(m =>
+  // STRATEGY: target "hidden gems" — quality films not dominated by big review sites.
+  // Criteria: good rating (7.0-8.8), has backdrop, NOT a blockbuster everyone covers,
+  // year between 1960-2015 (classic but not over-documented).
+  const hiddenGems = movies.filter(m =>
     !blogMovieSlugs.has(m.slug) &&
-    m.rating >= 8.0 &&
-    m.backdrop_url
-  ).sort((a, b) => b.rating - a.rating)
+    !BLOCKBUSTER_SLUGS.has(m.slug) &&
+    m.rating >= 7.0 &&
+    m.rating <= 8.8 &&
+    m.backdrop_url &&
+    m.year >= 1960 && m.year <= 2015
+  )
 
-  if (!candidates.length) {
-    // fallback: any movie not blogged
-    return movies.filter(m => !blogMovieSlugs.has(m.slug))[0]
+  if (hiddenGems.length >= 5) {
+    // Pick randomly from hidden gems to maximize variety
+    return hiddenGems[Math.floor(Math.random() * Math.min(hiddenGems.length, 40))]
   }
 
-  // pick from top 20 randomly for variety
-  const pool = candidates.slice(0, 20)
-  return pool[Math.floor(Math.random() * pool.length)]
+  // Fallback: any quality film not yet blogged
+  const candidates = movies.filter(m =>
+    !blogMovieSlugs.has(m.slug) && m.rating >= 7.0 && m.backdrop_url
+  )
+  if (candidates.length) return candidates[Math.floor(Math.random() * Math.min(candidates.length, 20))]
+
+  return movies.filter(m => !blogMovieSlugs.has(m.slug))[0]
 }
 
 // ── AI call ───────────────────────────────────────────────────────────────────
@@ -214,42 +236,43 @@ async function generateBlogPost(movie, postType) {
 
   const instruction = typeInstructions[postType]
 
-  const prompt = `You are a professional film critic writing engaging blog posts for CineReview, a multilingual cinema review website.
+  const prompt = `You are an expert film critic writing for CineReview, a cinema review website targeting Arabic and English audiences.
 
-Write a blog post about the film: "${movie.title}" (${movie.year}), directed by ${movie.director}.
-
+Film: "${movie.title}" (${movie.year}) — directed by ${movie.director}
 Post type: ${instruction}
 
-Return ONLY a valid JSON object (no markdown, no explanation) with this exact structure:
+IMPORTANT CONTEXT: This is a lesser-known quality film. Your job is to DISCOVER it for readers who haven't heard of it. Be specific — mention actual scenes, characters, cinematography choices, dialogue. Generic praise is useless.
+
+Return ONLY a valid JSON object (no markdown, no extra text):
 {
-  "slug": "unique-url-slug-based-on-post-topic",
-  "readTime": 6,
+  "slug": "specific-topic-slug-2026",
+  "readTime": 7,
   "ar": {
-    "title": "Arabic title (engaging, SEO-optimized, 60 chars max)",
-    "description": "Arabic meta description (150 chars max)",
-    "category": "Arabic category (2-3 words)",
-    "content": "Full Arabic article in markdown format (400-600 words). Use ## for sections, **bold** for emphasis, > for quotes, * for lists. Rich, analytical content."
+    "title": "عنوان عربي جذاب يتضمن اسم الفيلم بالعربي — 55 حرف max",
+    "description": "وصف عربي للـ SEO — يذكر الفيلم والمخرج والسبب في المشاهدة — 145 حرف max",
+    "category": "تصنيف عربي",
+    "content": "مقال عربي كامل 500-700 كلمة بالماركداون. ## للعناوين الرئيسية، **للتأكيد**، > للاقتباسات، * للقوائم. اذكر مشاهد محددة، حوار حقيقي، أسماء شخصيات، قرارات إخراجية بعينها. لا كلام عام."
   },
   "en": {
-    "title": "English title",
-    "description": "English description",
-    "category": "Category",
-    "content": "Full English article (400-600 words)"
+    "title": "Specific English title mentioning film name — 55 chars max",
+    "description": "English SEO description mentioning film, director, why watch — 145 chars max",
+    "category": "Film Analysis",
+    "content": "Full English article 500-700 words in markdown. ## for sections, **bold**, > quotes, * lists. Name specific scenes, characters, cinematographic choices, actual dialogue. No generic praise."
   },
-  "fr": { "title": "...", "description": "...", "category": "...", "content": "..." },
-  "es": { "title": "...", "description": "...", "category": "...", "content": "..." },
-  "tr": { "title": "...", "description": "...", "category": "...", "content": "..." },
-  "de": { "title": "...", "description": "...", "category": "...", "content": "..." },
-  "ja": { "title": "...", "description": "...", "category": "...", "content": "..." },
-  "pt": { "title": "...", "description": "...", "category": "...", "content": "..." }
+  "fr": { "title": "...", "description": "...", "category": "Analyse", "content": "200+ words in French" },
+  "es": { "title": "...", "description": "...", "category": "Análisis", "content": "200+ words in Spanish" },
+  "tr": { "title": "...", "description": "...", "category": "Analiz", "content": "200+ words in Turkish" },
+  "de": { "title": "...", "description": "...", "category": "Analyse", "content": "200+ words in German" },
+  "ja": { "title": "...", "description": "...", "category": "映画分析", "content": "200+ words in Japanese" },
+  "pt": { "title": "...", "description": "...", "category": "Análise", "content": "200+ words in Portuguese" }
 }
 
-Requirements:
-- Arabic and English must be FULL articles (400+ words each)
-- Other languages can be shorter (150+ words) but must be unique translations
-- Content must be engaging, analytical, not generic
-- Slug must be unique, URL-friendly (lowercase, hyphens only)
-- readTime should reflect article length (5-8)`
+Critical rules:
+- Arabic and English: MUST be 500+ words, rich with specific film details — not generic templates
+- Other languages: 200+ words, genuine translations (not English copy-pasted)
+- Slug: unique, lowercase, hyphens, includes film slug and year
+- Arabic title MUST include the Arabic film name if known
+- readTime: 6-8`
 
   const raw = await aiGenerate(prompt)
 
