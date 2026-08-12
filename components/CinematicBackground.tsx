@@ -8,6 +8,12 @@ export default function CinematicBackground() {
 
   /* ── WebGL 3-D particle cloud ── */
   useEffect(() => {
+    // Disable on mobile/touch devices — GPU too costly
+    if (window.matchMedia('(hover: none)').matches) return
+    // Disable on low-end devices
+    const nav = navigator as Navigator & { deviceMemory?: number }
+    if (nav.deviceMemory !== undefined && nav.deviceMemory < 4) return
+
     const canvas = bgRef.current
     if (!canvas) return
     const gl = (
@@ -68,7 +74,7 @@ export default function CinematicBackground() {
     gl.attachShader(prog, mkShader(gl.FRAGMENT_SHADER, fs))
     gl.linkProgram(prog); gl.useProgram(prog)
 
-    const N = 1600
+    const N = 600
     const pos    = new Float32Array(N * 3)
     const sizes  = new Float32Array(N)
     const alphas = new Float32Array(N)
@@ -161,6 +167,9 @@ export default function CinematicBackground() {
 
   /* ── 2-D drifting orbs with mouse parallax ── */
   useEffect(() => {
+    // Skip orbs on mobile — CSS gradients handle the background instead
+    if (window.matchMedia('(hover: none)').matches) return
+
     const pc = orbRef.current
     if (!pc) return
     const ctx = pc.getContext('2d')!
@@ -174,15 +183,10 @@ export default function CinematicBackground() {
     window.addEventListener('resize', resizeOrbs)
 
     const orbs = [
-      // ── Warm orbs (boosted contrast) ──
-      { x: window.innerWidth * 0.15, y: window.innerHeight * 0.25, r: 520, dx: 0.12,  dy: 0.07,  hue: 38,  sat: 95, lit: 62, a: 0.68, px: 0.10 },
-      { x: window.innerWidth * 0.75, y: window.innerHeight * 0.65, r: 420, dx: -0.09, dy: 0.11,  hue: 42,  sat: 88, lit: 58, a: 0.58, px: 0.07 },
-      { x: window.innerWidth * 0.50, y: window.innerHeight * 0.80, r: 350, dx: 0.15,  dy: -0.08, hue: 6,   sat: 92, lit: 52, a: 0.48, px: 0.13 },
-      // ── Cold orbs ──
-      { x: window.innerWidth * 0.82, y: window.innerHeight * 0.12, r: 420, dx: -0.10, dy: 0.08,  hue: 205, sat: 95, lit: 65, a: 0.40, px: 0.11 },
-      { x: window.innerWidth * 0.10, y: window.innerHeight * 0.70, r: 360, dx: 0.07,  dy: -0.10, hue: 215, sat: 90, lit: 60, a: 0.34, px: 0.09 },
-      { x: window.innerWidth * 0.60, y: window.innerHeight * 0.10, r: 300, dx: -0.13, dy: 0.12,  hue: 185, sat: 85, lit: 57, a: 0.30, px: 0.08 },
-      { x: window.innerWidth * 0.35, y: window.innerHeight * 0.45, r: 240, dx: 0.09,  dy: 0.13,  hue: 240, sat: 75, lit: 55, a: 0.25, px: 0.12 },
+      { x: window.innerWidth * 0.15, y: window.innerHeight * 0.25, r: 480, dx: 0.12,  dy: 0.07,  hue: 38,  sat: 95, lit: 62, a: 0.65, px: 0.10 },
+      { x: window.innerWidth * 0.75, y: window.innerHeight * 0.65, r: 380, dx: -0.09, dy: 0.11,  hue: 42,  sat: 88, lit: 58, a: 0.55, px: 0.07 },
+      { x: window.innerWidth * 0.82, y: window.innerHeight * 0.12, r: 380, dx: -0.10, dy: 0.08,  hue: 205, sat: 95, lit: 65, a: 0.38, px: 0.11 },
+      { x: window.innerWidth * 0.10, y: window.innerHeight * 0.70, r: 320, dx: 0.07,  dy: -0.10, hue: 215, sat: 90, lit: 60, a: 0.30, px: 0.09 },
     ]
 
     let mx = window.innerWidth / 2

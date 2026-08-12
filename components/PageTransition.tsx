@@ -17,7 +17,7 @@ export default function PageTransition({ children }: { children: React.ReactNode
 
     const id = requestAnimationFrame(() => {
       requestAnimationFrame(() => {
-        el.style.transition = 'opacity 0.55s cubic-bezier(0.16,1,0.3,1), transform 0.55s cubic-bezier(0.16,1,0.3,1)'
+        el.style.transition = 'opacity 0.28s cubic-bezier(0.16,1,0.3,1), transform 0.28s cubic-bezier(0.16,1,0.3,1)'
         el.style.opacity   = '1'
         el.style.transform = 'translateY(0)'
       })

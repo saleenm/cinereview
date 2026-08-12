@@ -7,7 +7,7 @@ export default function CinematicEffects() {
 
   useEffect(() => {
     /* ── Loader ── */
-    const loaderTimer = setTimeout(() => setLoaded(true), 2000)
+    const loaderTimer = setTimeout(() => setLoaded(true), 600)
 
     /* ── Subtle spotlight only — no custom cursor ── */
     const spotlight = document.getElementById('cin-spotlight')
