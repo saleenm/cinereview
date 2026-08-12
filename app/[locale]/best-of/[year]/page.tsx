@@ -14,7 +14,7 @@ interface Props { params: Promise<{ locale: string; year: string }> }
 
 export async function generateStaticParams() {
   const years = getAvailableYears()
-  return LOCALES.flatMap((locale) => years.map((year) => ({ locale, year: String(year) })))
+  return ['ar', 'en'].flatMap((locale) => years.map((year) => ({ locale, year: String(year) })))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -62,6 +62,7 @@ export default async function BestOfYearPage({ params }: Props) {
   if (isNaN(yearNum)) notFound()
 
   const movies = getMoviesByYear(yearNum)
+  if (movies.length === 0) notFound()
   const t = await getTranslations('bestOf')
   const tm = await getTranslations('movie')
   const isRTL = locale === 'ar'

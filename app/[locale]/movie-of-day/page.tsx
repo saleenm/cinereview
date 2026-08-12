@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: Object.fromEntries(LANGS.map((l) => [l, `${BASE}/${l}/movie-of-day`])),
     },
     openGraph: { title, description, images: [movie.backdrop_url || movie.poster_url], type: 'website', siteName: 'CineReview' },
+    robots: { index: false, follow: true },
   }
 }
 

@@ -26,8 +26,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     // Home pages
     ...localizedUrls('', 1.0, 'daily'),
-    // Movie of the day
-    ...localizedUrls('/movie-of-day', 0.9, 'daily'),
+    // movie-of-day excluded — changes daily, causes duplicate content + noindex anyway
     // Movies index
     ...localizedUrls('/movies', 0.9, 'daily'),
     // Search

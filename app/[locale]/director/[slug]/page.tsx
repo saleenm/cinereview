@@ -14,7 +14,7 @@ interface Props { params: Promise<{ locale: string; slug: string }> }
 
 export async function generateStaticParams() {
   const directors = getAllDirectors()
-  return LOCALES.flatMap((locale) =>
+  return ['ar', 'en'].flatMap((locale) =>
     directors.map((d) => ({ locale, slug: d.slug }))
   )
 }
