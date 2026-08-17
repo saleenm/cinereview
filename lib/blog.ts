@@ -2528,6 +2528,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'back-to-the-future-compare-era-2026-08',
+    date: '2026-08-17',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/5bzPWQ2dFUl2aZKkp7ILJVVkRed.jpg',
+    movieSlug: 'back-to-the-future',
+    i18n: {
+      ar: {
+        title: 'العودة إلى المستقبل: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم العودة إلى المستقبل (1985) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## العودة إلى المستقبل — تحفة سينمائية\n\n**المخرج:** Robert Zemeckis\n**السنة:** 1985\n**التقييم:** 8.4/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **العودة إلى المستقبل** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Robert Zemeckis كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Robert Zemeckis أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **العودة إلى المستقبل** مكانته بين أبرز أفلام **1985**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Back to the Future: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Back to the Future (1985) by Robert Zemeckis — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Back to the Future — A Cinematic Masterpiece\n\n**Director:** Robert Zemeckis\n**Year:** 1985\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Back to the Future** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Robert Zemeckis deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRobert Zemeckis crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Back to the Future** rightfully earns its place among the defining films of **1985**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Back to the Future: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Back to the Future (1985) by Robert Zemeckis — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Back to the Future — A Cinematic Masterpiece\n\n**Director:** Robert Zemeckis\n**Year:** 1985\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Back to the Future** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Robert Zemeckis deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRobert Zemeckis crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Back to the Future** rightfully earns its place among the defining films of **1985**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Back to the Future: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Back to the Future (1985) by Robert Zemeckis — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Back to the Future — A Cinematic Masterpiece\n\n**Director:** Robert Zemeckis\n**Year:** 1985\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Back to the Future** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Robert Zemeckis deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRobert Zemeckis crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Back to the Future** rightfully earns its place among the defining films of **1985**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Back to the Future: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Back to the Future (1985) by Robert Zemeckis — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Back to the Future — A Cinematic Masterpiece\n\n**Director:** Robert Zemeckis\n**Year:** 1985\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Back to the Future** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Robert Zemeckis deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRobert Zemeckis crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Back to the Future** rightfully earns its place among the defining films of **1985**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Back to the Future: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Back to the Future (1985) by Robert Zemeckis — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Back to the Future — A Cinematic Masterpiece\n\n**Director:** Robert Zemeckis\n**Year:** 1985\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Back to the Future** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Robert Zemeckis deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRobert Zemeckis crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Back to the Future** rightfully earns its place among the defining films of **1985**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Back to the Future: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Back to the Future (1985) by Robert Zemeckis — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Back to the Future — A Cinematic Masterpiece\n\n**Director:** Robert Zemeckis\n**Year:** 1985\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Back to the Future** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Robert Zemeckis deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRobert Zemeckis crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Back to the Future** rightfully earns its place among the defining films of **1985**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Back to the Future: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Back to the Future (1985) by Robert Zemeckis — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Back to the Future — A Cinematic Masterpiece\n\n**Director:** Robert Zemeckis\n**Year:** 1985\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Back to the Future** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Robert Zemeckis deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nRobert Zemeckis crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Back to the Future** rightfully earns its place among the defining films of **1985**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
