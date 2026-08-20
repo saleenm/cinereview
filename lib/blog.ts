@@ -2699,6 +2699,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'neon-genesis-evangelion-the-end-of-evangelion-deep-review-2026-08',
+    date: '2026-08-20',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/xLMJCCSatxENpHO9rLW9yD8A12C.jpg',
+    movieSlug: 'neon-genesis-evangelion-the-end-of-evangelion',
+    i18n: {
+      ar: {
+        title: '新世紀エヴァンゲリオン劇場版 Air／まごころを、君に: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم 新世紀エヴァンゲリオン劇場版 Air／まごころを、君に (1997) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## 新世紀エヴァンゲリオン劇場版 Air／まごころを、君に — تحفة سينمائية\n\n**المخرج:** Kazuya Tsurumaki\n**السنة:** 1997\n**التقييم:** 8.3/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **新世紀エヴァンゲリオン劇場版 Air／まごころを、君に** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Kazuya Tsurumaki كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Kazuya Tsurumaki أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **新世紀エヴァンゲリオン劇場版 Air／まごころを、君に** مكانته بين أبرز أفلام **1997**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Neon Genesis Evangelion: The End of Evangelion: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Neon Genesis Evangelion: The End of Evangelion (1997) by Kazuya Tsurumaki — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Neon Genesis Evangelion: The End of Evangelion — A Cinematic Masterpiece\n\n**Director:** Kazuya Tsurumaki\n**Year:** 1997\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Neon Genesis Evangelion: The End of Evangelion** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Kazuya Tsurumaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKazuya Tsurumaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Neon Genesis Evangelion: The End of Evangelion** rightfully earns its place among the defining films of **1997**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Neon Genesis Evangelion: The End of Evangelion: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Neon Genesis Evangelion: The End of Evangelion (1997) by Kazuya Tsurumaki — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Neon Genesis Evangelion: The End of Evangelion — A Cinematic Masterpiece\n\n**Director:** Kazuya Tsurumaki\n**Year:** 1997\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Neon Genesis Evangelion: The End of Evangelion** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Kazuya Tsurumaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKazuya Tsurumaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Neon Genesis Evangelion: The End of Evangelion** rightfully earns its place among the defining films of **1997**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Neon Genesis Evangelion: The End of Evangelion: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Neon Genesis Evangelion: The End of Evangelion (1997) by Kazuya Tsurumaki — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Neon Genesis Evangelion: The End of Evangelion — A Cinematic Masterpiece\n\n**Director:** Kazuya Tsurumaki\n**Year:** 1997\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Neon Genesis Evangelion: The End of Evangelion** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Kazuya Tsurumaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKazuya Tsurumaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Neon Genesis Evangelion: The End of Evangelion** rightfully earns its place among the defining films of **1997**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Neon Genesis Evangelion: The End of Evangelion: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Neon Genesis Evangelion: The End of Evangelion (1997) by Kazuya Tsurumaki — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Neon Genesis Evangelion: The End of Evangelion — A Cinematic Masterpiece\n\n**Director:** Kazuya Tsurumaki\n**Year:** 1997\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Neon Genesis Evangelion: The End of Evangelion** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Kazuya Tsurumaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKazuya Tsurumaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Neon Genesis Evangelion: The End of Evangelion** rightfully earns its place among the defining films of **1997**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Neon Genesis Evangelion: The End of Evangelion: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Neon Genesis Evangelion: The End of Evangelion (1997) by Kazuya Tsurumaki — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Neon Genesis Evangelion: The End of Evangelion — A Cinematic Masterpiece\n\n**Director:** Kazuya Tsurumaki\n**Year:** 1997\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Neon Genesis Evangelion: The End of Evangelion** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Kazuya Tsurumaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKazuya Tsurumaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Neon Genesis Evangelion: The End of Evangelion** rightfully earns its place among the defining films of **1997**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Neon Genesis Evangelion: The End of Evangelion: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Neon Genesis Evangelion: The End of Evangelion (1997) by Kazuya Tsurumaki — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Neon Genesis Evangelion: The End of Evangelion — A Cinematic Masterpiece\n\n**Director:** Kazuya Tsurumaki\n**Year:** 1997\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Neon Genesis Evangelion: The End of Evangelion** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Kazuya Tsurumaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKazuya Tsurumaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Neon Genesis Evangelion: The End of Evangelion** rightfully earns its place among the defining films of **1997**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Neon Genesis Evangelion: The End of Evangelion: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Neon Genesis Evangelion: The End of Evangelion (1997) by Kazuya Tsurumaki — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Neon Genesis Evangelion: The End of Evangelion — A Cinematic Masterpiece\n\n**Director:** Kazuya Tsurumaki\n**Year:** 1997\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Neon Genesis Evangelion: The End of Evangelion** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Kazuya Tsurumaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKazuya Tsurumaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Neon Genesis Evangelion: The End of Evangelion** rightfully earns its place among the defining films of **1997**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
