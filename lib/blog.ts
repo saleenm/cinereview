@@ -2756,6 +2756,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'the-legend-of-1900-compare-era-2026-08',
+    date: '2026-08-21',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/muSeX7fnNw0pv4zHK7RSwZln6Hk.jpg',
+    movieSlug: 'the-legend-of-1900',
+    i18n: {
+      ar: {
+        title: 'La leggenda del pianista sull\\: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم La leggenda del pianista sull\\ (1998) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## La leggenda del pianista sull\\ — تحفة سينمائية\n\n**المخرج:** Giuseppe Tornatore\n**السنة:** 1998\n**التقييم:** 8.3/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **La leggenda del pianista sull\\** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Giuseppe Tornatore كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Giuseppe Tornatore أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **La leggenda del pianista sull\\** مكانته بين أبرز أفلام **1998**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'The Legend of 1900: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Legend of 1900 (1998) by Giuseppe Tornatore — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## The Legend of 1900 — A Cinematic Masterpiece\n\n**Director:** Giuseppe Tornatore\n**Year:** 1998\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Legend of 1900** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Giuseppe Tornatore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGiuseppe Tornatore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Legend of 1900** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'The Legend of 1900: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Legend of 1900 (1998) by Giuseppe Tornatore — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## The Legend of 1900 — A Cinematic Masterpiece\n\n**Director:** Giuseppe Tornatore\n**Year:** 1998\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Legend of 1900** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Giuseppe Tornatore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGiuseppe Tornatore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Legend of 1900** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'The Legend of 1900: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Legend of 1900 (1998) by Giuseppe Tornatore — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## The Legend of 1900 — A Cinematic Masterpiece\n\n**Director:** Giuseppe Tornatore\n**Year:** 1998\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Legend of 1900** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Giuseppe Tornatore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGiuseppe Tornatore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Legend of 1900** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'The Legend of 1900: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Legend of 1900 (1998) by Giuseppe Tornatore — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## The Legend of 1900 — A Cinematic Masterpiece\n\n**Director:** Giuseppe Tornatore\n**Year:** 1998\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Legend of 1900** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Giuseppe Tornatore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGiuseppe Tornatore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Legend of 1900** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'The Legend of 1900: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Legend of 1900 (1998) by Giuseppe Tornatore — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## The Legend of 1900 — A Cinematic Masterpiece\n\n**Director:** Giuseppe Tornatore\n**Year:** 1998\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Legend of 1900** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Giuseppe Tornatore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGiuseppe Tornatore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Legend of 1900** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'The Legend of 1900: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Legend of 1900 (1998) by Giuseppe Tornatore — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## The Legend of 1900 — A Cinematic Masterpiece\n\n**Director:** Giuseppe Tornatore\n**Year:** 1998\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Legend of 1900** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Giuseppe Tornatore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGiuseppe Tornatore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Legend of 1900** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'The Legend of 1900: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Legend of 1900 (1998) by Giuseppe Tornatore — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## The Legend of 1900 — A Cinematic Masterpiece\n\n**Director:** Giuseppe Tornatore\n**Year:** 1998\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Legend of 1900** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Giuseppe Tornatore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGiuseppe Tornatore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Legend of 1900** rightfully earns its place among the defining films of **1998**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
