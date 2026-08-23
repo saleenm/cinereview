@@ -2870,6 +2870,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'yojimbo-director-analysis-2026-08',
+    date: '2026-08-23',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/5BBwSVytssbFuSPZE4DtJVhROjN.jpg',
+    movieSlug: 'yojimbo',
+    i18n: {
+      ar: {
+        title: '用心棒: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم 用心棒 (1961) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## 用心棒 — تحفة سينمائية\n\n**المخرج:** Akira Kurosawa\n**السنة:** 1961\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **用心棒** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Akira Kurosawa كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Akira Kurosawa أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **用心棒** مكانته بين أبرز أفلام **1961**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Yojimbo: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Yojimbo (1961) by Akira Kurosawa — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Yojimbo — A Cinematic Masterpiece\n\n**Director:** Akira Kurosawa\n**Year:** 1961\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Yojimbo** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Akira Kurosawa deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAkira Kurosawa crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Yojimbo** rightfully earns its place among the defining films of **1961**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Yojimbo: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Yojimbo (1961) by Akira Kurosawa — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Yojimbo — A Cinematic Masterpiece\n\n**Director:** Akira Kurosawa\n**Year:** 1961\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Yojimbo** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Akira Kurosawa deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAkira Kurosawa crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Yojimbo** rightfully earns its place among the defining films of **1961**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Yojimbo: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Yojimbo (1961) by Akira Kurosawa — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Yojimbo — A Cinematic Masterpiece\n\n**Director:** Akira Kurosawa\n**Year:** 1961\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Yojimbo** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Akira Kurosawa deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAkira Kurosawa crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Yojimbo** rightfully earns its place among the defining films of **1961**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Yojimbo: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Yojimbo (1961) by Akira Kurosawa — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Yojimbo — A Cinematic Masterpiece\n\n**Director:** Akira Kurosawa\n**Year:** 1961\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Yojimbo** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Akira Kurosawa deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAkira Kurosawa crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Yojimbo** rightfully earns its place among the defining films of **1961**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Yojimbo: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Yojimbo (1961) by Akira Kurosawa — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Yojimbo — A Cinematic Masterpiece\n\n**Director:** Akira Kurosawa\n**Year:** 1961\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Yojimbo** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Akira Kurosawa deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAkira Kurosawa crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Yojimbo** rightfully earns its place among the defining films of **1961**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Yojimbo: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Yojimbo (1961) by Akira Kurosawa — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Yojimbo — A Cinematic Masterpiece\n\n**Director:** Akira Kurosawa\n**Year:** 1961\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Yojimbo** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Akira Kurosawa deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAkira Kurosawa crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Yojimbo** rightfully earns its place among the defining films of **1961**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Yojimbo: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Yojimbo (1961) by Akira Kurosawa — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Yojimbo — A Cinematic Masterpiece\n\n**Director:** Akira Kurosawa\n**Year:** 1961\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Yojimbo** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Akira Kurosawa deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAkira Kurosawa crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Yojimbo** rightfully earns its place among the defining films of **1961**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
