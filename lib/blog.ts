@@ -2984,6 +2984,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'shutter-island-director-analysis-2026-08',
+    date: '2026-08-25',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/rbZvGN1A1QyZuoKzhCw8QPmf2q0.jpg',
+    movieSlug: 'shutter-island',
+    i18n: {
+      ar: {
+        title: 'جزيرة شاتر: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم جزيرة شاتر (2010) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## جزيرة شاتر — تحفة سينمائية\n\n**المخرج:** Martin Scorsese\n**السنة:** 2010\n**التقييم:** 8.3/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **جزيرة شاتر** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Martin Scorsese كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Martin Scorsese أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **جزيرة شاتر** مكانته بين أبرز أفلام **2010**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Shutter Island: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Shutter Island (2010) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Shutter Island — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2010\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Shutter Island** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Shutter Island** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Shutter Island: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Shutter Island (2010) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Shutter Island — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2010\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Shutter Island** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Shutter Island** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Shutter Island: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Shutter Island (2010) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Shutter Island — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2010\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Shutter Island** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Shutter Island** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Shutter Island: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Shutter Island (2010) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Shutter Island — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2010\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Shutter Island** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Shutter Island** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Shutter Island: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Shutter Island (2010) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Shutter Island — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2010\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Shutter Island** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Shutter Island** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Shutter Island: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Shutter Island (2010) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Shutter Island — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2010\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Shutter Island** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Shutter Island** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Shutter Island: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Shutter Island (2010) by Martin Scorsese — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Shutter Island — A Cinematic Masterpiece\n\n**Director:** Martin Scorsese\n**Year:** 2010\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Shutter Island** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Martin Scorsese deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMartin Scorsese crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Shutter Island** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
