@@ -3041,6 +3041,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: '8-deep-review-2026-08',
+    date: '2026-08-26',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/y2FNZLHynsevBnVTocGW6c3pQpr.jpg',
+    movieSlug: '8',
+    i18n: {
+      ar: {
+        title: '8½: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم 8½ (1963) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## 8½ — تحفة سينمائية\n\n**المخرج:** Federico Fellini\n**السنة:** 1963\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **8½** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Federico Fellini كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Federico Fellini أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **8½** مكانته بين أبرز أفلام **1963**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: '8½: A Deep Cinematic Analysis',
+        description: 'An in-depth look at 8½ (1963) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## 8½ — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1963\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**8½** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**8½** rightfully earns its place among the defining films of **1963**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: '8½: A Deep Cinematic Analysis',
+        description: 'An in-depth look at 8½ (1963) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## 8½ — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1963\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**8½** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**8½** rightfully earns its place among the defining films of **1963**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: '8½: A Deep Cinematic Analysis',
+        description: 'An in-depth look at 8½ (1963) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## 8½ — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1963\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**8½** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**8½** rightfully earns its place among the defining films of **1963**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: '8½: A Deep Cinematic Analysis',
+        description: 'An in-depth look at 8½ (1963) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## 8½ — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1963\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**8½** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**8½** rightfully earns its place among the defining films of **1963**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: '8½: A Deep Cinematic Analysis',
+        description: 'An in-depth look at 8½ (1963) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## 8½ — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1963\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**8½** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**8½** rightfully earns its place among the defining films of **1963**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: '8½: A Deep Cinematic Analysis',
+        description: 'An in-depth look at 8½ (1963) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## 8½ — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1963\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**8½** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**8½** rightfully earns its place among the defining films of **1963**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: '8½: A Deep Cinematic Analysis',
+        description: 'An in-depth look at 8½ (1963) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## 8½ — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1963\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**8½** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**8½** rightfully earns its place among the defining films of **1963**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
