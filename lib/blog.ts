@@ -3098,6 +3098,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'dead-poets-society-compare-era-2026-08',
+    date: '2026-08-27',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/yYvBNN96Ym3wtPxGCFl7F888WwB.jpg',
+    movieSlug: 'dead-poets-society',
+    i18n: {
+      ar: {
+        title: 'جمعية الشعراء الموتى: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم جمعية الشعراء الموتى (1989) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## جمعية الشعراء الموتى — تحفة سينمائية\n\n**المخرج:** Peter Weir\n**السنة:** 1989\n**التقييم:** 8.4/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **جمعية الشعراء الموتى** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Peter Weir كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Peter Weir أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **جمعية الشعراء الموتى** مكانته بين أبرز أفلام **1989**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Dead Poets Society: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dead Poets Society (1989) by Peter Weir — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Dead Poets Society — A Cinematic Masterpiece\n\n**Director:** Peter Weir\n**Year:** 1989\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dead Poets Society** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Peter Weir deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPeter Weir crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dead Poets Society** rightfully earns its place among the defining films of **1989**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Dead Poets Society: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dead Poets Society (1989) by Peter Weir — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Dead Poets Society — A Cinematic Masterpiece\n\n**Director:** Peter Weir\n**Year:** 1989\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dead Poets Society** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Peter Weir deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPeter Weir crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dead Poets Society** rightfully earns its place among the defining films of **1989**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Dead Poets Society: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dead Poets Society (1989) by Peter Weir — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Dead Poets Society — A Cinematic Masterpiece\n\n**Director:** Peter Weir\n**Year:** 1989\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dead Poets Society** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Peter Weir deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPeter Weir crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dead Poets Society** rightfully earns its place among the defining films of **1989**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Dead Poets Society: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dead Poets Society (1989) by Peter Weir — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Dead Poets Society — A Cinematic Masterpiece\n\n**Director:** Peter Weir\n**Year:** 1989\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dead Poets Society** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Peter Weir deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPeter Weir crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dead Poets Society** rightfully earns its place among the defining films of **1989**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Dead Poets Society: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dead Poets Society (1989) by Peter Weir — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Dead Poets Society — A Cinematic Masterpiece\n\n**Director:** Peter Weir\n**Year:** 1989\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dead Poets Society** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Peter Weir deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPeter Weir crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dead Poets Society** rightfully earns its place among the defining films of **1989**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Dead Poets Society: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dead Poets Society (1989) by Peter Weir — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Dead Poets Society — A Cinematic Masterpiece\n\n**Director:** Peter Weir\n**Year:** 1989\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dead Poets Society** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Peter Weir deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPeter Weir crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dead Poets Society** rightfully earns its place among the defining films of **1989**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Dead Poets Society: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dead Poets Society (1989) by Peter Weir — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Dead Poets Society — A Cinematic Masterpiece\n\n**Director:** Peter Weir\n**Year:** 1989\n**Rating:** 8.4/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dead Poets Society** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Peter Weir deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPeter Weir crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dead Poets Society** rightfully earns its place among the defining films of **1989**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
