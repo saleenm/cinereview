@@ -3155,6 +3155,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'das-boot-deep-review-2026-08',
+    date: '2026-08-28',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/zGgIlpKE2xP18bhCGsnn79vh80j.jpg',
+    movieSlug: 'das-boot',
+    i18n: {
+      ar: {
+        title: 'Das Boot: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم Das Boot (1981) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## Das Boot — تحفة سينمائية\n\n**المخرج:** Wolfgang Petersen\n**السنة:** 1981\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **Das Boot** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Wolfgang Petersen كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Wolfgang Petersen أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **Das Boot** مكانته بين أبرز أفلام **1981**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Das Boot: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Das Boot (1981) by Wolfgang Petersen — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Das Boot — A Cinematic Masterpiece\n\n**Director:** Wolfgang Petersen\n**Year:** 1981\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Das Boot** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wolfgang Petersen deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWolfgang Petersen crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Das Boot** rightfully earns its place among the defining films of **1981**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Das Boot: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Das Boot (1981) by Wolfgang Petersen — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Das Boot — A Cinematic Masterpiece\n\n**Director:** Wolfgang Petersen\n**Year:** 1981\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Das Boot** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wolfgang Petersen deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWolfgang Petersen crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Das Boot** rightfully earns its place among the defining films of **1981**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Das Boot: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Das Boot (1981) by Wolfgang Petersen — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Das Boot — A Cinematic Masterpiece\n\n**Director:** Wolfgang Petersen\n**Year:** 1981\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Das Boot** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wolfgang Petersen deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWolfgang Petersen crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Das Boot** rightfully earns its place among the defining films of **1981**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Das Boot: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Das Boot (1981) by Wolfgang Petersen — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Das Boot — A Cinematic Masterpiece\n\n**Director:** Wolfgang Petersen\n**Year:** 1981\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Das Boot** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wolfgang Petersen deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWolfgang Petersen crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Das Boot** rightfully earns its place among the defining films of **1981**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Das Boot: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Das Boot (1981) by Wolfgang Petersen — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Das Boot — A Cinematic Masterpiece\n\n**Director:** Wolfgang Petersen\n**Year:** 1981\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Das Boot** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wolfgang Petersen deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWolfgang Petersen crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Das Boot** rightfully earns its place among the defining films of **1981**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Das Boot: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Das Boot (1981) by Wolfgang Petersen — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Das Boot — A Cinematic Masterpiece\n\n**Director:** Wolfgang Petersen\n**Year:** 1981\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Das Boot** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wolfgang Petersen deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWolfgang Petersen crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Das Boot** rightfully earns its place among the defining films of **1981**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Das Boot: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Das Boot (1981) by Wolfgang Petersen — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Das Boot — A Cinematic Masterpiece\n\n**Director:** Wolfgang Petersen\n**Year:** 1981\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Das Boot** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wolfgang Petersen deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWolfgang Petersen crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Das Boot** rightfully earns its place among the defining films of **1981**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
