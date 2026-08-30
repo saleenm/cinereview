@@ -3269,6 +3269,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'terminator-2-judgment-day-legacy-impact-2026-08',
+    date: '2026-08-30',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg',
+    movieSlug: 'terminator-2-judgment-day',
+    i18n: {
+      ar: {
+        title: 'المدمر 2  يوم القيامة: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم المدمر 2  يوم القيامة (1991) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## المدمر 2  يوم القيامة — تحفة سينمائية\n\n**المخرج:** James Cameron\n**السنة:** 1991\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **المدمر 2  يوم القيامة** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج James Cameron كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع James Cameron أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **المدمر 2  يوم القيامة** مكانته بين أبرز أفلام **1991**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Terminator 2: Judgment Day: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Terminator 2: Judgment Day (1991) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Terminator 2: Judgment Day — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1991\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Terminator 2: Judgment Day** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Terminator 2: Judgment Day** rightfully earns its place among the defining films of **1991**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Terminator 2: Judgment Day: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Terminator 2: Judgment Day (1991) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Terminator 2: Judgment Day — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1991\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Terminator 2: Judgment Day** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Terminator 2: Judgment Day** rightfully earns its place among the defining films of **1991**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Terminator 2: Judgment Day: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Terminator 2: Judgment Day (1991) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Terminator 2: Judgment Day — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1991\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Terminator 2: Judgment Day** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Terminator 2: Judgment Day** rightfully earns its place among the defining films of **1991**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Terminator 2: Judgment Day: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Terminator 2: Judgment Day (1991) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Terminator 2: Judgment Day — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1991\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Terminator 2: Judgment Day** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Terminator 2: Judgment Day** rightfully earns its place among the defining films of **1991**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Terminator 2: Judgment Day: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Terminator 2: Judgment Day (1991) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Terminator 2: Judgment Day — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1991\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Terminator 2: Judgment Day** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Terminator 2: Judgment Day** rightfully earns its place among the defining films of **1991**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Terminator 2: Judgment Day: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Terminator 2: Judgment Day (1991) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Terminator 2: Judgment Day — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1991\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Terminator 2: Judgment Day** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Terminator 2: Judgment Day** rightfully earns its place among the defining films of **1991**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Terminator 2: Judgment Day: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Terminator 2: Judgment Day (1991) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Terminator 2: Judgment Day — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1991\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Terminator 2: Judgment Day** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Terminator 2: Judgment Day** rightfully earns its place among the defining films of **1991**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
