@@ -3326,6 +3326,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'persona-director-analysis-2026-08',
+    date: '2026-08-31',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/amr72SENYz7AM4Hq5WBXxFBJEY6.jpg',
+    movieSlug: 'persona',
+    i18n: {
+      ar: {
+        title: 'Persona: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم Persona (1966) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## Persona — تحفة سينمائية\n\n**المخرج:** Ingmar Bergman\n**السنة:** 1966\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **Persona** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Ingmar Bergman كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Ingmar Bergman أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **Persona** مكانته بين أبرز أفلام **1966**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Persona: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Persona (1966) by Ingmar Bergman — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Persona — A Cinematic Masterpiece\n\n**Director:** Ingmar Bergman\n**Year:** 1966\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Persona** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Ingmar Bergman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIngmar Bergman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Persona** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Persona: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Persona (1966) by Ingmar Bergman — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Persona — A Cinematic Masterpiece\n\n**Director:** Ingmar Bergman\n**Year:** 1966\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Persona** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Ingmar Bergman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIngmar Bergman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Persona** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Persona: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Persona (1966) by Ingmar Bergman — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Persona — A Cinematic Masterpiece\n\n**Director:** Ingmar Bergman\n**Year:** 1966\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Persona** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Ingmar Bergman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIngmar Bergman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Persona** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Persona: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Persona (1966) by Ingmar Bergman — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Persona — A Cinematic Masterpiece\n\n**Director:** Ingmar Bergman\n**Year:** 1966\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Persona** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Ingmar Bergman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIngmar Bergman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Persona** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Persona: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Persona (1966) by Ingmar Bergman — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Persona — A Cinematic Masterpiece\n\n**Director:** Ingmar Bergman\n**Year:** 1966\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Persona** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Ingmar Bergman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIngmar Bergman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Persona** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Persona: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Persona (1966) by Ingmar Bergman — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Persona — A Cinematic Masterpiece\n\n**Director:** Ingmar Bergman\n**Year:** 1966\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Persona** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Ingmar Bergman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIngmar Bergman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Persona** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Persona: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Persona (1966) by Ingmar Bergman — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Persona — A Cinematic Masterpiece\n\n**Director:** Ingmar Bergman\n**Year:** 1966\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Persona** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Ingmar Bergman deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIngmar Bergman crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Persona** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
