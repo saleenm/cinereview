@@ -3440,6 +3440,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'eternal-sunshine-of-the-spotless-mind-hidden-meanings-2026-09',
+    date: '2026-09-02',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/W1ffLQGHoxfAOq0ZYdPtJlvAdb.jpg',
+    movieSlug: 'eternal-sunshine-of-the-spotless-mind',
+    i18n: {
+      ar: {
+        title: 'إشراقة أبدية لعقل نظيف: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم إشراقة أبدية لعقل نظيف (2004) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## إشراقة أبدية لعقل نظيف — تحفة سينمائية\n\n**المخرج:** Michel Gondry\n**السنة:** 2004\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **إشراقة أبدية لعقل نظيف** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Michel Gondry كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Michel Gondry أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **إشراقة أبدية لعقل نظيف** مكانته بين أبرز أفلام **2004**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Eternal Sunshine of the Spotless Mind: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Eternal Sunshine of the Spotless Mind (2004) by Michel Gondry — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Eternal Sunshine of the Spotless Mind — A Cinematic Masterpiece\n\n**Director:** Michel Gondry\n**Year:** 2004\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Eternal Sunshine of the Spotless Mind** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michel Gondry deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichel Gondry crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Eternal Sunshine of the Spotless Mind** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Eternal Sunshine of the Spotless Mind: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Eternal Sunshine of the Spotless Mind (2004) by Michel Gondry — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Eternal Sunshine of the Spotless Mind — A Cinematic Masterpiece\n\n**Director:** Michel Gondry\n**Year:** 2004\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Eternal Sunshine of the Spotless Mind** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michel Gondry deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichel Gondry crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Eternal Sunshine of the Spotless Mind** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Eternal Sunshine of the Spotless Mind: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Eternal Sunshine of the Spotless Mind (2004) by Michel Gondry — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Eternal Sunshine of the Spotless Mind — A Cinematic Masterpiece\n\n**Director:** Michel Gondry\n**Year:** 2004\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Eternal Sunshine of the Spotless Mind** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michel Gondry deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichel Gondry crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Eternal Sunshine of the Spotless Mind** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Eternal Sunshine of the Spotless Mind: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Eternal Sunshine of the Spotless Mind (2004) by Michel Gondry — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Eternal Sunshine of the Spotless Mind — A Cinematic Masterpiece\n\n**Director:** Michel Gondry\n**Year:** 2004\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Eternal Sunshine of the Spotless Mind** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michel Gondry deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichel Gondry crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Eternal Sunshine of the Spotless Mind** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Eternal Sunshine of the Spotless Mind: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Eternal Sunshine of the Spotless Mind (2004) by Michel Gondry — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Eternal Sunshine of the Spotless Mind — A Cinematic Masterpiece\n\n**Director:** Michel Gondry\n**Year:** 2004\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Eternal Sunshine of the Spotless Mind** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michel Gondry deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichel Gondry crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Eternal Sunshine of the Spotless Mind** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Eternal Sunshine of the Spotless Mind: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Eternal Sunshine of the Spotless Mind (2004) by Michel Gondry — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Eternal Sunshine of the Spotless Mind — A Cinematic Masterpiece\n\n**Director:** Michel Gondry\n**Year:** 2004\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Eternal Sunshine of the Spotless Mind** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michel Gondry deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichel Gondry crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Eternal Sunshine of the Spotless Mind** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Eternal Sunshine of the Spotless Mind: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Eternal Sunshine of the Spotless Mind (2004) by Michel Gondry — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Eternal Sunshine of the Spotless Mind — A Cinematic Masterpiece\n\n**Director:** Michel Gondry\n**Year:** 2004\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Eternal Sunshine of the Spotless Mind** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Michel Gondry deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMichel Gondry crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Eternal Sunshine of the Spotless Mind** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
