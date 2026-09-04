@@ -3554,6 +3554,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'the-tale-of-the-princess-kaguya-hidden-meanings-2026-09',
+    date: '2026-09-04',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/lMaWlYThCSnsmW3usxWTpSuyZp1.jpg',
+    movieSlug: 'the-tale-of-the-princess-kaguya',
+    i18n: {
+      ar: {
+        title: 'حكاية الأميرة كاغويا: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم حكاية الأميرة كاغويا (2013) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## حكاية الأميرة كاغويا — تحفة سينمائية\n\n**المخرج:** Isao Takahata\n**السنة:** 2013\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **حكاية الأميرة كاغويا** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Isao Takahata كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Isao Takahata أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **حكاية الأميرة كاغويا** مكانته بين أبرز أفلام **2013**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'The Tale of The Princess Kaguya: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Tale of The Princess Kaguya (2013) by Isao Takahata — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## The Tale of The Princess Kaguya — A Cinematic Masterpiece\n\n**Director:** Isao Takahata\n**Year:** 2013\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Tale of The Princess Kaguya** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Isao Takahata deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIsao Takahata crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Tale of The Princess Kaguya** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'The Tale of The Princess Kaguya: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Tale of The Princess Kaguya (2013) by Isao Takahata — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## The Tale of The Princess Kaguya — A Cinematic Masterpiece\n\n**Director:** Isao Takahata\n**Year:** 2013\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Tale of The Princess Kaguya** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Isao Takahata deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIsao Takahata crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Tale of The Princess Kaguya** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'The Tale of The Princess Kaguya: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Tale of The Princess Kaguya (2013) by Isao Takahata — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## The Tale of The Princess Kaguya — A Cinematic Masterpiece\n\n**Director:** Isao Takahata\n**Year:** 2013\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Tale of The Princess Kaguya** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Isao Takahata deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIsao Takahata crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Tale of The Princess Kaguya** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'The Tale of The Princess Kaguya: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Tale of The Princess Kaguya (2013) by Isao Takahata — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## The Tale of The Princess Kaguya — A Cinematic Masterpiece\n\n**Director:** Isao Takahata\n**Year:** 2013\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Tale of The Princess Kaguya** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Isao Takahata deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIsao Takahata crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Tale of The Princess Kaguya** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'The Tale of The Princess Kaguya: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Tale of The Princess Kaguya (2013) by Isao Takahata — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## The Tale of The Princess Kaguya — A Cinematic Masterpiece\n\n**Director:** Isao Takahata\n**Year:** 2013\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Tale of The Princess Kaguya** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Isao Takahata deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIsao Takahata crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Tale of The Princess Kaguya** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'The Tale of The Princess Kaguya: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Tale of The Princess Kaguya (2013) by Isao Takahata — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## The Tale of The Princess Kaguya — A Cinematic Masterpiece\n\n**Director:** Isao Takahata\n**Year:** 2013\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Tale of The Princess Kaguya** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Isao Takahata deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIsao Takahata crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Tale of The Princess Kaguya** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'The Tale of The Princess Kaguya: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Tale of The Princess Kaguya (2013) by Isao Takahata — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## The Tale of The Princess Kaguya — A Cinematic Masterpiece\n\n**Director:** Isao Takahata\n**Year:** 2013\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Tale of The Princess Kaguya** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Isao Takahata deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nIsao Takahata crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Tale of The Princess Kaguya** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
