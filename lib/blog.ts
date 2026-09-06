@@ -3668,6 +3668,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'harry-potter-and-the-deathly-hallows-part-2-legacy-impact-2026-09',
+    date: '2026-09-06',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/cbcpDn6XJaIGoOil1bKuskU8ds4.jpg',
+    movieSlug: 'harry-potter-and-the-deathly-hallows-part-2',
+    i18n: {
+      ar: {
+        title: 'هاري بوتر ومقدسات الموت الجزء الثاني: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم هاري بوتر ومقدسات الموت الجزء الثاني (2011) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## هاري بوتر ومقدسات الموت الجزء الثاني — تحفة سينمائية\n\n**المخرج:** David Yates\n**السنة:** 2011\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **هاري بوتر ومقدسات الموت الجزء الثاني** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج David Yates كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع David Yates أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **هاري بوتر ومقدسات الموت الجزء الثاني** مكانته بين أبرز أفلام **2011**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Harry Potter and the Deathly Hallows: Part 2: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Deathly Hallows: Part 2 (2011) by David Yates — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Harry Potter and the Deathly Hallows: Part 2 — A Cinematic Masterpiece\n\n**Director:** David Yates\n**Year:** 2011\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Deathly Hallows: Part 2** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Yates deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Yates crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Deathly Hallows: Part 2** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Harry Potter and the Deathly Hallows: Part 2: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Deathly Hallows: Part 2 (2011) by David Yates — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Harry Potter and the Deathly Hallows: Part 2 — A Cinematic Masterpiece\n\n**Director:** David Yates\n**Year:** 2011\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Deathly Hallows: Part 2** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Yates deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Yates crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Deathly Hallows: Part 2** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Harry Potter and the Deathly Hallows: Part 2: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Deathly Hallows: Part 2 (2011) by David Yates — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Harry Potter and the Deathly Hallows: Part 2 — A Cinematic Masterpiece\n\n**Director:** David Yates\n**Year:** 2011\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Deathly Hallows: Part 2** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Yates deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Yates crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Deathly Hallows: Part 2** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Harry Potter and the Deathly Hallows: Part 2: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Deathly Hallows: Part 2 (2011) by David Yates — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Harry Potter and the Deathly Hallows: Part 2 — A Cinematic Masterpiece\n\n**Director:** David Yates\n**Year:** 2011\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Deathly Hallows: Part 2** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Yates deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Yates crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Deathly Hallows: Part 2** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Harry Potter and the Deathly Hallows: Part 2: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Deathly Hallows: Part 2 (2011) by David Yates — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Harry Potter and the Deathly Hallows: Part 2 — A Cinematic Masterpiece\n\n**Director:** David Yates\n**Year:** 2011\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Deathly Hallows: Part 2** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Yates deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Yates crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Deathly Hallows: Part 2** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Harry Potter and the Deathly Hallows: Part 2: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Deathly Hallows: Part 2 (2011) by David Yates — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Harry Potter and the Deathly Hallows: Part 2 — A Cinematic Masterpiece\n\n**Director:** David Yates\n**Year:** 2011\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Deathly Hallows: Part 2** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Yates deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Yates crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Deathly Hallows: Part 2** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Harry Potter and the Deathly Hallows: Part 2: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Deathly Hallows: Part 2 (2011) by David Yates — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Harry Potter and the Deathly Hallows: Part 2 — A Cinematic Masterpiece\n\n**Director:** David Yates\n**Year:** 2011\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Deathly Hallows: Part 2** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director David Yates deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDavid Yates crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Deathly Hallows: Part 2** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
