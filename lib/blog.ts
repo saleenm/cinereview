@@ -3725,6 +3725,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'my-name-is-khan-deep-review-2026-09',
+    date: '2026-09-07',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/zGCnIADWwpjGllYv8DgT8HIuIQl.jpg',
+    movieSlug: 'my-name-is-khan',
+    i18n: {
+      ar: {
+        title: 'إسمي خان: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم إسمي خان (2010) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## إسمي خان — تحفة سينمائية\n\n**المخرج:** Karan Johar\n**السنة:** 2010\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **إسمي خان** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Karan Johar كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Karan Johar أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **إسمي خان** مكانته بين أبرز أفلام **2010**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'My Name Is Khan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Name Is Khan (2010) by Karan Johar — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## My Name Is Khan — A Cinematic Masterpiece\n\n**Director:** Karan Johar\n**Year:** 2010\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Name Is Khan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Karan Johar deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKaran Johar crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Name Is Khan** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'My Name Is Khan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Name Is Khan (2010) by Karan Johar — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## My Name Is Khan — A Cinematic Masterpiece\n\n**Director:** Karan Johar\n**Year:** 2010\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Name Is Khan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Karan Johar deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKaran Johar crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Name Is Khan** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'My Name Is Khan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Name Is Khan (2010) by Karan Johar — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## My Name Is Khan — A Cinematic Masterpiece\n\n**Director:** Karan Johar\n**Year:** 2010\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Name Is Khan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Karan Johar deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKaran Johar crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Name Is Khan** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'My Name Is Khan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Name Is Khan (2010) by Karan Johar — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## My Name Is Khan — A Cinematic Masterpiece\n\n**Director:** Karan Johar\n**Year:** 2010\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Name Is Khan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Karan Johar deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKaran Johar crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Name Is Khan** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'My Name Is Khan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Name Is Khan (2010) by Karan Johar — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## My Name Is Khan — A Cinematic Masterpiece\n\n**Director:** Karan Johar\n**Year:** 2010\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Name Is Khan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Karan Johar deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKaran Johar crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Name Is Khan** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'My Name Is Khan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Name Is Khan (2010) by Karan Johar — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## My Name Is Khan — A Cinematic Masterpiece\n\n**Director:** Karan Johar\n**Year:** 2010\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Name Is Khan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Karan Johar deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKaran Johar crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Name Is Khan** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'My Name Is Khan: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Name Is Khan (2010) by Karan Johar — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## My Name Is Khan — A Cinematic Masterpiece\n\n**Director:** Karan Johar\n**Year:** 2010\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Name Is Khan** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Karan Johar deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nKaran Johar crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Name Is Khan** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
