@@ -3896,6 +3896,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'reservoir-dogs-compare-era-2026-09',
+    date: '2026-09-10',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/jwt159hXWA9Q5xpBo8hWb3zwLi7.jpg',
+    movieSlug: 'reservoir-dogs',
+    i18n: {
+      ar: {
+        title: 'كلاب المستودع: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم كلاب المستودع (1992) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## كلاب المستودع — تحفة سينمائية\n\n**المخرج:** Quentin Tarantino\n**السنة:** 1992\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **كلاب المستودع** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Quentin Tarantino كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Quentin Tarantino أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **كلاب المستودع** مكانته بين أبرز أفلام **1992**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Reservoir Dogs: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Reservoir Dogs (1992) by Quentin Tarantino — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Reservoir Dogs — A Cinematic Masterpiece\n\n**Director:** Quentin Tarantino\n**Year:** 1992\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Reservoir Dogs** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Quentin Tarantino deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nQuentin Tarantino crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Reservoir Dogs** rightfully earns its place among the defining films of **1992**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Reservoir Dogs: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Reservoir Dogs (1992) by Quentin Tarantino — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Reservoir Dogs — A Cinematic Masterpiece\n\n**Director:** Quentin Tarantino\n**Year:** 1992\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Reservoir Dogs** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Quentin Tarantino deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nQuentin Tarantino crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Reservoir Dogs** rightfully earns its place among the defining films of **1992**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Reservoir Dogs: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Reservoir Dogs (1992) by Quentin Tarantino — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Reservoir Dogs — A Cinematic Masterpiece\n\n**Director:** Quentin Tarantino\n**Year:** 1992\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Reservoir Dogs** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Quentin Tarantino deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nQuentin Tarantino crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Reservoir Dogs** rightfully earns its place among the defining films of **1992**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Reservoir Dogs: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Reservoir Dogs (1992) by Quentin Tarantino — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Reservoir Dogs — A Cinematic Masterpiece\n\n**Director:** Quentin Tarantino\n**Year:** 1992\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Reservoir Dogs** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Quentin Tarantino deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nQuentin Tarantino crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Reservoir Dogs** rightfully earns its place among the defining films of **1992**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Reservoir Dogs: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Reservoir Dogs (1992) by Quentin Tarantino — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Reservoir Dogs — A Cinematic Masterpiece\n\n**Director:** Quentin Tarantino\n**Year:** 1992\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Reservoir Dogs** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Quentin Tarantino deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nQuentin Tarantino crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Reservoir Dogs** rightfully earns its place among the defining films of **1992**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Reservoir Dogs: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Reservoir Dogs (1992) by Quentin Tarantino — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Reservoir Dogs — A Cinematic Masterpiece\n\n**Director:** Quentin Tarantino\n**Year:** 1992\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Reservoir Dogs** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Quentin Tarantino deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nQuentin Tarantino crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Reservoir Dogs** rightfully earns its place among the defining films of **1992**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Reservoir Dogs: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Reservoir Dogs (1992) by Quentin Tarantino — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Reservoir Dogs — A Cinematic Masterpiece\n\n**Director:** Quentin Tarantino\n**Year:** 1992\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Reservoir Dogs** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Quentin Tarantino deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nQuentin Tarantino crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Reservoir Dogs** rightfully earns its place among the defining films of **1992**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
