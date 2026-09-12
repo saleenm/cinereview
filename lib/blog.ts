@@ -4010,6 +4010,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'pride-prejudice-director-analysis-2026-09',
+    date: '2026-09-12',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/1Onam6oWyFAUCcoxtdWkACtEiNr.jpg',
+    movieSlug: 'pride-prejudice',
+    i18n: {
+      ar: {
+        title: 'Pride & Prejudice: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم Pride & Prejudice (2005) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## Pride & Prejudice — تحفة سينمائية\n\n**المخرج:** Joe Wright\n**السنة:** 2005\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **Pride & Prejudice** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Joe Wright كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Joe Wright أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **Pride & Prejudice** مكانته بين أبرز أفلام **2005**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Pride & Prejudice: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Pride & Prejudice (2005) by Joe Wright — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Pride & Prejudice — A Cinematic Masterpiece\n\n**Director:** Joe Wright\n**Year:** 2005\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Pride & Prejudice** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Joe Wright deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJoe Wright crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Pride & Prejudice** rightfully earns its place among the defining films of **2005**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Pride & Prejudice: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Pride & Prejudice (2005) by Joe Wright — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Pride & Prejudice — A Cinematic Masterpiece\n\n**Director:** Joe Wright\n**Year:** 2005\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Pride & Prejudice** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Joe Wright deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJoe Wright crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Pride & Prejudice** rightfully earns its place among the defining films of **2005**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Pride & Prejudice: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Pride & Prejudice (2005) by Joe Wright — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Pride & Prejudice — A Cinematic Masterpiece\n\n**Director:** Joe Wright\n**Year:** 2005\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Pride & Prejudice** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Joe Wright deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJoe Wright crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Pride & Prejudice** rightfully earns its place among the defining films of **2005**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Pride & Prejudice: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Pride & Prejudice (2005) by Joe Wright — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Pride & Prejudice — A Cinematic Masterpiece\n\n**Director:** Joe Wright\n**Year:** 2005\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Pride & Prejudice** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Joe Wright deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJoe Wright crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Pride & Prejudice** rightfully earns its place among the defining films of **2005**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Pride & Prejudice: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Pride & Prejudice (2005) by Joe Wright — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Pride & Prejudice — A Cinematic Masterpiece\n\n**Director:** Joe Wright\n**Year:** 2005\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Pride & Prejudice** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Joe Wright deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJoe Wright crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Pride & Prejudice** rightfully earns its place among the defining films of **2005**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Pride & Prejudice: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Pride & Prejudice (2005) by Joe Wright — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Pride & Prejudice — A Cinematic Masterpiece\n\n**Director:** Joe Wright\n**Year:** 2005\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Pride & Prejudice** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Joe Wright deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJoe Wright crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Pride & Prejudice** rightfully earns its place among the defining films of **2005**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Pride & Prejudice: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Pride & Prejudice (2005) by Joe Wright — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Pride & Prejudice — A Cinematic Masterpiece\n\n**Director:** Joe Wright\n**Year:** 2005\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Pride & Prejudice** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Joe Wright deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJoe Wright crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Pride & Prejudice** rightfully earns its place among the defining films of **2005**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
