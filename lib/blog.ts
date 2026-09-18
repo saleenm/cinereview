@@ -4295,6 +4295,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'paris-texas-compare-era-2026-09',
+    date: '2026-09-18',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/fWrq3u16gaBJ6nYNWcR3XaOhQPq.jpg',
+    movieSlug: 'paris-texas',
+    i18n: {
+      ar: {
+        title: 'Paris, Texas: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم Paris, Texas (1984) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## Paris, Texas — تحفة سينمائية\n\n**المخرج:** Wim Wenders\n**السنة:** 1984\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **Paris, Texas** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Wim Wenders كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Wim Wenders أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **Paris, Texas** مكانته بين أبرز أفلام **1984**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Paris, Texas: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Paris, Texas (1984) by Wim Wenders — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Paris, Texas — A Cinematic Masterpiece\n\n**Director:** Wim Wenders\n**Year:** 1984\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Paris, Texas** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wim Wenders deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWim Wenders crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Paris, Texas** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Paris, Texas: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Paris, Texas (1984) by Wim Wenders — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Paris, Texas — A Cinematic Masterpiece\n\n**Director:** Wim Wenders\n**Year:** 1984\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Paris, Texas** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wim Wenders deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWim Wenders crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Paris, Texas** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Paris, Texas: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Paris, Texas (1984) by Wim Wenders — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Paris, Texas — A Cinematic Masterpiece\n\n**Director:** Wim Wenders\n**Year:** 1984\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Paris, Texas** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wim Wenders deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWim Wenders crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Paris, Texas** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Paris, Texas: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Paris, Texas (1984) by Wim Wenders — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Paris, Texas — A Cinematic Masterpiece\n\n**Director:** Wim Wenders\n**Year:** 1984\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Paris, Texas** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wim Wenders deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWim Wenders crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Paris, Texas** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Paris, Texas: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Paris, Texas (1984) by Wim Wenders — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Paris, Texas — A Cinematic Masterpiece\n\n**Director:** Wim Wenders\n**Year:** 1984\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Paris, Texas** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wim Wenders deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWim Wenders crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Paris, Texas** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Paris, Texas: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Paris, Texas (1984) by Wim Wenders — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Paris, Texas — A Cinematic Masterpiece\n\n**Director:** Wim Wenders\n**Year:** 1984\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Paris, Texas** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wim Wenders deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWim Wenders crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Paris, Texas** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Paris, Texas: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Paris, Texas (1984) by Wim Wenders — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Paris, Texas — A Cinematic Masterpiece\n\n**Director:** Wim Wenders\n**Year:** 1984\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Paris, Texas** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Wim Wenders deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nWim Wenders crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Paris, Texas** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
