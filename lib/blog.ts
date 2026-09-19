@@ -4352,6 +4352,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'harry-potter-and-the-prisoner-of-azkaban-legacy-impact-2026-09',
+    date: '2026-09-19',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/vbk5CfaAHOjQPSAcYm6AoRRz2Af.jpg',
+    movieSlug: 'harry-potter-and-the-prisoner-of-azkaban',
+    i18n: {
+      ar: {
+        title: 'هاري بوتر وسجين أزكابان: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم هاري بوتر وسجين أزكابان (2004) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## هاري بوتر وسجين أزكابان — تحفة سينمائية\n\n**المخرج:** Alfonso Cuarón\n**السنة:** 2004\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **هاري بوتر وسجين أزكابان** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Alfonso Cuarón كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Alfonso Cuarón أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **هاري بوتر وسجين أزكابان** مكانته بين أبرز أفلام **2004**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Harry Potter and the Prisoner of Azkaban: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Prisoner of Azkaban (2004) by Alfonso Cuarón — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Harry Potter and the Prisoner of Azkaban — A Cinematic Masterpiece\n\n**Director:** Alfonso Cuarón\n**Year:** 2004\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Prisoner of Azkaban** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Alfonso Cuarón deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAlfonso Cuarón crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Prisoner of Azkaban** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Harry Potter and the Prisoner of Azkaban: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Prisoner of Azkaban (2004) by Alfonso Cuarón — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Harry Potter and the Prisoner of Azkaban — A Cinematic Masterpiece\n\n**Director:** Alfonso Cuarón\n**Year:** 2004\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Prisoner of Azkaban** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Alfonso Cuarón deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAlfonso Cuarón crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Prisoner of Azkaban** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Harry Potter and the Prisoner of Azkaban: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Prisoner of Azkaban (2004) by Alfonso Cuarón — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Harry Potter and the Prisoner of Azkaban — A Cinematic Masterpiece\n\n**Director:** Alfonso Cuarón\n**Year:** 2004\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Prisoner of Azkaban** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Alfonso Cuarón deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAlfonso Cuarón crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Prisoner of Azkaban** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Harry Potter and the Prisoner of Azkaban: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Prisoner of Azkaban (2004) by Alfonso Cuarón — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Harry Potter and the Prisoner of Azkaban — A Cinematic Masterpiece\n\n**Director:** Alfonso Cuarón\n**Year:** 2004\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Prisoner of Azkaban** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Alfonso Cuarón deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAlfonso Cuarón crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Prisoner of Azkaban** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Harry Potter and the Prisoner of Azkaban: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Prisoner of Azkaban (2004) by Alfonso Cuarón — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Harry Potter and the Prisoner of Azkaban — A Cinematic Masterpiece\n\n**Director:** Alfonso Cuarón\n**Year:** 2004\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Prisoner of Azkaban** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Alfonso Cuarón deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAlfonso Cuarón crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Prisoner of Azkaban** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Harry Potter and the Prisoner of Azkaban: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Prisoner of Azkaban (2004) by Alfonso Cuarón — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Harry Potter and the Prisoner of Azkaban — A Cinematic Masterpiece\n\n**Director:** Alfonso Cuarón\n**Year:** 2004\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Prisoner of Azkaban** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Alfonso Cuarón deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAlfonso Cuarón crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Prisoner of Azkaban** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Harry Potter and the Prisoner of Azkaban: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Harry Potter and the Prisoner of Azkaban (2004) by Alfonso Cuarón — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Harry Potter and the Prisoner of Azkaban — A Cinematic Masterpiece\n\n**Director:** Alfonso Cuarón\n**Year:** 2004\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Harry Potter and the Prisoner of Azkaban** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Alfonso Cuarón deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAlfonso Cuarón crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Harry Potter and the Prisoner of Azkaban** rightfully earns its place among the defining films of **2004**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
