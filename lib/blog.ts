@@ -4409,6 +4409,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'room-director-analysis-2026-09',
+    date: '2026-09-20',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/cGV6R2vzT4TYIabf3JgmrOISQ0y.jpg',
+    movieSlug: 'room',
+    i18n: {
+      ar: {
+        title: 'Room: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم Room (2015) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## Room — تحفة سينمائية\n\n**المخرج:** Lenny Abrahamson\n**السنة:** 2015\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **Room** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Lenny Abrahamson كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Lenny Abrahamson أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **Room** مكانته بين أبرز أفلام **2015**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Room: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Room (2015) by Lenny Abrahamson — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Room — A Cinematic Masterpiece\n\n**Director:** Lenny Abrahamson\n**Year:** 2015\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Room** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Lenny Abrahamson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLenny Abrahamson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Room** rightfully earns its place among the defining films of **2015**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Room: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Room (2015) by Lenny Abrahamson — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Room — A Cinematic Masterpiece\n\n**Director:** Lenny Abrahamson\n**Year:** 2015\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Room** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Lenny Abrahamson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLenny Abrahamson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Room** rightfully earns its place among the defining films of **2015**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Room: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Room (2015) by Lenny Abrahamson — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Room — A Cinematic Masterpiece\n\n**Director:** Lenny Abrahamson\n**Year:** 2015\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Room** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Lenny Abrahamson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLenny Abrahamson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Room** rightfully earns its place among the defining films of **2015**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Room: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Room (2015) by Lenny Abrahamson — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Room — A Cinematic Masterpiece\n\n**Director:** Lenny Abrahamson\n**Year:** 2015\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Room** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Lenny Abrahamson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLenny Abrahamson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Room** rightfully earns its place among the defining films of **2015**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Room: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Room (2015) by Lenny Abrahamson — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Room — A Cinematic Masterpiece\n\n**Director:** Lenny Abrahamson\n**Year:** 2015\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Room** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Lenny Abrahamson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLenny Abrahamson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Room** rightfully earns its place among the defining films of **2015**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Room: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Room (2015) by Lenny Abrahamson — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Room — A Cinematic Masterpiece\n\n**Director:** Lenny Abrahamson\n**Year:** 2015\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Room** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Lenny Abrahamson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLenny Abrahamson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Room** rightfully earns its place among the defining films of **2015**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Room: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Room (2015) by Lenny Abrahamson — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Room — A Cinematic Masterpiece\n\n**Director:** Lenny Abrahamson\n**Year:** 2015\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Room** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Lenny Abrahamson deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nLenny Abrahamson crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Room** rightfully earns its place among the defining films of **2015**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
