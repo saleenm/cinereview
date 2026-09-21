@@ -4466,6 +4466,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'requiem-for-a-dream-director-analysis-2026-09',
+    date: '2026-09-21',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/6qHI1IYj7QlLSCwHRzkL62X175s.jpg',
+    movieSlug: 'requiem-for-a-dream',
+    i18n: {
+      ar: {
+        title: 'مرثية حلم: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم مرثية حلم (2000) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## مرثية حلم — تحفة سينمائية\n\n**المخرج:** Darren Aronofsky\n**السنة:** 2000\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **مرثية حلم** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Darren Aronofsky كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Darren Aronofsky أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **مرثية حلم** مكانته بين أبرز أفلام **2000**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Requiem for a Dream: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Requiem for a Dream (2000) by Darren Aronofsky — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Requiem for a Dream — A Cinematic Masterpiece\n\n**Director:** Darren Aronofsky\n**Year:** 2000\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Requiem for a Dream** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Darren Aronofsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDarren Aronofsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Requiem for a Dream** rightfully earns its place among the defining films of **2000**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Requiem for a Dream: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Requiem for a Dream (2000) by Darren Aronofsky — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Requiem for a Dream — A Cinematic Masterpiece\n\n**Director:** Darren Aronofsky\n**Year:** 2000\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Requiem for a Dream** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Darren Aronofsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDarren Aronofsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Requiem for a Dream** rightfully earns its place among the defining films of **2000**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Requiem for a Dream: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Requiem for a Dream (2000) by Darren Aronofsky — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Requiem for a Dream — A Cinematic Masterpiece\n\n**Director:** Darren Aronofsky\n**Year:** 2000\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Requiem for a Dream** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Darren Aronofsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDarren Aronofsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Requiem for a Dream** rightfully earns its place among the defining films of **2000**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Requiem for a Dream: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Requiem for a Dream (2000) by Darren Aronofsky — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Requiem for a Dream — A Cinematic Masterpiece\n\n**Director:** Darren Aronofsky\n**Year:** 2000\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Requiem for a Dream** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Darren Aronofsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDarren Aronofsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Requiem for a Dream** rightfully earns its place among the defining films of **2000**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Requiem for a Dream: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Requiem for a Dream (2000) by Darren Aronofsky — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Requiem for a Dream — A Cinematic Masterpiece\n\n**Director:** Darren Aronofsky\n**Year:** 2000\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Requiem for a Dream** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Darren Aronofsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDarren Aronofsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Requiem for a Dream** rightfully earns its place among the defining films of **2000**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Requiem for a Dream: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Requiem for a Dream (2000) by Darren Aronofsky — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Requiem for a Dream — A Cinematic Masterpiece\n\n**Director:** Darren Aronofsky\n**Year:** 2000\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Requiem for a Dream** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Darren Aronofsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDarren Aronofsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Requiem for a Dream** rightfully earns its place among the defining films of **2000**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Requiem for a Dream: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Requiem for a Dream (2000) by Darren Aronofsky — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Requiem for a Dream — A Cinematic Masterpiece\n\n**Director:** Darren Aronofsky\n**Year:** 2000\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Requiem for a Dream** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Darren Aronofsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDarren Aronofsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Requiem for a Dream** rightfully earns its place among the defining films of **2000**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
