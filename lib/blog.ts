@@ -4523,6 +4523,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'song-of-the-sea-legacy-impact-2026-09',
+    date: '2026-09-22',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/mVLZvSe1Aa8CFKx0cInTamVZJrW.jpg',
+    movieSlug: 'song-of-the-sea',
+    i18n: {
+      ar: {
+        title: 'Song of the Sea: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم Song of the Sea (2014) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## Song of the Sea — تحفة سينمائية\n\n**المخرج:** Tomm Moore\n**السنة:** 2014\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **Song of the Sea** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Tomm Moore كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Tomm Moore أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **Song of the Sea** مكانته بين أبرز أفلام **2014**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Song of the Sea: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Song of the Sea (2014) by Tomm Moore — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Song of the Sea — A Cinematic Masterpiece\n\n**Director:** Tomm Moore\n**Year:** 2014\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Song of the Sea** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Tomm Moore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTomm Moore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Song of the Sea** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Song of the Sea: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Song of the Sea (2014) by Tomm Moore — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Song of the Sea — A Cinematic Masterpiece\n\n**Director:** Tomm Moore\n**Year:** 2014\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Song of the Sea** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Tomm Moore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTomm Moore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Song of the Sea** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Song of the Sea: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Song of the Sea (2014) by Tomm Moore — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Song of the Sea — A Cinematic Masterpiece\n\n**Director:** Tomm Moore\n**Year:** 2014\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Song of the Sea** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Tomm Moore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTomm Moore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Song of the Sea** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Song of the Sea: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Song of the Sea (2014) by Tomm Moore — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Song of the Sea — A Cinematic Masterpiece\n\n**Director:** Tomm Moore\n**Year:** 2014\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Song of the Sea** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Tomm Moore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTomm Moore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Song of the Sea** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Song of the Sea: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Song of the Sea (2014) by Tomm Moore — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Song of the Sea — A Cinematic Masterpiece\n\n**Director:** Tomm Moore\n**Year:** 2014\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Song of the Sea** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Tomm Moore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTomm Moore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Song of the Sea** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Song of the Sea: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Song of the Sea (2014) by Tomm Moore — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Song of the Sea — A Cinematic Masterpiece\n\n**Director:** Tomm Moore\n**Year:** 2014\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Song of the Sea** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Tomm Moore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTomm Moore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Song of the Sea** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Song of the Sea: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Song of the Sea (2014) by Tomm Moore — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Song of the Sea — A Cinematic Masterpiece\n\n**Director:** Tomm Moore\n**Year:** 2014\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Song of the Sea** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Tomm Moore deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTomm Moore crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Song of the Sea** rightfully earns its place among the defining films of **2014**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
