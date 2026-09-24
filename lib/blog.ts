@@ -4637,6 +4637,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'american-beauty-hidden-meanings-2026-09',
+    date: '2026-09-24',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/2ndw55F40IkALzWyjCCza3M6nqM.jpg',
+    movieSlug: 'american-beauty',
+    i18n: {
+      ar: {
+        title: 'American Beauty: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم American Beauty (1999) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## American Beauty — تحفة سينمائية\n\n**المخرج:** Sam Mendes\n**السنة:** 1999\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **American Beauty** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Sam Mendes كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Sam Mendes أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **American Beauty** مكانته بين أبرز أفلام **1999**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'American Beauty: A Deep Cinematic Analysis',
+        description: 'An in-depth look at American Beauty (1999) by Sam Mendes — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## American Beauty — A Cinematic Masterpiece\n\n**Director:** Sam Mendes\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**American Beauty** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sam Mendes deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSam Mendes crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**American Beauty** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'American Beauty: A Deep Cinematic Analysis',
+        description: 'An in-depth look at American Beauty (1999) by Sam Mendes — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## American Beauty — A Cinematic Masterpiece\n\n**Director:** Sam Mendes\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**American Beauty** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sam Mendes deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSam Mendes crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**American Beauty** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'American Beauty: A Deep Cinematic Analysis',
+        description: 'An in-depth look at American Beauty (1999) by Sam Mendes — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## American Beauty — A Cinematic Masterpiece\n\n**Director:** Sam Mendes\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**American Beauty** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sam Mendes deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSam Mendes crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**American Beauty** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'American Beauty: A Deep Cinematic Analysis',
+        description: 'An in-depth look at American Beauty (1999) by Sam Mendes — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## American Beauty — A Cinematic Masterpiece\n\n**Director:** Sam Mendes\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**American Beauty** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sam Mendes deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSam Mendes crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**American Beauty** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'American Beauty: A Deep Cinematic Analysis',
+        description: 'An in-depth look at American Beauty (1999) by Sam Mendes — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## American Beauty — A Cinematic Masterpiece\n\n**Director:** Sam Mendes\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**American Beauty** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sam Mendes deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSam Mendes crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**American Beauty** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'American Beauty: A Deep Cinematic Analysis',
+        description: 'An in-depth look at American Beauty (1999) by Sam Mendes — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## American Beauty — A Cinematic Masterpiece\n\n**Director:** Sam Mendes\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**American Beauty** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sam Mendes deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSam Mendes crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**American Beauty** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'American Beauty: A Deep Cinematic Analysis',
+        description: 'An in-depth look at American Beauty (1999) by Sam Mendes — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## American Beauty — A Cinematic Masterpiece\n\n**Director:** Sam Mendes\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**American Beauty** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sam Mendes deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSam Mendes crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**American Beauty** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
