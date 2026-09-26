@@ -4751,6 +4751,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'stalker-hidden-meanings-2026-09',
+    date: '2026-09-26',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/6yrbWzzrPp7pwz6zHdifspJk8t3.jpg',
+    movieSlug: 'stalker',
+    i18n: {
+      ar: {
+        title: 'مطارد: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم مطارد (1979) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## مطارد — تحفة سينمائية\n\n**المخرج:** Andrei Tarkovsky\n**السنة:** 1979\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **مطارد** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Andrei Tarkovsky كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Andrei Tarkovsky أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **مطارد** مكانته بين أبرز أفلام **1979**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Stalker: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Stalker (1979) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Stalker — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1979\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Stalker** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Stalker** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Stalker: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Stalker (1979) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Stalker — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1979\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Stalker** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Stalker** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Stalker: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Stalker (1979) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Stalker — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1979\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Stalker** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Stalker** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Stalker: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Stalker (1979) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Stalker — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1979\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Stalker** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Stalker** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Stalker: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Stalker (1979) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Stalker — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1979\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Stalker** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Stalker** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Stalker: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Stalker (1979) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Stalker — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1979\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Stalker** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Stalker** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Stalker: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Stalker (1979) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Stalker — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1979\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Stalker** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Stalker** rightfully earns its place among the defining films of **1979**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
