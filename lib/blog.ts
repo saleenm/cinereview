@@ -4865,6 +4865,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'my-neighbor-totoro-hidden-meanings-2026-09',
+    date: '2026-09-28',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/zkThiZAaAie8Lw7RAc5yPTOewBV.jpg',
+    movieSlug: 'my-neighbor-totoro',
+    i18n: {
+      ar: {
+        title: 'جاري توتورو: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم جاري توتورو (1988) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## جاري توتورو — تحفة سينمائية\n\n**المخرج:** Hayao Miyazaki\n**السنة:** 1988\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **جاري توتورو** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Hayao Miyazaki كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Hayao Miyazaki أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **جاري توتورو** مكانته بين أبرز أفلام **1988**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'My Neighbor Totoro: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Neighbor Totoro (1988) by Hayao Miyazaki — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## My Neighbor Totoro — A Cinematic Masterpiece\n\n**Director:** Hayao Miyazaki\n**Year:** 1988\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Neighbor Totoro** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Hayao Miyazaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nHayao Miyazaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Neighbor Totoro** rightfully earns its place among the defining films of **1988**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'My Neighbor Totoro: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Neighbor Totoro (1988) by Hayao Miyazaki — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## My Neighbor Totoro — A Cinematic Masterpiece\n\n**Director:** Hayao Miyazaki\n**Year:** 1988\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Neighbor Totoro** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Hayao Miyazaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nHayao Miyazaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Neighbor Totoro** rightfully earns its place among the defining films of **1988**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'My Neighbor Totoro: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Neighbor Totoro (1988) by Hayao Miyazaki — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## My Neighbor Totoro — A Cinematic Masterpiece\n\n**Director:** Hayao Miyazaki\n**Year:** 1988\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Neighbor Totoro** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Hayao Miyazaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nHayao Miyazaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Neighbor Totoro** rightfully earns its place among the defining films of **1988**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'My Neighbor Totoro: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Neighbor Totoro (1988) by Hayao Miyazaki — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## My Neighbor Totoro — A Cinematic Masterpiece\n\n**Director:** Hayao Miyazaki\n**Year:** 1988\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Neighbor Totoro** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Hayao Miyazaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nHayao Miyazaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Neighbor Totoro** rightfully earns its place among the defining films of **1988**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'My Neighbor Totoro: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Neighbor Totoro (1988) by Hayao Miyazaki — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## My Neighbor Totoro — A Cinematic Masterpiece\n\n**Director:** Hayao Miyazaki\n**Year:** 1988\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Neighbor Totoro** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Hayao Miyazaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nHayao Miyazaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Neighbor Totoro** rightfully earns its place among the defining films of **1988**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'My Neighbor Totoro: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Neighbor Totoro (1988) by Hayao Miyazaki — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## My Neighbor Totoro — A Cinematic Masterpiece\n\n**Director:** Hayao Miyazaki\n**Year:** 1988\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Neighbor Totoro** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Hayao Miyazaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nHayao Miyazaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Neighbor Totoro** rightfully earns its place among the defining films of **1988**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'My Neighbor Totoro: A Deep Cinematic Analysis',
+        description: 'An in-depth look at My Neighbor Totoro (1988) by Hayao Miyazaki — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## My Neighbor Totoro — A Cinematic Masterpiece\n\n**Director:** Hayao Miyazaki\n**Year:** 1988\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**My Neighbor Totoro** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Hayao Miyazaki deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nHayao Miyazaki crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**My Neighbor Totoro** rightfully earns its place among the defining films of **1988**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
