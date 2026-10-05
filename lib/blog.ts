@@ -5264,6 +5264,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'hotarubi-no-mori-e-director-analysis-2026-10',
+    date: '2026-10-05',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/qknxyRgP6UTmwJ4B9tDAmzHMq7u.jpg',
+    movieSlug: 'hotarubi-no-mori-e',
+    i18n: {
+      ar: {
+        title: '蛍火の杜へ: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم 蛍火の杜へ (2011) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## 蛍火の杜へ — تحفة سينمائية\n\n**المخرج:** Takahiro Omori\n**السنة:** 2011\n**التقييم:** 8.3/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **蛍火の杜へ** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Takahiro Omori كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Takahiro Omori أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **蛍火の杜へ** مكانته بين أبرز أفلام **2011**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Hotarubi no Mori e: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Hotarubi no Mori e (2011) by Takahiro Omori — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Hotarubi no Mori e — A Cinematic Masterpiece\n\n**Director:** Takahiro Omori\n**Year:** 2011\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Hotarubi no Mori e** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Takahiro Omori deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTakahiro Omori crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Hotarubi no Mori e** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Hotarubi no Mori e: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Hotarubi no Mori e (2011) by Takahiro Omori — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Hotarubi no Mori e — A Cinematic Masterpiece\n\n**Director:** Takahiro Omori\n**Year:** 2011\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Hotarubi no Mori e** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Takahiro Omori deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTakahiro Omori crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Hotarubi no Mori e** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Hotarubi no Mori e: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Hotarubi no Mori e (2011) by Takahiro Omori — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Hotarubi no Mori e — A Cinematic Masterpiece\n\n**Director:** Takahiro Omori\n**Year:** 2011\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Hotarubi no Mori e** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Takahiro Omori deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTakahiro Omori crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Hotarubi no Mori e** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Hotarubi no Mori e: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Hotarubi no Mori e (2011) by Takahiro Omori — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Hotarubi no Mori e — A Cinematic Masterpiece\n\n**Director:** Takahiro Omori\n**Year:** 2011\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Hotarubi no Mori e** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Takahiro Omori deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTakahiro Omori crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Hotarubi no Mori e** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Hotarubi no Mori e: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Hotarubi no Mori e (2011) by Takahiro Omori — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Hotarubi no Mori e — A Cinematic Masterpiece\n\n**Director:** Takahiro Omori\n**Year:** 2011\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Hotarubi no Mori e** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Takahiro Omori deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTakahiro Omori crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Hotarubi no Mori e** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Hotarubi no Mori e: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Hotarubi no Mori e (2011) by Takahiro Omori — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Hotarubi no Mori e — A Cinematic Masterpiece\n\n**Director:** Takahiro Omori\n**Year:** 2011\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Hotarubi no Mori e** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Takahiro Omori deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTakahiro Omori crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Hotarubi no Mori e** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Hotarubi no Mori e: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Hotarubi no Mori e (2011) by Takahiro Omori — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Hotarubi no Mori e — A Cinematic Masterpiece\n\n**Director:** Takahiro Omori\n**Year:** 2011\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Hotarubi no Mori e** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Takahiro Omori deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nTakahiro Omori crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Hotarubi no Mori e** rightfully earns its place among the defining films of **2011**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
