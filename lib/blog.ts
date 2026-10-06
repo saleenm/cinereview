@@ -5321,6 +5321,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'like-stars-on-earth-hidden-meanings-2026-10',
+    date: '2026-10-06',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/bPwdy3zaNnMdZ22u0WCcYu0xxgt.jpg',
+    movieSlug: 'like-stars-on-earth',
+    i18n: {
+      ar: {
+        title: 'كالنجوم على الأرض: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم كالنجوم على الأرض (2007) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## كالنجوم على الأرض — تحفة سينمائية\n\n**المخرج:** Aamir Khan\n**السنة:** 2007\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **كالنجوم على الأرض** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Aamir Khan كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Aamir Khan أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **كالنجوم على الأرض** مكانته بين أبرز أفلام **2007**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Like Stars on Earth: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Like Stars on Earth (2007) by Aamir Khan — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Like Stars on Earth — A Cinematic Masterpiece\n\n**Director:** Aamir Khan\n**Year:** 2007\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Like Stars on Earth** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Aamir Khan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAamir Khan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Like Stars on Earth** rightfully earns its place among the defining films of **2007**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Like Stars on Earth: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Like Stars on Earth (2007) by Aamir Khan — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Like Stars on Earth — A Cinematic Masterpiece\n\n**Director:** Aamir Khan\n**Year:** 2007\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Like Stars on Earth** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Aamir Khan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAamir Khan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Like Stars on Earth** rightfully earns its place among the defining films of **2007**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Like Stars on Earth: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Like Stars on Earth (2007) by Aamir Khan — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Like Stars on Earth — A Cinematic Masterpiece\n\n**Director:** Aamir Khan\n**Year:** 2007\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Like Stars on Earth** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Aamir Khan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAamir Khan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Like Stars on Earth** rightfully earns its place among the defining films of **2007**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Like Stars on Earth: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Like Stars on Earth (2007) by Aamir Khan — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Like Stars on Earth — A Cinematic Masterpiece\n\n**Director:** Aamir Khan\n**Year:** 2007\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Like Stars on Earth** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Aamir Khan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAamir Khan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Like Stars on Earth** rightfully earns its place among the defining films of **2007**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Like Stars on Earth: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Like Stars on Earth (2007) by Aamir Khan — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Like Stars on Earth — A Cinematic Masterpiece\n\n**Director:** Aamir Khan\n**Year:** 2007\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Like Stars on Earth** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Aamir Khan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAamir Khan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Like Stars on Earth** rightfully earns its place among the defining films of **2007**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Like Stars on Earth: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Like Stars on Earth (2007) by Aamir Khan — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Like Stars on Earth — A Cinematic Masterpiece\n\n**Director:** Aamir Khan\n**Year:** 2007\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Like Stars on Earth** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Aamir Khan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAamir Khan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Like Stars on Earth** rightfully earns its place among the defining films of **2007**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Like Stars on Earth: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Like Stars on Earth (2007) by Aamir Khan — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Like Stars on Earth — A Cinematic Masterpiece\n\n**Director:** Aamir Khan\n**Year:** 2007\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Like Stars on Earth** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Aamir Khan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAamir Khan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Like Stars on Earth** rightfully earns its place among the defining films of **2007**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
