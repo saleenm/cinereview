@@ -5435,6 +5435,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'the-lives-of-others-deep-review-2026-10',
+    date: '2026-10-08',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/g11nKgir3nIhlG2gIDWIvJeR4fz.jpg',
+    movieSlug: 'the-lives-of-others',
+    i18n: {
+      ar: {
+        title: 'حياة الأخرين: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم حياة الأخرين (2006) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## حياة الأخرين — تحفة سينمائية\n\n**المخرج:** Florian Henckel von Donnersmarck\n**السنة:** 2006\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **حياة الأخرين** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Florian Henckel von Donnersmarck كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Florian Henckel von Donnersmarck أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **حياة الأخرين** مكانته بين أبرز أفلام **2006**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'The Lives of Others: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lives of Others (2006) by Florian Henckel von Donnersmarck — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## The Lives of Others — A Cinematic Masterpiece\n\n**Director:** Florian Henckel von Donnersmarck\n**Year:** 2006\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lives of Others** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Florian Henckel von Donnersmarck deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFlorian Henckel von Donnersmarck crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lives of Others** rightfully earns its place among the defining films of **2006**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'The Lives of Others: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lives of Others (2006) by Florian Henckel von Donnersmarck — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## The Lives of Others — A Cinematic Masterpiece\n\n**Director:** Florian Henckel von Donnersmarck\n**Year:** 2006\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lives of Others** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Florian Henckel von Donnersmarck deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFlorian Henckel von Donnersmarck crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lives of Others** rightfully earns its place among the defining films of **2006**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'The Lives of Others: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lives of Others (2006) by Florian Henckel von Donnersmarck — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## The Lives of Others — A Cinematic Masterpiece\n\n**Director:** Florian Henckel von Donnersmarck\n**Year:** 2006\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lives of Others** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Florian Henckel von Donnersmarck deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFlorian Henckel von Donnersmarck crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lives of Others** rightfully earns its place among the defining films of **2006**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'The Lives of Others: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lives of Others (2006) by Florian Henckel von Donnersmarck — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## The Lives of Others — A Cinematic Masterpiece\n\n**Director:** Florian Henckel von Donnersmarck\n**Year:** 2006\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lives of Others** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Florian Henckel von Donnersmarck deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFlorian Henckel von Donnersmarck crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lives of Others** rightfully earns its place among the defining films of **2006**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'The Lives of Others: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lives of Others (2006) by Florian Henckel von Donnersmarck — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## The Lives of Others — A Cinematic Masterpiece\n\n**Director:** Florian Henckel von Donnersmarck\n**Year:** 2006\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lives of Others** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Florian Henckel von Donnersmarck deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFlorian Henckel von Donnersmarck crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lives of Others** rightfully earns its place among the defining films of **2006**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'The Lives of Others: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lives of Others (2006) by Florian Henckel von Donnersmarck — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## The Lives of Others — A Cinematic Masterpiece\n\n**Director:** Florian Henckel von Donnersmarck\n**Year:** 2006\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lives of Others** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Florian Henckel von Donnersmarck deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFlorian Henckel von Donnersmarck crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lives of Others** rightfully earns its place among the defining films of **2006**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'The Lives of Others: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Lives of Others (2006) by Florian Henckel von Donnersmarck — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## The Lives of Others — A Cinematic Masterpiece\n\n**Director:** Florian Henckel von Donnersmarck\n**Year:** 2006\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Lives of Others** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Florian Henckel von Donnersmarck deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFlorian Henckel von Donnersmarck crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Lives of Others** rightfully earns its place among the defining films of **2006**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
