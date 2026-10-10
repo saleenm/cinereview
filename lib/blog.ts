@@ -5549,6 +5549,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'la-dolce-vita-legacy-impact-2026-10',
+    date: '2026-10-10',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/eN2NdMeJLNzLYzWIEEoaGzZAsiD.jpg',
+    movieSlug: 'la-dolce-vita',
+    i18n: {
+      ar: {
+        title: 'La dolce vita: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم La dolce vita (1960) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## La dolce vita — تحفة سينمائية\n\n**المخرج:** Federico Fellini\n**السنة:** 1960\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **La dolce vita** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Federico Fellini كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Federico Fellini أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **La dolce vita** مكانته بين أبرز أفلام **1960**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'La Dolce Vita: A Deep Cinematic Analysis',
+        description: 'An in-depth look at La Dolce Vita (1960) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## La Dolce Vita — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1960\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**La Dolce Vita** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**La Dolce Vita** rightfully earns its place among the defining films of **1960**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'La Dolce Vita: A Deep Cinematic Analysis',
+        description: 'An in-depth look at La Dolce Vita (1960) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## La Dolce Vita — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1960\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**La Dolce Vita** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**La Dolce Vita** rightfully earns its place among the defining films of **1960**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'La Dolce Vita: A Deep Cinematic Analysis',
+        description: 'An in-depth look at La Dolce Vita (1960) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## La Dolce Vita — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1960\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**La Dolce Vita** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**La Dolce Vita** rightfully earns its place among the defining films of **1960**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'La Dolce Vita: A Deep Cinematic Analysis',
+        description: 'An in-depth look at La Dolce Vita (1960) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## La Dolce Vita — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1960\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**La Dolce Vita** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**La Dolce Vita** rightfully earns its place among the defining films of **1960**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'La Dolce Vita: A Deep Cinematic Analysis',
+        description: 'An in-depth look at La Dolce Vita (1960) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## La Dolce Vita — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1960\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**La Dolce Vita** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**La Dolce Vita** rightfully earns its place among the defining films of **1960**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'La Dolce Vita: A Deep Cinematic Analysis',
+        description: 'An in-depth look at La Dolce Vita (1960) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## La Dolce Vita — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1960\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**La Dolce Vita** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**La Dolce Vita** rightfully earns its place among the defining films of **1960**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'La Dolce Vita: A Deep Cinematic Analysis',
+        description: 'An in-depth look at La Dolce Vita (1960) by Federico Fellini — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## La Dolce Vita — A Cinematic Masterpiece\n\n**Director:** Federico Fellini\n**Year:** 1960\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**La Dolce Vita** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Federico Fellini deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nFederico Fellini crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**La Dolce Vita** rightfully earns its place among the defining films of **1960**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
