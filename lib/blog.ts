@@ -5663,6 +5663,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'mirror-hidden-meanings-2026-10',
+    date: '2026-10-12',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/9UAcMhSCDJ2OCo5QdPpSERjhMA1.jpg',
+    movieSlug: 'mirror',
+    i18n: {
+      ar: {
+        title: 'Зеркало: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم Зеркало (1975) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## Зеркало — تحفة سينمائية\n\n**المخرج:** Andrei Tarkovsky\n**السنة:** 1975\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **Зеркало** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Andrei Tarkovsky كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Andrei Tarkovsky أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **Зеркало** مكانته بين أبرز أفلام **1975**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Mirror: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Mirror (1975) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Mirror — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1975\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Mirror** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Mirror** rightfully earns its place among the defining films of **1975**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Mirror: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Mirror (1975) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Mirror — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1975\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Mirror** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Mirror** rightfully earns its place among the defining films of **1975**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Mirror: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Mirror (1975) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Mirror — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1975\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Mirror** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Mirror** rightfully earns its place among the defining films of **1975**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Mirror: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Mirror (1975) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Mirror — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1975\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Mirror** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Mirror** rightfully earns its place among the defining films of **1975**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Mirror: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Mirror (1975) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Mirror — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1975\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Mirror** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Mirror** rightfully earns its place among the defining films of **1975**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Mirror: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Mirror (1975) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Mirror — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1975\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Mirror** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Mirror** rightfully earns its place among the defining films of **1975**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Mirror: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Mirror (1975) by Andrei Tarkovsky — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Mirror — A Cinematic Masterpiece\n\n**Director:** Andrei Tarkovsky\n**Year:** 1975\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Mirror** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Andrei Tarkovsky deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nAndrei Tarkovsky crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Mirror** rightfully earns its place among the defining films of **1975**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
