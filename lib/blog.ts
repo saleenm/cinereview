@@ -5720,6 +5720,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'aliens-legacy-impact-2026-10',
+    date: '2026-10-13',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/4kix6fAblJIH6eMs0Ku2loyZJXK.jpg',
+    movieSlug: 'aliens',
+    i18n: {
+      ar: {
+        title: 'Aliens: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم Aliens (1986) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## Aliens — تحفة سينمائية\n\n**المخرج:** James Cameron\n**السنة:** 1986\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **Aliens** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج James Cameron كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع James Cameron أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **Aliens** مكانته بين أبرز أفلام **1986**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Aliens: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Aliens (1986) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Aliens — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1986\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Aliens** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Aliens** rightfully earns its place among the defining films of **1986**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Aliens: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Aliens (1986) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Aliens — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1986\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Aliens** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Aliens** rightfully earns its place among the defining films of **1986**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Aliens: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Aliens (1986) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Aliens — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1986\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Aliens** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Aliens** rightfully earns its place among the defining films of **1986**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Aliens: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Aliens (1986) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Aliens — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1986\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Aliens** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Aliens** rightfully earns its place among the defining films of **1986**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Aliens: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Aliens (1986) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Aliens — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1986\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Aliens** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Aliens** rightfully earns its place among the defining films of **1986**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Aliens: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Aliens (1986) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Aliens — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1986\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Aliens** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Aliens** rightfully earns its place among the defining films of **1986**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Aliens: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Aliens (1986) by James Cameron — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Aliens — A Cinematic Masterpiece\n\n**Director:** James Cameron\n**Year:** 1986\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Aliens** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director James Cameron deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJames Cameron crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Aliens** rightfully earns its place among the defining films of **1986**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
