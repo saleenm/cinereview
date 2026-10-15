@@ -5834,6 +5834,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'trainspotting-compare-era-2026-10',
+    date: '2026-10-15',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/dkfBKDUIWP1peEszdqK10MkMZCP.jpg',
+    movieSlug: 'trainspotting',
+    i18n: {
+      ar: {
+        title: 'تِرَينسبوتينغ: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم تِرَينسبوتينغ (1996) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## تِرَينسبوتينغ — تحفة سينمائية\n\n**المخرج:** Danny Boyle\n**السنة:** 1996\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **تِرَينسبوتينغ** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Danny Boyle كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Danny Boyle أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **تِرَينسبوتينغ** مكانته بين أبرز أفلام **1996**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Trainspotting: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Trainspotting (1996) by Danny Boyle — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Trainspotting — A Cinematic Masterpiece\n\n**Director:** Danny Boyle\n**Year:** 1996\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Trainspotting** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Danny Boyle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDanny Boyle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Trainspotting** rightfully earns its place among the defining films of **1996**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Trainspotting: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Trainspotting (1996) by Danny Boyle — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Trainspotting — A Cinematic Masterpiece\n\n**Director:** Danny Boyle\n**Year:** 1996\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Trainspotting** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Danny Boyle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDanny Boyle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Trainspotting** rightfully earns its place among the defining films of **1996**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Trainspotting: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Trainspotting (1996) by Danny Boyle — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Trainspotting — A Cinematic Masterpiece\n\n**Director:** Danny Boyle\n**Year:** 1996\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Trainspotting** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Danny Boyle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDanny Boyle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Trainspotting** rightfully earns its place among the defining films of **1996**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Trainspotting: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Trainspotting (1996) by Danny Boyle — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Trainspotting — A Cinematic Masterpiece\n\n**Director:** Danny Boyle\n**Year:** 1996\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Trainspotting** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Danny Boyle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDanny Boyle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Trainspotting** rightfully earns its place among the defining films of **1996**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Trainspotting: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Trainspotting (1996) by Danny Boyle — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Trainspotting — A Cinematic Masterpiece\n\n**Director:** Danny Boyle\n**Year:** 1996\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Trainspotting** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Danny Boyle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDanny Boyle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Trainspotting** rightfully earns its place among the defining films of **1996**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Trainspotting: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Trainspotting (1996) by Danny Boyle — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Trainspotting — A Cinematic Masterpiece\n\n**Director:** Danny Boyle\n**Year:** 1996\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Trainspotting** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Danny Boyle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDanny Boyle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Trainspotting** rightfully earns its place among the defining films of **1996**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Trainspotting: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Trainspotting (1996) by Danny Boyle — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Trainspotting — A Cinematic Masterpiece\n\n**Director:** Danny Boyle\n**Year:** 1996\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Trainspotting** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Danny Boyle deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDanny Boyle crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Trainspotting** rightfully earns its place among the defining films of **1996**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
