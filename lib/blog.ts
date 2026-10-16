@@ -5891,6 +5891,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'up-legacy-impact-2026-10',
+    date: '2026-10-16',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/hGGC9gKo7CFE3fW07RA587e5kol.jpg',
+    movieSlug: 'up',
+    i18n: {
+      ar: {
+        title: 'فوق: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم فوق (2009) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## فوق — تحفة سينمائية\n\n**المخرج:** Pete Docter\n**السنة:** 2009\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **فوق** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Pete Docter كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Pete Docter أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **فوق** مكانته بين أبرز أفلام **2009**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Up: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Up (2009) by Pete Docter — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Up — A Cinematic Masterpiece\n\n**Director:** Pete Docter\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Up** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Pete Docter deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPete Docter crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Up** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Up: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Up (2009) by Pete Docter — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Up — A Cinematic Masterpiece\n\n**Director:** Pete Docter\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Up** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Pete Docter deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPete Docter crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Up** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Up: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Up (2009) by Pete Docter — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Up — A Cinematic Masterpiece\n\n**Director:** Pete Docter\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Up** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Pete Docter deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPete Docter crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Up** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Up: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Up (2009) by Pete Docter — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Up — A Cinematic Masterpiece\n\n**Director:** Pete Docter\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Up** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Pete Docter deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPete Docter crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Up** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Up: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Up (2009) by Pete Docter — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Up — A Cinematic Masterpiece\n\n**Director:** Pete Docter\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Up** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Pete Docter deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPete Docter crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Up** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Up: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Up (2009) by Pete Docter — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Up — A Cinematic Masterpiece\n\n**Director:** Pete Docter\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Up** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Pete Docter deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPete Docter crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Up** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Up: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Up (2009) by Pete Docter — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Up — A Cinematic Masterpiece\n\n**Director:** Pete Docter\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Up** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Pete Docter deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nPete Docter crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Up** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
