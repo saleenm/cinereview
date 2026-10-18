@@ -6005,6 +6005,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'incendies-compare-era-2026-10',
+    date: '2026-10-18',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/f3ATwil5vmUeTsogBaMEKbBYBth.jpg',
+    movieSlug: 'incendies',
+    i18n: {
+      ar: {
+        title: 'حرائق: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم حرائق (2010) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## حرائق — تحفة سينمائية\n\n**المخرج:** Denis Villeneuve\n**السنة:** 2010\n**التقييم:** 8.2/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **حرائق** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Denis Villeneuve كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Denis Villeneuve أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **حرائق** مكانته بين أبرز أفلام **2010**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Incendies: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Incendies (2010) by Denis Villeneuve — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Incendies — A Cinematic Masterpiece\n\n**Director:** Denis Villeneuve\n**Year:** 2010\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Incendies** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Denis Villeneuve deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDenis Villeneuve crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Incendies** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Incendies: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Incendies (2010) by Denis Villeneuve — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Incendies — A Cinematic Masterpiece\n\n**Director:** Denis Villeneuve\n**Year:** 2010\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Incendies** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Denis Villeneuve deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDenis Villeneuve crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Incendies** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Incendies: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Incendies (2010) by Denis Villeneuve — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Incendies — A Cinematic Masterpiece\n\n**Director:** Denis Villeneuve\n**Year:** 2010\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Incendies** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Denis Villeneuve deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDenis Villeneuve crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Incendies** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Incendies: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Incendies (2010) by Denis Villeneuve — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Incendies — A Cinematic Masterpiece\n\n**Director:** Denis Villeneuve\n**Year:** 2010\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Incendies** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Denis Villeneuve deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDenis Villeneuve crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Incendies** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Incendies: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Incendies (2010) by Denis Villeneuve — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Incendies — A Cinematic Masterpiece\n\n**Director:** Denis Villeneuve\n**Year:** 2010\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Incendies** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Denis Villeneuve deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDenis Villeneuve crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Incendies** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Incendies: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Incendies (2010) by Denis Villeneuve — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Incendies — A Cinematic Masterpiece\n\n**Director:** Denis Villeneuve\n**Year:** 2010\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Incendies** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Denis Villeneuve deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDenis Villeneuve crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Incendies** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Incendies: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Incendies (2010) by Denis Villeneuve — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Incendies — A Cinematic Masterpiece\n\n**Director:** Denis Villeneuve\n**Year:** 2010\n**Rating:** 8.2/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Incendies** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Denis Villeneuve deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nDenis Villeneuve crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Incendies** rightfully earns its place among the defining films of **2010**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
