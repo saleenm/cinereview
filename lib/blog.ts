@@ -6119,6 +6119,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'the-secret-in-their-eyes-director-analysis-2026-10',
+    date: '2026-10-20',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/fNHCogWhABNAmzk0IFdzQP5XLYj.jpg',
+    movieSlug: 'the-secret-in-their-eyes',
+    i18n: {
+      ar: {
+        title: 'El secreto de sus ojos: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم El secreto de sus ojos (2009) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## El secreto de sus ojos — تحفة سينمائية\n\n**المخرج:** Juan José Campanella\n**السنة:** 2009\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **El secreto de sus ojos** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Juan José Campanella كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Juan José Campanella أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **El secreto de sus ojos** مكانته بين أبرز أفلام **2009**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'The Secret in Their Eyes: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Secret in Their Eyes (2009) by Juan José Campanella — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## The Secret in Their Eyes — A Cinematic Masterpiece\n\n**Director:** Juan José Campanella\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Secret in Their Eyes** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Juan José Campanella deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJuan José Campanella crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Secret in Their Eyes** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'The Secret in Their Eyes: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Secret in Their Eyes (2009) by Juan José Campanella — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## The Secret in Their Eyes — A Cinematic Masterpiece\n\n**Director:** Juan José Campanella\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Secret in Their Eyes** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Juan José Campanella deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJuan José Campanella crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Secret in Their Eyes** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'The Secret in Their Eyes: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Secret in Their Eyes (2009) by Juan José Campanella — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## The Secret in Their Eyes — A Cinematic Masterpiece\n\n**Director:** Juan José Campanella\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Secret in Their Eyes** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Juan José Campanella deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJuan José Campanella crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Secret in Their Eyes** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'The Secret in Their Eyes: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Secret in Their Eyes (2009) by Juan José Campanella — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## The Secret in Their Eyes — A Cinematic Masterpiece\n\n**Director:** Juan José Campanella\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Secret in Their Eyes** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Juan José Campanella deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJuan José Campanella crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Secret in Their Eyes** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'The Secret in Their Eyes: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Secret in Their Eyes (2009) by Juan José Campanella — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## The Secret in Their Eyes — A Cinematic Masterpiece\n\n**Director:** Juan José Campanella\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Secret in Their Eyes** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Juan José Campanella deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJuan José Campanella crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Secret in Their Eyes** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'The Secret in Their Eyes: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Secret in Their Eyes (2009) by Juan José Campanella — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## The Secret in Their Eyes — A Cinematic Masterpiece\n\n**Director:** Juan José Campanella\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Secret in Their Eyes** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Juan José Campanella deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJuan José Campanella crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Secret in Their Eyes** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'The Secret in Their Eyes: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Secret in Their Eyes (2009) by Juan José Campanella — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## The Secret in Their Eyes — A Cinematic Masterpiece\n\n**Director:** Juan José Campanella\n**Year:** 2009\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Secret in Their Eyes** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Juan José Campanella deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJuan José Campanella crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Secret in Their Eyes** rightfully earns its place among the defining films of **2009**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
