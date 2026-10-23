@@ -6290,6 +6290,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'don-t-look-now-we-re-being-shot-at-director-analysis-2026-10',
+    date: '2026-10-23',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/bodTQ7K68AopK2uQumsrSVT9g4A.jpg',
+    movieSlug: 'don-t-look-now-we-re-being-shot-at',
+    i18n: {
+      ar: {
+        title: 'La Grande Vadrouille: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم La Grande Vadrouille (1966) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## La Grande Vadrouille — تحفة سينمائية\n\n**المخرج:** Gérard Oury\n**السنة:** 1966\n**التقييم:** 8/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **La Grande Vadrouille** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Gérard Oury كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Gérard Oury أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **La Grande Vadrouille** مكانته بين أبرز أفلام **1966**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Don\\: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Don\\ (1966) by Gérard Oury — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Don\\ — A Cinematic Masterpiece\n\n**Director:** Gérard Oury\n**Year:** 1966\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Don\\** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Gérard Oury deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGérard Oury crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Don\\** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Don\\: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Don\\ (1966) by Gérard Oury — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Don\\ — A Cinematic Masterpiece\n\n**Director:** Gérard Oury\n**Year:** 1966\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Don\\** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Gérard Oury deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGérard Oury crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Don\\** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Don\\: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Don\\ (1966) by Gérard Oury — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Don\\ — A Cinematic Masterpiece\n\n**Director:** Gérard Oury\n**Year:** 1966\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Don\\** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Gérard Oury deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGérard Oury crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Don\\** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Don\\: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Don\\ (1966) by Gérard Oury — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Don\\ — A Cinematic Masterpiece\n\n**Director:** Gérard Oury\n**Year:** 1966\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Don\\** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Gérard Oury deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGérard Oury crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Don\\** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Don\\: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Don\\ (1966) by Gérard Oury — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Don\\ — A Cinematic Masterpiece\n\n**Director:** Gérard Oury\n**Year:** 1966\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Don\\** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Gérard Oury deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGérard Oury crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Don\\** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Don\\: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Don\\ (1966) by Gérard Oury — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Don\\ — A Cinematic Masterpiece\n\n**Director:** Gérard Oury\n**Year:** 1966\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Don\\** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Gérard Oury deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGérard Oury crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Don\\** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Don\\: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Don\\ (1966) by Gérard Oury — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Don\\ — A Cinematic Masterpiece\n\n**Director:** Gérard Oury\n**Year:** 1966\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Don\\** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Gérard Oury deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nGérard Oury crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Don\\** rightfully earns its place among the defining films of **1966**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
