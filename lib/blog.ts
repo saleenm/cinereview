@@ -6461,6 +6461,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'wolf-children-deep-review-2026-10',
+    date: '2026-10-26',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/oMqgJMCaNIqeJtilc71D4nRqdmt.jpg',
+    movieSlug: 'wolf-children',
+    i18n: {
+      ar: {
+        title: 'أطفال الذئب: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم أطفال الذئب (2012) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## أطفال الذئب — تحفة سينمائية\n\n**المخرج:** Mamoru Hosoda\n**السنة:** 2012\n**التقييم:** 8.3/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **أطفال الذئب** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Mamoru Hosoda كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Mamoru Hosoda أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **أطفال الذئب** مكانته بين أبرز أفلام **2012**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Wolf Children: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Wolf Children (2012) by Mamoru Hosoda — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Wolf Children — A Cinematic Masterpiece\n\n**Director:** Mamoru Hosoda\n**Year:** 2012\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Wolf Children** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Mamoru Hosoda deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMamoru Hosoda crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Wolf Children** rightfully earns its place among the defining films of **2012**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Wolf Children: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Wolf Children (2012) by Mamoru Hosoda — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Wolf Children — A Cinematic Masterpiece\n\n**Director:** Mamoru Hosoda\n**Year:** 2012\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Wolf Children** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Mamoru Hosoda deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMamoru Hosoda crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Wolf Children** rightfully earns its place among the defining films of **2012**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Wolf Children: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Wolf Children (2012) by Mamoru Hosoda — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Wolf Children — A Cinematic Masterpiece\n\n**Director:** Mamoru Hosoda\n**Year:** 2012\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Wolf Children** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Mamoru Hosoda deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMamoru Hosoda crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Wolf Children** rightfully earns its place among the defining films of **2012**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Wolf Children: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Wolf Children (2012) by Mamoru Hosoda — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Wolf Children — A Cinematic Masterpiece\n\n**Director:** Mamoru Hosoda\n**Year:** 2012\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Wolf Children** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Mamoru Hosoda deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMamoru Hosoda crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Wolf Children** rightfully earns its place among the defining films of **2012**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Wolf Children: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Wolf Children (2012) by Mamoru Hosoda — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Wolf Children — A Cinematic Masterpiece\n\n**Director:** Mamoru Hosoda\n**Year:** 2012\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Wolf Children** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Mamoru Hosoda deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMamoru Hosoda crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Wolf Children** rightfully earns its place among the defining films of **2012**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Wolf Children: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Wolf Children (2012) by Mamoru Hosoda — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Wolf Children — A Cinematic Masterpiece\n\n**Director:** Mamoru Hosoda\n**Year:** 2012\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Wolf Children** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Mamoru Hosoda deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMamoru Hosoda crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Wolf Children** rightfully earns its place among the defining films of **2012**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Wolf Children: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Wolf Children (2012) by Mamoru Hosoda — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Wolf Children — A Cinematic Masterpiece\n\n**Director:** Mamoru Hosoda\n**Year:** 2012\n**Rating:** 8.3/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Wolf Children** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Mamoru Hosoda deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nMamoru Hosoda crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Wolf Children** rightfully earns its place among the defining films of **2012**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
