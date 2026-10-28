@@ -6575,6 +6575,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'once-upon-a-time-in-america-deep-review-2026-10',
+    date: '2026-10-28',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/xlDUjb0Q5Dv6jPQRF5VE4IMjIy.jpg',
+    movieSlug: 'once-upon-a-time-in-america',
+    i18n: {
+      ar: {
+        title: 'ذات مرةٍ في أمريكا: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم ذات مرةٍ في أمريكا (1984) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## ذات مرةٍ في أمريكا — تحفة سينمائية\n\n**المخرج:** Sergio Leone\n**السنة:** 1984\n**التقييم:** 8.5/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **ذات مرةٍ في أمريكا** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Sergio Leone كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Sergio Leone أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **ذات مرةٍ في أمريكا** مكانته بين أبرز أفلام **1984**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Once Upon a Time in America: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Once Upon a Time in America (1984) by Sergio Leone — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Once Upon a Time in America — A Cinematic Masterpiece\n\n**Director:** Sergio Leone\n**Year:** 1984\n**Rating:** 8.5/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Once Upon a Time in America** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sergio Leone deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSergio Leone crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Once Upon a Time in America** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Once Upon a Time in America: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Once Upon a Time in America (1984) by Sergio Leone — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Once Upon a Time in America — A Cinematic Masterpiece\n\n**Director:** Sergio Leone\n**Year:** 1984\n**Rating:** 8.5/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Once Upon a Time in America** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sergio Leone deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSergio Leone crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Once Upon a Time in America** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Once Upon a Time in America: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Once Upon a Time in America (1984) by Sergio Leone — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Once Upon a Time in America — A Cinematic Masterpiece\n\n**Director:** Sergio Leone\n**Year:** 1984\n**Rating:** 8.5/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Once Upon a Time in America** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sergio Leone deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSergio Leone crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Once Upon a Time in America** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Once Upon a Time in America: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Once Upon a Time in America (1984) by Sergio Leone — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Once Upon a Time in America — A Cinematic Masterpiece\n\n**Director:** Sergio Leone\n**Year:** 1984\n**Rating:** 8.5/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Once Upon a Time in America** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sergio Leone deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSergio Leone crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Once Upon a Time in America** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Once Upon a Time in America: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Once Upon a Time in America (1984) by Sergio Leone — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Once Upon a Time in America — A Cinematic Masterpiece\n\n**Director:** Sergio Leone\n**Year:** 1984\n**Rating:** 8.5/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Once Upon a Time in America** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sergio Leone deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSergio Leone crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Once Upon a Time in America** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Once Upon a Time in America: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Once Upon a Time in America (1984) by Sergio Leone — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Once Upon a Time in America — A Cinematic Masterpiece\n\n**Director:** Sergio Leone\n**Year:** 1984\n**Rating:** 8.5/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Once Upon a Time in America** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sergio Leone deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSergio Leone crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Once Upon a Time in America** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Once Upon a Time in America: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Once Upon a Time in America (1984) by Sergio Leone — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Once Upon a Time in America — A Cinematic Masterpiece\n\n**Director:** Sergio Leone\n**Year:** 1984\n**Rating:** 8.5/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Once Upon a Time in America** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Sergio Leone deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nSergio Leone crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Once Upon a Time in America** rightfully earns its place among the defining films of **1984**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
