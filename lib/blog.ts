@@ -6689,6 +6689,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'dallas-buyers-club-legacy-impact-2026-10',
+    date: '2026-10-30',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/sbVKj98cq0FztCukzu47bu0H8o7.jpg',
+    movieSlug: 'dallas-buyers-club',
+    i18n: {
+      ar: {
+        title: 'نادي دالاس للمشترين: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم نادي دالاس للمشترين (2013) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## نادي دالاس للمشترين — تحفة سينمائية\n\n**المخرج:** Jean-Marc Vallée\n**السنة:** 2013\n**التقييم:** 8/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **نادي دالاس للمشترين** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج Jean-Marc Vallée كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع Jean-Marc Vallée أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **نادي دالاس للمشترين** مكانته بين أبرز أفلام **2013**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'Dallas Buyers Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dallas Buyers Club (2013) by Jean-Marc Vallée — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## Dallas Buyers Club — A Cinematic Masterpiece\n\n**Director:** Jean-Marc Vallée\n**Year:** 2013\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dallas Buyers Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Marc Vallée deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Marc Vallée crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dallas Buyers Club** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'Dallas Buyers Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dallas Buyers Club (2013) by Jean-Marc Vallée — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## Dallas Buyers Club — A Cinematic Masterpiece\n\n**Director:** Jean-Marc Vallée\n**Year:** 2013\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dallas Buyers Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Marc Vallée deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Marc Vallée crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dallas Buyers Club** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'Dallas Buyers Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dallas Buyers Club (2013) by Jean-Marc Vallée — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## Dallas Buyers Club — A Cinematic Masterpiece\n\n**Director:** Jean-Marc Vallée\n**Year:** 2013\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dallas Buyers Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Marc Vallée deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Marc Vallée crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dallas Buyers Club** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'Dallas Buyers Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dallas Buyers Club (2013) by Jean-Marc Vallée — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## Dallas Buyers Club — A Cinematic Masterpiece\n\n**Director:** Jean-Marc Vallée\n**Year:** 2013\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dallas Buyers Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Marc Vallée deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Marc Vallée crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dallas Buyers Club** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'Dallas Buyers Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dallas Buyers Club (2013) by Jean-Marc Vallée — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## Dallas Buyers Club — A Cinematic Masterpiece\n\n**Director:** Jean-Marc Vallée\n**Year:** 2013\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dallas Buyers Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Marc Vallée deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Marc Vallée crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dallas Buyers Club** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'Dallas Buyers Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dallas Buyers Club (2013) by Jean-Marc Vallée — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## Dallas Buyers Club — A Cinematic Masterpiece\n\n**Director:** Jean-Marc Vallée\n**Year:** 2013\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dallas Buyers Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Marc Vallée deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Marc Vallée crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dallas Buyers Club** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'Dallas Buyers Club: A Deep Cinematic Analysis',
+        description: 'An in-depth look at Dallas Buyers Club (2013) by Jean-Marc Vallée — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## Dallas Buyers Club — A Cinematic Masterpiece\n\n**Director:** Jean-Marc Vallée\n**Year:** 2013\n**Rating:** 8/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**Dallas Buyers Club** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director Jean-Marc Vallée deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nJean-Marc Vallée crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**Dallas Buyers Club** rightfully earns its place among the defining films of **2013**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
