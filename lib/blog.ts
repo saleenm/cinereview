@@ -6746,6 +6746,63 @@ The deepest point of the film isn't the crime — it's **Michael Corleone's tran
       }
     }
   },
+  {
+    slug: 'the-sixth-sense-compare-era-2026-10',
+    date: '2026-10-31',
+    readTime: 5,
+    image: 'https://image.tmdb.org/t/p/original/6TjllWT3cGrPFyqDXurVZ3L8bBi.jpg',
+    movieSlug: 'the-sixth-sense',
+    i18n: {
+      ar: {
+        title: 'الحاسَّةُ السَّادسة: مراجعة سينمائية معمّقة',
+        description: 'تحليل شامل لفيلم الحاسَّةُ السَّادسة (1999) — القصة، الأداء، الإخراج، والقيمة السينمائية',
+        category: 'مراجعة سينمائية',
+        content: `## الحاسَّةُ السَّادسة — تحفة سينمائية\n\n**المخرج:** M. Night Shyamalan\n**السنة:** 1999\n**التقييم:** 8.1/10 ⭐⭐⭐⭐\n\n## القصة والسرد\n\nيقدم فيلم **الحاسَّةُ السَّادسة** تجربة سينمائية استثنائية تتجاوز حدود النوع الذي ينتمي إليه. ببراعة سردية نادرة، يُوظّف المخرج M. Night Shyamalan كل أداة إخراجية في خدمة الرؤية الفنية الكاملة.\n\n## الأداء التمثيلي\n\nيتميز الفيلم بأداء تمثيلي يرسم الشخصيات بعمق وإتقان، مما يمنح المشاهد تجربة عاطفية غنية لا تُنسى.\n\n## الإخراج والتصوير\n\nاستطاع M. Night Shyamalan أن يخلق بصرياً لغة سينمائية خاصة به، حيث تُكمّل كل لقطة الرواية بشكل عضوي ودقيق.\n\n## الخلاصة\n\nيستحق **الحاسَّةُ السَّادسة** مكانته بين أبرز أفلام **1999**. إنه عمل سينمائي متكامل يُقدّم للمشاهد تجربة استثنائية لا مثيل لها.`,
+      },
+      en: {
+        title: 'The Sixth Sense: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Sixth Sense (1999) by M. Night Shyamalan — story, performances, direction, and cinematic legacy',
+        category: 'Film Analysis',
+        content: `## The Sixth Sense — A Cinematic Masterpiece\n\n**Director:** M. Night Shyamalan\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Sixth Sense** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director M. Night Shyamalan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nM. Night Shyamalan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Sixth Sense** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      fr: {
+        title: 'The Sixth Sense: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Sixth Sense (1999) by M. Night Shyamalan — story, performances, direction, and cinematic legacy',
+        category: 'Analyse Cinématographique',
+        content: `## The Sixth Sense — A Cinematic Masterpiece\n\n**Director:** M. Night Shyamalan\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Sixth Sense** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director M. Night Shyamalan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nM. Night Shyamalan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Sixth Sense** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      es: {
+        title: 'The Sixth Sense: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Sixth Sense (1999) by M. Night Shyamalan — story, performances, direction, and cinematic legacy',
+        category: 'Análisis Cinematográfico',
+        content: `## The Sixth Sense — A Cinematic Masterpiece\n\n**Director:** M. Night Shyamalan\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Sixth Sense** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director M. Night Shyamalan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nM. Night Shyamalan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Sixth Sense** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      tr: {
+        title: 'The Sixth Sense: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Sixth Sense (1999) by M. Night Shyamalan — story, performances, direction, and cinematic legacy',
+        category: 'Film Analizi',
+        content: `## The Sixth Sense — A Cinematic Masterpiece\n\n**Director:** M. Night Shyamalan\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Sixth Sense** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director M. Night Shyamalan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nM. Night Shyamalan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Sixth Sense** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      de: {
+        title: 'The Sixth Sense: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Sixth Sense (1999) by M. Night Shyamalan — story, performances, direction, and cinematic legacy',
+        category: 'Filmanalyse',
+        content: `## The Sixth Sense — A Cinematic Masterpiece\n\n**Director:** M. Night Shyamalan\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Sixth Sense** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director M. Night Shyamalan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nM. Night Shyamalan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Sixth Sense** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      ja: {
+        title: 'The Sixth Sense: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Sixth Sense (1999) by M. Night Shyamalan — story, performances, direction, and cinematic legacy',
+        category: '映画分析',
+        content: `## The Sixth Sense — A Cinematic Masterpiece\n\n**Director:** M. Night Shyamalan\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Sixth Sense** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director M. Night Shyamalan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nM. Night Shyamalan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Sixth Sense** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      },
+      pt: {
+        title: 'The Sixth Sense: A Deep Cinematic Analysis',
+        description: 'An in-depth look at The Sixth Sense (1999) by M. Night Shyamalan — story, performances, direction, and cinematic legacy',
+        category: 'Análise Cinematográfica',
+        content: `## The Sixth Sense — A Cinematic Masterpiece\n\n**Director:** M. Night Shyamalan\n**Year:** 1999\n**Rating:** 8.1/10 ⭐⭐⭐⭐\n\n## Story & Narrative\n\n**The Sixth Sense** delivers an exceptional cinematic experience that transcends genre boundaries. With rare narrative skill, director M. Night Shyamalan deploys every filmmaking tool in service of a complete artistic vision.\n\n## Performances\n\nThe film features performances of remarkable depth, drawing audiences into an emotionally rich world that lingers long after the credits roll.\n\n## Direction & Cinematography\n\nM. Night Shyamalan crafts a distinctive visual language where every frame serves the story organically, creating an immersive and memorable experience.\n\n## Verdict\n\n**The Sixth Sense** rightfully earns its place among the defining films of **1999**. This is essential cinema — a complete artistic statement that rewards both first-time viewers and repeat watchers.`,
+      }
+    }
+  },
 ]
 
 // ── AUTO-GENERATED BLOG POSTS ──────────────────────────────────────────────
